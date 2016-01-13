@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -79,7 +79,7 @@ This library contains Inductor Devices:
      &lt;li&gt; Medium Suppression Coil (THT, Ferrit, Axial)&lt;/li&gt;
    &lt;/ul&gt;
   &lt;li&gt;Takron &lt;/li&gt;&lt;ul&gt;
-      &lt;li&gt;SK Series (THT, Ferrit, Toroideal) &lt;/li&gt;
+      &lt;li&gt;SK Series (&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C650/SK_SERIES.pdf"&gt;Reichelt Datenblatt&lt;/a&gt;)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;li&gt;Schaffner &lt;/li&gt;&lt;ul&gt;
        &lt;li&gt; RN-Series (Current-compensated Chokes) &lt;/li&gt;
@@ -101,9 +101,11 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;h2&gt;Version History&lt;/h2&gt;
 &lt;dl&gt;
   &lt;dt&gt;2013-09-28&lt;/dt&gt;
-  &lt;dd&gt;Initial Release&lt;/dd&gt;
+        &lt;dd&gt;Initial Release&lt;/dd&gt;
   &lt;dt&gt;2013-12-22&lt;/dt&gt;
-  &lt;dd&gt;added RN102&lt;/dd&gt;
+        &lt;dd&gt;added RN102&lt;/dd&gt;
+  &lt;dt&gt;2016-01-13&lt;/dt&gt;
+        &lt;dd&gt;added RN102&lt;/dd&gt;
 &lt;/dl&gt;</description>
 <packages>
 <package name="MESC">
@@ -130,7 +132,7 @@ D: 7.5mm</description>
 <text x="-2.54" y="-1.27" size="1.016" layer="21">&gt;Value</text>
 </package>
 <package name="FED5A">
-<description>toroideal ring coil, inductorl, THT &lt;p&gt;
+<description>toroideal ring coil, inductor, THT &lt;p&gt;
 W=13mm &lt;br&gt;
 D=26mm &lt;p&gt;
 Rated Current: 5A</description>
@@ -195,7 +197,7 @@ H: 5.35mm</description>
 <text x="-2.54" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="FED3A">
-<description>toroideal ring coil, inductorl, THT &lt;p&gt;
+<description>toroideal ring coil, inductor, THT &lt;p&gt;
 W=12mm &lt;br&gt;
 D=22mm &lt;p&gt;
 Rated Current: 3A</description>
@@ -269,8 +271,8 @@ H: 9mm</description>
 <text x="-3.81" y="2.286" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.937" y="-3.048" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="-3.81" y1="-0.889" x2="3.81" y2="0.889" layer="94"/>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas"/>
 </symbol>
 <symbol name="CCC">
 <description>Current Compensated Choke</description>
@@ -278,118 +280,106 @@ H: 9mm</description>
 <text x="-4.572" y="4.572" size="1.778" layer="95">&gt;NAME</text>
 <text x="-4.953" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="-3.81" y1="-3.429" x2="3.81" y2="-1.651" layer="94"/>
-<pin name="L2P" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="L2N" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="L2P" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="L2N" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pas"/>
 <wire x1="3.81" y1="0.889" x2="-3.81" y2="0.889" width="0.254" layer="94"/>
 <rectangle x1="-3.81" y1="1.651" x2="3.81" y2="3.429" layer="94" rot="R180"/>
-<pin name="L1N" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
-<pin name="L1P" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="L1N" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="L1P" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
 <circle x="5.08" y="1.524" radius="0.3048" width="0.635" layer="94"/>
 <circle x="5.08" y="-1.524" radius="0.3048" width="0.635" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MESC" prefix="L">
-<description>&lt;h2&gt; Medium Suppresion Coil (THT)&lt;/h2&gt;
+<deviceset name="MESC-" prefix="L">
+<description>&lt;h2&gt; Fastron MESC - Medium Suppression Coils&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; Inductance: 3µH - 1500µH
+  &lt;li&gt; Current: 0.08A - 6A
+  &lt;li&gt; Mounting: THT axial
+  &lt;li&gt; Material: Ferrite
+  &lt;li&gt; Dimension:
+     &lt;ul&gt;
+     &lt;li&gt;D: 7.5mm
+     &lt;li&gt;L: 24mm
+     &lt;/il&gt;
+     &lt;/ul&gt;
+  &lt;li&gt; &lt;a href="http://www.fastrongroup.com/image-show/31/MESC.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron Datasheet&lt;/a&gt;
+  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/DS_MESC.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
+  &lt;/il&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;ul&gt;
-   &lt;li&gt;Material: Ferrite
-   &lt;li&gt;Mounting: Axial
-   &lt;li&gt;Distributor: Reichelt (MESC XXµ)
-&lt;/ul&gt;&lt;/p&gt;</description>
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: MESC XXµ
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="DRK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="22µ" package="MESC">
+<device name="" package="MESC">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FED" prefix="L" uservalue="yes">
-<description>&lt;h2&gt; Toroideal Inductor Coil (THT)&lt;/h2&gt;
-
-&lt;p&gt;&lt;ul&gt;
-   &lt;li&gt;Material: Ferrite
-   &lt;li&gt;Mounting: Vertical
-   &lt;li&gt;Distributor: Reichelt (FED XXµ)
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="DRK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="100µ" package="FED5A">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="100µ" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="64µ" package="FED5A">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="64µ" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="36µ" package="FED5A">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="36µ" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="72µ" package="FED3A">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="72µ" constant="no"/>
+<technology name="220M">
+<attribute name="CONRAD#" value="440522 - 62" constant="no"/>
+<attribute name="REICHELT#" value="MESC 22µ" constant="no"/>
+<attribute name="VALUE" value="22µ" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PISM" prefix="L" uservalue="yes">
-<description>&lt;h2&gt; Power Inductor (SMD)&lt;/h2&gt;
+<deviceset name="PISM-" prefix="L" uservalue="yes">
+<description>&lt;h2&gt; Fastron PISM - SMD Power Inductors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; Inductance: 1µH - 2200µH
+  &lt;li&gt; Current: 0.25A - 10A
+  &lt;li&gt; Mounting: SMD
+  &lt;li&gt; Material: Ferrite
+  &lt;li&gt; Dimension:
+     &lt;ul&gt;
+     &lt;li&gt;L: 13mm
+     &lt;li&gt;W: 9.55mm
+     &lt;li&gt;H: 5.35mm
+     &lt;/il&gt;
+     &lt;/ul&gt;
+  &lt;li&gt; &lt;a href="http://www.fastrongroup.com/image-show/56/PISM.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron Datasheet&lt;/a&gt;
+  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PISM.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
+  &lt;/il&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;ul&gt;
-  &lt;li&gt;Material: Ferrite
-  &lt;li&gt;Mounting: Surface
-  &lt;li&gt;Distributor: Reichelt (L-PISM XXµ)
-&lt;/ul&gt;&lt;/p&gt;</description>
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: L-PISM XXµ
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="DRK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="10µ_4A2" package="PISM">
+<device name="" package="PISM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="">
+<technology name="100M">
+<attribute name="CONRAD#" value="449625 - 62" constant="no"/>
+<attribute name="REICHELT#" value="L-PISM 22µ" constant="no"/>
 <attribute name="VALUE" value="10µ" constant="no"/>
+</technology>
+<technology name="220M">
+<attribute name="CONRAD#" value="449640 - 62" constant="no"/>
+<attribute name="REICHELT#" value="L-PISM 22µ" constant="no"/>
+<attribute name="VALUE" value="22µ" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -416,6 +406,102 @@ H: 9mm</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SK-12M-" prefix="L" uservalue="yes">
+<description>&lt;h2&gt; Takron SK Coil&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; storage coil for switching power supplies
+  &lt;li&gt; glitch damping  
+  &lt;li&gt; Current: 5A
+  &lt;li&gt; Wire Diameter: 1mm
+  &lt;li&gt; Mounting: THT radial
+  &lt;li&gt; Material: Ferrite
+  &lt;li&gt; Dimension:
+     &lt;ul&gt;
+     &lt;li&gt;D: 26mm
+     &lt;li&gt;W: 13mm
+     &lt;/il&gt;
+     &lt;/ul&gt;
+  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/C650/SK_SERIES.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
+  &lt;/il&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: FED XXµ
+   &lt;li&gt; Conrad: -
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FED5A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="4Y">
+<attribute name="REICHELT#" value="FED 64µ" constant="no"/>
+<attribute name="VALUE" value="64µ" constant="no"/>
+</technology>
+<technology name="5Y">
+<attribute name="REICHELT#" value="FED 100µ" constant="no"/>
+<attribute name="VALUE" value="100µ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SK-10M-" prefix="L" uservalue="yes">
+<description>&lt;h2&gt; Takron SK Coil&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; storage coil for switching power supplies
+  &lt;li&gt; glitch damping
+  &lt;li&gt; Current: 3A
+  &lt;li&gt; Wire Diameter: 0.8mm
+  &lt;li&gt; Mounting: THT radial
+  &lt;li&gt; Material: Ferrite
+  &lt;li&gt; Dimension:
+     &lt;ul&gt;
+     &lt;li&gt;D: 22mm
+     &lt;li&gt;W: 12mm
+     &lt;/il&gt;
+     &lt;/ul&gt;
+  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/C650/SK_SERIES.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
+  &lt;/il&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: FED XXµ
+   &lt;li&gt; Conrad: -
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FED3A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="3Y">
+<attribute name="REICHELT#" value="FED 40µ" constant="no"/>
+<attribute name="VALUE" value="40µ" constant="no"/>
+</technology>
+<technology name="4Y">
+<attribute name="REICHELT#" value="FED 72" constant="no"/>
+<attribute name="VALUE" value="72µ" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
