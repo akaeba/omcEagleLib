@@ -76,6 +76,7 @@ This library contains Inductor Devices:
 &lt;ul&gt;
   &lt;li&gt;Fastron&lt;/li&gt;&lt;ul&gt;
      &lt;li&gt; PISM Series (SMD, Ferrit, Toroideal)&lt;/li&gt;
+     &lt;li&gt; PISG Series (SMD, Ferrit, Toroideal)&lt;/li&gt;
      &lt;li&gt; Medium Suppression Coil (THT, Ferrit, Axial)&lt;/li&gt;
    &lt;/ul&gt;
   &lt;li&gt;Takron &lt;/li&gt;&lt;ul&gt;
@@ -104,8 +105,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
         &lt;dd&gt;Initial Release&lt;/dd&gt;
   &lt;dt&gt;2013-12-22&lt;/dt&gt;
         &lt;dd&gt;added RN102&lt;/dd&gt;
-  &lt;dt&gt;2016-01-13&lt;/dt&gt;
-        &lt;dd&gt;added RN102&lt;/dd&gt;
+  &lt;dt&gt;2016-01-15&lt;/dt&gt;
+        &lt;dd&gt;added PISG SMD Power Inductors&lt;/dd&gt;
 &lt;/dl&gt;</description>
 <packages>
 <package name="MESC">
@@ -264,6 +265,25 @@ H: 9mm</description>
 <wire x1="6.985" y1="-3.81" x2="3.81" y2="-6.985" width="0.127" layer="21" curve="180" cap="flat"/>
 <wire x1="-7.62" y1="-6.35" x2="7.62" y2="-6.35" width="0.127" layer="21"/>
 </package>
+<package name="PISG">
+<smd name="2" x="0" y="-2.8575" dx="3.56" dy="1.4" layer="1"/>
+<smd name="1" x="0" y="2.54" dx="3.56" dy="1.4" layer="1"/>
+<wire x1="-1.905" y1="-3.4925" x2="1.905" y2="-3.4925" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="3.175" x2="1.905" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-2.8575" y1="0.9525" x2="-2.8575" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="2.8575" y1="0.9525" x2="2.8575" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="-2.8575" y1="0.9525" x2="-1.905" y2="3.175" width="0.127" layer="21"/>
+<wire x1="1.905" y1="3.175" x2="2.8575" y2="0.9525" width="0.127" layer="21"/>
+<wire x1="2.8575" y1="-0.9525" x2="1.905" y2="-3.4925" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.4925" x2="-2.8575" y2="-0.9525" width="0.127" layer="21"/>
+<circle x="0" y="-0.15875" radius="2.38125" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="2.69875" x2="0.635" y2="2.69875" width="0.3048" layer="51"/>
+<wire x1="0.635" y1="2.69875" x2="1.905" y2="1.42875" width="0.3048" layer="51"/>
+<wire x1="0.47625" y1="-3.01625" x2="-0.79375" y2="-3.01625" width="0.3048" layer="51"/>
+<wire x1="-0.79375" y1="-3.01625" x2="-2.06375" y2="-1.5875" width="0.3048" layer="51"/>
+<text x="-2.38125" y="3.4925" size="1.016" layer="21">&gt;Name</text>
+<text x="-2.38125" y="-4.7625" size="1.016" layer="21">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DRK">
@@ -328,6 +348,7 @@ H: 9mm</description>
 <technologies>
 <technology name="220M">
 <attribute name="CONRAD#" value="440522 - 62" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="MESC 22µ" constant="no"/>
 <attribute name="VALUE" value="22µ" constant="no"/>
 </technology>
@@ -373,11 +394,13 @@ H: 9mm</description>
 <technologies>
 <technology name="100M">
 <attribute name="CONRAD#" value="449625 - 62" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="L-PISM 22µ" constant="no"/>
 <attribute name="VALUE" value="10µ" constant="no"/>
 </technology>
 <technology name="220M">
 <attribute name="CONRAD#" value="449640 - 62" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="L-PISM 22µ" constant="no"/>
 <attribute name="VALUE" value="22µ" constant="no"/>
 </technology>
@@ -386,13 +409,27 @@ H: 9mm</description>
 </devices>
 </deviceset>
 <deviceset name="RN" prefix="L" uservalue="yes">
-<description>&lt;h2&gt; Current Compensated Chokes (THT)&lt;/h2&gt;
+<description>&lt;h2&gt; Schaffner RN series - Current-compensated Chokes (THT)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; Inductance: 0.7mH - 100mH
+  &lt;li&gt; Current: 0.3A - 10A
+  &lt;li&gt; DC to 1kHz frequency
+  &lt;li&gt; 100kHz to 3MHz common-mode resonance frequency
+  &lt;li&gt; Dual-choke configuration
+  &lt;li&gt; Multiple PCB mounting options
+  &lt;li&gt; Mounting: THT
+  &lt;li&gt; &lt;a href="http://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes"&gt;Schaffner Datasheet&lt;/a&gt;
+  &lt;li&gt; &lt;a href="http://www.produktinfo.conrad.com/datenblaetter/375000-399999/398687-da-01-en-EMC_EMI_2A_1_1MH_PATH_70M_RN_102_2_02.pdf"&gt;Conrad Datasheet&lt;/a&gt;
+  &lt;/il&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;ul&gt;
-  &lt;li&gt;Material: Ferrite
-  &lt;li&gt;Mounting: Surface
-  &lt;li&gt;Distributor: Conrad (Schaffner Drossel RN)
-&lt;/ul&gt;&lt;/p&gt;</description>
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: -
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="CCC" x="0" y="0"/>
 </gates>
@@ -405,7 +442,12 @@ H: 9mm</description>
 <connect gate="G$1" pin="L2P" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONRAD#" value="398687 - 62" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="1m1" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -447,10 +489,14 @@ H: 9mm</description>
 </connects>
 <technologies>
 <technology name="4Y">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="FED 64µ" constant="no"/>
 <attribute name="VALUE" value="64µ" constant="no"/>
 </technology>
 <technology name="5Y">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="FED 100µ" constant="no"/>
 <attribute name="VALUE" value="100µ" constant="no"/>
 </technology>
@@ -495,12 +541,62 @@ H: 9mm</description>
 </connects>
 <technologies>
 <technology name="3Y">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="FED 40µ" constant="no"/>
 <attribute name="VALUE" value="40µ" constant="no"/>
 </technology>
 <technology name="4Y">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="FED 72" constant="no"/>
 <attribute name="VALUE" value="72µ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PISG-" prefix="L" uservalue="yes">
+<description>&lt;h2&gt; Fastron PISM - SMD Power Inductors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; Inductance: 1µH - 1000µH
+  &lt;li&gt; Current: 0.07A - 2.9A
+  &lt;li&gt; Mounting: SMD
+  &lt;li&gt; Material: Ferrite
+  &lt;li&gt; Dimension:
+     &lt;ul&gt;
+     &lt;li&gt;L: 6.68mm
+     &lt;li&gt;W: 4.45mm
+     &lt;li&gt;H: 2.92mm
+     &lt;/il&gt;
+     &lt;/ul&gt;
+  &lt;li&gt; &lt;a href="http://www.fastrongroup.com/image-show/54/PISG.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron Datasheet&lt;/a&gt;
+  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PISG_12_2014.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
+  &lt;/il&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: L-PISG XXµ
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PISG">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="220M">
+<attribute name="CONRAD#" value="436916 - 62" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="L-PISG 22µ" constant="no"/>
+<attribute name="VALUE" value="22µ" constant="no"/>
 </technology>
 </technologies>
 </device>
