@@ -69,7 +69,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;h1&gt;omcInductorLib.lbr&lt;/h1&gt;
+<description>&lt;h1&gt;omcInductor.lbr&lt;/h1&gt;
 
 &lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
 This library contains Inductor Devices:
