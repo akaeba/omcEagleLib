@@ -197,6 +197,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <description>&lt;h2&gt;YAGEO RC0805 -  General Purpose Chip Resistors&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt; Power dissipation: 0.125W&lt;/li&gt;
+  &lt;li&gt; 1% Tolerance&lt;/li&gt;
+  &lt;li&gt; E12 Series&lt;/li&gt;
   &lt;li&gt; Operating Temperature Range: –55°C to +155°C&lt;/li&gt;
   &lt;li&gt; Maximum Working Voltage: 150V&lt;/li&gt;
   &lt;li&gt; Maximum Overload Voltage: 300V&lt;/li&gt;
@@ -234,7 +236,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 0,00" constant="no"/>
-<attribute name="VALUE" value="0R0" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
 </technology>
 <technology name="FR-07100KL">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -248,11 +250,29 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 100" constant="no"/>
 <attribute name="VALUE" value="100R" constant="no"/>
 </technology>
+<technology name="FR-0710KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 10,0K" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+<technology name="FR-0710M0L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 10,0M" constant="no"/>
+<attribute name="VALUE" value="10M" constant="no"/>
+</technology>
 <technology name="FR-0710RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 10,0" constant="no"/>
 <attribute name="VALUE" value="10R" constant="no"/>
+</technology>
+<technology name="FR-07120KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 120K" constant="no"/>
+<attribute name="VALUE" value="120K" constant="no"/>
 </technology>
 <technology name="FR-07120RL">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -260,11 +280,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 120" constant="no"/>
 <attribute name="VALUE" value="120R" constant="no"/>
 </technology>
+<technology name="FR-0712KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 12,0K" constant="no"/>
+<attribute name="VALUE" value="12K" constant="no"/>
+</technology>
 <technology name="FR-0712RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 12,0" constant="no"/>
 <attribute name="VALUE" value="12R" constant="no"/>
+</technology>
+<technology name="FR-07150KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 150K" constant="no"/>
+<attribute name="VALUE" value="150K" constant="no"/>
 </technology>
 <technology name="FR-07150RL">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -272,11 +304,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 150" constant="no"/>
 <attribute name="VALUE" value="150R" constant="no"/>
 </technology>
+<technology name="FR-0715KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 15,0K" constant="no"/>
+<attribute name="VALUE" value="15K" constant="no"/>
+</technology>
 <technology name="FR-0715RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 15,0" constant="no"/>
 <attribute name="VALUE" value="15R" constant="no"/>
+</technology>
+<technology name="FR-07180KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 180K" constant="no"/>
+<attribute name="VALUE" value="180K" constant="no"/>
 </technology>
 <technology name="FR-07180RL">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -284,17 +328,71 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 180" constant="no"/>
 <attribute name="VALUE" value="180R" constant="no"/>
 </technology>
+<technology name="FR-0718KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 18,0K" constant="no"/>
+<attribute name="VALUE" value="18K" constant="no"/>
+</technology>
 <technology name="FR-0718RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 18,0" constant="no"/>
 <attribute name="VALUE" value="18R" constant="no"/>
 </technology>
+<technology name="FR-071K0L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 1,00K" constant="no"/>
+<attribute name="VALUE" value="1K" constant="no"/>
+</technology>
+<technology name="FR-071K2L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 1,20K" constant="no"/>
+<attribute name="VALUE" value="1K2" constant="no"/>
+</technology>
+<technology name="FR-071K5L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 1,50K" constant="no"/>
+<attribute name="VALUE" value="1K5" constant="no"/>
+</technology>
+<technology name="FR-071K8L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 1,80K" constant="no"/>
+<attribute name="VALUE" value="1K8" constant="no"/>
+</technology>
+<technology name="FR-071M0L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 1,00M" constant="no"/>
+<attribute name="VALUE" value="1M" constant="no"/>
+</technology>
+<technology name="FR-071M2L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 1,20M" constant="no"/>
+<attribute name="VALUE" value="1M2" constant="no"/>
+</technology>
+<technology name="FR-071M5L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 1,50M" constant="no"/>
+<attribute name="VALUE" value="1M5" constant="no"/>
+</technology>
+<technology name="FR-071M8L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 1,80M" constant="no"/>
+<attribute name="VALUE" value="1M8" constant="no"/>
+</technology>
 <technology name="FR-071R0">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 1,00" constant="no"/>
-<attribute name="VALUE" value="1R0" constant="no"/>
+<attribute name="VALUE" value="1R" constant="no"/>
 </technology>
 <technology name="FR-071R2L">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -314,11 +412,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 1,80" constant="no"/>
 <attribute name="VALUE" value="1R8" constant="no"/>
 </technology>
+<technology name="FR-07220KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 220K" constant="no"/>
+<attribute name="VALUE" value="220K" constant="no"/>
+</technology>
 <technology name="FR-07220RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 220" constant="no"/>
 <attribute name="VALUE" value="220R" constant="no"/>
+</technology>
+<technology name="FR-0722KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 22,0K" constant="no"/>
+<attribute name="VALUE" value="22K" constant="no"/>
 </technology>
 <technology name="FR-0722RL">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -326,17 +436,53 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 22,0" constant="no"/>
 <attribute name="VALUE" value="22R" constant="no"/>
 </technology>
+<technology name="FR-07270KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 270K" constant="no"/>
+<attribute name="VALUE" value="270K" constant="no"/>
+</technology>
 <technology name="FR-07270RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 227" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 270" constant="no"/>
 <attribute name="VALUE" value="270R" constant="no"/>
+</technology>
+<technology name="FR-0727KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 27,0K" constant="no"/>
+<attribute name="VALUE" value="27K" constant="no"/>
 </technology>
 <technology name="FR-0727RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 27,0" constant="no"/>
 <attribute name="VALUE" value="27R" constant="no"/>
+</technology>
+<technology name="FR-072K2L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 2,20K" constant="no"/>
+<attribute name="VALUE" value="2K2" constant="no"/>
+</technology>
+<technology name="FR-072K7L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 2,70K" constant="no"/>
+<attribute name="VALUE" value="2K7" constant="no"/>
+</technology>
+<technology name="FR-072M2L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 2,20M" constant="no"/>
+<attribute name="VALUE" value="2M2" constant="no"/>
+</technology>
+<technology name="FR-072M7L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 2,70M" constant="no"/>
+<attribute name="VALUE" value="2M7" constant="no"/>
 </technology>
 <technology name="FR-072R2L">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -350,11 +496,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 2,70" constant="no"/>
 <attribute name="VALUE" value="2R7" constant="no"/>
 </technology>
+<technology name="FR-07330KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 330K" constant="no"/>
+<attribute name="VALUE" value="330K" constant="no"/>
+</technology>
 <technology name="FR-07330RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 330" constant="no"/>
 <attribute name="VALUE" value="330R" constant="no"/>
+</technology>
+<technology name="FR-0733KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 33,0K" constant="no"/>
+<attribute name="VALUE" value="33K" constant="no"/>
 </technology>
 <technology name="FR-0733RL">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -362,17 +520,53 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 33,0" constant="no"/>
 <attribute name="VALUE" value="33R" constant="no"/>
 </technology>
+<technology name="FR-07390KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 390K" constant="no"/>
+<attribute name="VALUE" value="390K" constant="no"/>
+</technology>
 <technology name="FR-07390RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 390" constant="no"/>
 <attribute name="VALUE" value="390R" constant="no"/>
 </technology>
+<technology name="FR-0739KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 39,0K" constant="no"/>
+<attribute name="VALUE" value="39K" constant="no"/>
+</technology>
 <technology name="FR-0739RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 39,0" constant="no"/>
 <attribute name="VALUE" value="39R" constant="no"/>
+</technology>
+<technology name="FR-073K3L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 3,30K" constant="no"/>
+<attribute name="VALUE" value="3K3" constant="no"/>
+</technology>
+<technology name="FR-073K9L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 3,90K" constant="no"/>
+<attribute name="VALUE" value="3K9" constant="no"/>
+</technology>
+<technology name="FR-073M3L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 3,30M" constant="no"/>
+<attribute name="VALUE" value="3M3" constant="no"/>
+</technology>
+<technology name="FR-073M9L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 3,90M" constant="no"/>
+<attribute name="VALUE" value="3M9" constant="no"/>
 </technology>
 <technology name="FR-073R3L">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -386,11 +580,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 3,90" constant="no"/>
 <attribute name="VALUE" value="3R9" constant="no"/>
 </technology>
+<technology name="FR-07470KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 470K" constant="no"/>
+<attribute name="VALUE" value="470K" constant="no"/>
+</technology>
 <technology name="FR-07470RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 470" constant="no"/>
 <attribute name="VALUE" value="470R" constant="no"/>
+</technology>
+<technology name="FR-0747KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 47,0K" constant="no"/>
+<attribute name="VALUE" value="47K" constant="no"/>
 </technology>
 <technology name="FR-0747RL">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -398,11 +604,29 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 47,0" constant="no"/>
 <attribute name="VALUE" value="47R" constant="no"/>
 </technology>
+<technology name="FR-074K7L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 4,70K" constant="no"/>
+<attribute name="VALUE" value="4K7" constant="no"/>
+</technology>
+<technology name="FR-074M7L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 4,70M" constant="no"/>
+<attribute name="VALUE" value="4M7" constant="no"/>
+</technology>
 <technology name="FR-074R7L">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 4,70" constant="no"/>
 <attribute name="VALUE" value="4R7" constant="no"/>
+</technology>
+<technology name="FR-07560KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 560K" constant="no"/>
+<attribute name="VALUE" value="560K" constant="no"/>
 </technology>
 <technology name="FR-07560RL">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -410,11 +634,29 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 560" constant="no"/>
 <attribute name="VALUE" value="560R" constant="no"/>
 </technology>
+<technology name="FR-0756KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 56,0K" constant="no"/>
+<attribute name="VALUE" value="56K" constant="no"/>
+</technology>
 <technology name="FR-0756RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 56,0" constant="no"/>
 <attribute name="VALUE" value="56R" constant="no"/>
+</technology>
+<technology name="FR-075K6L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 5,60K" constant="no"/>
+<attribute name="VALUE" value="5K6" constant="no"/>
+</technology>
+<technology name="FR-075M6L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 5,60M" constant="no"/>
+<attribute name="VALUE" value="5M6" constant="no"/>
 </technology>
 <technology name="FR-075R6L">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -422,11 +664,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 5,60" constant="no"/>
 <attribute name="VALUE" value="5R6" constant="no"/>
 </technology>
+<technology name="FR-07680KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 680K" constant="no"/>
+<attribute name="VALUE" value="680K" constant="no"/>
+</technology>
 <technology name="FR-07680RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 680" constant="no"/>
 <attribute name="VALUE" value="680R" constant="no"/>
+</technology>
+<technology name="FR-0768KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 68,0K" constant="no"/>
+<attribute name="VALUE" value="68K" constant="no"/>
 </technology>
 <technology name="FR-0768RL">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -434,11 +688,29 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 68,0" constant="no"/>
 <attribute name="VALUE" value="68R" constant="no"/>
 </technology>
+<technology name="FR-076K8L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 6,80K" constant="no"/>
+<attribute name="VALUE" value="6K8" constant="no"/>
+</technology>
+<technology name="FR-076M8L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 6,80M" constant="no"/>
+<attribute name="VALUE" value="6M8" constant="no"/>
+</technology>
 <technology name="FR-076R8L">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 6,80" constant="no"/>
 <attribute name="VALUE" value="6R8" constant="no"/>
+</technology>
+<technology name="FR-07820KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 820K" constant="no"/>
+<attribute name="VALUE" value="820K" constant="no"/>
 </technology>
 <technology name="FR-07820RL">
 <attribute name="CONRAD#" value="" constant="no"/>
@@ -446,11 +718,29 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="SMD-0805 820" constant="no"/>
 <attribute name="VALUE" value="820R" constant="no"/>
 </technology>
+<technology name="FR-0782KL">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 82,0K" constant="no"/>
+<attribute name="VALUE" value="82K" constant="no"/>
+</technology>
 <technology name="FR-0782RL">
 <attribute name="CONRAD#" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="SMD-0805 82,0" constant="no"/>
 <attribute name="VALUE" value="82R" constant="no"/>
+</technology>
+<technology name="FR-078K2L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 8,20K" constant="no"/>
+<attribute name="VALUE" value="8K2" constant="no"/>
+</technology>
+<technology name="FR-078M2L">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="SMD-0805 8,20M" constant="no"/>
+<attribute name="VALUE" value="8M2" constant="no"/>
 </technology>
 <technology name="FR-078R2L">
 <attribute name="CONRAD#" value="" constant="no"/>
