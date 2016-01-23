@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -59,12 +59,8 @@
 <description>&lt;h1&gt;omcCapacitor.lbr&lt;/h1&gt;
 
 &lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;&lt;ul&gt;
-  &lt;li&gt;Shuntresistors:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt; Constantan Wire Footprints&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;li&gt;SMD 0805:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt; E12 series&lt;/li&gt;
-    &lt;li&gt; 0.125W&lt;/li&gt;
+  &lt;li&gt;Ceramic Capacitors:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; X5R&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -82,10 +78,115 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 
 &lt;h2&gt;Version History&lt;/h2&gt;
 &lt;dl&gt;
-  &lt;dt&gt;2016-01-21&lt;/dt&gt;
-  &lt;dd&gt;Start Development&lt;/dd&gt;
+  &lt;dt&gt;2016-01-23&lt;/dt&gt;
+  &lt;dd&gt;initial release&lt;/dd&gt;
 &lt;/dl&gt;</description>
 <packages>
+<package name="1206">
+<description>&lt;p&gt;
+&lt;h3&gt; Capacitor 1206 Package&lt;/h3&gt;
+LxW: 3.2mm x 1.6mm
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Capacitor Height Dimension (T)&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-megi{font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#d0d0d0;vertical-align:top}
+.tg .tg-iuhm{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.tg .tg-zzfq{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;vertical-align:top}
+.tg .tg-25al{font-size:10px;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-megi"&gt;Code&lt;/th&gt;
+    &lt;th class="tg-megi"&gt;Dimension&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;2&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.2mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;3&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.3mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;4&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.4mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;5&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;6&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.6mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;7&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.7mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;8&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.8mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;9&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.85mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;A&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.0mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;B&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;1.25mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;C&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.6mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;D&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;2.0mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;E&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;2.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;M&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;1.15mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;Q&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-25al"&gt;S&lt;/td&gt;
+    &lt;td class="tg-25al"&gt;2.8mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;X&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;Depends on individual standards.&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C">
@@ -101,6 +202,48 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="X5R" prefix="C" uservalue="yes">
+<description>&lt;h2&gt;X5R Ceramic Capacitors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt; Murate GRM Series &lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; For General Purpose &lt;/li&gt;
+    &lt;li&gt; Temperature characteristics: X5R&lt;/li&gt;
+    &lt;li&gt; Size: 0.4×0.2mm to 5.7×5.0mm&lt;/li&gt;
+    &lt;li&gt; Rated Voltage: DC2.5V to 3.15kV&lt;/li&gt;
+    &lt;li&gt; Operating Temperature Range: –55°C to +85°C&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://psearch.en.murata.com/capacitor/lineup/grm"&gt;Product Side&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx"&gt;Murata Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-47UF/6V3">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X5R-G1206 47/6" constant="no"/>
+<attribute name="VALUE" value="47µF/6V3" constant="no"/>
+<attribute name="VENDOR#" value="MURATA_GRM31CR60J476" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
