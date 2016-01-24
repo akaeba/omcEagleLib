@@ -249,6 +249,29 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="-1.778" y1="0.635" x2="-1.778" y2="-0.635" width="0.127" layer="51"/>
 <wire x1="1.778" y1="0.635" x2="1.778" y2="-0.635" width="0.127" layer="51"/>
 </package>
+<package name="SOD323">
+<description>&lt;p&gt;
+&lt;h3&gt;SOD323 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (SOD323, P173)&lt;/il&gt;
+&lt;/p&gt;</description>
+<wire x1="0.373" y1="0.346" x2="-0.373" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.373" y1="0" x2="0.373" y2="-0.346" width="0.127" layer="21"/>
+<wire x1="0.373" y1="-0.346" x2="0.373" y2="0.346" width="0.127" layer="21"/>
+<text x="-2.794" y="1.143" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<rectangle x1="-1.007" y1="-0.635" x2="-0.762" y2="0.635" layer="51"/>
+<rectangle x1="-0.508" y1="-0.381" x2="-0.254" y2="0.381" layer="21"/>
+<wire x1="1.0795" y1="0.85725" x2="-1.0795" y2="0.85725" width="0.127" layer="39"/>
+<wire x1="-1.0795" y1="0.85725" x2="-1.0795" y2="-0.85725" width="0.127" layer="39"/>
+<wire x1="-1.0795" y1="-0.85725" x2="1.0795" y2="-0.85725" width="0.127" layer="39"/>
+<wire x1="1.0795" y1="-0.85725" x2="1.0795" y2="0.85725" width="0.127" layer="39"/>
+<wire x1="0.97155" y1="0.6731" x2="-0.9398" y2="0.6731" width="0.1524" layer="51"/>
+<text x="-2.794" y="-2.413" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<smd name="C" x="-1.016" y="0" dx="0.59" dy="0.45" layer="1"/>
+<smd name="A" x="1.016" y="0" dx="0.59" dy="0.45" layer="1"/>
+<rectangle x1="0.771" y1="-0.635" x2="1.016" y2="0.635" layer="51"/>
+<wire x1="0.97155" y1="-0.5969" x2="-0.9398" y2="-0.5969" width="0.1524" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="D">
@@ -265,17 +288,21 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </symbols>
 <devicesets>
 <deviceset name="1N4148" prefix="D" uservalue="yes">
-<description>&lt;h2&gt;BAT46 - Schottky Diode&lt;/h2&gt;
+<description>&lt;h2&gt;1N4148 - Fast Switching PN Diode&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;metal to silicon diode&lt;/li&gt;
-  &lt;li&gt;high breakdown&lt;/li&gt;
-  &lt;li&gt;low turn-on voltage&lt;/li&gt; 
-  &lt;li&gt;Temperature: -65°C...125°C&lt;/li&gt; 
-  &lt;li&gt;BAT46W&lt;/li&gt;&lt;ul&gt;
+  &lt;li&gt;Silicon Epitaxial Planar Diodes&lt;/li&gt;
+  &lt;li&gt;Temperature: -65°C...175°C&lt;/li&gt;
+  &lt;li&gt;1N4148&lt;/li&gt;&lt;ul&gt;
     &lt;li&gt;100V/0.15A&lt;/li&gt;
-    &lt;li&gt; SOD123 Package&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ds30044.pdf"&gt;Diodes Incorporated Datasheet&lt;/a&gt;&lt;/il&gt;
-    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/BAT46W.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;DO35 Package&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://www.fairchildsemi.com/datasheets/1N/1N914.pdf"&gt;Fairchild Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/1N4148_1N4448_1N914_FAI.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;1N4148WS&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;75V/0.15A&lt;/li&gt;
+    &lt;li&gt;SOD323 Package&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.semtech.net.cn/script/product/manage/pic/7301654109639.pdf"&gt;Semtech Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/1N4148WS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
   &lt;/ul&gt;
 &lt;/ul&gt;
 
@@ -285,22 +312,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
    &lt;li&gt; Conrad: avialable
    &lt;li&gt; Digi-Key: -
    &lt;/il&gt;
-&lt;/ul&gt;
-
-
-
-
-
-
-
-
-
-&lt;h2&gt;Fast Switching Diode&lt;/h2&gt;
-
-&lt;p&gt;&lt;ul&gt;
-   &lt;li&gt;Average forward current: 150 mA
-   &lt;li&gt;Reverse voltage: 75 Volts
-&lt;/ul&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
@@ -311,7 +323,28 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="1N 4148" constant="no"/>
+<attribute name="VALUE" value="1N4148" constant="no"/>
+<attribute name="VENDOR#" value="FAIRCHILD_1N4148" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="WS" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="1N 4148 WS" constant="no"/>
+<attribute name="VALUE" value="1N4148" constant="no"/>
+<attribute name="VENDOR#" value="VISHAY_1N4148WS-E3-08" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -567,9 +600,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;Silicon Epitaxial Planar Diodes&lt;/li&gt;
   &lt;li&gt;Electrical data identical with the devices 1N4148 and 1N4448 respectively&lt;/li&gt; 
   &lt;li&gt;Temperature: -65°C...175°C&lt;/li&gt;
-    &lt;li&gt; SOD80/MiniMELF Package&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ds30044.pdf"&gt;Vishay Datasheet&lt;/a&gt;&lt;/il&gt;
-    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A100/SMD1N4148%23VIS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt; SOD80/MiniMELF Package&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ds30044.pdf"&gt;Vishay Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A100/SMD1N4148%23VIS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
