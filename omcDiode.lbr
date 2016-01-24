@@ -75,13 +75,21 @@
 <description>&lt;h1&gt;omcDiode.lbr&lt;/h1&gt;
 
 &lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
-This library contains Inductor Devices:
 &lt;ul&gt;
-  &lt;li&gt;Fairchild&lt;/li&gt;&lt;ul&gt;
-     &lt;li&gt; Fast Rectifiers (ES3A - ES3J)&lt;/li&gt;
+  &lt;li&gt;PN-Diode&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;1N4148&lt;/li&gt;
+     &lt;li&gt;LL4148&lt;/li&gt;
    &lt;/ul&gt;
-  &lt;li&gt;Vischay &lt;/li&gt;&lt;ul&gt;
+  &lt;li&gt;Schottky-Diode&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;BAT46&lt;/li&gt;
+   &lt;/ul&gt;
+  
+
+
+
+&lt;li&gt;Vischay &lt;/li&gt;&lt;ul&gt;
       &lt;li&gt;1N4148/LL4148&lt;/li&gt;
+Fast Rectifiers (ES3A - ES3J)
     &lt;/ul&gt;
   &lt;li&gt;On Semiconductors&lt;/li&gt;&lt;ul&gt;
       &lt;li&gt;MUR&lt;/li&gt;
@@ -104,32 +112,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;dl&gt;
   &lt;dt&gt;2013-11-30&lt;/dt&gt;
   &lt;dd&gt;Initial Release&lt;/dd&gt;
+  &lt;dt&gt;2016-01-24&lt;/dt&gt;
+  &lt;dd&gt;added BAT46&lt;/dd&gt;
 &lt;/dl&gt;</description>
 <packages>
-<package name="SOD80C">
-<description>&lt;p&gt;
-&lt;h3&gt;SOD80C Package&lt;/h3&gt;&lt;ul&gt;
-  &lt;li&gt;SMC Package, largest one&lt;/li&gt;
-  &lt;li&gt;Technology: SMD&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.vishay.com/docs/95023/smc.pdf"&gt;Package Dimensions&lt;/a&gt;&lt;/il&gt;
-&lt;/p&gt;</description>
-<wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
-<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
-<wire x1="0.627" y1="0.6" x2="-0.373" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.373" y1="0" x2="0.627" y2="-0.6" width="0.2032" layer="21"/>
-<wire x1="0.627" y1="-0.6" x2="0.627" y2="0.6" width="0.2032" layer="21"/>
-<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<smd name="A" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<text x="-1.524" y="1.143" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.524" y="-2.413" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
-<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
-<rectangle x1="-0.635" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
-<wire x1="2.159" y1="1.143" x2="-2.159" y2="1.143" width="0.127" layer="39"/>
-<wire x1="-2.159" y1="1.143" x2="-2.159" y2="-1.143" width="0.127" layer="39"/>
-<wire x1="-2.159" y1="-1.143" x2="2.159" y2="-1.143" width="0.127" layer="39"/>
-<wire x1="2.159" y1="-1.143" x2="2.159" y2="1.143" width="0.127" layer="39"/>
-</package>
 <package name="DO35_L10M0">
 <description>&lt;p&gt;
 &lt;h3&gt;DO35 Package&lt;/h3&gt;&lt;ul&gt;
@@ -239,6 +225,30 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="1.47955" y1="0.8001" x2="-1.3208" y2="0.8001" width="0.1524" layer="51"/>
 <text x="-2.794" y="-2.413" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="SOD80">
+<description>&lt;p&gt;
+&lt;h3&gt;SOD80/MiniMELF Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;same Dimension like MiniMELF&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (MINIMELF, P134)&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="C" x="-1.651" y="0" dx="1.3" dy="1.7" layer="1"/>
+<wire x1="0.5" y1="0.473" x2="-0.246" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.246" y1="0" x2="0.5" y2="-0.473" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="-0.473" x2="0.5" y2="0.473" width="0.2032" layer="21"/>
+<text x="-1.524" y="1.143" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.524" y="-2.413" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.635" y1="-0.635" x2="-0.254" y2="0.635" layer="21"/>
+<wire x1="2.032" y1="1.016" x2="-2.032" y2="1.016" width="0.127" layer="39"/>
+<wire x1="-2.032" y1="1.016" x2="-2.032" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.127" layer="39"/>
+<wire x1="2.032" y1="-1.016" x2="2.032" y2="1.016" width="0.127" layer="39"/>
+<smd name="A" x="1.651" y="0" dx="1.3" dy="1.7" layer="1"/>
+<wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-1.778" y1="0.635" x2="1.778" y2="0.635" width="0.127" layer="51"/>
+<wire x1="-1.778" y1="0.635" x2="-1.778" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="1.778" y1="0.635" x2="1.778" y2="-0.635" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="D">
@@ -255,7 +265,37 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </symbols>
 <devicesets>
 <deviceset name="1N4148" prefix="D" uservalue="yes">
-<description>&lt;h2&gt;Fast Switching Diode&lt;/h2&gt;
+<description>&lt;h2&gt;BAT46 - Schottky Diode&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;metal to silicon diode&lt;/li&gt;
+  &lt;li&gt;high breakdown&lt;/li&gt;
+  &lt;li&gt;low turn-on voltage&lt;/li&gt; 
+  &lt;li&gt;Temperature: -65°C...125°C&lt;/li&gt; 
+  &lt;li&gt;BAT46W&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;100V/0.15A&lt;/li&gt;
+    &lt;li&gt; SOD123 Package&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ds30044.pdf"&gt;Diodes Incorporated Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/BAT46W.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+
+
+&lt;h2&gt;Fast Switching Diode&lt;/h2&gt;
 
 &lt;p&gt;&lt;ul&gt;
    &lt;li&gt;Average forward current: 150 mA
@@ -265,15 +305,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
-<device name="LL" package="SOD80C">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="&quot;" package="DO35_L10M0">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
@@ -450,16 +481,25 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;metal to silicon diode&lt;/li&gt;
   &lt;li&gt;high breakdown&lt;/li&gt;
   &lt;li&gt;low turn-on voltage&lt;/li&gt; 
+  &lt;li&gt;Temperature: -65°C...125°C&lt;/li&gt; 
   &lt;li&gt;BAT46W&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;100V/0.15A&lt;/li&gt;
     &lt;li&gt; SOD123 Package&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ds30044.pdf"&gt;Diodes Incorporated Datasheet&lt;/a&gt;&lt;/il&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/BAT46W.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
-   &lt;/ul&gt;
+  &lt;/ul&gt;
   &lt;li&gt;TMMBAT46&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;30V/0.2A&lt;/li&gt;
     &lt;li&gt;Minimelf Package&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00000815.pdf"&gt;ST Microelectronics Datasheet&lt;/a&gt;&lt;/il&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/BAT46.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
-   &lt;/ul&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;BAT46&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;100V/0.15A&lt;/li&gt;
+    &lt;li&gt;DO35 Package&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.vishay.com/docs/85662/bat46.pdf"&gt;Vishay Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/BAT46_VIS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
@@ -474,8 +514,88 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </gates>
 <devices>
 <device name="W" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="BAT 46W" constant="no"/>
+<attribute name="VALUE" value="BAT46" constant="no"/>
+<attribute name="VENDOR#" value="DIODES_BAT46W-7-F" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="DO35_L10M0">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="BAT 46" constant="no"/>
+<attribute name="VALUE" value="BAT46" constant="no"/>
+<attribute name="VENDOR#" value="VISHAY_ BAT46-TR" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="TMM" package="SOD80">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="BAT 46 SMD" constant="no"/>
+<attribute name="VALUE" value="BAT46" constant="no"/>
+<attribute name="VENDOR#" value="STM_TMMBAT46FILM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LL4148" prefix="D" uservalue="yes">
+<description>&lt;h2&gt;LL4148 - Fast Switching PN Diode&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;100V/0.15A&lt;/li&gt;
+  &lt;li&gt;Silicon Epitaxial Planar Diodes&lt;/li&gt;
+  &lt;li&gt;Electrical data identical with the devices 1N4148 and 1N4448 respectively&lt;/li&gt; 
+  &lt;li&gt;Temperature: -65°C...175°C&lt;/li&gt;
+    &lt;li&gt; SOD80/MiniMELF Package&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ds30044.pdf"&gt;Vishay Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A100/SMD1N4148%23VIS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD80">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="1N 4148 SMD" constant="no"/>
+<attribute name="VALUE" value="LL4148" constant="no"/>
+<attribute name="VENDOR#" value="VISHAY_LL4448-GS18" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
