@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -60,7 +60,8 @@
 
 &lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;&lt;ul&gt;
   &lt;li&gt;Ceramic Capacitors:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt; X5R&lt;/li&gt;
+    &lt;li&gt;X5R&lt;/li&gt;
+    &lt;li&gt;X7R&lt;/li&gt;
     &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -84,8 +85,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <packages>
 <package name="1206">
 <description>&lt;p&gt;
-&lt;h3&gt; Capacitor 1206 Package&lt;/h3&gt;
-LxW: 3.2mm x 1.6mm
+&lt;h3&gt; Capacitor 1206 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;LxW: 3.2mm x 1.6mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.knowlescapacitors.com/File%20Library/Novacap/English/GlobalNavigation/Technical%20Info/Application%20Notes/solder.pdf"&gt;Dimensions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -180,12 +183,32 @@ LxW: 3.2mm x 1.6mm
 <wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
 <wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="1" x="-1.4" y="0" dx="1.651" dy="1.7272" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.651" dy="1.7272" layer="1"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+</package>
+<package name="0805">
+<description>&lt;p&gt;
+&lt;h3&gt; Capacitor 0805 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;LxW: 2.2mm x 1.25mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.knowlescapacitors.com/File%20Library/Novacap/English/GlobalNavigation/Technical%20Info/Application%20Notes/solder.pdf"&gt;Dimensions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<wire x1="-1.5205" y1="0.82425" x2="1.5205" y2="0.82425" width="0.0508" layer="39"/>
+<wire x1="1.5205" y1="-0.82425" x2="-1.5205" y2="-0.82425" width="0.0508" layer="39"/>
+<wire x1="-1.5205" y1="-0.82425" x2="-1.5205" y2="0.82425" width="0.0508" layer="39"/>
+<wire x1="1.5205" y1="0.82425" x2="1.5205" y2="-0.82425" width="0.0508" layer="39"/>
+<wire x1="-0.80625" y1="0.62825" x2="0.80625" y2="0.62825" width="0.1016" layer="51"/>
+<wire x1="-0.80625" y1="-0.62825" x2="0.80625" y2="-0.62825" width="0.1016" layer="51"/>
+<smd name="1" x="-1.0825" y="0" dx="1.143" dy="1.524" layer="1"/>
+<smd name="2" x="1.0825" y="0" dx="1.143" dy="1.524" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.6858" x2="-0.635" y2="0.6858" layer="51"/>
+<rectangle x1="0.635" y1="-0.6858" x2="1.27" y2="0.6858" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -239,6 +262,110 @@ LxW: 3.2mm x 1.6mm
 <attribute name="REICHELT#" value="X5R-G1206 47/6" constant="no"/>
 <attribute name="VALUE" value="47µF/6V3" constant="no"/>
 <attribute name="VENDOR#" value="MURATA_GRM31CR60J476" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="X7R" prefix="C" uservalue="yes">
+<description>&lt;h2&gt;X7R Ceramic Capacitors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;YAGEO Multilayer Capacitors&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; For General Purpose &lt;/li&gt;
+    &lt;li&gt; Temperature characteristics: X7R&lt;/li&gt;
+    &lt;li&gt; Size: 1.0×0.5mm to 4.5×3.2mm&lt;/li&gt;
+    &lt;li&gt; Rated Voltage: DC16V to 500kV&lt;/li&gt;
+    &lt;li&gt; Operating Temperature Range: –55°C to +125°C&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B300/X7R.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-YAGEO-100N">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X7R-G1206 100N" constant="no"/>
+<attribute name="VALUE" value="100n" constant="no"/>
+<attribute name="VENDOR#" value="12062R104K9BP0D" constant="no"/>
+</technology>
+<technology name="-YAGEO-10N">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X7R-G1206 10N" constant="no"/>
+<attribute name="VALUE" value="10n" constant="no"/>
+<attribute name="VENDOR#" value="12062R103K9BP0D" constant="no"/>
+</technology>
+<technology name="-YAGEO-15N">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X7R-G1206 15N" constant="no"/>
+<attribute name="VALUE" value="15n" constant="no"/>
+<attribute name="VENDOR#" value="12062R153K9BP0D" constant="no"/>
+</technology>
+<technology name="-YAGEO-22N">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X7R-G1206 22N" constant="no"/>
+<attribute name="VALUE" value="22n" constant="no"/>
+<attribute name="VENDOR#" value="12062R223K9BP0D" constant="no"/>
+</technology>
+<technology name="-YAGEO-2N2">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X7R-G1206 2,2N" constant="no"/>
+<attribute name="VALUE" value="2n2" constant="no"/>
+<attribute name="VENDOR#" value="12062R222K9BP0D" constant="no"/>
+</technology>
+<technology name="-YAGEO-33N">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X7R-G1206 33N" constant="no"/>
+<attribute name="VALUE" value="33n" constant="no"/>
+<attribute name="VENDOR#" value="12062R333K9BP0D" constant="no"/>
+</technology>
+<technology name="-YAGEO-3N3">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X7R-G1206 3,3N" constant="no"/>
+<attribute name="VALUE" value="3n3" constant="no"/>
+<attribute name="VENDOR#" value="12062R332K9BP0D" constant="no"/>
+</technology>
+<technology name="-YAGEO-47N">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X7R-G1206 47N" constant="no"/>
+<attribute name="VALUE" value="47n" constant="no"/>
+<attribute name="VENDOR#" value="12062R473K9BP0D" constant="no"/>
+</technology>
+<technology name="-YAGEO-4N7">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X7R-G1206 4,7N" constant="no"/>
+<attribute name="VALUE" value="4n7" constant="no"/>
+<attribute name="VENDOR#" value="12062R472K9BP0D" constant="no"/>
+</technology>
+<technology name="-YAGEO-68N">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="X7R-G1206 68N" constant="no"/>
+<attribute name="VALUE" value="68n" constant="no"/>
+<attribute name="VENDOR#" value="12062R683K9BP0D" constant="no"/>
 </technology>
 </technologies>
 </device>
