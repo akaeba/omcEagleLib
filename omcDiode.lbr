@@ -77,6 +77,7 @@
 &lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt;PN-Diode&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;1N400X&lt;/li&gt;
      &lt;li&gt;1N4148&lt;/li&gt;
      &lt;li&gt;LL4148&lt;/li&gt;
    &lt;/ul&gt;
@@ -103,6 +104,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;dd&gt;Initial Release&lt;/dd&gt;
   &lt;dt&gt;2016-01-24&lt;/dt&gt;
   &lt;dd&gt;added BAT46&lt;/dd&gt;
+  &lt;dt&gt;2016-01-31&lt;/dt&gt;
+  &lt;dd&gt;added 1N400X&lt;/dd&gt;
 &lt;/dl&gt;</description>
 <packages>
 <package name="DO35_L10M0">
@@ -197,8 +200,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;Technology: SMD&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (SOD123, P171)&lt;/il&gt;
 &lt;/p&gt;</description>
-<smd name="C" x="-1.5875" y="0" dx="0.9" dy="0.95" layer="1"/>
-<smd name="A" x="1.5875" y="0" dx="0.9" dy="0.95" layer="1"/>
+<smd name="C" x="-1.5875" y="0" dx="0.889" dy="1.016" layer="1"/>
+<smd name="A" x="1.5875" y="0" dx="0.889" dy="1.016" layer="1"/>
 <wire x1="1.3208" y1="-0.7874" x2="-1.47955" y2="-0.7874" width="0.1524" layer="51"/>
 <wire x1="0.627" y1="0.6" x2="-0.373" y2="0" width="0.2032" layer="21"/>
 <wire x1="-0.373" y1="0" x2="0.627" y2="-0.6" width="0.2032" layer="21"/>
@@ -221,7 +224,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;Technology: SMD&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (MINIMELF, P134)&lt;/il&gt;
 &lt;/p&gt;</description>
-<smd name="C" x="-1.651" y="0" dx="1.3" dy="1.7" layer="1"/>
+<smd name="C" x="-1.651" y="0" dx="1.27" dy="1.651" layer="1"/>
 <wire x1="0.5" y1="0.473" x2="-0.246" y2="0" width="0.2032" layer="21"/>
 <wire x1="-0.246" y1="0" x2="0.5" y2="-0.473" width="0.2032" layer="21"/>
 <wire x1="0.5" y1="-0.473" x2="0.5" y2="0.473" width="0.2032" layer="21"/>
@@ -232,7 +235,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="-2.032" y1="1.016" x2="-2.032" y2="-1.016" width="0.127" layer="39"/>
 <wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.127" layer="39"/>
 <wire x1="2.032" y1="-1.016" x2="2.032" y2="1.016" width="0.127" layer="39"/>
-<smd name="A" x="1.651" y="0" dx="1.3" dy="1.7" layer="1"/>
+<smd name="A" x="1.651" y="0" dx="1.27" dy="1.651" layer="1"/>
 <wire x1="-1.778" y1="-0.635" x2="1.778" y2="-0.635" width="0.127" layer="51"/>
 <wire x1="-1.778" y1="0.635" x2="1.778" y2="0.635" width="0.127" layer="51"/>
 <wire x1="-1.778" y1="0.635" x2="-1.778" y2="-0.635" width="0.127" layer="51"/>
@@ -256,10 +259,34 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="1.0795" y1="-0.85725" x2="1.0795" y2="0.85725" width="0.127" layer="39"/>
 <wire x1="0.97155" y1="0.6731" x2="-0.9398" y2="0.6731" width="0.1524" layer="51"/>
 <text x="-2.794" y="-2.413" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<smd name="C" x="-1.016" y="0" dx="0.59" dy="0.45" layer="1"/>
-<smd name="A" x="1.016" y="0" dx="0.59" dy="0.45" layer="1"/>
+<smd name="C" x="-1.016" y="0" dx="0.635" dy="0.508" layer="1"/>
+<smd name="A" x="1.016" y="0" dx="0.635" dy="0.508" layer="1"/>
 <rectangle x1="0.771" y1="-0.635" x2="1.016" y2="0.635" layer="51"/>
 <wire x1="0.97155" y1="-0.5969" x2="-0.9398" y2="-0.5969" width="0.1524" layer="51"/>
+</package>
+<package name="DO213AB">
+<description>&lt;p&gt;
+&lt;h3&gt;DO213AB/MELF Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;same Dimension MELF&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (MELF, P135)&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="C" x="-2.413" y="0" dx="1.524" dy="2.794" layer="1"/>
+<wire x1="0.881" y1="0.981" x2="-0.627" y2="0" width="0.3048" layer="21"/>
+<wire x1="-0.627" y1="0" x2="0.881" y2="-0.981" width="0.3048" layer="21"/>
+<wire x1="0.881" y1="-0.981" x2="0.881" y2="0.981" width="0.3048" layer="21"/>
+<text x="-2.921" y="1.905" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.921" y="-3.048" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.016" y1="-1.016" x2="-0.635" y2="1.016" layer="21"/>
+<wire x1="2.921" y1="1.524" x2="-2.921" y2="1.524" width="0.127" layer="39"/>
+<wire x1="-2.921" y1="1.524" x2="-2.921" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="-2.921" y1="-1.524" x2="2.921" y2="-1.524" width="0.127" layer="39"/>
+<wire x1="2.921" y1="-1.524" x2="2.921" y2="1.524" width="0.127" layer="39"/>
+<smd name="A" x="2.413" y="0" dx="1.524" dy="2.794" layer="1"/>
+<wire x1="-2.667" y1="-1.143" x2="2.667" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-2.667" y1="1.143" x2="2.667" y2="1.143" width="0.127" layer="51"/>
+<wire x1="-2.667" y1="1.143" x2="-2.667" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="2.667" y1="1.143" x2="2.667" y2="-1.143" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -617,6 +644,135 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="1N 4148 SMD" constant="no"/>
 <attribute name="VALUE" value="LL4148" constant="no"/>
 <attribute name="VENDOR#" value="VISHAY_LL4448-GS18" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1N400" prefix="D" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;1N400X - PN Diode&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Si-Rectifiers&lt;/li&gt;
+  &lt;li&gt;Temperature: -50°C...+175°C&lt;/li&gt;
+  &lt;li&gt;Current: 1A&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://diotec.com/tl_files/diotec/files/pdf/datasheets/1n4001"&gt;Diotec Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Repetitive peak reverse voltage&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-megi{font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#d0d0d0;vertical-align:top}
+.tg .tg-iuhm{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.tg .tg-zzfq{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;vertical-align:top}
+.tg .tg-25al{font-size:10px;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-megi"&gt;Type&lt;/th&gt;
+    &lt;th class="tg-megi"&gt;Peak reverse voltage&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;1N4001&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;50V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;1N4002&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;100V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;1N4003&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;200V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;1N4004&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;400V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;1N4005&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;600V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;1N4006&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;800V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;1N4007&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1000V&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO213AB">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="1">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="1N 4001 SMD" constant="no"/>
+<attribute name="VALUE" value="1N4001" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="2">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="1N 4002 SMD" constant="no"/>
+<attribute name="VALUE" value="1N4002" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="3">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="1N 4003 SMD" constant="no"/>
+<attribute name="VALUE" value="1N4003" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="4">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="1N 4004 SMD" constant="no"/>
+<attribute name="VALUE" value="1N4004" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="5">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="1N 4005 SMD" constant="no"/>
+<attribute name="VALUE" value="1N4005" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="6">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="1N 4006 SMD" constant="no"/>
+<attribute name="VALUE" value="1N4006" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="7">
+<attribute name="CONRAD#" value="" constant="no"/>
+<attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="REICHELT#" value="1N 4007 SMD" constant="no"/>
+<attribute name="VALUE" value="1N4007" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
