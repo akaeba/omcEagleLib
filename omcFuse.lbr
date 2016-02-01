@@ -121,6 +121,18 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <text x="-3.81" y="3.0226" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-4.5974" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="FUSE">
+<description>fuse</description>
+<wire x1="-3.556" y1="1.27" x2="3.556" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="-1.27" x2="-3.556" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-3.556" y1="-1.27" x2="3.556" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="3.556" y1="-1.27" x2="3.556" y2="1.27" width="0.1524" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="pad" length="point" direction="pas"/>
+<pin name="P$2" x="5.08" y="0" visible="pad" length="point" direction="pas"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.3274" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FUSEPTC">
