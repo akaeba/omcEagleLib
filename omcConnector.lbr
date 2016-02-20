@@ -198,9 +198,33 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.9304"/>
 <pad name="2" x="0" y="1.27" drill="0.9" diameter="1.9304"/>
 </package>
+<package name="BOXHDX6P254S">
+<description>&lt;p&gt;
+&lt;h3&gt;Box Header X6 - Straight&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Technology: THT&lt;/li&gt;
+  &lt;li&gt;Pitch: 2.54mm&lt;/li&gt;
+&lt;/p&gt;</description>
+<pad name="4" x="1.27" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="3" x="-1.27" y="0" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="1" x="-1.27" y="2.54" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="2" x="1.27" y="2.54" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="5" x="-1.27" y="-2.54" drill="1" diameter="1.778" shape="octagon"/>
+<pad name="6" x="1.27" y="-2.54" drill="1" diameter="1.778" shape="octagon"/>
+<wire x1="-3.175" y1="5.715" x2="-3.175" y2="1.27" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.175" y2="-1.27" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-3.175" y2="-5.715" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="-5.715" x2="3.175" y2="-5.715" width="0.4064" layer="21"/>
+<wire x1="3.175" y1="-5.715" x2="3.175" y2="5.715" width="0.4064" layer="21"/>
+<wire x1="3.175" y1="5.715" x2="-3.175" y2="5.715" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-4.064" y2="1.27" width="0.4064" layer="21"/>
+<wire x1="-4.064" y1="1.27" x2="-4.064" y2="-1.27" width="0.4064" layer="21"/>
+<wire x1="-4.064" y1="-1.27" x2="-3.175" y2="-1.27" width="0.4064" layer="21"/>
+<text x="-2.54" y="6.35" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
-<symbol name="X1VAL">
+<symbol name="SOLDPINVAL">
 <description>Single Solder Connector with Value</description>
 <pin name="P$1" x="2.54" y="0" visible="off" length="short" rot="R180"/>
 <text x="-1.778" y="0.508" size="1.27" layer="95" rot="R180">&gt;NAME</text>
@@ -209,103 +233,42 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
 <wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
 </symbol>
-<symbol name="SOLDCONX2">
-<description>Solder Connector (X2)</description>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="-5.08" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="-5.08" radius="1.27" width="0.254" layer="94"/>
-<text x="0" y="2.54" size="1.27" layer="95">&gt;Name</text>
-<text x="0" y="-10.16" size="1.27" layer="96">&gt;Value</text>
-<pin name="P$1" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
-<pin name="P$2" x="5.08" y="-5.08" visible="off" length="middle" rot="R180"/>
-<wire x1="-1.524" y1="-1.524" x2="1.524" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-1.524" x2="-1.524" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-6.604" x2="1.524" y2="-3.556" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-6.604" x2="-1.524" y2="-3.556" width="0.254" layer="94"/>
-</symbol>
-<symbol name="SOLDCONX3">
-<description>Solder Connector (X3)</description>
-<circle x="0" y="5.08" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="5.08" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="-5.08" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="-5.08" radius="1.27" width="0.254" layer="94"/>
-<text x="0" y="7.62" size="1.27" layer="95">&gt;Name</text>
-<text x="0" y="-10.16" size="1.27" layer="96">&gt;Value</text>
-<pin name="P$1" x="5.08" y="5.08" visible="off" length="middle" rot="R180"/>
-<pin name="P$2" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
-<pin name="P$3" x="5.08" y="-5.08" visible="off" length="middle" rot="R180"/>
-<wire x1="-1.524" y1="3.556" x2="1.524" y2="6.604" width="0.254" layer="94"/>
-<wire x1="1.524" y1="3.556" x2="-1.524" y2="6.604" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-1.524" x2="1.524" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-1.524" x2="-1.524" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-6.604" x2="1.524" y2="-3.556" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-6.604" x2="-1.524" y2="-3.556" width="0.254" layer="94"/>
-</symbol>
-<symbol name="SOLDCONX4">
-<description>Solder Connector (X4)</description>
-<circle x="0" y="7.62" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="7.62" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="-2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="-2.54" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="-7.62" radius="1.27" width="0.254" layer="94"/>
-<circle x="0" y="-7.62" radius="1.27" width="0.254" layer="94"/>
-<text x="0" y="10.16" size="1.27" layer="95">&gt;Name</text>
-<text x="0" y="-12.7" size="1.27" layer="96">&gt;Value</text>
-<pin name="P$1" x="5.08" y="7.62" visible="off" length="middle" rot="R180"/>
-<pin name="P$2" x="5.08" y="2.54" visible="off" length="middle" rot="R180"/>
-<pin name="P$3" x="5.08" y="-2.54" visible="off" length="middle" rot="R180"/>
-<pin name="P$4" x="5.08" y="-7.62" visible="off" length="middle" rot="R180"/>
-<wire x1="-1.524" y1="6.096" x2="1.524" y2="9.144" width="0.254" layer="94"/>
-<wire x1="1.524" y1="6.096" x2="-1.524" y2="9.144" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="1.016" x2="1.524" y2="4.064" width="0.254" layer="94"/>
-<wire x1="1.524" y1="1.016" x2="-1.524" y2="4.064" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-4.064" x2="1.524" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-4.064" x2="-1.524" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-9.144" x2="1.524" y2="-6.096" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-9.144" x2="-1.524" y2="-6.096" width="0.254" layer="94"/>
-</symbol>
-<symbol name="SOLDCONX5">
-<description>Solder Connector (X5)</description>
-<circle x="-2.54" y="10.16" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="10.16" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="5.08" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="5.08" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="0" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="-5.08" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="-5.08" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="-10.16" radius="1.27" width="0.254" layer="94"/>
-<circle x="-2.54" y="-10.16" radius="1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="12.7" size="1.27" layer="95">&gt;Name</text>
-<text x="-2.54" y="-15.24" size="1.27" layer="96">&gt;Value</text>
-<pin name="P$1" x="2.54" y="10.16" visible="off" length="middle" rot="R180"/>
-<pin name="P$2" x="2.54" y="5.08" visible="off" length="middle" rot="R180"/>
-<pin name="P$3" x="2.54" y="0" visible="off" length="middle" rot="R180"/>
-<pin name="P$4" x="2.54" y="-5.08" visible="off" length="middle" rot="R180"/>
-<pin name="P$5" x="2.54" y="-10.16" visible="off" length="middle" rot="R180"/>
-<wire x1="-4.064" y1="8.636" x2="-1.016" y2="11.684" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="8.636" x2="-4.064" y2="11.684" width="0.254" layer="94"/>
-<wire x1="-4.064" y1="3.556" x2="-1.016" y2="6.604" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="3.556" x2="-4.064" y2="6.604" width="0.254" layer="94"/>
-<wire x1="-4.064" y1="-1.524" x2="-1.016" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.524" x2="-4.064" y2="1.524" width="0.254" layer="94"/>
-<wire x1="-4.064" y1="-6.604" x2="-1.016" y2="-3.556" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-6.604" x2="-4.064" y2="-3.556" width="0.254" layer="94"/>
-<wire x1="-4.064" y1="-11.684" x2="-1.016" y2="-8.636" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-11.684" x2="-4.064" y2="-8.636" width="0.254" layer="94"/>
-</symbol>
-<symbol name="X1">
+<symbol name="SOLDPIN">
 <description>Single Solder Connector</description>
 <pin name="P$1" x="2.54" y="0" visible="off" length="short" rot="R180"/>
 <text x="-1.778" y="0.508" size="1.27" layer="95" rot="R180">&gt;NAME</text>
 <circle x="0" y="0" radius="1.04726875" width="0.254" layer="94"/>
 <wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
 <wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+</symbol>
+<symbol name="PHDL">
+<description>&lt;p&gt;
+&lt;h2&gt;Pin Head Single Connector&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Connection Terminal on left side&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<pin name="P$1" x="-5.08" y="0" visible="pad" length="middle"/>
+<wire x1="0.762" y1="-0.635" x2="0.762" y2="0.635" width="0.254" layer="94" curve="-180"/>
+</symbol>
+<symbol name="PHDFRMX6">
+<description>Pin Header Frame X6</description>
+<text x="-2.921" y="4.318" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.921" y="-5.842" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.254" layer="94"/>
+</symbol>
+<symbol name="PHDR">
+<description>&lt;p&gt;
+&lt;h2&gt;Pin Head Single Connector&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Connection Terminal on right side&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<pin name="P$1" x="5.08" y="0" visible="pad" length="middle" rot="R180"/>
+<wire x1="-0.762" y1="0.635" x2="-0.762" y2="-0.635" width="0.254" layer="94" curve="-180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -323,7 +286,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="X1VAL" x="0" y="0"/>
+<gate name="G$1" symbol="SOLDPINVAL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-D22P38" package="D22P38X1">
@@ -412,8 +375,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="-1" symbol="X1" x="0" y="2.54"/>
-<gate name="-2" symbol="X1VAL" x="0" y="-2.54"/>
+<gate name="-1" symbol="SOLDPIN" x="0" y="2.54"/>
+<gate name="-2" symbol="SOLDPINVAL" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="-D22P38" package="D22P38X2">
@@ -462,9 +425,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="-1" symbol="X1" x="0" y="5.08"/>
-<gate name="-2" symbol="X1" x="0" y="0"/>
-<gate name="-3" symbol="X1VAL" x="0" y="-5.08"/>
+<gate name="-1" symbol="SOLDPIN" x="0" y="5.08"/>
+<gate name="-2" symbol="SOLDPIN" x="0" y="0"/>
+<gate name="-3" symbol="SOLDPINVAL" x="0" y="-5.08"/>
 </gates>
 <devices>
 <device name="-D22P38" package="D22P38X3">
@@ -499,10 +462,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="-1" symbol="X1" x="0" y="7.62"/>
-<gate name="-2" symbol="X1" x="0" y="2.54"/>
-<gate name="-3" symbol="X1" x="0" y="-2.54"/>
-<gate name="-4" symbol="X1VAL" x="0" y="-7.62"/>
+<gate name="-1" symbol="SOLDPIN" x="0" y="7.62"/>
+<gate name="-2" symbol="SOLDPIN" x="0" y="2.54"/>
+<gate name="-3" symbol="SOLDPIN" x="0" y="-2.54"/>
+<gate name="-4" symbol="SOLDPINVAL" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="-D22P38" package="D22P38X4">
@@ -538,11 +501,11 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="-1" symbol="X1" x="0" y="10.16"/>
-<gate name="-2" symbol="X1" x="0" y="5.08"/>
-<gate name="-3" symbol="X1" x="0" y="0"/>
-<gate name="-4" symbol="X1" x="0" y="-5.08"/>
-<gate name="-5" symbol="X1VAL" x="0" y="-10.16"/>
+<gate name="-1" symbol="SOLDPIN" x="0" y="10.16"/>
+<gate name="-2" symbol="SOLDPIN" x="0" y="5.08"/>
+<gate name="-3" symbol="SOLDPIN" x="0" y="0"/>
+<gate name="-4" symbol="SOLDPIN" x="0" y="-5.08"/>
+<gate name="-5" symbol="SOLDPINVAL" x="0" y="-10.16"/>
 </gates>
 <devices>
 <device name="-D22P38" package="D22P38X5">
@@ -560,6 +523,49 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="Footprint" constant="no"/>
 <attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOXHDX6" prefix="X">
+<description>&lt;p&gt;
+&lt;h2&gt;Box Header X6&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Number of Connections: 6&lt;/li&gt;
+  &lt;li&gt;Technology:&lt;/li&gt;
+    &lt;ul&gt;
+    &lt;li&gt;THT&lt;/li&gt;
+    &lt;/ul&gt;
+      &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/WSL_6G_DB.PDF"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="PHDL" x="-2.54" y="2.54" addlevel="must"/>
+<gate name="3" symbol="PHDL" x="-2.54" y="0" addlevel="must"/>
+<gate name="5" symbol="PHDL" x="-2.54" y="-2.54" addlevel="must"/>
+<gate name="2" symbol="PHDR" x="2.54" y="2.54" addlevel="must"/>
+<gate name="4" symbol="PHDR" x="2.54" y="0" addlevel="must"/>
+<gate name="6" symbol="PHDR" x="2.54" y="-2.54" addlevel="must"/>
+<gate name="G$1" symbol="PHDFRMX6" x="0" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="" package="BOXHDX6P254S">
+<connects>
+<connect gate="1" pin="P$1" pad="1"/>
+<connect gate="2" pin="P$1" pad="2"/>
+<connect gate="3" pin="P$1" pad="3"/>
+<connect gate="4" pin="P$1" pad="4"/>
+<connect gate="5" pin="P$1" pad="5"/>
+<connect gate="6" pin="P$1" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CONRAD" value="" constant="no"/>
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="REICHELT" value="WSL 6G" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
