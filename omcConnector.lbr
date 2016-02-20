@@ -253,7 +253,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </symbol>
 <symbol name="PHDFRMX6">
 <description>Pin Header Frame X6</description>
-<text x="-2.921" y="4.318" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.921" y="4.318" size="1.27" layer="95">&gt;PART</text>
 <text x="-2.921" y="-5.842" size="1.27" layer="96">&gt;VALUE</text>
 <wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
@@ -528,7 +528,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </device>
 </devices>
 </deviceset>
-<deviceset name="BOXHDX6" prefix="X">
+<deviceset name="BOXHDX6" prefix="X" uservalue="yes">
 <description>&lt;p&gt;
 &lt;h2&gt;Box Header X6&lt;/h2&gt;
 &lt;ul&gt;
