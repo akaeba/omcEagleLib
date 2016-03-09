@@ -79,6 +79,10 @@
     &lt;li&gt; E12 series&lt;/li&gt;
     &lt;li&gt; 0.125W&lt;/li&gt;
     &lt;/ul&gt;
+  &lt;li&gt;SMD 1206:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; E24 series&lt;/li&gt;
+    &lt;li&gt; 0.25W&lt;/li&gt;
+    &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 
@@ -88,8 +92,8 @@
 &lt;/ul&gt;&lt;/p&gt;
 
 &lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
-&lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
-More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+&lt;p&gt;This library is licensed under the Lesser General Public License, Version 3. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/lgpl.html"&gt;http://www.gnu.org/copyleft/lgpl.html&lt;/a&gt;. &lt;br /&gt;
 In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
 &lt;/p&gt;
 
@@ -99,6 +103,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;dd&gt;Initial Release&lt;/dd&gt;
   &lt;dt&gt;2016-01-20&lt;/dt&gt;
   &lt;dd&gt;added Shuntresistors Footprints&lt;/dd&gt;
+  &lt;dt&gt;2016-03-09&lt;/dt&gt;
+  &lt;dd&gt;added E24 1206 Resistors&lt;/dd&gt;
 &lt;/dl&gt;</description>
 <packages>
 <package name="R25/10">
@@ -321,521 +327,607 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="FR-070R0L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 0,00" constant="no"/>
-<attribute name="VALUE" value="0R" constant="no"/>
-</technology>
-<technology name="FR-07100KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 100K" constant="no"/>
-<attribute name="VALUE" value="100K" constant="no"/>
-</technology>
-<technology name="FR-07100RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 100" constant="no"/>
-<attribute name="VALUE" value="100R" constant="no"/>
-</technology>
-<technology name="FR-0710KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 10,0K" constant="no"/>
-<attribute name="VALUE" value="10K" constant="no"/>
-</technology>
-<technology name="FR-0710M0L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 10,0M" constant="no"/>
-<attribute name="VALUE" value="10M" constant="no"/>
-</technology>
-<technology name="FR-0710RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 10,0" constant="no"/>
-<attribute name="VALUE" value="10R" constant="no"/>
-</technology>
-<technology name="FR-07120KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 120K" constant="no"/>
-<attribute name="VALUE" value="120K" constant="no"/>
-</technology>
-<technology name="FR-07120RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 120" constant="no"/>
-<attribute name="VALUE" value="120R" constant="no"/>
-</technology>
-<technology name="FR-0712KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 12,0K" constant="no"/>
-<attribute name="VALUE" value="12K" constant="no"/>
-</technology>
-<technology name="FR-0712RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 12,0" constant="no"/>
-<attribute name="VALUE" value="12R" constant="no"/>
-</technology>
-<technology name="FR-07150KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 150K" constant="no"/>
-<attribute name="VALUE" value="150K" constant="no"/>
-</technology>
-<technology name="FR-07150RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 150" constant="no"/>
-<attribute name="VALUE" value="150R" constant="no"/>
-</technology>
-<technology name="FR-0715KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 15,0K" constant="no"/>
-<attribute name="VALUE" value="15K" constant="no"/>
-</technology>
-<technology name="FR-0715RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 15,0" constant="no"/>
-<attribute name="VALUE" value="15R" constant="no"/>
-</technology>
-<technology name="FR-07180KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 180K" constant="no"/>
-<attribute name="VALUE" value="180K" constant="no"/>
-</technology>
-<technology name="FR-07180RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 180" constant="no"/>
-<attribute name="VALUE" value="180R" constant="no"/>
-</technology>
-<technology name="FR-0718KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 18,0K" constant="no"/>
-<attribute name="VALUE" value="18K" constant="no"/>
-</technology>
-<technology name="FR-0718RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 18,0" constant="no"/>
-<attribute name="VALUE" value="18R" constant="no"/>
-</technology>
-<technology name="FR-071K0L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,00K" constant="no"/>
-<attribute name="VALUE" value="1K" constant="no"/>
-</technology>
-<technology name="FR-071K2L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,20K" constant="no"/>
-<attribute name="VALUE" value="1K2" constant="no"/>
-</technology>
-<technology name="FR-071K5L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,50K" constant="no"/>
-<attribute name="VALUE" value="1K5" constant="no"/>
-</technology>
-<technology name="FR-071K8L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,80K" constant="no"/>
-<attribute name="VALUE" value="1K8" constant="no"/>
-</technology>
-<technology name="FR-071M0L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,00M" constant="no"/>
-<attribute name="VALUE" value="1M" constant="no"/>
-</technology>
-<technology name="FR-071M2L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,20M" constant="no"/>
-<attribute name="VALUE" value="1M2" constant="no"/>
-</technology>
-<technology name="FR-071M5L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,50M" constant="no"/>
-<attribute name="VALUE" value="1M5" constant="no"/>
-</technology>
-<technology name="FR-071M8L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,80M" constant="no"/>
-<attribute name="VALUE" value="1M8" constant="no"/>
-</technology>
-<technology name="FR-071R0">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,00" constant="no"/>
-<attribute name="VALUE" value="1R" constant="no"/>
-</technology>
-<technology name="FR-071R2L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,20" constant="no"/>
-<attribute name="VALUE" value="1R2" constant="no"/>
-</technology>
-<technology name="FR-071R5L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,50" constant="no"/>
-<attribute name="VALUE" value="1R5" constant="no"/>
-</technology>
-<technology name="FR-071R8L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 1,80" constant="no"/>
-<attribute name="VALUE" value="1R8" constant="no"/>
-</technology>
-<technology name="FR-07220KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 220K" constant="no"/>
-<attribute name="VALUE" value="220K" constant="no"/>
-</technology>
-<technology name="FR-07220RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 220" constant="no"/>
-<attribute name="VALUE" value="220R" constant="no"/>
-</technology>
-<technology name="FR-0722KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 22,0K" constant="no"/>
-<attribute name="VALUE" value="22K" constant="no"/>
-</technology>
-<technology name="FR-0722RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 22,0" constant="no"/>
-<attribute name="VALUE" value="22R" constant="no"/>
-</technology>
-<technology name="FR-07270KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 270K" constant="no"/>
-<attribute name="VALUE" value="270K" constant="no"/>
-</technology>
-<technology name="FR-07270RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 270" constant="no"/>
-<attribute name="VALUE" value="270R" constant="no"/>
-</technology>
-<technology name="FR-0727KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 27,0K" constant="no"/>
-<attribute name="VALUE" value="27K" constant="no"/>
-</technology>
-<technology name="FR-0727RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 27,0" constant="no"/>
-<attribute name="VALUE" value="27R" constant="no"/>
-</technology>
-<technology name="FR-072K2L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 2,20K" constant="no"/>
-<attribute name="VALUE" value="2K2" constant="no"/>
-</technology>
-<technology name="FR-072K7L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 2,70K" constant="no"/>
-<attribute name="VALUE" value="2K7" constant="no"/>
-</technology>
-<technology name="FR-072M2L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 2,20M" constant="no"/>
-<attribute name="VALUE" value="2M2" constant="no"/>
-</technology>
-<technology name="FR-072M7L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 2,70M" constant="no"/>
-<attribute name="VALUE" value="2M7" constant="no"/>
-</technology>
-<technology name="FR-072R2L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 2,20" constant="no"/>
-<attribute name="VALUE" value="2R2" constant="no"/>
-</technology>
-<technology name="FR-072R7L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 2,70" constant="no"/>
-<attribute name="VALUE" value="2R7" constant="no"/>
-</technology>
-<technology name="FR-07330KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 330K" constant="no"/>
-<attribute name="VALUE" value="330K" constant="no"/>
-</technology>
-<technology name="FR-07330RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 330" constant="no"/>
-<attribute name="VALUE" value="330R" constant="no"/>
-</technology>
-<technology name="FR-0733KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 33,0K" constant="no"/>
-<attribute name="VALUE" value="33K" constant="no"/>
-</technology>
-<technology name="FR-0733RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 33,0" constant="no"/>
-<attribute name="VALUE" value="33R" constant="no"/>
-</technology>
-<technology name="FR-07390KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 390K" constant="no"/>
-<attribute name="VALUE" value="390K" constant="no"/>
-</technology>
-<technology name="FR-07390RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 390" constant="no"/>
-<attribute name="VALUE" value="390R" constant="no"/>
-</technology>
-<technology name="FR-0739KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 39,0K" constant="no"/>
-<attribute name="VALUE" value="39K" constant="no"/>
-</technology>
-<technology name="FR-0739RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 39,0" constant="no"/>
-<attribute name="VALUE" value="39R" constant="no"/>
-</technology>
-<technology name="FR-073K3L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 3,30K" constant="no"/>
-<attribute name="VALUE" value="3K3" constant="no"/>
-</technology>
-<technology name="FR-073K9L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 3,90K" constant="no"/>
-<attribute name="VALUE" value="3K9" constant="no"/>
-</technology>
-<technology name="FR-073M3L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 3,30M" constant="no"/>
-<attribute name="VALUE" value="3M3" constant="no"/>
-</technology>
-<technology name="FR-073M9L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 3,90M" constant="no"/>
-<attribute name="VALUE" value="3M9" constant="no"/>
-</technology>
-<technology name="FR-073R3L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 3,30" constant="no"/>
-<attribute name="VALUE" value="3R3" constant="no"/>
-</technology>
-<technology name="FR-073R9L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 3,90" constant="no"/>
-<attribute name="VALUE" value="3R9" constant="no"/>
-</technology>
-<technology name="FR-07470KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 470K" constant="no"/>
-<attribute name="VALUE" value="470K" constant="no"/>
-</technology>
-<technology name="FR-07470RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 470" constant="no"/>
-<attribute name="VALUE" value="470R" constant="no"/>
-</technology>
-<technology name="FR-0747KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 47,0K" constant="no"/>
-<attribute name="VALUE" value="47K" constant="no"/>
-</technology>
-<technology name="FR-0747RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 47,0" constant="no"/>
-<attribute name="VALUE" value="47R" constant="no"/>
-</technology>
-<technology name="FR-074K7L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 4,70K" constant="no"/>
-<attribute name="VALUE" value="4K7" constant="no"/>
-</technology>
-<technology name="FR-074M7L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 4,70M" constant="no"/>
-<attribute name="VALUE" value="4M7" constant="no"/>
-</technology>
-<technology name="FR-074R7L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 4,70" constant="no"/>
-<attribute name="VALUE" value="4R7" constant="no"/>
-</technology>
-<technology name="FR-07560KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 560K" constant="no"/>
-<attribute name="VALUE" value="560K" constant="no"/>
-</technology>
-<technology name="FR-07560RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 560" constant="no"/>
-<attribute name="VALUE" value="560R" constant="no"/>
-</technology>
-<technology name="FR-0756KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 56,0K" constant="no"/>
-<attribute name="VALUE" value="56K" constant="no"/>
-</technology>
-<technology name="FR-0756RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 56,0" constant="no"/>
-<attribute name="VALUE" value="56R" constant="no"/>
-</technology>
-<technology name="FR-075K6L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 5,60K" constant="no"/>
-<attribute name="VALUE" value="5K6" constant="no"/>
-</technology>
-<technology name="FR-075M6L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 5,60M" constant="no"/>
-<attribute name="VALUE" value="5M6" constant="no"/>
-</technology>
-<technology name="FR-075R6L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 5,60" constant="no"/>
-<attribute name="VALUE" value="5R6" constant="no"/>
-</technology>
-<technology name="FR-07680KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 680K" constant="no"/>
-<attribute name="VALUE" value="680K" constant="no"/>
-</technology>
-<technology name="FR-07680RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 680" constant="no"/>
-<attribute name="VALUE" value="680R" constant="no"/>
-</technology>
-<technology name="FR-0768KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 68,0K" constant="no"/>
-<attribute name="VALUE" value="68K" constant="no"/>
-</technology>
-<technology name="FR-0768RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 68,0" constant="no"/>
-<attribute name="VALUE" value="68R" constant="no"/>
-</technology>
-<technology name="FR-076K8L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 6,80K" constant="no"/>
-<attribute name="VALUE" value="6K8" constant="no"/>
-</technology>
-<technology name="FR-076M8L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 6,80M" constant="no"/>
-<attribute name="VALUE" value="6M8" constant="no"/>
-</technology>
-<technology name="FR-076R8L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 6,80" constant="no"/>
-<attribute name="VALUE" value="6R8" constant="no"/>
-</technology>
-<technology name="FR-07820KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 820K" constant="no"/>
-<attribute name="VALUE" value="820K" constant="no"/>
-</technology>
-<technology name="FR-07820RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 820" constant="no"/>
-<attribute name="VALUE" value="820R" constant="no"/>
-</technology>
-<technology name="FR-0782KL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 82,0K" constant="no"/>
-<attribute name="VALUE" value="82K" constant="no"/>
-</technology>
-<technology name="FR-0782RL">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 82,0" constant="no"/>
-<attribute name="VALUE" value="82R" constant="no"/>
-</technology>
-<technology name="FR-078K2L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 8,20K" constant="no"/>
-<attribute name="VALUE" value="8K2" constant="no"/>
-</technology>
-<technology name="FR-078M2L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 8,20M" constant="no"/>
-<attribute name="VALUE" value="8M2" constant="no"/>
-</technology>
-<technology name="FR-078R2L">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="SMD-0805 8,20" constant="no"/>
-<attribute name="VALUE" value="8R2" constant="no"/>
+<technology name="-0.0">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 0,00" constant="no"/>
+<attribute name="VALUE" value="0R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-070R0L" constant="no"/>
+</technology>
+<technology name="-1.0">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,00" constant="no"/>
+<attribute name="VALUE" value="1R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071R0L" constant="no"/>
+</technology>
+<technology name="-1.2">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,20" constant="no"/>
+<attribute name="VALUE" value="1R2"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071R2L" constant="no"/>
+</technology>
+<technology name="-1.5">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,50" constant="no"/>
+<attribute name="VALUE" value="1R5"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071R5L" constant="no"/>
+</technology>
+<technology name="-1.8">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,80" constant="no"/>
+<attribute name="VALUE" value="1R8"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071R8L" constant="no"/>
+</technology>
+<technology name="-10">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 10,0" constant="no"/>
+<attribute name="VALUE" value="10R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0710RL" constant="no"/>
+</technology>
+<technology name="-100">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 100" constant="no"/>
+<attribute name="VALUE" value="100R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07100RL" constant="no"/>
+</technology>
+<technology name="-1000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,00K" constant="no"/>
+<attribute name="VALUE" value="1K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071K0L" constant="no"/>
+</technology>
+<technology name="-10000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 10,0K" constant="no"/>
+<attribute name="VALUE" value="10K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0710KL" constant="no"/>
+</technology>
+<technology name="-100000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 100K" constant="no"/>
+<attribute name="VALUE" value="100K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07100KL" constant="no"/>
+</technology>
+<technology name="-1000000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,00M" constant="no"/>
+<attribute name="VALUE" value="1M"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071M0L" constant="no"/>
+</technology>
+<technology name="-10000000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 10,0M" constant="no"/>
+<attribute name="VALUE" value="10M"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0710ML" constant="no"/>
+</technology>
+<technology name="-12">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 12,0" constant="no"/>
+<attribute name="VALUE" value="12R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0712RL" constant="no"/>
+</technology>
+<technology name="-120">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 120" constant="no"/>
+<attribute name="VALUE" value="120R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07120RL" constant="no"/>
+</technology>
+<technology name="-1200">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,20K" constant="no"/>
+<attribute name="VALUE" value="1K2"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071K2L" constant="no"/>
+</technology>
+<technology name="-12000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 12,0K" constant="no"/>
+<attribute name="VALUE" value="12K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0712KL" constant="no"/>
+</technology>
+<technology name="-120000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 120K" constant="no"/>
+<attribute name="VALUE" value="120K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07120KL" constant="no"/>
+</technology>
+<technology name="-1200000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,20M" constant="no"/>
+<attribute name="VALUE" value="1M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071M2L" constant="no"/>
+</technology>
+<technology name="-15">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 15,0" constant="no"/>
+<attribute name="VALUE" value="15R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0715RL" constant="no"/>
+</technology>
+<technology name="-150">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 150" constant="no"/>
+<attribute name="VALUE" value="150R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07150RL" constant="no"/>
+</technology>
+<technology name="-1500">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,50K" constant="no"/>
+<attribute name="VALUE" value="1K5"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071K5L" constant="no"/>
+</technology>
+<technology name="-15000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 15,0K" constant="no"/>
+<attribute name="VALUE" value="15K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0715KL" constant="no"/>
+</technology>
+<technology name="-150000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 150K" constant="no"/>
+<attribute name="VALUE" value="150K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07150KL" constant="no"/>
+</technology>
+<technology name="-1500000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,50M" constant="no"/>
+<attribute name="VALUE" value="1M5"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071M5L" constant="no"/>
+</technology>
+<technology name="-18">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 18,0" constant="no"/>
+<attribute name="VALUE" value="18R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0718RL" constant="no"/>
+</technology>
+<technology name="-180">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 180" constant="no"/>
+<attribute name="VALUE" value="180R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07180RL" constant="no"/>
+</technology>
+<technology name="-1800">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,80K" constant="no"/>
+<attribute name="VALUE" value="1K8"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071K8L" constant="no"/>
+</technology>
+<technology name="-18000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 18,0K" constant="no"/>
+<attribute name="VALUE" value="18K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0718KL" constant="no"/>
+</technology>
+<technology name="-180000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 180K" constant="no"/>
+<attribute name="VALUE" value="180K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07180KL" constant="no"/>
+</technology>
+<technology name="-1800000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 1,80M" constant="no"/>
+<attribute name="VALUE" value="1M8"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-071M8L" constant="no"/>
+</technology>
+<technology name="-2.2">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 2,20" constant="no"/>
+<attribute name="VALUE" value="2R2"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-072R2L" constant="no"/>
+</technology>
+<technology name="-2.7">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 2,70" constant="no"/>
+<attribute name="VALUE" value="2R7"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-072R7L" constant="no"/>
+</technology>
+<technology name="-22">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 22,0" constant="no"/>
+<attribute name="VALUE" value="22R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0722RL" constant="no"/>
+</technology>
+<technology name="-220">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 220" constant="no"/>
+<attribute name="VALUE" value="220R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07220RL" constant="no"/>
+</technology>
+<technology name="-2200">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 2,20K" constant="no"/>
+<attribute name="VALUE" value="2K2"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-072K3L" constant="no"/>
+</technology>
+<technology name="-22000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 22,0K" constant="no"/>
+<attribute name="VALUE" value="22K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0722KL" constant="no"/>
+</technology>
+<technology name="-220000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 220K" constant="no"/>
+<attribute name="VALUE" value="220K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07220KL" constant="no"/>
+</technology>
+<technology name="-2200000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 2,20M" constant="no"/>
+<attribute name="VALUE" value="2M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-072M2L" constant="no"/>
+</technology>
+<technology name="-27">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 27,0" constant="no"/>
+<attribute name="VALUE" value="27R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0727RL" constant="no"/>
+</technology>
+<technology name="-270">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 270" constant="no"/>
+<attribute name="VALUE" value="270R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07227RL" constant="no"/>
+</technology>
+<technology name="-2700">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 2,70K" constant="no"/>
+<attribute name="VALUE" value="2K7"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-072K7L" constant="no"/>
+</technology>
+<technology name="-27000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 27,0K" constant="no"/>
+<attribute name="VALUE" value="27K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0727KL" constant="no"/>
+</technology>
+<technology name="-270000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 270K" constant="no"/>
+<attribute name="VALUE" value="270K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07270KL" constant="no"/>
+</technology>
+<technology name="-2700000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 2,70M" constant="no"/>
+<attribute name="VALUE" value="2M7"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-072M7L" constant="no"/>
+</technology>
+<technology name="-3.3">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 3,30" constant="no"/>
+<attribute name="VALUE" value="3R3"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-073R3L" constant="no"/>
+</technology>
+<technology name="-3.9">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 3,90" constant="no"/>
+<attribute name="VALUE" value="3R9"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-073R9L" constant="no"/>
+</technology>
+<technology name="-33">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 33,0" constant="no"/>
+<attribute name="VALUE" value="33R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0733RL" constant="no"/>
+</technology>
+<technology name="-330">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 330" constant="no"/>
+<attribute name="VALUE" value="330R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07330RL" constant="no"/>
+</technology>
+<technology name="-3300">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 3,30K" constant="no"/>
+<attribute name="VALUE" value="3K3"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-073K3L" constant="no"/>
+</technology>
+<technology name="-33000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 33,0K" constant="no"/>
+<attribute name="VALUE" value="33K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0733KL" constant="no"/>
+</technology>
+<technology name="-330000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 330K" constant="no"/>
+<attribute name="VALUE" value="330K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07330KL" constant="no"/>
+</technology>
+<technology name="-3300000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 3,30M" constant="no"/>
+<attribute name="VALUE" value="3M3"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-073M3L" constant="no"/>
+</technology>
+<technology name="-39">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 39,0" constant="no"/>
+<attribute name="VALUE" value="39R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0739RL" constant="no"/>
+</technology>
+<technology name="-390">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 390" constant="no"/>
+<attribute name="VALUE" value="390R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07390RL" constant="no"/>
+</technology>
+<technology name="-3900">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 3,90K" constant="no"/>
+<attribute name="VALUE" value="3K9"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-073K9L" constant="no"/>
+</technology>
+<technology name="-39000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 39,0K" constant="no"/>
+<attribute name="VALUE" value="39K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0739KL" constant="no"/>
+</technology>
+<technology name="-390000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 390K" constant="no"/>
+<attribute name="VALUE" value="390K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07390KL" constant="no"/>
+</technology>
+<technology name="-3900000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 3,90M" constant="no"/>
+<attribute name="VALUE" value="3M9"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-073M9L" constant="no"/>
+</technology>
+<technology name="-4.7">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 4,70" constant="no"/>
+<attribute name="VALUE" value="4R7"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-074R7L" constant="no"/>
+</technology>
+<technology name="-47">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 47,0" constant="no"/>
+<attribute name="VALUE" value="47R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0747RL" constant="no"/>
+</technology>
+<technology name="-470">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 470" constant="no"/>
+<attribute name="VALUE" value="470R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07470RL" constant="no"/>
+</technology>
+<technology name="-4700">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 4,70K" constant="no"/>
+<attribute name="VALUE" value="4K7"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-074K7L" constant="no"/>
+</technology>
+<technology name="-47000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 47,0K" constant="no"/>
+<attribute name="VALUE" value="47K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0747KL" constant="no"/>
+</technology>
+<technology name="-470000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 470K" constant="no"/>
+<attribute name="VALUE" value="470K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07470KL" constant="no"/>
+</technology>
+<technology name="-4700000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 4,70M" constant="no"/>
+<attribute name="VALUE" value="4M7"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-074M7L" constant="no"/>
+</technology>
+<technology name="-5.6">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 5,60" constant="no"/>
+<attribute name="VALUE" value="5R6"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-075R6L" constant="no"/>
+</technology>
+<technology name="-56">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 56,0" constant="no"/>
+<attribute name="VALUE" value="56R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0756RL" constant="no"/>
+</technology>
+<technology name="-560">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 560" constant="no"/>
+<attribute name="VALUE" value="560R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07560RL" constant="no"/>
+</technology>
+<technology name="-5600">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 5,60K" constant="no"/>
+<attribute name="VALUE" value="5K6"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-075K6L" constant="no"/>
+</technology>
+<technology name="-56000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 56,0K" constant="no"/>
+<attribute name="VALUE" value="56K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0756KL" constant="no"/>
+</technology>
+<technology name="-560000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 560K" constant="no"/>
+<attribute name="VALUE" value="560K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07560KL" constant="no"/>
+</technology>
+<technology name="-5600000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 5,60M" constant="no"/>
+<attribute name="VALUE" value="5M6"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-075M6L" constant="no"/>
+</technology>
+<technology name="-6.8">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 6,80" constant="no"/>
+<attribute name="VALUE" value="6R8"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-076R8L" constant="no"/>
+</technology>
+<technology name="-68">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 68,0" constant="no"/>
+<attribute name="VALUE" value="68R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0768RL" constant="no"/>
+</technology>
+<technology name="-680">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 680" constant="no"/>
+<attribute name="VALUE" value="680R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07680RL" constant="no"/>
+</technology>
+<technology name="-6800">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 6,80K" constant="no"/>
+<attribute name="VALUE" value="6K8"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-076K8L" constant="no"/>
+</technology>
+<technology name="-68000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 68,0K" constant="no"/>
+<attribute name="VALUE" value="68K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0768KL" constant="no"/>
+</technology>
+<technology name="-680000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 680K" constant="no"/>
+<attribute name="VALUE" value="680K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07680KL" constant="no"/>
+</technology>
+<technology name="-6800000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 6,80M" constant="no"/>
+<attribute name="VALUE" value="6M8"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-076M8L" constant="no"/>
+</technology>
+<technology name="-8.2">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 8,20" constant="no"/>
+<attribute name="VALUE" value="8R2"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-078R2L" constant="no"/>
+</technology>
+<technology name="-82">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 82,0" constant="no"/>
+<attribute name="VALUE" value="82R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0782RL" constant="no"/>
+</technology>
+<technology name="-820">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 820" constant="no"/>
+<attribute name="VALUE" value="820R"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07820RL" constant="no"/>
+</technology>
+<technology name="-8200">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 8,20K" constant="no"/>
+<attribute name="VALUE" value="8K2"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-078K2L" constant="no"/>
+</technology>
+<technology name="-82000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 82,0K" constant="no"/>
+<attribute name="VALUE" value="82K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-0782KL" constant="no"/>
+</technology>
+<technology name="-820000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 820K" constant="no"/>
+<attribute name="VALUE" value="820K"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-07820KL" constant="no"/>
+</technology>
+<technology name="-8200000">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-0805 8,20M" constant="no"/>
+<attribute name="VALUE" value="8M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC0805FR-078M2L" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1004,23 +1096,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-100000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="100K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 100K" constant="no"/>
+<attribute name="VALUE" value="100K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07100KL" constant="no"/>
 </technology>
 <technology name="-1000000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,0M" constant="no"/>
+<attribute name="VALUE" value="1M"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M0L" constant="no"/>
 </technology>
 <technology name="-10000000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 10M" constant="no"/>
+<attribute name="VALUE" value="10M"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0710ML" constant="no"/>
 </technology>
 <technology name="-11">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1053,16 +1145,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-110000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="110K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 110K" constant="no"/>
+<attribute name="VALUE" value="110K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07110KL" constant="no"/>
 </technology>
 <technology name="-1100000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,1M" constant="no"/>
+<attribute name="VALUE" value="1M1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M1L" constant="no"/>
 </technology>
 <technology name="-12">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1095,16 +1187,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-120000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="120K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 120K" constant="no"/>
+<attribute name="VALUE" value="120K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07120KL" constant="no"/>
 </technology>
 <technology name="-1200000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,2M" constant="no"/>
+<attribute name="VALUE" value="1M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M2L" constant="no"/>
 </technology>
 <technology name="-13">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1137,16 +1229,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-130000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="130K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 130K" constant="no"/>
+<attribute name="VALUE" value="130K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07130KL" constant="no"/>
 </technology>
 <technology name="-1300000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,3M" constant="no"/>
+<attribute name="VALUE" value="1M3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M3L" constant="no"/>
 </technology>
 <technology name="-15">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1179,16 +1271,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-150000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="150K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 150K" constant="no"/>
+<attribute name="VALUE" value="150K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07150KL" constant="no"/>
 </technology>
 <technology name="-1500000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,5M" constant="no"/>
+<attribute name="VALUE" value="1M5"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M5L" constant="no"/>
 </technology>
 <technology name="-16">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1221,16 +1313,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-160000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="160K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 160K" constant="no"/>
+<attribute name="VALUE" value="160K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07160KL" constant="no"/>
 </technology>
 <technology name="-1600000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,6M" constant="no"/>
+<attribute name="VALUE" value="1M6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M6L" constant="no"/>
 </technology>
 <technology name="-18">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1263,16 +1355,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-180000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="180K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 180K" constant="no"/>
+<attribute name="VALUE" value="180K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07180KL" constant="no"/>
 </technology>
 <technology name="-1800000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,8M" constant="no"/>
+<attribute name="VALUE" value="1M8"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M8L" constant="no"/>
 </technology>
 <technology name="-2.0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1333,16 +1425,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-200000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="200K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 200K" constant="no"/>
+<attribute name="VALUE" value="200K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07200KL" constant="no"/>
 </technology>
 <technology name="-2000000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,0M" constant="no"/>
+<attribute name="VALUE" value="2M"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M0L" constant="no"/>
 </technology>
 <technology name="-22">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1375,16 +1467,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-220000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="220K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 220K" constant="no"/>
+<attribute name="VALUE" value="220K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07220KL" constant="no"/>
 </technology>
 <technology name="-2200000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,2M" constant="no"/>
+<attribute name="VALUE" value="2M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M2L" constant="no"/>
 </technology>
 <technology name="-24">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1417,16 +1509,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-240000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="240K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 240K" constant="no"/>
+<attribute name="VALUE" value="240K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07240KL" constant="no"/>
 </technology>
 <technology name="-2400000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,2M" constant="no"/>
+<attribute name="VALUE" value="2M4"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M4L" constant="no"/>
 </technology>
 <technology name="-27">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1459,16 +1551,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-270000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="270K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 270K" constant="no"/>
+<attribute name="VALUE" value="270K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07270KL" constant="no"/>
 </technology>
 <technology name="-2700000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,7M" constant="no"/>
+<attribute name="VALUE" value="2M7"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M7L" constant="no"/>
 </technology>
 <technology name="-3.0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1529,16 +1621,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-300000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 300K" constant="no"/>
+<attribute name="VALUE" value="300K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07300KL" constant="no"/>
 </technology>
 <technology name="-3000000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,0M" constant="no"/>
+<attribute name="VALUE" value="3M"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M0L" constant="no"/>
 </technology>
 <technology name="-33">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1571,16 +1663,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-330000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 330K" constant="no"/>
+<attribute name="VALUE" value="330K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07330KL" constant="no"/>
 </technology>
 <technology name="-3300000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,3M" constant="no"/>
+<attribute name="VALUE" value="3M3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M3L" constant="no"/>
 </technology>
 <technology name="-36">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1613,16 +1705,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-360000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 360K" constant="no"/>
+<attribute name="VALUE" value="360K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07360KL" constant="no"/>
 </technology>
 <technology name="-3600000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,6M" constant="no"/>
+<attribute name="VALUE" value="3M6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M6L" constant="no"/>
 </technology>
 <technology name="-39">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1655,16 +1747,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-390000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 390K" constant="no"/>
+<attribute name="VALUE" value="390K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07390KL" constant="no"/>
 </technology>
 <technology name="-3900000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,9M" constant="no"/>
+<attribute name="VALUE" value="3M9"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M9L" constant="no"/>
 </technology>
 <technology name="-4.3">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1711,16 +1803,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-430000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 430K" constant="no"/>
+<attribute name="VALUE" value="430K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07430KL" constant="no"/>
 </technology>
 <technology name="-4300000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,3M" constant="no"/>
+<attribute name="VALUE" value="4M3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-074M3L" constant="no"/>
 </technology>
 <technology name="-47">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1753,16 +1845,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-470000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 470K" constant="no"/>
+<attribute name="VALUE" value="470K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07470KL" constant="no"/>
 </technology>
 <technology name="-4700000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,7M" constant="no"/>
+<attribute name="VALUE" value="4M7"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-074M7L" constant="no"/>
 </technology>
 <technology name="-5.1">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1802,23 +1894,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-51000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="51K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 51K" constant="no"/>
+<attribute name="VALUE" value="51K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0751KL" constant="no"/>
 </technology>
 <technology name="-510000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 510K" constant="no"/>
+<attribute name="VALUE" value="510K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07510KL" constant="no"/>
 </technology>
 <technology name="-5100000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,1M" constant="no"/>
+<attribute name="VALUE" value="5M1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-075M1L" constant="no"/>
 </technology>
 <technology name="-56">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1844,23 +1936,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-56000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="56K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 56K" constant="no"/>
+<attribute name="VALUE" value="56K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0756KL" constant="no"/>
 </technology>
 <technology name="-560000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 560K" constant="no"/>
+<attribute name="VALUE" value="560K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07560KL" constant="no"/>
 </technology>
 <technology name="-5600000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,6M" constant="no"/>
+<attribute name="VALUE" value="5M6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-075M6L" constant="no"/>
 </technology>
 <technology name="-6.2">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1900,23 +1992,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-62000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="62K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 62K" constant="no"/>
+<attribute name="VALUE" value="62K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0762KL" constant="no"/>
 </technology>
 <technology name="-620000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 620K" constant="no"/>
+<attribute name="VALUE" value="620K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07620KL" constant="no"/>
 </technology>
 <technology name="-6200000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,2M" constant="no"/>
+<attribute name="VALUE" value="6M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-076M2L" constant="no"/>
 </technology>
 <technology name="-68">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1942,23 +2034,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-68000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="68K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 68K" constant="no"/>
+<attribute name="VALUE" value="68K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0768KL" constant="no"/>
 </technology>
 <technology name="-680000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 680K" constant="no"/>
+<attribute name="VALUE" value="680K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07680KL" constant="no"/>
 </technology>
 <technology name="-6800000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,8M" constant="no"/>
+<attribute name="VALUE" value="6M8"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-076M8L" constant="no"/>
 </technology>
 <technology name="-7.5">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1991,23 +2083,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-75000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="75K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 75K" constant="no"/>
+<attribute name="VALUE" value="75K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0775KL" constant="no"/>
 </technology>
 <technology name="-750000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 750K" constant="no"/>
+<attribute name="VALUE" value="750K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07750KL" constant="no"/>
 </technology>
 <technology name="-7500000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 7,5M" constant="no"/>
+<attribute name="VALUE" value="7M5"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-077M5L" constant="no"/>
 </technology>
 <technology name="-8.2">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -2040,23 +2132,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-82000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="82K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 82K" constant="no"/>
+<attribute name="VALUE" value="82K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0782KL" constant="no"/>
 </technology>
 <technology name="-820000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 820K" constant="no"/>
+<attribute name="VALUE" value="820K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07820KL" constant="no"/>
 </technology>
 <technology name="-8200000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 8,2M" constant="no"/>
+<attribute name="VALUE" value="8M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-078M2L" constant="no"/>
 </technology>
 <technology name="-9.1">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -2089,23 +2181,23 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-91000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="91K" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 91K" constant="no"/>
+<attribute name="VALUE" value="91K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0791KL" constant="no"/>
 </technology>
 <technology name="-910000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 910K" constant="no"/>
+<attribute name="VALUE" value="910K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07910KL" constant="no"/>
 </technology>
 <technology name="-9100000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 9,1M" constant="no"/>
+<attribute name="VALUE" value="9M1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-079M1L" constant="no"/>
 </technology>
 </technologies>
 </device>
