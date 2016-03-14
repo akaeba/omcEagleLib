@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1078,29 +1078,29 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <deviceset name="L5970D" prefix="IC" uservalue="yes">
 <description>&lt;h2&gt;STMicroelectronics - L5970D - Up to 1A step down switching regulator&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt; Up to 1A output current
-  &lt;li&gt; Operating input voltage from 4.4V to 36V
-  &lt;li&gt; 3.3V / (±2%) reference voltage
-  &lt;li&gt; Output voltage adjustable from 1.2V to 35V
-  &lt;li&gt; Low dropout operation: 100% duty cycle
-  &lt;li&gt; 250KHz Internally fixed frequency
-  &lt;li&gt; Voltage feedforward
-  &lt;li&gt; Zero load current operation
-  &lt;li&gt; Internal current limiting
-  &lt;li&gt; Inhibit for zero current consumption
-  &lt;li&gt; Synchronization
-  &lt;li&gt; Protection against feedback disconnection
-  &lt;li&gt; Thermal shutdown
-  &lt;li&gt; &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00002173.pdf"&gt;STM Datasheet&lt;/a&gt;
-  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/DS_5970D.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
+  &lt;li&gt; Up to 1A output current&lt;/li&gt;
+  &lt;li&gt; Operating input voltage from 4.4V to 36V&lt;/li&gt;
+  &lt;li&gt; 3.3V / (±2%) reference voltage&lt;/li&gt;
+  &lt;li&gt; Output voltage adjustable from 1.2V to 35V&lt;/li&gt;
+  &lt;li&gt; Low dropout operation: 100% duty cycle&lt;/li&gt;
+  &lt;li&gt; 250KHz Internally fixed frequency&lt;/li&gt;
+  &lt;li&gt; Voltage feedforward&lt;/li&gt;
+  &lt;li&gt; Zero load current operation&lt;/li&gt;
+  &lt;li&gt; Internal current limiting&lt;/li&gt;
+  &lt;li&gt; Inhibit for zero current consumption&lt;/li&gt;
+  &lt;li&gt; Synchronization&lt;/li&gt;
+  &lt;li&gt; Protection against feedback disconnection&lt;/li&gt;
+  &lt;li&gt; Thermal shutdown&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00002173.pdf"&gt;STM Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/DS_5970D.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 
 &lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
 &lt;ul&gt;
-   &lt;li&gt; Reichelt: L 5970 D
-   &lt;li&gt; Conrad: 1185187 - 62
-   &lt;li&gt; Digi-Key:
+   &lt;li&gt; Reichelt: L 5970 D&lt;/li&gt;
+   &lt;li&gt; Conrad: 1185187 - 62&lt;/li&gt;
+   &lt;li&gt; Digi-Key:&lt;/li&gt;
    &lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
@@ -1120,11 +1120,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIST#CONRAD#" value="
-1185187 - 62 " constant="no"/>
+<attribute name="DIST#CONRAD#" value=" 1185187 - 62 " constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="
-L 5970 D" constant="no"/>
+<attribute name="DIST#REICHELT#" value=" L 5970 D" constant="no"/>
 <attribute name="VALUE" value="L5790D"/>
 <attribute name="VENDOR#" value="STM#L5970D013TR" constant="no"/>
 </technology>
