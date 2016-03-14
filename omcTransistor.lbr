@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -57,6 +57,9 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Parts" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
@@ -322,24 +325,139 @@ TO252, D-Pak</description>
 <vertex x="2.5654" y="3.937"/>
 </polygon>
 </package>
+<package name="SOIC8">
+<description>&lt;h3&gt;SOIC8&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;5mm×4mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Small_Outline_Integrated_Circuit"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="4.0005" y="-2.2225" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="5.842" y="-2.2225" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<wire x1="-1.42875" y1="1.905" x2="-1.11125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-0.15875" y1="1.905" x2="0.15875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="1.11125" y1="1.905" x2="1.42875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-1.42875" y1="-1.905" x2="-1.11125" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-0.15875" y1="-1.905" x2="0.15875" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="1.11125" y1="-1.905" x2="1.42875" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-2.38125" y1="-1.905" x2="-2.38125" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-2.38125" y1="-1.27" x2="-2.38125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.38125" y1="-1.905" x2="2.38125" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="2.38125" y1="-1.27" x2="2.38125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-2.38125" y1="-1.27" x2="2.38125" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-2.38125" y1="-1.27" x2="2.38125" y2="-1.27" width="0.2032" layer="51"/>
+</package>
+<package name="SOIC16">
+<description>&lt;h3&gt;SOIC16&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;10mm×4mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Small_Outline_Integrated_Circuit"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<wire x1="4.94" y1="1.9" x2="4.94" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="4.94" y1="-1.9" x2="-4.94" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-4.94" y1="-1.9" x2="-4.94" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-4.94" y1="1.9" x2="4.94" y2="1.9" width="0.2032" layer="51"/>
+<smd name="2" x="-3.175" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-4.445" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10000" x="-4.445" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="6.5405" y="-2.2225" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="8.382" y="-2.2225" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.69" y1="-3.1" x2="-4.2" y2="-2" layer="51"/>
+<rectangle x1="-3.42" y1="-3.1" x2="-2.93" y2="-2" layer="51"/>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<rectangle x1="-3.42" y1="2" x2="-2.93" y2="3.1" layer="51"/>
+<rectangle x1="-4.69" y1="2" x2="-4.2" y2="3.1" layer="51"/>
+<wire x1="-3.96875" y1="1.905" x2="-3.65125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-2.69875" y1="1.905" x2="-2.38125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-1.42875" y1="1.905" x2="-1.11125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-3.96875" y1="-1.905" x2="-3.65125" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-2.69875" y1="-1.905" x2="-2.38125" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-1.42875" y1="-1.905" x2="-1.11125" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-4.92125" y1="-1.905" x2="-4.92125" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-4.92125" y1="-1.27" x2="-4.92125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="4.92125" y1="-1.905" x2="4.92125" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.92125" y1="-1.27" x2="4.92125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-4.92125" y1="-1.27" x2="4.92125" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-4.92125" y1="-1.27" x2="4.92125" y2="-1.27" width="0.2032" layer="51"/>
+<smd name="5" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="3.175" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="4.445" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="4.445" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="3.175" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="-3.175" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="2.93" y1="2" x2="3.42" y2="3.1" layer="51"/>
+<rectangle x1="4.2" y1="2" x2="4.69" y2="3.1" layer="51"/>
+<rectangle x1="4.2" y1="-3.1" x2="4.69" y2="-2" layer="51"/>
+<rectangle x1="2.93" y1="-3.1" x2="3.42" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<wire x1="-0.15875" y1="1.905" x2="0.15875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="3.65125" y1="1.905" x2="3.96875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.38125" y1="1.905" x2="2.69875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="1.11125" y1="1.905" x2="1.42875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-0.15875" y1="-1.905" x2="0.15875" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="3.65125" y1="-1.905" x2="3.96875" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="2.38125" y1="-1.905" x2="2.69875" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="1.11125" y1="-1.905" x2="1.42875" y2="-1.905" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="INVOC">
-<description>Inverter with Open-Collector drriver stage</description>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="5.08" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="5.08" y2="0.508" width="0.254" layer="94"/>
-<text x="2.54" y="2.54" size="1.27" layer="95">&gt;PART</text>
-<text x="2.54" y="-3.937" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="IN" x="-7.62" y="0" visible="pad" length="middle" direction="in"/>
-<pin name="OUT" x="10.16" y="0" visible="pad" length="middle" direction="oc" function="dot" swaplevel="1" rot="R180"/>
+<description>Inverter with Open-Collector driver stage and freewheeling diode</description>
+<wire x1="-2.54" y1="3.302" x2="-2.54" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.302" x2="2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.302" x2="2.54" y2="0.508" width="0.254" layer="94"/>
+<text x="0.508" y="-3.048" size="1.27" layer="95">&gt;PART</text>
+<text x="0.508" y="-4.699" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="IN" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="0" visible="pad" length="middle" direction="oc" function="dot" swaplevel="1" rot="R180"/>
+<wire x1="5.334" y1="3.556" x2="5.334" y2="2.54" width="0.1524" layer="94"/>
+<text x="3.556" y="3.683" size="1.27" layer="97">CM+</text>
+<wire x1="5.334" y1="2.54" x2="5.334" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.334" y1="2.54" x2="4.318" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.318" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="6.35" y1="1.27" x2="5.334" y2="2.54" width="0.254" layer="94"/>
+<wire x1="4.318" y1="2.54" x2="5.334" y2="2.54" width="0.254" layer="94"/>
+<circle x="5.334" y="0" radius="0.254" width="0.381" layer="94"/>
+<wire x1="5.334" y1="2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 <symbol name="GNDCM">
 <description>Power Symbol &lt;br&gt;
 Ground &amp; Freewheeling Connector</description>
 <text x="-2.9972" y="-0.6604" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.905" y="2.54" size="1.27" layer="95" rot="R90">CM+</text>
-<text x="1.905" y="-5.842" size="1.27" layer="95" rot="R90">GND</text>
+<text x="1.905" y="2.54" size="1.27" layer="97" rot="R90">CM+</text>
+<text x="1.905" y="-5.842" size="1.27" layer="97" rot="R90">GND</text>
 <pin name="CM+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 </symbol>
@@ -377,7 +495,7 @@ Ground &amp; Freewheeling Connector</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ULN2803G" prefix="U" uservalue="yes">
+<deviceset name="ULN2803" prefix="U" uservalue="yes">
 <description>&lt;h2&gt;UTC ULN2803 - Eight Darlington NPN Arrays&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt; high-voltage, high-current Darlington drivers comprised of eight NPN Darlington pairs&lt;/li&gt;
@@ -469,14 +587,14 @@ Ground &amp; Freewheeling Connector</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="IRLR2905" prefix="U" uservalue="yes">
+<deviceset name="IRLR2905" prefix="T" uservalue="yes">
 <description>&lt;h2&gt;IRLR 2905 - HEXFET Power MOSFET&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt; VDSS=55V&lt;/li&gt;
   &lt;li&gt; RDS(on)=0.027Ω&lt;/li&gt;
   &lt;li&gt; ID=42A&lt;/li&gt;
   &lt;li&gt; Logic-Level Gate Drive&lt;/li&gt;
-  &lt;li&gt; &lt;a href="http://www.irf.com/product-info/datasheets/data/irlr2905.pdf"&gt;http://www.irf.com/product-info/datasheets/data/irlr2905.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://www.irf.com/product-info/datasheets/data/irlr2905.pdf"&gt;IRF Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;/il&gt;
 &lt;/ul&gt;
 
@@ -499,10 +617,100 @@ Ground &amp; Freewheeling Connector</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CONRAD#" value="162848 - 62" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="IRLR 2905" constant="no"/>
+<attribute name="DIST#CONRAD#" value="162848 - 62" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="IRLR 2905" constant="no"/>
 <attribute name="VALUE" value="IRLR2905" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ULN200">
+<description>&lt;h2&gt;STMicroelectronics - ULN200x - Seven Darlington Arrays&lt;/h2&gt;&lt;p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt; seven darlingtons per package&lt;/li&gt;
+  &lt;li&gt; output current 500mA per driver (600mA peak)&lt;/li&gt;
+  &lt;li&gt; output voltage 50V&lt;/li&gt;
+  &lt;li&gt; integrated suppression diodes for inductive loads&lt;/li&gt;
+  &lt;li&gt; outputs can be paralleled for higher current&lt;/li&gt;
+  &lt;li&gt; TTL/CMOS/PMOS/DTL compatible inputs&lt;/li&gt;
+  &lt;li&gt; inputs pinned opposite outputs to simplyfy layout&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf"&gt;STM Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/DS_ULN2003_TOS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Logic level types&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-megi{font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#d0d0d0;vertical-align:top}
+.tg .tg-iuhm{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.tg .tg-zzfq{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;vertical-align:top}
+.tg .tg-25al{font-size:10px;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-megi"&gt;Type&lt;/th&gt;
+    &lt;th class="tg-megi"&gt;Logic Level&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;ULN2001&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;General Purpose, DTL, TTL, PMOS, CMOS&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;ULN2002&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;14-25V PMOS&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;ULN2003&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;5V TTL, CMOS&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;ULN2004&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;6–15V CMOS, PMOS&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: available&lt;/li&gt;
+   &lt;li&gt; Conrad: available&lt;/li&gt;
+   &lt;li&gt; Digi-Key:&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="1">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="ULN2001"/>
+</technology>
+<technology name="2">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="ULN2023"/>
+</technology>
+<technology name="3">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="ULN2003"/>
+</technology>
+<technology name="4">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="ULN2004"/>
 </technology>
 </technologies>
 </device>
