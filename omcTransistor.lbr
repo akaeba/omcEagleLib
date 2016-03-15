@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -68,16 +68,15 @@
 
 &lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Unisonic Technologies Co. (UTC)&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt; Arrays &lt;/li&gt;&lt;ul&gt;
-      &lt;li&gt; ULN2803 &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
+  &lt;li&gt;Darlington Arrays&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; ULN280X&lt;/li&gt;
+    &lt;li&gt; ULN200X&lt;/li&gt;
   &lt;/ul&gt;
-  &lt;li&gt; International Rectifier (IRF)&lt;/li&gt;&lt;ul&gt;
-     &lt;li&gt; Power Mosfet:&lt;/li&gt;&lt;ul&gt;
-         &lt;li&gt; IRLR2905&lt;/li&gt;
-     &lt;/ul&gt;
+  &lt;li&gt; Power Mosfet&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;IRLR2905&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; Bipolar&lt;/li&gt;&lt;ul&gt;
+  &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -99,6 +98,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;dd&gt;Initial Release&lt;/dd&gt;
   &lt;dt&gt;2016-01-16&lt;/dt&gt;
   &lt;dd&gt;merged IRLR2905 from other library&lt;/dd&gt;
+  &lt;dt&gt;2016-03-15&lt;/dt&gt;
+  &lt;dd&gt;added ULN200x&lt;/dd&gt;
 &lt;/dl&gt;</description>
 <packages>
 <package name="DIL18">
@@ -161,7 +162,12 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="-10.95375" y1="2.921" x2="-11.43" y2="2.921" width="0.1524" layer="21"/>
 </package>
 <package name="SOP18">
-<description>Small Outline Package (SOP18)</description>
+<description>&lt;h3&gt;SOP18&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;11.35mm×9.98mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.alldatasheet.com/datasheet-pdf/pdf/130032/ROHM/SOP18.html"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Small_Outline_Integrated_Circuit#SOP"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
 <wire x1="5.9" y1="2.4" x2="5.9" y2="-2.4" width="0.1524" layer="21"/>
 <wire x1="-5.9" y1="-2.4" x2="-5.9" y2="2.4" width="0.1524" layer="21"/>
 <wire x1="-5.9" y1="2.4" x2="-5.65" y2="2.65" width="0.1524" layer="21" curve="-90"/>
@@ -235,13 +241,18 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <rectangle x1="-5.28" y1="-4.05" x2="-4.88" y2="-2.65" layer="51"/>
 <rectangle x1="3.6" y1="-4.05" x2="4" y2="-2.65" layer="51"/>
 <rectangle x1="3.61" y1="2.65" x2="4.01" y2="4.05" layer="51"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.127" layer="39"/>
-<wire x1="-6.35" y1="-5.08" x2="6.35" y2="-5.08" width="0.127" layer="39"/>
-<wire x1="6.35" y1="-5.08" x2="6.35" y2="5.08" width="0.127" layer="39"/>
-<wire x1="6.35" y1="5.08" x2="-6.35" y2="5.08" width="0.127" layer="39"/>
+<wire x1="-6.35" y1="3.81" x2="-6.35" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="-6.35" y1="-3.81" x2="6.35" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="6.35" y1="-3.81" x2="6.35" y2="3.81" width="0.127" layer="39"/>
+<wire x1="6.35" y1="3.81" x2="-6.35" y2="3.81" width="0.127" layer="39"/>
 </package>
 <package name="SOP18-300MIL">
-<description>Small Outline Package (SOP18-300MIL)</description>
+<description>&lt;h3&gt;SOP18-300mil&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;11.35mm×9.98mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.holtek.com/pdf/package/sop18-300.pdf"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Small_Outline_Integrated_Circuit#SOP"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
 <wire x1="5.9" y1="3.67" x2="5.9" y2="-3.67" width="0.1524" layer="21"/>
 <wire x1="-5.9" y1="-3.67" x2="-5.9" y2="3.67" width="0.1524" layer="21"/>
 <wire x1="-5.9" y1="3.67" x2="-5.65" y2="3.92" width="0.1524" layer="21" curve="-90"/>
@@ -316,10 +327,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <rectangle x1="-5.28" y1="-5.32" x2="-4.88" y2="-3.92" layer="51"/>
 <rectangle x1="3.6" y1="-5.32" x2="4" y2="-3.92" layer="51"/>
 <rectangle x1="3.61" y1="3.92" x2="4.01" y2="5.32" layer="51"/>
-<wire x1="-6.35" y1="-6.35" x2="6.35" y2="-6.35" width="0.127" layer="39"/>
-<wire x1="6.35" y1="-6.35" x2="6.35" y2="6.35" width="0.127" layer="39"/>
-<wire x1="6.35" y1="6.35" x2="-6.35" y2="6.35" width="0.127" layer="39"/>
-<wire x1="-6.35" y1="6.35" x2="-6.35" y2="-6.35" width="0.127" layer="39"/>
+<wire x1="-6.35" y1="-5.08" x2="6.35" y2="-5.08" width="0.127" layer="39"/>
+<wire x1="6.35" y1="-5.08" x2="6.35" y2="5.08" width="0.127" layer="39"/>
+<wire x1="6.35" y1="5.08" x2="-6.35" y2="5.08" width="0.127" layer="39"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.127" layer="39"/>
 </package>
 <package name="TO252">
 <description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
@@ -395,6 +406,10 @@ TO252, D-Pak</description>
 <wire x1="2.38125" y1="-1.27" x2="2.38125" y2="1.905" width="0.2032" layer="21"/>
 <wire x1="-2.38125" y1="-1.27" x2="2.38125" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="-2.38125" y1="-1.27" x2="2.38125" y2="-1.27" width="0.2032" layer="51"/>
+<wire x1="-2.54" y1="3.175" x2="-2.54" y2="-3.175" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-3.175" x2="2.54" y2="-3.175" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="3.175" width="0.127" layer="39"/>
+<wire x1="2.54" y1="3.175" x2="-2.54" y2="3.175" width="0.127" layer="39"/>
 </package>
 <package name="SOIC16">
 <description>&lt;h3&gt;SOIC16&lt;/h3&gt;&lt;ul&gt;
@@ -410,7 +425,7 @@ TO252, D-Pak</description>
 <smd name="1" x="-4.445" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="3" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
 <smd name="4" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="10000" x="-4.445" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="-4.445" y="2.6" dx="0.6" dy="2.2" layer="1"/>
 <text x="6.5405" y="-2.2225" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <text x="8.382" y="-2.2225" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
 <rectangle x1="-4.69" y1="-3.1" x2="-4.2" y2="-2" layer="51"/>
@@ -460,6 +475,10 @@ TO252, D-Pak</description>
 <wire x1="3.65125" y1="-1.905" x2="3.96875" y2="-1.905" width="0.2032" layer="21"/>
 <wire x1="2.38125" y1="-1.905" x2="2.69875" y2="-1.905" width="0.2032" layer="21"/>
 <wire x1="1.11125" y1="-1.905" x2="1.42875" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-5.08" y1="3.175" x2="-5.08" y2="-3.175" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="-3.175" x2="5.08" y2="-3.175" width="0.127" layer="39"/>
+<wire x1="5.08" y1="-3.175" x2="5.08" y2="3.175" width="0.127" layer="39"/>
+<wire x1="5.08" y1="3.175" x2="-5.08" y2="3.175" width="0.127" layer="39"/>
 </package>
 <package name="DIL16">
 <description>&lt;h3&gt;DIL16&lt;/h3&gt;&lt;ul&gt;
@@ -521,21 +540,23 @@ TO252, D-Pak</description>
 <symbol name="INVOC">
 <description>Inverter with Open-Collector driver stage and freewheeling diode</description>
 <wire x1="-2.54" y1="3.302" x2="-2.54" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-3.302" x2="2.54" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.302" x2="2.54" y2="0.508" width="0.254" layer="94"/>
-<text x="0.508" y="-3.048" size="1.27" layer="95">&gt;PART</text>
-<text x="0.508" y="-4.699" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="-3.302" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.302" x2="1.524" y2="0.508" width="0.254" layer="94"/>
+<text x="0.762" y="-2.286" size="1.27" layer="95">&gt;PART</text>
+<text x="0.762" y="-3.937" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="IN" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
-<pin name="OUT" x="7.62" y="0" visible="pad" length="middle" direction="oc" function="dot" swaplevel="1" rot="R180"/>
-<wire x1="5.334" y1="3.556" x2="5.334" y2="2.54" width="0.1524" layer="94"/>
-<text x="4.064" y="3.429" size="1.27" layer="94" rot="R180">CM</text>
-<wire x1="5.334" y1="2.54" x2="5.334" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.334" y1="2.54" x2="4.318" y2="1.27" width="0.254" layer="94"/>
-<wire x1="4.318" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="94"/>
-<wire x1="6.35" y1="1.27" x2="5.334" y2="2.54" width="0.254" layer="94"/>
-<wire x1="4.318" y1="2.54" x2="5.334" y2="2.54" width="0.254" layer="94"/>
-<circle x="5.334" y="0" radius="0.254" width="0.381" layer="94"/>
-<wire x1="5.334" y1="2.54" x2="6.35" y2="2.54" width="0.254" layer="94"/>
+<pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="oc" swaplevel="1" rot="R180"/>
+<wire x1="3.81" y1="3.556" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<text x="2.54" y="3.429" size="1.27" layer="94" rot="R180">CM</text>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="2.794" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.794" y1="1.27" x2="4.826" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.826" y1="1.27" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.794" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<circle x="3.81" y="0" radius="0.254" width="0.381" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="4.826" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.286" y="0" radius="0.803215625" width="0.1778" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.048" y2="0" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="GNDCM">
 <description>Power Symbol &lt;br&gt;
@@ -580,23 +601,63 @@ Ground &amp; Freewheeling Connector</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ULN2803" prefix="U" uservalue="yes">
-<description>&lt;h2&gt;UTC ULN2803 - Eight Darlington NPN Arrays&lt;/h2&gt;&lt;p&gt;
+<deviceset name="ULN280" prefix="U" uservalue="yes">
+<description>&lt;h2&gt;ULN280x - Eight Darlington Arrays&lt;/h2&gt;&lt;p&gt;
+&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt; high-voltage, high-current Darlington drivers comprised of eight NPN Darlington pairs&lt;/li&gt;
-  &lt;li&gt; Output current (single output) 500mA max&lt;/li&gt;
-  &lt;li&gt; High sustaining voltage output 50V min&lt;/li&gt;
-  &lt;li&gt; Output clamp diodes&lt;/li&gt;
-  &lt;li&gt; &lt;a href="http://www.unisonic.com.tw/datasheet/ULN2803.pdf"&gt;http://www.unisonic.com.tw/datasheet/ULN2803.pdf&lt;/a&gt;&lt;/li&gt;
-  &lt;/il&gt;
+  &lt;li&gt; eight darlingtons per package&lt;/li&gt;
+  &lt;li&gt; 500-mA-Rated Collector Current&lt;/li&gt;
+  &lt;li&gt; High-Voltage Outputs: 50 V&lt;/li&gt;
+  &lt;li&gt; Output Clamp Diodes&lt;/li&gt;
+  &lt;li&gt; Inputs Compatible With Various Types of Logic&lt;/li&gt;
+  &lt;li&gt; Relay-Driver Applications&lt;/li&gt;
+  &lt;li&gt; Compatible with ULN2800A Series&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://www.ti.com/lit/ds/symlink/uln2803a.pdf"&gt;Texas Instruments Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/ULN2801A_ULN2802A_ULN2803A_ULN2804A_STM.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://www.unisonic.com.tw/datasheet/ULN2803.pdf"&gt;Unisonic Technologies Datasheet&lt;/a&gt; (ULN2803)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Logic level types&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-megi{font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#d0d0d0;vertical-align:top}
+.tg .tg-iuhm{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.tg .tg-zzfq{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;vertical-align:top}
+.tg .tg-25al{font-size:10px;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-megi"&gt;Type&lt;/th&gt;
+    &lt;th class="tg-megi"&gt;Logic Level&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;ULN2801&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;General Purpose, DTL, TTL, PMOS, CMOS&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;ULN2802&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;14-25V PMOS&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;ULN2803&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;5V TTL, CMOS&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;ULN2804&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;6–15V CMOS, PMOS&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
 
 &lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
 &lt;ul&gt;
-   &lt;li&gt; Reichelt: avialable
-   &lt;li&gt; Conrad: avialable
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
+   &lt;li&gt; Reichelt: available&lt;/li&gt;
+   &lt;li&gt; Conrad: available&lt;/li&gt;
+   &lt;li&gt; Digi-Key:&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="P" symbol="GNDCM" x="58.42" y="5.08" addlevel="request"/>
@@ -610,7 +671,7 @@ Ground &amp; Freewheeling Connector</description>
 <gate name="G$8" symbol="INVOC" x="40.64" y="-2.54" swaplevel="1"/>
 </gates>
 <devices>
-<device name="-D18" package="DIL18">
+<device name="A" package="DIL18">
 <connects>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="18"/>
@@ -632,15 +693,37 @@ Ground &amp; Freewheeling Connector</description>
 <connect gate="P" pin="GND" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CONRAD#" value="171824 - 62" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="ULN 2803A" constant="no"/>
-<attribute name="VALUE" value="ULN2803" constant="no"/>
+<technology name="1">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="ULN 2801A" constant="no"/>
+<attribute name="VALUE" value="ULN2801A"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="2">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="ULN 2802A" constant="no"/>
+<attribute name="VALUE" value="ULN2802A"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="3">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="ULN 2803A" constant="no"/>
+<attribute name="VALUE" value="ULN2803A"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="4">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="ULN 2804A" constant="no"/>
+<attribute name="VALUE" value="ULN2804A"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="-S18" package="SOP18-300MIL">
+<device name="D" package="SOP18-300MIL">
 <connects>
 <connect gate="G$1" pin="IN" pad="1"/>
 <connect gate="G$1" pin="OUT" pad="18"/>
@@ -662,11 +745,12 @@ Ground &amp; Freewheeling Connector</description>
 <connect gate="P" pin="GND" pad="9"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="CONRAD#" value="564812 - 62" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="ULN 2803 D" constant="no"/>
-<attribute name="VALUE" value="ULN2803" constant="no"/>
+<technology name="3">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="ULN 2803 D" constant="no"/>
+<attribute name="VALUE" value="ULN2803D"/>
+<attribute name="VENDOR#" value="Unisonic Technologies#ULN2803-S18-R" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -711,8 +795,8 @@ Ground &amp; Freewheeling Connector</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ULN200">
-<description>&lt;h2&gt;STMicroelectronics - ULN200x - Seven Darlington Arrays&lt;/h2&gt;&lt;p&gt;
+<deviceset name="ULN200" prefix="U" uservalue="yes">
+<description>&lt;h2&gt;ULN200x - Seven Darlington Arrays&lt;/h2&gt;&lt;p&gt;
 &lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt; seven darlingtons per package&lt;/li&gt;
@@ -722,7 +806,7 @@ Ground &amp; Freewheeling Connector</description>
   &lt;li&gt; outputs can be paralleled for higher current&lt;/li&gt;
   &lt;li&gt; TTL/CMOS/PMOS/DTL compatible inputs&lt;/li&gt;
   &lt;li&gt; inputs pinned opposite outputs to simplyfy layout&lt;/li&gt;
-  &lt;li&gt; &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf"&gt;STM Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00001244.pdf"&gt;STMicroelectronics Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/DS_ULN2003_TOS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -769,33 +853,113 @@ Ground &amp; Freewheeling Connector</description>
    &lt;li&gt; Digi-Key:&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
+<gate name="P" symbol="GNDCM" x="48.26" y="2.54" addlevel="request"/>
+<gate name="G$1" symbol="INVOC" x="-5.08" y="7.62" swaplevel="1"/>
+<gate name="G$2" symbol="INVOC" x="12.7" y="7.62" swaplevel="1"/>
+<gate name="G$3" symbol="INVOC" x="30.48" y="7.62" swaplevel="1"/>
+<gate name="G$4" symbol="INVOC" x="-5.08" y="-2.54" swaplevel="1"/>
+<gate name="G$5" symbol="INVOC" x="12.7" y="-2.54" swaplevel="1"/>
+<gate name="G$6" symbol="INVOC" x="30.48" y="-2.54" swaplevel="1"/>
+<gate name="G$7" symbol="INVOC" x="-5.08" y="-12.7" swaplevel="1"/>
 </gates>
 <devices>
-<device name="">
+<device name="A" package="DIL16">
+<connects>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="16"/>
+<connect gate="G$2" pin="IN" pad="2"/>
+<connect gate="G$2" pin="OUT" pad="15"/>
+<connect gate="G$3" pin="IN" pad="3"/>
+<connect gate="G$3" pin="OUT" pad="13"/>
+<connect gate="G$4" pin="IN" pad="4"/>
+<connect gate="G$4" pin="OUT" pad="14"/>
+<connect gate="G$5" pin="IN" pad="5"/>
+<connect gate="G$5" pin="OUT" pad="12"/>
+<connect gate="G$6" pin="IN" pad="6"/>
+<connect gate="G$6" pin="OUT" pad="11"/>
+<connect gate="G$7" pin="IN" pad="7"/>
+<connect gate="G$7" pin="OUT" pad="10"/>
+<connect gate="P" pin="CM+" pad="9"/>
+<connect gate="P" pin="GND" pad="8"/>
+</connects>
+<technologies>
+<technology name="1">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="ULN 2001A" constant="no"/>
+<attribute name="VALUE" value="ULN2001A"/>
+<attribute name="VENDOR#" value="STM#ULN2001A" constant="no"/>
+</technology>
+<technology name="2">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="ULN 2002A" constant="no"/>
+<attribute name="VALUE" value="ULN2003A"/>
+<attribute name="VENDOR#" value="STM#ULN2002A" constant="no"/>
+</technology>
+<technology name="3">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="ULN 2003A" constant="no"/>
+<attribute name="VALUE" value="ULN2003A"/>
+<attribute name="VENDOR#" value="STM#ULN2003A" constant="no"/>
+</technology>
+<technology name="4">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="ULN 2004A" constant="no"/>
+<attribute name="VALUE" value="ULN2004A"/>
+<attribute name="VENDOR#" value="STM#ULN2004A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="D" package="SOIC16">
+<connects>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="16"/>
+<connect gate="G$2" pin="IN" pad="2"/>
+<connect gate="G$2" pin="OUT" pad="15"/>
+<connect gate="G$3" pin="IN" pad="3"/>
+<connect gate="G$3" pin="OUT" pad="13"/>
+<connect gate="G$4" pin="IN" pad="4"/>
+<connect gate="G$4" pin="OUT" pad="14"/>
+<connect gate="G$5" pin="IN" pad="5"/>
+<connect gate="G$5" pin="OUT" pad="12"/>
+<connect gate="G$6" pin="IN" pad="6"/>
+<connect gate="G$6" pin="OUT" pad="11"/>
+<connect gate="G$7" pin="IN" pad="7"/>
+<connect gate="G$7" pin="OUT" pad="10"/>
+<connect gate="P" pin="CM+" pad="9"/>
+<connect gate="P" pin="GND" pad="8"/>
+</connects>
 <technologies>
 <technology name="1">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="ULN2001"/>
+<attribute name="VALUE" value="ULN2001D"/>
+<attribute name="VENDOR#" value="STM#ULN2001D1013TR" constant="no"/>
 </technology>
 <technology name="2">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="ULN2023"/>
+<attribute name="VALUE" value="ULN2002D"/>
+<attribute name="VENDOR#" value="STM#ULN2002D1013TR" constant="no"/>
 </technology>
 <technology name="3">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="ULN2003"/>
+<attribute name="DIST#REICHELT#" value="ULN 2003 AD SMD" constant="no"/>
+<attribute name="VALUE" value="ULN2003D"/>
+<attribute name="VENDOR#" value="STM#ULN2003D1013TR" constant="no"/>
 </technology>
 <technology name="4">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="ULN2004"/>
+<attribute name="DIST#REICHELT#" value="ULN 2004 AD SMD" constant="no"/>
+<attribute name="VALUE" value="ULN2004D"/>
+<attribute name="VENDOR#" value="STM#ULN2003D1013TR" constant="no"/>
 </technology>
 </technologies>
 </device>
