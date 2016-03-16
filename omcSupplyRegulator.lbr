@@ -78,35 +78,24 @@
 <description>&lt;h1&gt;omcSupplyRegulator.lbr&lt;/h1&gt;
 
 &lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
-This library contains Devices for Voltage Regulation:
 &lt;ul&gt;
-  &lt;li&gt;STMicroelectronics&lt;/li&gt;&lt;ul&gt;
-     &lt;li&gt; Linear Regulator 78*&lt;/li&gt;
+  &lt;li&gt;Linear Regulator&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;78XX&lt;/li&gt;
    &lt;/ul&gt;
-  &lt;li&gt;National Semiconductor &lt;/li&gt;&lt;ul&gt;
-      &lt;li&gt;Simple Switcher &lt;/li&gt; &lt;ul&gt;
-         &lt;li&gt; LM2574
-         &lt;li&gt; LM2575
-         &lt;li&gt; LM2576
+  &lt;li&gt;Switching Regulator&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;Voltage Mode&lt;/li&gt; &lt;ul&gt;
+           &lt;li&gt;LM2574&lt;/li&gt; 
+           &lt;li&gt;LM2575&lt;/li&gt; 
+           &lt;li&gt;LM2576&lt;/li&gt; 
+           &lt;li&gt;LTC3531&lt;/li&gt;
       &lt;/ul&gt;
-    &lt;/ul&gt;
-  &lt;li&gt;Linear Technolgy&lt;/li&gt;&lt;ul&gt;
      &lt;li&gt; Current Mode:&lt;/li&gt; &lt;ul&gt;
-       &lt;li&gt; LTC1624
-       
-       &lt;/li&gt;
+       &lt;li&gt; LTC1624&lt;/li&gt;
      &lt;/ul&gt;
-     &lt;li&gt;Buck-Boost:&lt;/li&gt; &lt;ul&gt;
-       &lt;li&gt; LTC3531
-       
-       &lt;/li&gt;
-     &lt;/ul&gt;
-   &lt;/ul&gt;
-  &lt;li&gt; HN Electronic Components GmbH&lt;/li&gt; &lt;ul&gt;
-     &lt;li&gt; DC/DC Converter: &lt;/li&gt; &lt;ul&gt;
-       &lt;li&gt; SIM1-XXXX-SIL4 (1W)
-       &lt;li&gt; SIM2-XXXX-SIL7 (2W)
-      &lt;/ul&gt;
+    &lt;/ul&gt;
+  &lt;li&gt; DC/DC Converter&lt;/li&gt; &lt;ul&gt;
+     &lt;li&gt; SIM1-XXXX-SIL4 (1W)
+     &lt;li&gt; SIM2-XXXX-SIL7 (2W)
    &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -646,7 +635,7 @@ package type P</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="78*" prefix="IC">
+<deviceset name="78" prefix="IC">
 <description>Positive &lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;&lt;p&gt;
 Source:&lt;br&gt;
 http://cache.national.com/ds/LM/LM78L05.pdf&lt;br&gt;
@@ -784,7 +773,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="LTC1624" prefix="IC" uservalue="yes">
-<description>&lt;h2&gt;Linear Technology - LTC1624 - 200mA Buck-Boost Synchronous DC/DC Converters&lt;/h2&gt;&lt;p&gt;
+<description>&lt;h2&gt;LTC1624 - 200mA Buck-Boost Synchronous DC/DC Converters&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt; N-Channel MOSFET Drive
   &lt;li&gt; Implements Boost, Step-Down, SEPIC and Inverting Regulators
@@ -799,8 +788,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt; Logic-Controlled Micropower Shutdown
   &lt;li&gt; LInternal Diode for Bootstrapped Gate Drive
   &lt;li&gt; Current Mode Operation for Excellent Line and Load Transient Response
-  &lt;li&gt; &lt;a href="http://cds.linear.com/docs/en/datasheet/1624f.pdf"&gt;Datasheet LT&lt;/a&gt;
-  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/LTC1624-DB.pdf"&gt;Datasheet Reichelt&lt;/a&gt;
+  &lt;li&gt; &lt;a href="http://cds.linear.com/docs/en/datasheet/1624f.pdf"&gt;Linear Technolgy Datasheet&lt;/a&gt;
+  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/LTC1624-DB.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
 &lt;/ul&gt;
 
 
@@ -860,7 +849,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="LM2575" prefix="IC" uservalue="yes">
-<description>&lt;h2&gt;Texas Instruments - LM2575 - SIMPLE SWITCHER® 1A Step-Down Voltage Regulatorr&lt;/h2&gt;&lt;p&gt;
+<description>&lt;h2&gt;LM2575 - SIMPLE SWITCHER® 1A Step-Down Voltage Regulatorr&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt; 3.3V, 5V, 12V, 15V, and adjustable output versions &lt;/li&gt;
   &lt;li&gt; Adjustable version output voltage range, 1.23V to 37V (57V for HV version) ±4% max over line and load conditions &lt;/li&gt;
@@ -874,7 +863,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt; IThermal shutdown and current limit protection &lt;/li&gt;
   &lt;li&gt; P+ Product Enhancement tested &lt;/li&gt;
   &lt;li&gt; Protection against feedback disconnection &lt;/li&gt;
-  &lt;li&gt; &lt;a href="http://www.ti.com/lit/ds/symlink/lm1575.pdf"&gt;TI Datasheet&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://www.ti.com/lit/ds/symlink/lm1575.pdf"&gt;Texas Instruments Datasheet&lt;/a&gt; &lt;/li&gt;
   &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/LM2575-NAT.pdf"&gt;Reichelt Datasheet&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -946,7 +935,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTC3531-" prefix="IC" uservalue="yes">
+<deviceset name="LTC3531" prefix="IC" uservalue="yes">
 <description>&lt;h2&gt;LTC3531 - High Efficiency SO-8 N-Channel Switching Regulator Controller&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt; N-Channel MOSFET Drive
@@ -962,7 +951,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt; Logic-Controlled Micropower Shutdown
   &lt;li&gt; LInternal Diode for Bootstrapped Gate Drive
   &lt;li&gt; Current Mode Operation for Excellent Line and Load Transient Response
-  &lt;li&gt; &lt;a href="http://cds.linear.com/docs/en/datasheet/1624f.pdf"&gt;http://cds.linear.com/docs/en/datasheet/1624f.pdf&lt;/a&gt;
+  &lt;li&gt; &lt;a href="http://cds.linear.com/docs/en/datasheet/1624f.pdf"&gt;Linear Technology Datasheet&lt;/a&gt;
   &lt;/il&gt;
 &lt;/ul&gt;
 
@@ -977,7 +966,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <gate name="G$1" symbol="LT3531ADJ" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="ADJ" package="DFN8">
+<device name="-ADJ" package="DFN8">
 <connects>
 <connect gate="G$1" pin="FB" pad="5"/>
 <connect gate="G$1" pin="GND" pad="3"/>
@@ -990,8 +979,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIGIKEY#" value="LTC3531EDD#PBF-ND" constant="no"/>
-<attribute name="VALUE" value="LTC3531-ADJ" constant="no"/>
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="LTC3531EDD#PBF-ND" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="LTC3531-ADJ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1000,21 +992,20 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <deviceset name="SIM1-SIL4" prefix="DCDC" uservalue="yes">
 <description>&lt;h2&gt;SIM1-SIL4 - 1W DC/DC SIM-SIL MODUL&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt; IN: 5V/12V/15V/24V; OUT: 5V/12V/15V/24V
-  &lt;li&gt; 1W
-  &lt;li&gt; Ultra mini SIL4 package
-  &lt;li&gt; Isolation voltage max. 1000 V
-  &lt;li&gt; short-time short circuit protection
-  &lt;li&gt; &lt;a href="http://www.hnec.de/pdf/sim1sil4.pdf"&gt;http://www.hnec.de/pdf/sim1sil4.pdf&lt;/a&gt;
-  &lt;/il&gt;
+  &lt;li&gt; IN: 5V/12V/15V/24V; OUT: 5V/12V/15V/24V&lt;/li&gt;
+  &lt;li&gt; 1W&lt;/li&gt;
+  &lt;li&gt; Ultra mini SIL4 package&lt;/li&gt;
+  &lt;li&gt; Isolation voltage max. 1000 V&lt;/li&gt;
+  &lt;li&gt; short-time short circuit protection&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://www.hnec.de/pdf/sim1sil4.pdf"&gt;HN Electronics Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/D400/SIM1_SIL4%23HN.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
 &lt;ul&gt;
-   &lt;li&gt; Reichelt: SIM1-XXXX SIL4
-   &lt;li&gt; Conrad: -
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
+   &lt;li&gt; Reichelt: SIM1-XXXX SIL4&lt;/li&gt;
+   &lt;li&gt; Conrad: -&lt;/li&gt;
+   &lt;li&gt; Digi-Key: -&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="DC/DC" x="0" y="0"/>
@@ -1029,8 +1020,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </connects>
 <technologies>
 <technology name="-0505">
-<attribute name="REICHELT#" value="SIM1-0505 SIL4" constant="no"/>
-<attribute name="VALUE" value="SIM1-0505-SIL4" constant="no"/>
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SIM1-0505 SIL4" constant="no"/>
+<attribute name="VALUE" value="SIM1-0505-SIL4"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1039,21 +1033,20 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <deviceset name="SIM2-SIL7" prefix="DCDC" uservalue="yes">
 <description>&lt;h2&gt;SIM2-SIL7 - 2W DC/DC SIM-SIL MODUL Single&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt; IN: 5V/9V/12V/15V; OUT: 5V/12V/15V
-  &lt;li&gt; 2W
-  &lt;li&gt; Ultra mini SIL7 package
-  &lt;li&gt; Isolation voltage max. 1000 V
-  &lt;li&gt; short-time short circuit protection
-  &lt;li&gt; &lt;a href="http://www.hnec.de/pdf/sim2sil7.pdf"&gt;http://www.hnec.de/pdf/sim2sil7.pdf&lt;/a&gt;
-  &lt;/il&gt;
+  &lt;li&gt;IN: 5V/9V/12V/15V; OUT: 5V/12V/15V&lt;/li&gt;
+  &lt;li&gt;2W&lt;/li&gt;
+  &lt;li&gt;Ultra mini SIL7 package&lt;/li&gt;
+  &lt;li&gt;Isolation voltage max. 1000 V&lt;/li&gt;
+  &lt;li&gt;short-time short circuit protection&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.hnec.de/pdf/sim2sil7.pdf"&gt;HN Electronics Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/D400/SIM2SIL7HN.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
 &lt;ul&gt;
-   &lt;li&gt; Reichelt: SIM2-XXXXS SIL7
-   &lt;li&gt; Conrad: -
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
+   &lt;li&gt;Reichelt: SIM2-XXXXS SIL7&lt;/li&gt;
+   &lt;li&gt;Conrad: -&lt;/li&gt;
+   &lt;li&gt;Digi-Key: -&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="DC/DC" x="0" y="0"/>
@@ -1068,8 +1061,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </connects>
 <technologies>
 <technology name="-1212S">
-<attribute name="REICHELT#" value="SIM2-1212S SIL7" constant="no"/>
-<attribute name="VALUE" value="SIM2-1212S SIL7" constant="no"/>
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SIM2-1212S SIL7" constant="no"/>
+<attribute name="VALUE" value="SIM2-1212S SIL7"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
