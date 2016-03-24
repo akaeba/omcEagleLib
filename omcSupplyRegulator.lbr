@@ -567,6 +567,7 @@ TS-003</description>
 <description>&lt;h3&gt;TO263 (5-Lead)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;D2PAK&lt;/li&gt;
 &lt;li&gt;DDPAK&lt;/li&gt;
+&lt;li&gt;KTT&lt;/li&gt;
 &lt;li&gt;SMD&lt;/li&gt;
 &lt;li&gt;10.16mm×15.24mm&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/TO-263"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
@@ -1139,18 +1140,21 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LM 2576 S12" constant="no"/>
 <attribute name="VALUE" value="LM2576S-12"/>
+<attribute name="VENDOR#" value="Texas_Instruments#LM2576SX-12/NOPB" constant="no"/>
 </technology>
 <technology name="-5.0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LM 2576 S5,0" constant="no"/>
 <attribute name="VALUE" value="LM2576S-5.0"/>
+<attribute name="VENDOR#" value="Texas_Instruments#LM2576SX-5.0/NOPB" constant="no"/>
 </technology>
 <technology name="-ADJ">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LM 2576 S-ADJ" constant="no"/>
-<attribute name="VALUE" value="LM2576S-ADJ" constant="no"/>
+<attribute name="VALUE" value="LM2576S-ADJ"/>
+<attribute name="VENDOR#" value="Texas_Instruments#LM2576SX-ADJ/NOPB" constant="no"/>
 </technology>
 </technologies>
 </device>
