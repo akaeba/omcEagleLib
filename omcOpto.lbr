@@ -57,6 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -67,6 +68,12 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Parts" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <library>
 <description>&lt;h1&gt;omcOpto.lbr&lt;/h1&gt;
@@ -745,6 +752,72 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="1.905" y1="-3.81" x2="1.905" y2="3.81" width="0.127" layer="39"/>
 <wire x1="1.905" y1="3.81" x2="-1.905" y2="3.81" width="0.127" layer="39"/>
 </package>
+<package name="SOIC16">
+<description>&lt;h3&gt;SOIC16&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;9.8mm×6.2mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.centralsemi.com/PDFs/case/SOIC-16PD.PDF"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Small_Outline_Integrated_Circuit"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<wire x1="4.94" y1="1.9" x2="4.94" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="4.94" y1="-1.9" x2="-4.94" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-4.94" y1="-1.9" x2="-4.94" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-4.94" y1="1.9" x2="4.94" y2="1.9" width="0.2032" layer="51"/>
+<smd name="2" x="-3.175" y="-2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="15" x="-3.175" y="2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="1" x="-4.445" y="-2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="3" x="-1.905" y="-2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="4" x="-0.635" y="-2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="16" x="-4.445" y="2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="14" x="-1.905" y="2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="13" x="-0.635" y="2.6" dx="0.72" dy="1.78" layer="1"/>
+<text x="6.5405" y="-2.2225" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="8.382" y="-2.2225" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<rectangle x1="-4.69" y1="-3.1" x2="-4.2" y2="-2" layer="51"/>
+<rectangle x1="-3.42" y1="-3.1" x2="-2.93" y2="-2" layer="51"/>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<rectangle x1="-3.42" y1="2" x2="-2.93" y2="3.1" layer="51"/>
+<rectangle x1="-4.69" y1="2" x2="-4.2" y2="3.1" layer="51"/>
+<wire x1="-3.96875" y1="1.905" x2="-3.65125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-2.69875" y1="1.905" x2="-2.38125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-1.42875" y1="1.905" x2="-1.11125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-3.96875" y1="-1.905" x2="-3.65125" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-2.69875" y1="-1.905" x2="-2.38125" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-1.42875" y1="-1.905" x2="-1.11125" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-4.92125" y1="-1.905" x2="-4.92125" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-4.92125" y1="-1.27" x2="-4.92125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="4.92125" y1="-1.905" x2="4.92125" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.92125" y1="-1.27" x2="4.92125" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="-4.92125" y1="-1.27" x2="4.92125" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-4.92125" y1="-1.27" x2="4.92125" y2="-1.27" width="0.2032" layer="51"/>
+<smd name="5" x="0.635" y="-2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="6" x="1.905" y="-2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="11" x="1.905" y="2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="12" x="0.635" y="2.6" dx="0.72" dy="1.78" layer="1"/>
+<wire x1="-0.15875" y1="-1.905" x2="0.15875" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="1.11125" y1="-1.905" x2="1.42875" y2="-1.905" width="0.2032" layer="21"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<wire x1="-0.15875" y1="1.905" x2="0.15875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="1.11125" y1="1.905" x2="1.42875" y2="1.905" width="0.2032" layer="21"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<smd name="7" x="3.175" y="-2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="10" x="3.175" y="2.6" dx="0.72" dy="1.78" layer="1"/>
+<wire x1="2.38125" y1="-1.905" x2="2.69875" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="2.38125" y1="1.905" x2="2.69875" y2="1.905" width="0.2032" layer="21"/>
+<rectangle x1="2.93" y1="2" x2="3.42" y2="3.1" layer="51"/>
+<rectangle x1="2.93" y1="-3.1" x2="3.42" y2="-2" layer="51"/>
+<smd name="8" x="4.445" y="-2.6" dx="0.72" dy="1.78" layer="1"/>
+<smd name="9" x="4.445" y="2.6" dx="0.72" dy="1.78" layer="1"/>
+<rectangle x1="4.2" y1="2" x2="4.69" y2="3.1" layer="51"/>
+<rectangle x1="4.2" y1="-3.1" x2="4.69" y2="-2" layer="51"/>
+<wire x1="3.65125" y1="-1.905" x2="3.96875" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="3.65125" y1="1.905" x2="3.96875" y2="1.905" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SEG7-CA-DPUL-X2">
@@ -1008,6 +1081,30 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pin name="TE" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="TC" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
+<symbol name="PCA9531">
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<text x="2.54" y="-12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="2.54" y="-15.24" size="1.778" layer="96">&gt;Value</text>
+<pin name="SDA" x="-12.7" y="10.16" length="short" direction="oc"/>
+<pin name="SCL" x="-12.7" y="7.62" length="short" direction="oc"/>
+<pin name="A0" x="-12.7" y="-7.62" length="short" direction="pas"/>
+<pin name="LED1" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="LED2" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="LED3" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="LED4" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="LED5" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="LED6" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="LED7" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="LED0" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="A1" x="-12.7" y="-5.08" length="short" direction="pas"/>
+<pin name="A2" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="VDD" x="0" y="15.24" length="short" direction="pwr" rot="R270"/>
+<pin name="VSS" x="0" y="-12.7" length="short" direction="pwr" rot="R90"/>
+<pin name="!RESET" x="-12.7" y="2.54" length="short" direction="pas"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="HDSM-291" prefix="LED" uservalue="yes">
@@ -1166,6 +1263,62 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="LTV 357T-SMD" constant="no"/>
 <attribute name="VALUE" value="LTV357T"/>
 <attribute name="VENDOR#" value="LITEON#LTV-357T" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCA9531" prefix="IC" uservalue="yes">
+<description>&lt;h2&gt;HPCA9531 - 8-bit I2C-bus LED dimmer&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Eight LED drivers (on, off, flashing at a programmable rate)&lt;/li&gt;
+  &lt;li&gt;Two selectable, fully programmable blink rates (frequency and duty cycle) between 0.59 Hz and 152 Hz (1.69 second and 6.58 milliseconds)&lt;/li&gt;
+  &lt;li&gt;256 brightness steps&lt;/li&gt;
+  &lt;li&gt;Input/outputs not used as LED drivers can be used as regular GPIOs&lt;/li&gt;
+  &lt;li&gt;Internal oscillator requires no external components&lt;/li&gt;
+  &lt;li&gt;I2C-bus interface logic compatible with SMBus&lt;/li&gt;
+  &lt;li&gt;Internal power-on reset&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.nxp.com/documents/data_sheet/PCA9531.pdf"&gt;NXP Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1100000-1199999/001116597-da-01-en-IC_LED_TREIBE_R_PCA9531D_112_SOIC_16_NXP.pdf"&gt;Conrad Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt;Reichelt: -&lt;/li&gt;
+   &lt;li&gt;Conrad: 1116597 - 62&lt;/li&gt;
+   &lt;li&gt;Digikey: -&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PCA9531" x="0" y="0"/>
+</gates>
+<devices>
+<device name="D" package="SOIC16">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="13"/>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="LED0" pad="4"/>
+<connect gate="G$1" pin="LED1" pad="5"/>
+<connect gate="G$1" pin="LED2" pad="6"/>
+<connect gate="G$1" pin="LED3" pad="7"/>
+<connect gate="G$1" pin="LED4" pad="9"/>
+<connect gate="G$1" pin="LED5" pad="10"/>
+<connect gate="G$1" pin="LED6" pad="11"/>
+<connect gate="G$1" pin="LED7" pad="12"/>
+<connect gate="G$1" pin="SCL" pad="14"/>
+<connect gate="G$1" pin="SDA" pad="15"/>
+<connect gate="G$1" pin="VDD" pad="16"/>
+<connect gate="G$1" pin="VSS" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="1116597 - 62" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="PCA9531"/>
+<attribute name="VENDOR#" value="NXP#PCA9531D" constant="no"/>
 </technology>
 </technologies>
 </device>
