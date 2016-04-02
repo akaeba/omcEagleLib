@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1163,29 +1163,27 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <deviceset name="LTC3531" prefix="IC" uservalue="yes">
 <description>&lt;h2&gt;LTC3531 - High Efficiency SO-8 N-Channel Switching Regulator Controller&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt; N-Channel MOSFET Drive
-  &lt;li&gt; Implements Boost, Step-Down, SEPIC and Inverting Regulators
-  &lt;li&gt; Wide VIN Range: 3.5V to 36V Operation
-  &lt;li&gt; Wide VOUT Range: 1.19V to 30V in Step-Down Configuration
-  &lt;li&gt; ±1% 1.19V Reference
-  &lt;li&gt; Low Dropout Operation: 95% Duty Cycle
-  &lt;li&gt; 200kHz Fixed Frequency
-  &lt;li&gt; Low Standby Current
-  &lt;li&gt; Very High Efficiency
-  &lt;li&gt; Remote Output Voltage Sense
-  &lt;li&gt; Logic-Controlled Micropower Shutdown
-  &lt;li&gt; LInternal Diode for Bootstrapped Gate Drive
-  &lt;li&gt; Current Mode Operation for Excellent Line and Load Transient Response
-  &lt;li&gt; &lt;a href="http://cds.linear.com/docs/en/datasheet/1624f.pdf"&gt;Linear Technology Datasheet&lt;/a&gt;
-  &lt;/il&gt;
+  &lt;li&gt;N-Channel MOSFET Drive&lt;/li&gt;
+  &lt;li&gt;Implements Boost, Step-Down, SEPIC and Inverting Regulators&lt;/li&gt;
+  &lt;li&gt;Wide VIN Range: 3.5V to 36V Operation&lt;/li&gt;
+  &lt;li&gt;Wide VOUT Range: 1.19V to 30V in Step-Down Configuration&lt;/li&gt;
+  &lt;li&gt;±1% 1.19V Reference&lt;/li&gt;
+  &lt;li&gt;Low Dropout Operation: 95% Duty Cycle&lt;/li&gt;
+  &lt;li&gt;200kHz Fixed Frequency&lt;/li&gt;
+  &lt;li&gt;Low Standby Current&lt;/li&gt;
+  &lt;li&gt;Very High Efficiency&lt;/li&gt;
+  &lt;li&gt;Remote Output Voltage Sense&lt;/li&gt;
+  &lt;li&gt;Logic-Controlled Micropower Shutdown&lt;/li&gt;
+  &lt;li&gt;Internal Diode for Bootstrapped Gate Drive&lt;/li&gt;
+  &lt;li&gt;Current Mode Operation for Excellent Line and Load Transient Response&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cds.linear.com/docs/en/datasheet/1624f.pdf"&gt;Linear Technology Datasheet&lt;/a&gt;v
 &lt;/ul&gt;
 
 &lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
 &lt;ul&gt;
-   &lt;li&gt; Reichelt: -
-   &lt;li&gt; Conrad: -
-   &lt;li&gt; Digi-Key: LTC3531EDD#PBF-ND
-   &lt;/il&gt;
+   &lt;li&gt; Reichelt: -&lt;/li&gt;
+   &lt;li&gt; Conrad: -&lt;/li&gt;
+   &lt;li&gt; Digi-Key: LTC3531EDD#PBF-ND&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LT3531ADJ" x="0" y="2.54"/>
