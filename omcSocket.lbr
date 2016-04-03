@@ -71,7 +71,7 @@
   &lt;li&gt;contains footprints and general purpose sockets&lt;/li&gt;
   &lt;li&gt;DIL&lt;/li&gt;
   &lt;li&gt;SOIC&lt;/li&gt;
-  &lt;li&gt;Zero-force&lt;/li&gt;
+  &lt;li&gt;Zero-insertion-force&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 
@@ -88,7 +88,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 
 &lt;h2&gt;Version History&lt;/h2&gt;
 &lt;dl&gt;
-  &lt;dt&gt;2016-03-29&lt;/dt&gt;
+  &lt;dt&gt;2016-04-03&lt;/dt&gt;
   &lt;dd&gt;Initial Release&lt;/dd&gt;
 &lt;/dl&gt;</description>
 <packages>
