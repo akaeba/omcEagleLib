@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -395,14 +395,14 @@ H: 9mm</description>
 <technology name="100M">
 <attribute name="CONRAD#" value="449625 - 62" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="L-PISM 22µ" constant="no"/>
-<attribute name="VALUE" value="10µ" constant="no"/>
+<attribute name="REICHELT#" value="L-PISM 10µ" constant="no"/>
+<attribute name="VALUE" value="10µ"/>
 </technology>
 <technology name="220M">
 <attribute name="CONRAD#" value="449640 - 62" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="L-PISM 22µ" constant="no"/>
-<attribute name="VALUE" value="22µ" constant="no"/>
+<attribute name="VALUE" value="22µ"/>
 </technology>
 </technologies>
 </device>
