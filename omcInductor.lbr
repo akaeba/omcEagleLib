@@ -356,8 +356,9 @@ H: 9mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PISM-" prefix="L" uservalue="yes">
-<description>&lt;h2&gt; Fastron PISM - SMD Power Inductors&lt;/h2&gt;
+<deviceset name="PISM" prefix="L" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;PISM - SMD Power Inductors&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt; Inductance: 1µH - 2200µH
   &lt;li&gt; Current: 0.25A - 10A
@@ -374,14 +375,203 @@ H: 9mm</description>
   &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PISM.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
   &lt;/il&gt;
 &lt;/ul&gt;
+&lt;/p&gt;
 
+&lt;p&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-nrw1{font-size:10px;text-align:center;vertical-align:top}
+.tg .tg-v4l8{font-size:10px;background-color:#efefef;text-align:center}
+.tg .tg-chud{font-size:10px;background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-gozu{font-size:10px;text-align:center}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-xn4f" rowspan="2"&gt;Inductance L [µH]&lt;/th&gt;
+    &lt;th class="tg-xn4f" rowspan="2"&gt;fL [MHz]&lt;/th&gt;
+    &lt;th class="tg-xn4f" rowspan="2"&gt;SRFmin [MHz] &lt;/th&gt;
+    &lt;th class="tg-xn4f" rowspan="2"&gt;DCRmax [Ω]&lt;/th&gt;
+    &lt;th class="tg-xn4f" colspan="2"&gt;Rated DC Current [A]&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-xn4f"&gt;Isat&lt;/td&gt;
+    &lt;td class="tg-xn4f"&gt;IΔT&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-v4l8"&gt;1.0&lt;/td&gt;
+    &lt;td class="tg-v4l8"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;115&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.008&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;10&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;6.9&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-gozu"&gt;1.5&lt;/td&gt;
+    &lt;td class="tg-gozu"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;90&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.009&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;9&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;6.5&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;2.2&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;80&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.010&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;8&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;6.2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;3.3&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;58&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.014&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;7&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;5.5&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;4.7&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;49&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.017&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;6&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;4.9&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;6.8&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;39&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.022&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;5.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;4.4&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;10&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;28&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.036&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;4.2&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;3.9&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;15&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;22&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.050&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;3.2&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;3.2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;22&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;17&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.060&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;2.7&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;2.7&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;33&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;13&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.100&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;2.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;2.1&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;47&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;10&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.140&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;1.7&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;1.7&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;68&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;8.5&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.190&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1.5&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1.5&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;100&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;7.0&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.280&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;1.2&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;1.2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;150&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;5.3&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.420&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1.0&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1.0&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;220&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;4.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.600&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.85&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.85&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;330&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;3.2&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.900&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.65&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.65&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;470&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;2.8&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;1.250&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.55&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.55&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;680&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;2.3&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;2.00&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.45&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.45&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;1000&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;1.7&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;2.70&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.35&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.35&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;2200&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1.4&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;7.00&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.25&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.22&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
 &lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
 &lt;ul&gt;
    &lt;li&gt; Reichelt: L-PISM XXµ
    &lt;li&gt; Conrad: avialable
    &lt;li&gt; Digi-Key: -
    &lt;/il&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="DRK" x="0" y="0"/>
 </gates>
@@ -392,17 +582,145 @@ H: 9mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="100M">
-<attribute name="CONRAD#" value="449625 - 62" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="L-PISM 10µ" constant="no"/>
+<technology name="-100X">
+<attribute name="DIST#CONRAD#" value="449625 - 62" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 10µ" constant="no"/>
 <attribute name="VALUE" value="10µ"/>
+<attribute name="VENDOR#" value="Fastron#PISM-100X-04" constant="no"/>
 </technology>
-<technology name="220M">
-<attribute name="CONRAD#" value="449640 - 62" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="L-PISM 22µ" constant="no"/>
+<technology name="-101X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="100µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-102X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="1000µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-150X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="15µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-151X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="150µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-1R0X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="1µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-1R5X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="1µ5"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-220X">
+<attribute name="DIST#CONRAD#" value="449640 - 62" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 22µ" constant="no"/>
 <attribute name="VALUE" value="22µ"/>
+<attribute name="VENDOR#" value="Fastron#PISM-220X-04" constant="no"/>
+</technology>
+<technology name="-221X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="220µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-222X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="2200µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-2R2X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="2µ2"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-330X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="33µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-331X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="330µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-3R3X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="3µ3"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-470X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="47µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-471X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="470µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-4R7X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="4µ7"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-680X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="68µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-681X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="680µ"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-6R8X">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="6µ8"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
