@@ -956,26 +956,26 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <connect gate="G$1" pin="AC2" pad="AC2"/>
 </connects>
 <technologies>
-<technology name="02">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD DF 02" constant="no"/>
-<attribute name="VALUE" value="DF02" constant="no"/>
-<attribute name="VENDOR#" value="Diodes Incorporate#DF02M" constant="no"/>
-</technology>
-<technology name="04">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD DF 04" constant="no"/>
-<attribute name="VALUE" value="DF04" constant="no"/>
-<attribute name="VENDOR#" value="Diodes Incorporate#DF04M" constant="no"/>
-</technology>
 <technology name="05">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="SMD DF 005" constant="no"/>
 <attribute name="VALUE" value="DF005" constant="no"/>
 <attribute name="VENDOR#" value="Diodes Incorporate#DF005M" constant="no"/>
+</technology>
+<technology name="2">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD DF 02" constant="no"/>
+<attribute name="VALUE" value="DF02" constant="no"/>
+<attribute name="VENDOR#" value="Diodes Incorporate#DF02M" constant="no"/>
+</technology>
+<technology name="4">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD DF 04" constant="no"/>
+<attribute name="VALUE" value="DF04" constant="no"/>
+<attribute name="VENDOR#" value="Diodes Incorporate#DF04M" constant="no"/>
 </technology>
 </technologies>
 </device>
