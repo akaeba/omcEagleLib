@@ -182,15 +182,15 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <text x="-2.794" y="3.683" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.794" y="-4.953" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="3.5179" y1="-3.1496" x2="4.0767" y2="3.1496" layer="51"/>
-<smd name="C" x="-3.175" y="0" dx="3.175" dy="3.175" layer="1"/>
-<smd name="A" x="3.175" y="0" dx="3.175" dy="3.175" layer="1"/>
+<smd name="C" x="-3.81" y="0" dx="3.175" dy="3.175" layer="1"/>
+<smd name="A" x="3.81" y="0" dx="3.175" dy="3.175" layer="1"/>
 <rectangle x1="-4.1021" y1="-3.1496" x2="-3.5433" y2="3.1496" layer="51"/>
 <wire x1="3.5433" y1="-3.0226" x2="-3.5433" y2="-3.0226" width="0.1524" layer="51"/>
 <rectangle x1="-1.27" y1="-1.778" x2="-0.889" y2="1.778" layer="21"/>
-<wire x1="-4.445" y1="3.175" x2="-4.445" y2="-3.175" width="0.127" layer="39"/>
-<wire x1="-4.445" y1="-3.175" x2="4.445" y2="-3.175" width="0.127" layer="39"/>
-<wire x1="4.445" y1="-3.175" x2="4.445" y2="3.175" width="0.127" layer="39"/>
-<wire x1="4.445" y1="3.175" x2="-4.445" y2="3.175" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="3.175" x2="-5.08" y2="-3.175" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="-3.175" x2="5.08" y2="-3.175" width="0.127" layer="39"/>
+<wire x1="5.08" y1="-3.175" x2="5.08" y2="3.175" width="0.127" layer="39"/>
+<wire x1="5.08" y1="3.175" x2="-5.08" y2="3.175" width="0.127" layer="39"/>
 </package>
 <package name="SOD123">
 <description>&lt;p&gt;
@@ -532,57 +532,130 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </devices>
 </deviceset>
 <deviceset name="MBRS" prefix="D" uservalue="yes">
-<description>&lt;h2&gt;Schottky Power Rectifier&lt;/h2&gt;
+<description>&lt;p&gt;
+&lt;h2&gt;MBRS3X0 - Schottky Power Rectifier&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Schottky barrier rectifiers&lt;/li&gt;
+  &lt;li&gt;3 ampere&lt;/li&gt;
+  &lt;li&gt;20, 30, 40, 60 volts&lt;/li&gt;
+  &lt;li&gt;SMC 403-03 (DO214AB) Package&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.fairchildsemi.com/datasheets/MB/MBRS320.pdf"&gt;Fairchild MBRS320 Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="https://www.fairchildsemi.com/datasheets/MB/MBRS340.pdf"&gt;Fairchild MBRS340 Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="https://www.fairchildsemi.com/datasheets/MB/MBRS360.pdf"&gt;Fairchild MBRS360 Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/MBRS340_MBRS320_MBRS360%23ON.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
 
-&lt;p&gt;&lt;ul&gt;
-   &lt;li&gt;Average forward current: 3A
-   &lt;li&gt;Reverse voltage: 20 - 60V
-&lt;/ul&gt;&lt;/p&gt;</description>
+&lt;p&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-nrw1{font-size:10px;text-align:center;vertical-align:top}
+.tg .tg-v4l8{font-size:10px;background-color:#efefef;text-align:center}
+.tg .tg-s5wt{font-size:10px;background-color:#efefef;vertical-align:top}
+.tg .tg-glis{font-size:10px}
+.tg .tg-trly{font-weight:bold;font-size:10px;background-color:#c0c0c0;vertical-align:top}
+.tg .tg-7kzq{font-size:10px;background-color:#efefef}
+.tg .tg-chud{font-size:10px;background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-gozu{font-size:10px;text-align:center}
+.tg .tg-25al{font-size:10px;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-xn4f"&gt;Characteristics&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;MBRS320T3&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;MBRS330T3&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;MBRS340T3&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;MBRS360T3&lt;/th&gt;
+    &lt;th class="tg-trly"&gt;Unit&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7kzq"&gt;Peak Repetitive Reverse Voltage&lt;/td&gt;
+    &lt;td class="tg-v4l8"&gt;20&lt;/td&gt;
+    &lt;td class="tg-v4l8"&gt;30&lt;/td&gt;
+    &lt;td class="tg-v4l8"&gt;40&lt;/td&gt;
+    &lt;td class="tg-v4l8"&gt;60&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-glis"&gt;Average Rectified Forward Current&lt;/td&gt;
+    &lt;td class="tg-gozu" colspan="4"&gt;3.0 @100°C&lt;br&gt;4.0 @90°C&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;A&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-s5wt"&gt;Nonrepetitive Peak Surge Current&lt;/td&gt;
+    &lt;td class="tg-chud" colspan="4"&gt;80&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;A&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-25al"&gt;Operating Junction Temperature&lt;/td&gt;
+    &lt;td class="tg-nrw1" colspan="4"&gt;– 65 to +125&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;°C&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-s5wt"&gt;Thermal Resistance — Junction to Lead&lt;/td&gt;
+    &lt;td class="tg-chud" colspan="4"&gt;11&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;°C/W&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-25al"&gt;Maximum Instantaneous Forward Voltage&lt;br&gt;(IF = 3.0 A, TJ = 25°C))&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.500&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.500&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.525&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.740&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-s5wt"&gt;Maximum Instantaneous Reverse Current&lt;br&gt;Rated dc Voltage, TJ = 25°C&lt;br&gt;Rated dc Voltage, TJ = 100°C&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;&lt;br&gt;2.0&lt;br&gt;20&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;&lt;br&gt;2.0&lt;br&gt;20&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;&lt;br&gt;2.0&lt;br&gt;20&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;&lt;br&gt;0.5&lt;br&gt;20&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;&lt;br&gt;mA&lt;br&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: ?
+   &lt;li&gt; Digi-Key: ?
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
-<device name="320" package="DO214AB">
+<device name="" package="DO214AB">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="VALUE" value="MBRS320" constant="no"/>
+<technology name="320">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="MBRS 320 SMD" constant="no"/>
+<attribute name="VALUE" value="MBRS320"/>
+<attribute name="VENDOR#" value="ON Semiconductor#MBRS320T3" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="330" package="DO214AB">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="MBRS330" constant="no"/>
+<technology name="340">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="MBRS 340 SMD" constant="no"/>
+<attribute name="VALUE" value="MBRS340"/>
+<attribute name="VENDOR#" value="ON Semiconductor#MBRS340T3" constant="no"/>
 </technology>
-</technologies>
-</device>
-<device name="340" package="DO214AB">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="MBRS340" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="360" package="DO214AB">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="MBRS360" constant="no"/>
+<technology name="360">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="MBRS 360 SMD" constant="no"/>
+<attribute name="VALUE" value="MBRS360"/>
+<attribute name="VENDOR#" value="ON Semiconductor#MBRS360T3" constant="no"/>
 </technology>
 </technologies>
 </device>
