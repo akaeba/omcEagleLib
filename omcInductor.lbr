@@ -182,8 +182,8 @@ H: 5.35mm</description>
 <wire x1="-2.54" y1="-5.08" x2="-6.35" y2="-2.54" width="0.3048" layer="21"/>
 <wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.3048" layer="51"/>
 <wire x1="-6.35" y1="2.54" x2="-2.54" y2="5.08" width="0.3048" layer="21"/>
-<text x="-2.54" y="5.715" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 <wire x1="-6.985" y1="5.715" x2="-6.985" y2="-5.715" width="0.127" layer="39"/>
 <wire x1="-6.985" y1="-5.715" x2="6.985" y2="-5.715" width="0.127" layer="39"/>
 <wire x1="6.985" y1="-5.715" x2="6.985" y2="5.715" width="0.127" layer="39"/>
@@ -277,8 +277,30 @@ H: 9mm</description>
 <wire x1="0.635" y1="2.69875" x2="1.905" y2="1.42875" width="0.3048" layer="51"/>
 <wire x1="0.47625" y1="-3.01625" x2="-0.79375" y2="-3.01625" width="0.3048" layer="51"/>
 <wire x1="-0.79375" y1="-3.01625" x2="-2.06375" y2="-1.5875" width="0.3048" layer="51"/>
-<text x="-2.38125" y="3.4925" size="1.016" layer="21">&gt;Name</text>
-<text x="-2.38125" y="-4.7625" size="1.016" layer="21">&gt;Value</text>
+<text x="-2.38125" y="3.4925" size="1.016" layer="21" font="vector">&gt;Name</text>
+<text x="-2.38125" y="-4.7625" size="1.016" layer="21" font="vector">&gt;Value</text>
+</package>
+<package name="1210">
+<description>&lt;h3&gt;1210 Package&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;3.2mm×2.5mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://katalog.we-online.de/pbs/datasheet/82551600.pdf"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="-1.74625" y="0" dx="2.1" dy="2" layer="1"/>
+<smd name="2" x="1.74625" y="0" dx="2.1" dy="2" layer="1"/>
+<wire x1="-1.5875" y1="-1.27" x2="-1.5875" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="1.27" x2="1.5875" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="1.27" x2="1.5875" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-1.27" x2="-1.5875" y2="-1.27" width="0.127" layer="21"/>
+<text x="-2.54" y="-3.175" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.2225" y1="-0.47625" x2="-1.5875" y2="0.47625" layer="51"/>
+<rectangle x1="1.5875" y1="-0.47625" x2="2.2225" y2="0.47625" layer="51"/>
+<circle x="0" y="0" radius="1.239875" width="0.127" layer="51"/>
+<wire x1="-3.01625" y1="1.5875" x2="-3.01625" y2="-1.5875" width="0.127" layer="39"/>
+<wire x1="-3.01625" y1="-1.5875" x2="3.01625" y2="-1.5875" width="0.127" layer="39"/>
+<wire x1="3.01625" y1="-1.5875" x2="3.01625" y2="1.5875" width="0.127" layer="39"/>
+<wire x1="3.01625" y1="1.5875" x2="-3.01625" y2="1.5875" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -356,20 +378,17 @@ H: 9mm</description>
 <description>&lt;p&gt;
 &lt;h2&gt;PISM - SMD Power Inductors&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt; Inductance: 1µH - 2200µH
-  &lt;li&gt; Current: 0.25A - 10A
-  &lt;li&gt; Mounting: SMD
-  &lt;li&gt; Material: Ferrite
-  &lt;li&gt; Dimension:
-     &lt;ul&gt;
-     &lt;li&gt;L: 13mm
-     &lt;li&gt;W: 9.55mm
-     &lt;li&gt;H: 5.35mm
-     &lt;/il&gt;
-     &lt;/ul&gt;
-  &lt;li&gt; &lt;a href="http://www.fastrongroup.com/image-show/56/PISM.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron Datasheet&lt;/a&gt;
-  &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PISM.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
-  &lt;/il&gt;
+  &lt;li&gt;Inductance: 1µH - 2200µH&lt;/li&gt;
+  &lt;li&gt;Current: 0.25A - 10A&lt;/li&gt;
+  &lt;li&gt;Mounting: SMD&lt;/li&gt;
+  &lt;li&gt;Material: Ferrite&lt;/li&gt;
+  &lt;li&gt;Dimension:&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;L: 13mm&lt;/li&gt;
+     &lt;li&gt;W: 9.55mm&lt;/li&gt;
+     &lt;li&gt;H: 5.35mm&lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;li&gt;&lt;a href="http://www.fastrongroup.com/image-show/56/PISM.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PISM.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 
@@ -904,6 +923,223 @@ H: 9mm</description>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="REICHELT#" value="L-PISG 22µ" constant="no"/>
 <attribute name="VALUE" value="22µ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LQH3C" prefix="L" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;LQH3C - Chip Coils for Choke Wire Wound Type&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Inductance: 1µH - 560µH&lt;/li&gt;
+  &lt;li&gt;Current: 60mA - 1A&lt;/li&gt;
+  &lt;li&gt;Temperature: -25°C - 85°C&lt;/li&gt;
+  &lt;li&gt;Mounting: 1210 SMD&lt;/li&gt;
+  &lt;li&gt;Material: Ferrite&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/inductor/chip/o05e.ashx"&gt;Murata Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/LQH.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;/il&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-nrw1{font-size:10px;text-align:center;vertical-align:top}
+.tg .tg-v4l8{font-size:10px;background-color:#efefef;text-align:center}
+.tg .tg-q2kn{font-size:10px;background-color:#c0c0c0;text-align:center;vertical-align:top}
+.tg .tg-mzc0{font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-chud{font-size:10px;background-color:#efefef;text-align:center;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-xn4f" rowspan="2"&gt;Inductance L [µH]&lt;/th&gt;
+    &lt;th class="tg-xn4f" rowspan="2"&gt;fTest [MHz]&lt;/th&gt;
+    &lt;th class="tg-xn4f" colspan="2"&gt;Self-resonant-Frequency [MHz] &lt;/th&gt;
+    &lt;th class="tg-xn4f" rowspan="2"&gt;DC Resistance [Ω]&lt;/th&gt;
+    &lt;th class="tg-xn4f" rowspan="2"&gt;Allowed&lt;br&gt;Current&lt;br&gt;[mA]&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-mzc0"&gt;Typ.&lt;/td&gt;
+    &lt;td class="tg-q2kn"&gt;Min.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-v4l8"&gt;1.0&lt;/td&gt;
+    &lt;td class="tg-v4l8"&gt;1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;150&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;96&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.09±30%&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;800&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;2.2&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;100&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;64&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.13±30%&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;600&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;4.7&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;66&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;43&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.20±30%&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;450&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;10&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;40&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;26&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.44±30%&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;300&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;22&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;27&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;19&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.71±30%&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;250&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;47&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;19&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;15&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1.3±30%&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;170&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;100&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;13&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;10&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;3.5±30%&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;100&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;220&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;8.5&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;6.8&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;8.4±30%&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;70&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;330&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;7.0&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;5.6&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;10.0±30%&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;60&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;390&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;6.6&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;5.0&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;17.0±30%&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;60&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-chud"&gt;470&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;0.001&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;6.2&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;5.0&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;19.0±30%&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;60&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-nrw1"&gt;560&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;0.001&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;5.7&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;5.0&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;22.0±30%&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;60&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: LQH3C XXµ
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="100K">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="LQH3C 10µ" constant="no"/>
+<attribute name="VALUE" value="10µ"/>
+<attribute name="VENDOR" value="Murata#LGH3C100K34" constant="no"/>
+</technology>
+<technology name="101K">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="LQH3C 100µ" constant="no"/>
+<attribute name="VALUE" value="100µ"/>
+<attribute name="VENDOR" value="Murata#LGH3C101K34" constant="no"/>
+</technology>
+<technology name="1R0M">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="LQH3C 1,0µ" constant="no"/>
+<attribute name="VALUE" value="1µ"/>
+<attribute name="VENDOR" value="Murata#LGH3C1R0M34" constant="no"/>
+</technology>
+<technology name="220K">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="LQH3C 22µ" constant="no"/>
+<attribute name="VALUE" value="22µ"/>
+<attribute name="VENDOR" value="Murata#LGH3C220K34" constant="no"/>
+</technology>
+<technology name="221K">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="LQH3C 220µ" constant="no"/>
+<attribute name="VALUE" value="220µ"/>
+<attribute name="VENDOR" value="Murata#LGH3C221K34" constant="no"/>
+</technology>
+<technology name="2R2M">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="LQH3C 2,2µ" constant="no"/>
+<attribute name="VALUE" value="2µ2"/>
+<attribute name="VENDOR" value="Murata#LGH3C2R2M34" constant="no"/>
+</technology>
+<technology name="470K">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="LQH3C 47µ" constant="no"/>
+<attribute name="VALUE" value="47µ"/>
+<attribute name="VENDOR" value="Murata#LGH3C470K34" constant="no"/>
+</technology>
+<technology name="4R7M">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="LQH3C 4,7µ" constant="no"/>
+<attribute name="VALUE" value="4µ7"/>
+<attribute name="VENDOR" value="Murata#LGH3C4R7M34" constant="no"/>
 </technology>
 </technologies>
 </device>
