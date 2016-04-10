@@ -74,40 +74,28 @@
 &lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
 This library contains Inductor Devices:
 &lt;ul&gt;
-  &lt;li&gt;Fastron&lt;/li&gt;&lt;ul&gt;
-     &lt;li&gt; PISM Series (SMD, Ferrit, Toroideal)&lt;/li&gt;
-     &lt;li&gt; PISG Series (SMD, Ferrit, Toroideal)&lt;/li&gt;
-     &lt;li&gt; Medium Suppression Coil (THT, Ferrit, Axial)&lt;/li&gt;
+  &lt;li&gt;Ferrite&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt; PISM Series (SMD, Toroideal)&lt;/li&gt;
+     &lt;li&gt; PISG Series (SMD, Toroideal)&lt;/li&gt;
+     &lt;li&gt; MESC Series (THT, Axial)&lt;/li&gt;
+     &lt;li&gt; SK Series (THT, Toroideal)&lt;/li&gt;
    &lt;/ul&gt;
-  &lt;li&gt;Takron &lt;/li&gt;&lt;ul&gt;
-      &lt;li&gt;SK Series (&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C650/SK_SERIES.pdf"&gt;Reichelt Datenblatt&lt;/a&gt;)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;li&gt;Schaffner &lt;/li&gt;&lt;ul&gt;
-       &lt;li&gt; RN-Series (Current-compensated Chokes) &lt;/li&gt;
+  &lt;li&gt;Current-compensated Chokes&lt;/li&gt;&lt;ul&gt;
+       &lt;li&gt; RN-Series (THT) &lt;/li&gt;
     &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;h2&gt;Authors&lt;/h2&gt;
 &lt;p&gt;&lt;ul&gt;
-  &lt;li&gt;Andreas Käberlein&lt;/li&gt;
+  &lt;li&gt;Andreas Käberlein - &lt;a href="mailto:andreas.kaeberlein@web.de"&gt;andreas.kaeberlein@web.de&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 
 &lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
 &lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
 More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
 In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
-&lt;/p&gt;
-
-&lt;h2&gt;Version History&lt;/h2&gt;
-&lt;dl&gt;
-  &lt;dt&gt;2013-09-28&lt;/dt&gt;
-        &lt;dd&gt;Initial Release&lt;/dd&gt;
-  &lt;dt&gt;2013-12-22&lt;/dt&gt;
-        &lt;dd&gt;added RN102&lt;/dd&gt;
-  &lt;dt&gt;2016-01-15&lt;/dt&gt;
-        &lt;dd&gt;added PISG SMD Power Inductors&lt;/dd&gt;
-&lt;/dl&gt;</description>
+&lt;/p&gt;</description>
 <packages>
 <package name="MESC">
 <description>Medium Suppression Coil Inductor; THT &lt;p&gt;
@@ -182,20 +170,28 @@ W: 9.5mm &lt;br&gt;
 H: 5.35mm</description>
 <smd name="1" x="-5.715" y="0" dx="3" dy="3" layer="1"/>
 <smd name="2" x="5.715" y="0" dx="3" dy="3" layer="1"/>
-<rectangle x1="-5.715" y1="-1.27" x2="-3.175" y2="1.27" layer="21"/>
-<rectangle x1="3.175" y1="-1.27" x2="5.715" y2="1.27" layer="21"/>
-<wire x1="0" y1="4.445" x2="0" y2="-4.445" width="0.4064" layer="21" curve="-180"/>
-<wire x1="0" y1="-4.445" x2="0" y2="4.445" width="0.4064" layer="21" curve="-180"/>
-<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.4064" layer="21"/>
-<wire x1="2.54" y1="5.08" x2="6.35" y2="2.54" width="0.4064" layer="21"/>
-<wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.4064" layer="21"/>
-<wire x1="6.35" y1="-2.54" x2="2.54" y2="-5.08" width="0.4064" layer="21"/>
-<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.4064" layer="21"/>
-<wire x1="-2.54" y1="-5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="21"/>
-<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.4064" layer="21"/>
-<wire x1="-6.35" y1="2.54" x2="-2.54" y2="5.08" width="0.4064" layer="21"/>
+<rectangle x1="-5.715" y1="-1.27" x2="-3.175" y2="1.27" layer="51"/>
+<rectangle x1="3.175" y1="-1.27" x2="5.715" y2="1.27" layer="51"/>
+<wire x1="0" y1="3.81" x2="0" y2="-3.81" width="0.3048" layer="21" curve="-180"/>
+<wire x1="0" y1="-3.81" x2="0" y2="3.81" width="0.3048" layer="21" curve="-180"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.3048" layer="21"/>
+<wire x1="2.54" y1="5.08" x2="6.35" y2="2.54" width="0.3048" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.3048" layer="51"/>
+<wire x1="6.35" y1="-2.54" x2="2.54" y2="-5.08" width="0.3048" layer="21"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.3048" layer="21"/>
+<wire x1="-2.54" y1="-5.08" x2="-6.35" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.3048" layer="51"/>
+<wire x1="-6.35" y1="2.54" x2="-2.54" y2="5.08" width="0.3048" layer="21"/>
 <text x="-2.54" y="5.715" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.985" y1="5.715" x2="-6.985" y2="-5.715" width="0.127" layer="39"/>
+<wire x1="-6.985" y1="-5.715" x2="6.985" y2="-5.715" width="0.127" layer="39"/>
+<wire x1="6.985" y1="-5.715" x2="6.985" y2="5.715" width="0.127" layer="39"/>
+<wire x1="6.985" y1="5.715" x2="-6.985" y2="5.715" width="0.127" layer="39"/>
+<wire x1="-6.35" y1="1.905" x2="-6.35" y2="2.54" width="0.3048" layer="21"/>
+<wire x1="6.35" y1="-1.905" x2="6.35" y2="-2.54" width="0.3048" layer="21"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="-1.905" width="0.3048" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="1.905" width="0.3048" layer="21"/>
 </package>
 <package name="FED3A">
 <description>toroideal ring coil, inductor, THT &lt;p&gt;
@@ -592,44 +588,44 @@ H: 9mm</description>
 <technology name="-101X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 100µ" constant="no"/>
 <attribute name="VALUE" value="100µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-101X-04" constant="no"/>
 </technology>
 <technology name="-102X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 1,0M" constant="no"/>
 <attribute name="VALUE" value="1000µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-103X-04" constant="no"/>
 </technology>
 <technology name="-150X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 15µ" constant="no"/>
 <attribute name="VALUE" value="15µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-150X-04" constant="no"/>
 </technology>
 <technology name="-151X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 150µ" constant="no"/>
 <attribute name="VALUE" value="150µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-151X-04" constant="no"/>
 </technology>
 <technology name="-1R0X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 1,0µ" constant="no"/>
 <attribute name="VALUE" value="1µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-1R0X-04" constant="no"/>
 </technology>
 <technology name="-1R5X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 1,5µ" constant="no"/>
 <attribute name="VALUE" value="1µ5"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-1R5X-04" constant="no"/>
 </technology>
 <technology name="-220X">
 <attribute name="DIST#CONRAD#" value="449640 - 62" constant="no"/>
@@ -641,86 +637,79 @@ H: 9mm</description>
 <technology name="-221X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 220µ" constant="no"/>
 <attribute name="VALUE" value="220µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
-</technology>
-<technology name="-222X">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="2200µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-221X-04" constant="no"/>
 </technology>
 <technology name="-2R2X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 2,2µ" constant="no"/>
 <attribute name="VALUE" value="2µ2"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-2R2X-04" constant="no"/>
 </technology>
 <technology name="-330X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 33µ" constant="no"/>
 <attribute name="VALUE" value="33µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-330X-04" constant="no"/>
 </technology>
 <technology name="-331X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 330µ" constant="no"/>
 <attribute name="VALUE" value="330µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-331X-04" constant="no"/>
 </technology>
 <technology name="-3R3X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 3,3µ" constant="no"/>
 <attribute name="VALUE" value="3µ3"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-3R3X-04" constant="no"/>
 </technology>
 <technology name="-470X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 47µ" constant="no"/>
 <attribute name="VALUE" value="47µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-470X-04" constant="no"/>
 </technology>
 <technology name="-471X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 470µ" constant="no"/>
 <attribute name="VALUE" value="470µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-471X-04" constant="no"/>
 </technology>
 <technology name="-4R7X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 4,7µ" constant="no"/>
 <attribute name="VALUE" value="4µ7"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-4R7X-04" constant="no"/>
 </technology>
 <technology name="-680X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 68µ" constant="no"/>
 <attribute name="VALUE" value="68µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-680X-04" constant="no"/>
 </technology>
 <technology name="-681X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 680µ" constant="no"/>
 <attribute name="VALUE" value="680µ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-681X-04" constant="no"/>
 </technology>
 <technology name="-6R8X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 6,8µ" constant="no"/>
 <attribute name="VALUE" value="6µ8"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Fastron#PISM-6R8X-04" constant="no"/>
 </technology>
 </technologies>
 </device>
