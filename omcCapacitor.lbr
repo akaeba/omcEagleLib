@@ -260,6 +260,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="2.06375" y1="1.42875" x2="1.11125" y2="2.38125" width="0.1016" layer="51"/>
 <wire x1="2.06375" y1="-2.38125" x2="2.06375" y2="1.42875" width="0.1016" layer="51"/>
 <text x="0.79375" y="0.9525" size="1.016" layer="51">+</text>
+<wire x1="-2.2225" y1="2.8575" x2="-2.2225" y2="-2.8575" width="0.127" layer="39"/>
+<wire x1="-2.2225" y1="-2.8575" x2="2.2225" y2="-2.8575" width="0.127" layer="39"/>
+<wire x1="2.2225" y1="-2.8575" x2="2.2225" y2="2.8575" width="0.127" layer="39"/>
+<wire x1="2.2225" y1="2.8575" x2="-2.2225" y2="2.8575" width="0.127" layer="39"/>
 </package>
 <package name="PANC">
 <description>&lt;p&gt;
@@ -282,6 +286,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;&lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL48.pdf"&gt;Mechanical&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;</description>
+<smd name="CN" x="0" y="-2.54" dx="1.6" dy="3.2" layer="1"/>
+<smd name="CP" x="0" y="2.54" dx="1.6" dy="3.2" layer="1"/>
 </package>
 <package name="PANE">
 <description>&lt;p&gt;
@@ -292,6 +298,68 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;&lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL48.pdf"&gt;Mechanical&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;</description>
+<smd name="P$1" x="0" y="-3.01625" dx="1.6" dy="4" layer="1"/>
+<smd name="P$2" x="0" y="3.01625" dx="1.6" dy="4" layer="1"/>
+</package>
+<package name="PANF">
+<description>&lt;p&gt;
+&lt;h3&gt;Panasonic AEC-F&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Aluminum Electrolytic Capacitors&lt;/li&gt;
+  &lt;li&gt;SMD package type F&lt;/li&gt;
+  &lt;li&gt;Diameter: 8mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL48.pdf"&gt;Mechanical&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<smd name="CN" x="0" y="-3.65125" dx="2" dy="4" layer="1"/>
+<smd name="CP" x="0" y="3.65125" dx="2" dy="4" layer="1"/>
+</package>
+<package name="PANG">
+<description>&lt;p&gt;
+&lt;h3&gt;Panasonic AEC-G&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Aluminum Electrolytic Capacitors&lt;/li&gt;
+  &lt;li&gt;SMD package type G&lt;/li&gt;
+  &lt;li&gt;Diameter: 10mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL48.pdf"&gt;Mechanical&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<smd name="CN" x="0" y="-4.445" dx="2" dy="4.1" layer="1"/>
+<smd name="CP" x="0" y="4.445" dx="2" dy="4.1" layer="1"/>
+</package>
+<package name="PANH">
+<description>&lt;p&gt;
+&lt;h3&gt;Panasonic AEC-H&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Aluminum Electrolytic Capacitors&lt;/li&gt;
+  &lt;li&gt;SMD package type H&lt;/li&gt;
+  &lt;li&gt;Diameter: 12.5mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL48.pdf"&gt;Mechanical&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<smd name="CN" x="0" y="-4.92125" dx="2" dy="5.7" layer="1"/>
+<smd name="CP" x="0" y="4.92125" dx="2" dy="5.7" layer="1"/>
+</package>
+<package name="PANJ">
+<description>&lt;p&gt;
+&lt;h3&gt;Panasonic AEC-J&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Aluminum Electrolytic Capacitors&lt;/li&gt;
+  &lt;li&gt;SMD package type J&lt;/li&gt;
+  &lt;li&gt;Diameter: 16mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL48.pdf"&gt;Mechanical&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<smd name="CN" x="0" y="-6.19125" dx="2.5" dy="6.5" layer="1"/>
+<smd name="CP" x="0" y="6.19125" dx="2.5" dy="6.5" layer="1"/>
+</package>
+<package name="PANK">
+<description>&lt;p&gt;
+&lt;h3&gt;Panasonic AEC-K&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Aluminum Electrolytic Capacitors&lt;/li&gt;
+  &lt;li&gt;SMD package type K&lt;/li&gt;
+  &lt;li&gt;Diameter: 18mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL48.pdf"&gt;Mechanical&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<smd name="CN" x="0" y="-6.6675" dx="2.5" dy="7.5" layer="1"/>
+<smd name="CP" x="0" y="6.6675" dx="2.5" dy="7.5" layer="1"/>
 </package>
 </packages>
 <symbols>
