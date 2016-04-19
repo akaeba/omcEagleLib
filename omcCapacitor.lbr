@@ -1531,113 +1531,345 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1000/6,3 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="1000µ/6V3"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP0J102AP" constant="no"/>
 </technology>
 <technology name="-100U-50V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 100/50 K-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="100µ/50V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1H101P" constant="no"/>
 </technology>
 <technology name="-150U-25V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 150/25 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="150µ/25V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1E151AP" constant="no"/>
 </technology>
 <technology name="-150U-35V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 150/35 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="150µ/35V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1V151AP" constant="no"/>
 </technology>
 <technology name="-220U-25V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 220/25 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="220µ/25V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1E221AP" constant="no"/>
 </technology>
 <technology name="-220U-35V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 220/35 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="220µ/35V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1V221AP" constant="no"/>
 </technology>
 <technology name="-22U-100V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 22/100 K-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="22µ/100V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK2A220P" constant="no"/>
 </technology>
 <technology name="-330U-10V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 330/10 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="330µ/10V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1A331AP" constant="no"/>
 </technology>
 <technology name="-330U-16V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 330/16 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="330µ/16V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1C331AP" constant="no"/>
 </technology>
 <technology name="-330U-25V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 330/25 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="330µ/25V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1E331AP" constant="no"/>
 </technology>
 <technology name="-33U-63V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 33/63 K-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="33µ/63V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1J330P" constant="no"/>
 </technology>
 <technology name="-470U-10V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 470/10 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="470µ/10V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1A471AP" constant="no"/>
 </technology>
 <technology name="-470U-16V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 470/16 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="470µ/16V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1C471AP" constant="no"/>
 </technology>
 <technology name="-470U-6V3">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 470/6,3 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="470µ/6V3"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP0J471AP" constant="no"/>
 </technology>
 <technology name="-47U-63V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 47/63 K-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="47µ/63V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1J470P" constant="no"/>
 </technology>
 <technology name="-680U-10V">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 680/10 P-F" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
 <attribute name="VALUE" value="680µ/10V"/>
-<attribute name="VENDOR#" value="PANASONIC#" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1A681AP" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-G" package="PANG">
+<connects>
+<connect gate="G$1" pin="+" pad="CP"/>
+<connect gate="G$1" pin="-" pad="CN"/>
+</connects>
+<technologies>
+<technology name="-1000U-10V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 1000/10 P-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="1000µ/10V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1A102AP" constant="no"/>
+</technology>
+<technology name="-1000U-6V3">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 1000/6,3C-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="1000µ/6V3"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFC0J102P" constant="no"/>
+</technology>
+<technology name="-100U-63V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 100/63 K-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="100µ/63V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1J101P" constant="no"/>
+</technology>
+<technology name="-1200U-10V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 1200/10 P-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="1200µ/10V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFPA122UAP" constant="no"/>
+</technology>
+<technology name="-1500U-6V3">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 1500/6,3C-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="1500µ/6V3"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFC0J152P" constant="no"/>
+</technology>
+<technology name="-220U-50V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 220/50 P-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="220µ/50V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1H221AP" constant="no"/>
+</technology>
+<technology name="-330U-16V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 330/16 C-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="330µ/16V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFC1C331P" constant="no"/>
+</technology>
+<technology name="-330U-35V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 330/35 P-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="330µ/35V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFC1V331P" constant="no"/>
+</technology>
+<technology name="-33U-100V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 33/100 K-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="33µ/100V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK2A330P" constant="no"/>
+</technology>
+<technology name="-470U-10V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 470/10 C-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="470µ/10V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1A471AP" constant="no"/>
+</technology>
+<technology name="-470U-25V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 470/25 P-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="470µ/25V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFC1E471P" constant="no"/>
+</technology>
+<technology name="-560U-25V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 560/25 P-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="560µ/25V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFPE561UAP" constant="no"/>
+</technology>
+<technology name="-680U-16V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 680/16 P-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="680µ/16V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFP1C681AP" constant="no"/>
+</technology>
+<technology name="-820U-16V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 820/16 P-G" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="820µ/16V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFPC821UAP" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-H13" package="PANH13">
+<connects>
+<connect gate="G$1" pin="+" pad="CP"/>
+<connect gate="G$1" pin="-" pad="CN"/>
+</connects>
+<technologies>
+<technology name="-1000U-25V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 1000/25K-H13" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="1000µ/25V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1E102AQ" constant="no"/>
+</technology>
+<technology name="-220U-63V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 220/63 K-H13" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="220µ/63V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1J221AQ" constant="no"/>
+</technology>
+<technology name="-3300U-6V3">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 3300/6,3K-H13" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="3300µ/6V3"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK0J332AQ" constant="no"/>
+</technology>
+<technology name="-330U-50V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 330/50 K-H13" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="330µ/50V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1H331AQ" constant="no"/>
+</technology>
+<technology name="-470U-35V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 470/35 K-H13" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="470µ/35V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1V471AQ" constant="no"/>
+</technology>
+<technology name="-680U-35V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 680/35 K-H13" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="680µ/35V"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1V681AQ" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-J16" package="PANJ16">
+<connects>
+<connect gate="G$1" pin="+" pad="CP"/>
+<connect gate="G$1" pin="-" pad="CN"/>
+</connects>
+<technologies>
+<technology name="-1000U-35V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 1000/35K-J16" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="1000µ/35V" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1V102AM" constant="no"/>
+</technology>
+<technology name="-1000U-50V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 1000/50K-J16" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="1000µ/50V" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1H102AM" constant="no"/>
+</technology>
+<technology name="-1500U-35V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 1500/35K-J16" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="1500µ/35V" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1V102AM" constant="no"/>
+</technology>
+<technology name="-470U-63V">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="VF 470/63 K-J16" constant="no"/>
+<attribute name="ESR" value="" constant="no"/>
+<attribute name="VALUE" value="470µ/63V" constant="no"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1J471AM" constant="no"/>
 </technology>
 </technologies>
 </device>
