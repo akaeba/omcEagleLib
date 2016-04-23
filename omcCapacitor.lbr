@@ -1131,7 +1131,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 10/16 P-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="3R" constant="no"/>
+<attribute name="I_RIPPLE" value="60m" constant="no"/>
 <attribute name="VALUE" value="10µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1C100R" constant="no"/>
 </technology>
@@ -1139,7 +1140,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 10/25 P-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="1R35" constant="no"/>
+<attribute name="I_RIPPLE" value="90m" constant="no"/>
 <attribute name="VALUE" value="10µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1E100AR" constant="no"/>
 </technology>
@@ -1147,7 +1149,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 10/35 K-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="1R8" constant="no"/>
+<attribute name="I_RIPPLE" value="95m" constant="no"/>
 <attribute name="VALUE" value="10µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1V100R" constant="no"/>
 </technology>
@@ -1155,7 +1158,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1,0/50 C-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="5R" constant="no"/>
+<attribute name="I_RIPPLE" value="30m" constant="no"/>
 <attribute name="VALUE" value="1µ/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1H1R0R" constant="no"/>
 </technology>
@@ -1163,7 +1167,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 22/10 P-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="1R35" constant="no"/>
+<attribute name="I_RIPPLE" value="90m" constant="no"/>
 <attribute name="VALUE" value="22µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1A220AR" constant="no"/>
 </technology>
@@ -1171,7 +1176,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 22/16 P-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="1R8" constant="no"/>
+<attribute name="I_RIPPLE" value="95m" constant="no"/>
 <attribute name="VALUE" value="22µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1C220R" constant="no"/>
 </technology>
@@ -1179,7 +1185,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 22/6,3 P-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="3R" constant="no"/>
+<attribute name="I_RIPPLE" value="60m" constant="no"/>
 <attribute name="VALUE" value="22µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC0J220R" constant="no"/>
 </technology>
@@ -1187,7 +1194,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 2,2/50 C-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="5R" constant="no"/>
+<attribute name="I_RIPPLE" value="30m" constant="no"/>
 <attribute name="VALUE" value="2µ2/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1H2R2R" constant="no"/>
 </technology>
@@ -1195,7 +1203,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 33/10 P-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="1R8" constant="no"/>
+<attribute name="I_RIPPLE" value="95m" constant="no"/>
 <attribute name="VALUE" value="33µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1A330R" constant="no"/>
 </technology>
@@ -1203,7 +1212,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 3,3/50 C-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="5R" constant="no"/>
+<attribute name="I_RIPPLE" value="30m" constant="no"/>
 <attribute name="VALUE" value="3µ3/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1H3R3R" constant="no"/>
 </technology>
@@ -1211,7 +1221,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 47/6,3 K-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="1R8" constant="no"/>
+<attribute name="I_RIPPLE" value="95m" constant="no"/>
 <attribute name="VALUE" value="47µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC0J470R" constant="no"/>
 </technology>
@@ -1219,7 +1230,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 4,7/35 C-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="3R" constant="no"/>
+<attribute name="I_RIPPLE" value="60m" constant="no"/>
 <attribute name="VALUE" value="4µ7/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1V4R7R" constant="no"/>
 </technology>
@@ -1227,7 +1239,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 4,7/50 C-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="3R" constant="no"/>
+<attribute name="I_RIPPLE" value="50m" constant="no"/>
 <attribute name="VALUE" value="4µ7/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1H4R7R" constant="no"/>
 </technology>
@@ -1235,7 +1248,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 6,8/25 C-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="3R" constant="no"/>
+<attribute name="I_RIPPLE" value="60m" constant="no"/>
 <attribute name="VALUE" value="6µ8/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1E6R8R" constant="no"/>
 </technology>
@@ -1251,7 +1265,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 100/6,3 P-C" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R70" constant="no"/>
+<attribute name="I_RIPPLE" value="160m" constant="no"/>
 <attribute name="VALUE" value="100µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFKJ101UAR" constant="no"/>
 </technology>
@@ -1259,7 +1274,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 10/35 K-B" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R70" constant="no"/>
+<attribute name="I_RIPPLE" value="160m" constant="no"/>
 <attribute name="VALUE" value="10µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1V100AR" constant="no"/>
 </technology>
@@ -1267,7 +1283,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 10/50 K-C" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="2R" constant="no"/>
+<attribute name="I_RIPPLE" value="70m" constant="no"/>
 <attribute name="VALUE" value="10µ/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1H100P" constant="no"/>
 </technology>
@@ -1275,7 +1292,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 22/25 P-C" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R70" constant="no"/>
+<attribute name="I_RIPPLE" value="160m" constant="no"/>
 <attribute name="VALUE" value="22µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1E220AR" constant="no"/>
 </technology>
@@ -1283,7 +1301,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 22/35 K-C" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R70" constant="no"/>
+<attribute name="I_RIPPLE" value="160m" constant="no"/>
 <attribute name="VALUE" value="22µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1V220AR" constant="no"/>
 </technology>
@@ -1291,7 +1310,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 47/16 P-C" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R36" constant="no"/>
+<attribute name="I_RIPPLE" value="240m" constant="no"/>
 <attribute name="VALUE" value="47µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1C470AP" constant="no"/>
 </technology>
@@ -1299,7 +1319,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 47/6,3 P-C" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R70" constant="no"/>
+<attribute name="I_RIPPLE" value="160m" constant="no"/>
 <attribute name="VALUE" value="47µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK0J470AR" constant="no"/>
 </technology>
@@ -1315,7 +1336,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 100/16 P-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R36" constant="no"/>
+<attribute name="I_RIPPLE" value="240m" constant="no"/>
 <attribute name="VALUE" value="100µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1C101P" constant="no"/>
 </technology>
@@ -1323,7 +1345,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 100/25 P-D8" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R16" constant="no"/>
+<attribute name="I_RIPPLE" value="600m" constant="no"/>
 <attribute name="VALUE" value="100µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFPE101XAP" constant="no"/>
 </technology>
@@ -1331,7 +1354,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 100/35 P-D8" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R16" constant="no"/>
+<attribute name="I_RIPPLE" value="600m" constant="no"/>
 <attribute name="VALUE" value="100µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFPV101XAP" constant="no"/>
 </technology>
@@ -1339,7 +1363,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 10/63 K-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="1R5" constant="no"/>
+<attribute name="I_RIPPLE" value="80m" constant="no"/>
 <attribute name="VALUE" value="10µ/63V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1J100P" constant="no"/>
 </technology>
@@ -1347,7 +1372,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 150/10 P-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R26" constant="no"/>
+<attribute name="I_RIPPLE" value="300m" constant="no"/>
 <attribute name="VALUE" value="150µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1A151AP" constant="no"/>
 </technology>
@@ -1355,7 +1381,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 150/16 P-D8" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R16" constant="no"/>
+<attribute name="I_RIPPLE" value="600m" constant="no"/>
 <attribute name="VALUE" value="150µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFPC151XAP" constant="no"/>
 </technology>
@@ -1363,7 +1390,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 220/10 P-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R16" constant="no"/>
+<attribute name="I_RIPPLE" value="600m" constant="no"/>
 <attribute name="VALUE" value="220µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFPA221XAP" constant="no"/>
 </technology>
@@ -1371,7 +1399,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 220/16 P-D8" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R16" constant="no"/>
+<attribute name="I_RIPPLE" value="600m" constant="no"/>
 <attribute name="VALUE" value="220µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFPC221XAP" constant="no"/>
 </technology>
@@ -1379,7 +1408,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 220/6,3 P-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R26" constant="no"/>
+<attribute name="I_RIPPLE" value="300m" constant="no"/>
 <attribute name="VALUE" value="220µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP0J221AP" constant="no"/>
 </technology>
@@ -1387,7 +1417,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 330/6,3 P-D8" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R16" constant="no"/>
+<attribute name="I_RIPPLE" value="600m" constant="no"/>
 <attribute name="VALUE" value="330µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFPJ331XAP" constant="no"/>
 </technology>
@@ -1395,7 +1426,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 33/25 P-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R36" constant="no"/>
+<attribute name="I_RIPPLE" value="240m" constant="no"/>
 <attribute name="VALUE" value="33µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1E330AP" constant="no"/>
 </technology>
@@ -1403,7 +1435,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 33/35 P-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R36" constant="no"/>
+<attribute name="I_RIPPLE" value="240m" constant="no"/>
 <attribute name="VALUE" value="33µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1V330AP" constant="no"/>
 </technology>
@@ -1411,7 +1444,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 33/50 K-D8" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R68" constant="no"/>
+<attribute name="I_RIPPLE" value="195m" constant="no"/>
 <attribute name="VALUE" value="33µ/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1H330XP" constant="no"/>
 </technology>
@@ -1419,7 +1453,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 47/25 P-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R36" constant="no"/>
+<attribute name="I_RIPPLE" value="240m" constant="no"/>
 <attribute name="VALUE" value="47µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1E470P" constant="no"/>
 </technology>
@@ -1427,7 +1462,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 47/35 P-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R36" constant="no"/>
+<attribute name="I_RIPPLE" value="240m" constant="no"/>
 <attribute name="VALUE" value="47µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1V470P" constant="no"/>
 </technology>
@@ -1435,7 +1471,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 47/50 K-D8" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R68" constant="no"/>
+<attribute name="I_RIPPLE" value="195m" constant="no"/>
 <attribute name="VALUE" value="47µ/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1H470XP" constant="no"/>
 </technology>
@@ -1443,7 +1480,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 68/16 P-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R36" constant="no"/>
+<attribute name="I_RIPPLE" value="240m" constant="no"/>
 <attribute name="VALUE" value="68µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1C680P" constant="no"/>
 </technology>
@@ -1451,7 +1489,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 68/25 K-D" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R36" constant="no"/>
+<attribute name="I_RIPPLE" value="240m" constant="no"/>
 <attribute name="VALUE" value="68µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1E680P" constant="no"/>
 </technology>
@@ -1459,7 +1498,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 68/35 P-D8" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R16" constant="no"/>
+<attribute name="I_RIPPLE" value="600m" constant="no"/>
 <attribute name="VALUE" value="68µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFPV680XAP" constant="no"/>
 </technology>
@@ -1475,7 +1515,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 100/25 K-E" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R26" constant="no"/>
+<attribute name="I_RIPPLE" value="300m" constant="no"/>
 <attribute name="VALUE" value="100µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1E101P" constant="no"/>
 </technology>
@@ -1483,7 +1524,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 220/10 K-E" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R26" constant="no"/>
+<attribute name="I_RIPPLE" value="300m" constant="no"/>
 <attribute name="VALUE" value="220µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1A221P" constant="no"/>
 </technology>
@@ -1491,7 +1533,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 22/50 C-E" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R70" constant="no"/>
+<attribute name="I_RIPPLE" value="120m" constant="no"/>
 <attribute name="VALUE" value="22µ/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1H220P" constant="no"/>
 </technology>
@@ -1499,7 +1542,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 22/63 K-E" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="1R20" constant="no"/>
+<attribute name="I_RIPPLE" value="120m" constant="no"/>
 <attribute name="VALUE" value="22µ/63V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1J220P" constant="no"/>
 </technology>
@@ -1507,7 +1551,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 33/50 K-E" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R68" constant="no"/>
+<attribute name="I_RIPPLE" value="195m" constant="no"/>
 <attribute name="VALUE" value="33µ/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1H330P" constant="no"/>
 </technology>
@@ -1515,7 +1560,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 47/50 K-E" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R68" constant="no"/>
+<attribute name="I_RIPPLE" value="195m" constant="no"/>
 <attribute name="VALUE" value="47µ/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1H470P" constant="no"/>
 </technology>
@@ -1531,7 +1577,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1000/6,3 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="1000µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP0J102AP" constant="no"/>
 </technology>
@@ -1539,7 +1586,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 100/50 K-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R34" constant="no"/>
+<attribute name="I_RIPPLE" value="350m" constant="no"/>
 <attribute name="VALUE" value="100µ/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1H101P" constant="no"/>
 </technology>
@@ -1547,7 +1595,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 150/25 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="150µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1E151AP" constant="no"/>
 </technology>
@@ -1555,7 +1604,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 150/35 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="150µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1V151AP" constant="no"/>
 </technology>
@@ -1563,7 +1613,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 220/25 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="220µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1E221AP" constant="no"/>
 </technology>
@@ -1571,7 +1622,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 220/35 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="220µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1V221AP" constant="no"/>
 </technology>
@@ -1579,7 +1631,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 22/100 K-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="1R30" constant="no"/>
+<attribute name="I_RIPPLE" value="130m" constant="no"/>
 <attribute name="VALUE" value="22µ/100V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK2A220P" constant="no"/>
 </technology>
@@ -1587,7 +1640,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 330/10 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="330µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1A331AP" constant="no"/>
 </technology>
@@ -1595,7 +1649,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 330/16 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="330µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1C331AP" constant="no"/>
 </technology>
@@ -1603,7 +1658,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 330/25 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="330µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1E331AP" constant="no"/>
 </technology>
@@ -1611,7 +1667,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 33/63 K-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R65" constant="no"/>
+<attribute name="I_RIPPLE" value="250m" constant="no"/>
 <attribute name="VALUE" value="33µ/63V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1J330P" constant="no"/>
 </technology>
@@ -1619,7 +1676,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 470/10 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="470µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1A471AP" constant="no"/>
 </technology>
@@ -1627,7 +1685,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 470/16 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="470µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1C471AP" constant="no"/>
 </technology>
@@ -1635,7 +1694,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 470/6,3 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="470µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP0J471AP" constant="no"/>
 </technology>
@@ -1643,7 +1703,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 47/63 K-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R65" constant="no"/>
+<attribute name="I_RIPPLE" value="250m" constant="no"/>
 <attribute name="VALUE" value="47µ/63V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1J470P" constant="no"/>
 </technology>
@@ -1651,7 +1712,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 680/10 P-F" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="680µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1A681AP" constant="no"/>
 </technology>
@@ -1667,7 +1729,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1000/10 P-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R06" constant="no"/>
+<attribute name="I_RIPPLE" value="1A19" constant="no"/>
 <attribute name="VALUE" value="1000µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1A102AP" constant="no"/>
 </technology>
@@ -1675,7 +1738,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1000/6,3C-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R15" constant="no"/>
+<attribute name="I_RIPPLE" value="670m" constant="no"/>
 <attribute name="VALUE" value="1000µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC0J102P" constant="no"/>
 </technology>
@@ -1683,7 +1747,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 100/63 K-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R35" constant="no"/>
+<attribute name="I_RIPPLE" value="400m" constant="no"/>
 <attribute name="VALUE" value="100µ/63V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1J101P" constant="no"/>
 </technology>
@@ -1691,7 +1756,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1200/10 P-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="1200µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFPA122UAP" constant="no"/>
 </technology>
@@ -1699,7 +1765,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1500/6,3C-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R15" constant="no"/>
+<attribute name="I_RIPPLE" value="670m" constant="no"/>
 <attribute name="VALUE" value="1500µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC0J152P" constant="no"/>
 </technology>
@@ -1707,7 +1774,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 220/50 P-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R12" constant="no"/>
+<attribute name="I_RIPPLE" value="900m" constant="no"/>
 <attribute name="VALUE" value="220µ/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1H221AP" constant="no"/>
 </technology>
@@ -1715,7 +1783,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 330/16 C-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R15" constant="no"/>
+<attribute name="I_RIPPLE" value="670m" constant="no"/>
 <attribute name="VALUE" value="330µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1C331P" constant="no"/>
 </technology>
@@ -1723,7 +1792,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 330/35 P-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R15" constant="no"/>
+<attribute name="I_RIPPLE" value="670m" constant="no"/>
 <attribute name="VALUE" value="330µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1V331P" constant="no"/>
 </technology>
@@ -1731,7 +1801,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 33/100 K-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R70" constant="no"/>
+<attribute name="I_RIPPLE" value="200m" constant="no"/>
 <attribute name="VALUE" value="33µ/100V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK2A330P" constant="no"/>
 </technology>
@@ -1739,7 +1810,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 470/10 C-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="470µ/10V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1A471AP" constant="no"/>
 </technology>
@@ -1747,7 +1819,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 470/25 P-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R15" constant="no"/>
+<attribute name="I_RIPPLE" value="670m" constant="no"/>
 <attribute name="VALUE" value="470µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFC1E471P" constant="no"/>
 </technology>
@@ -1755,7 +1828,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 560/25 P-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="560µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFPE561UAP" constant="no"/>
 </technology>
@@ -1763,7 +1837,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 680/16 P-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R06" constant="no"/>
+<attribute name="I_RIPPLE" value="1A19" constant="no"/>
 <attribute name="VALUE" value="680µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFP1C681AP" constant="no"/>
 </technology>
@@ -1771,7 +1846,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 820/16 P-G" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R08" constant="no"/>
+<attribute name="I_RIPPLE" value="850m" constant="no"/>
 <attribute name="VALUE" value="820µ/16V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFPC821UAP" constant="no"/>
 </technology>
@@ -1787,7 +1863,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1000/25K-H13" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R06" constant="no"/>
+<attribute name="I_RIPPLE" value="1A1" constant="no"/>
 <attribute name="VALUE" value="1000µ/25V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1E102AQ" constant="no"/>
 </technology>
@@ -1795,7 +1872,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 220/63 K-H13" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R16" constant="no"/>
+<attribute name="I_RIPPLE" value="800m" constant="no"/>
 <attribute name="VALUE" value="220µ/63V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1J221AQ" constant="no"/>
 </technology>
@@ -1803,7 +1881,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 3300/6,3K-H13" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R06" constant="no"/>
+<attribute name="I_RIPPLE" value="1A1" constant="no"/>
 <attribute name="VALUE" value="3300µ/6V3"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK0J332AQ" constant="no"/>
 </technology>
@@ -1811,7 +1890,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 330/50 K-H13" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R12" constant="no"/>
+<attribute name="I_RIPPLE" value="900m" constant="no"/>
 <attribute name="VALUE" value="330µ/50V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1H331AQ" constant="no"/>
 </technology>
@@ -1819,7 +1899,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 470/35 K-H13" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R06" constant="no"/>
+<attribute name="I_RIPPLE" value="1A1" constant="no"/>
 <attribute name="VALUE" value="470µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1V471AQ" constant="no"/>
 </technology>
@@ -1827,7 +1908,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 680/35 K-H13" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="0R06" constant="no"/>
+<attribute name="I_RIPPLE" value="1A1" constant="no"/>
 <attribute name="VALUE" value="680µ/35V"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1V681AQ" constant="no"/>
 </technology>
@@ -1843,7 +1925,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1000/35K-J16" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="35m" constant="no"/>
+<attribute name="I_RIPPLE" value="1A8" constant="no"/>
 <attribute name="VALUE" value="1000µ/35V" constant="no"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1V102AM" constant="no"/>
 </technology>
@@ -1851,7 +1934,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1000/50K-J16" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="73m" constant="no"/>
+<attribute name="I_RIPPLE" value="1A61" constant="no"/>
 <attribute name="VALUE" value="1000µ/50V" constant="no"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1H102AM" constant="no"/>
 </technology>
@@ -1859,7 +1943,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 1500/35K-J16" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="35m" constant="no"/>
+<attribute name="I_RIPPLE" value="1A8" constant="no"/>
 <attribute name="VALUE" value="1500µ/35V" constant="no"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1V102AM" constant="no"/>
 </technology>
@@ -1867,7 +1952,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="VF 470/63 K-J16" constant="no"/>
-<attribute name="ESR" value="" constant="no"/>
+<attribute name="ESR" value="82m" constant="no"/>
+<attribute name="I_RIPPLE" value="1A41" constant="no"/>
 <attribute name="VALUE" value="470µ/63V" constant="no"/>
 <attribute name="VENDOR#" value="PANASONIC#EEEFK1J471AM" constant="no"/>
 </technology>
