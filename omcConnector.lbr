@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -561,11 +561,106 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CONRAD" value="" constant="no"/>
-<attribute name="DIGIKEY" value="" constant="no"/>
-<attribute name="REICHELT" value="WSL 6G" constant="no"/>
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="WSL 6G" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
-<attribute name="VENDOR" value="" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCWTRMWPB2M54" prefix="X" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;PCB terminal solder strip with botton - 2.54mm grid&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;PCB terminal strip to solder pins&lt;/li&gt;
+  &lt;li&gt;Pole pin spacing 2.54mm&lt;/li&gt;
+  &lt;li&gt;With push bottons&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C100/WAGO233-506_WAGO233-508_WAGO233-512%23WAG.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://www.wagocatalog.com/okv3/index.asp?lid=5&amp;cid=51&amp;strBestNrID=2330404"&gt;Wago Procutside&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="https://eshop.wago.com/JPBC/singleview/getFile.hbc?fName=233_502.pdf&amp;oFName=233_502.pdf"&gt;3D Model&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCWTRMX02" prefix="X" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;Screw solder terminal - X2&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;6A/200V&lt;/li&gt;
+  &lt;li&gt;spacing: 3.5mm/5mm&lt;/li&gt;
+  &lt;li&gt;srew terminal, plugable&lt;/li&gt;
+  &lt;li&gt;rectangular cable connection, 90° &lt;/li&gt;
+  &lt;li&gt;stackable without lost of contact &lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/311661"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_311661_RP023xxHBWC_OFF-022900J.pdf"&gt;Metz Connect Datasheetl&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C100/AKL059%23RIA.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;Electrical and mechanical parameter&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
+.tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-txst"&gt;conductor diameter&lt;br&gt;(single wire)&lt;/th&gt;
+    &lt;th class="tg-txst"&gt;0,08 - 0,75 mm²&lt;br&gt;(AWG 28 - 18)&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;conductor diameter&lt;br&gt;(multi wire)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,08 - 0,75 mm²&lt;br&gt; (AWG 28 - 18)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;smallest leackage path&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;2 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;IEC 60529&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 00&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;strip length (min)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;5mm&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#RP02302HBWC" constant="no"/>
 </technology>
 </technologies>
 </device>
