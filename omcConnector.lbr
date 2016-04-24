@@ -250,15 +250,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;/p&gt;</description>
 <pin name="P$1" x="-5.08" y="0" visible="pad" length="middle"/>
 <wire x1="0.762" y1="-0.635" x2="0.762" y2="0.635" width="0.254" layer="94" curve="-180"/>
-</symbol>
-<symbol name="PHDFRMX6">
-<description>Pin Header Frame X6</description>
-<text x="-2.921" y="4.318" size="1.27" layer="95">&gt;PART</text>
-<text x="-2.921" y="-5.842" size="1.27" layer="96">&gt;VALUE</text>
-<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.254" layer="94"/>
+<text x="1.524" y="-0.508" size="1.4224" layer="95">&gt;PART</text>
 </symbol>
 <symbol name="PHDR">
 <description>&lt;p&gt;
@@ -269,6 +261,31 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;/p&gt;</description>
 <pin name="P$1" x="5.08" y="0" visible="pad" length="middle" rot="R180"/>
 <wire x1="-0.762" y1="0.635" x2="-0.762" y2="-0.635" width="0.254" layer="94" curve="-180"/>
+<text x="-1.27" y="0.508" size="1.4224" layer="95" rot="R180">&gt;PART</text>
+</symbol>
+<symbol name="PSCWL">
+<description>&lt;p&gt;
+&lt;h2&gt;Screw Terminal Connector (Single)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Connection Terminal on left side&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<pin name="P$1" x="-5.08" y="0" visible="pad" length="middle"/>
+<text x="2.032" y="-0.508" size="1.4224" layer="95">&gt;PART</text>
+<circle x="0.762" y="0" radius="0.803215625" width="0.254" layer="94"/>
+<wire x1="0.254" y1="-0.508" x2="1.27" y2="0.508" width="0.127" layer="94"/>
+</symbol>
+<symbol name="PSCWR">
+<description>&lt;p&gt;
+&lt;h2&gt;Screw Terminal Connector (Single)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Connection Terminal on right side&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<pin name="P$1" x="5.08" y="0" visible="pad" length="middle" rot="R180"/>
+<text x="-2.032" y="0.508" size="1.4224" layer="95" rot="R180">&gt;PART</text>
+<circle x="-0.762" y="0" radius="0.803215625" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-0.508" x2="-0.254" y2="0.508" width="0.127" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -547,7 +564,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="2" symbol="PHDR" x="2.54" y="2.54" addlevel="must"/>
 <gate name="4" symbol="PHDR" x="2.54" y="0" addlevel="must"/>
 <gate name="6" symbol="PHDR" x="2.54" y="-2.54" addlevel="must"/>
-<gate name="G$1" symbol="PHDFRMX6" x="0" y="0" addlevel="must"/>
 </gates>
 <devices>
 <device name="" package="BOXHDX6P254S">
@@ -571,7 +587,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </device>
 </devices>
 </deviceset>
-<deviceset name="SCWTRMWPB2M54" prefix="X" uservalue="yes">
+<deviceset name="STRTRMX02B" prefix="X" uservalue="yes">
 <description>&lt;p&gt;
 &lt;h2&gt;PCB terminal solder strip with botton - 2.54mm grid&lt;/h2&gt;
 &lt;ul&gt;
@@ -597,47 +613,63 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <description>&lt;p&gt;
 &lt;h2&gt;Screw solder terminal - X2&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;6A/200V&lt;/li&gt;
-  &lt;li&gt;spacing: 3.5mm/5mm&lt;/li&gt;
+  &lt;li&gt;pole: 2&lt;/li&gt;
   &lt;li&gt;srew terminal, plugable&lt;/li&gt;
   &lt;li&gt;rectangular cable connection, 90° &lt;/li&gt;
   &lt;li&gt;stackable without lost of contact &lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/311661"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
-  &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_311661_RP023xxHBWC_OFF-022900J.pdf"&gt;Metz Connect Datasheetl&lt;/a&gt;&lt;/il&gt;
-  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C100/AKL059%23RIA.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;RT034 - Typ 086 - 3.81mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114I.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/AKL086.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;RT035 - Typ 094 - 5mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310941"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310941_RT035xxHBLU_OFF-022741Q.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 
 
 &lt;p&gt;
-&lt;b&gt;Electrical and mechanical parameter&lt;/b&gt;
+&lt;b&gt;Metz connect terminal - electrical and mechanical parameter&lt;/b&gt;
 &lt;style type="text/css"&gt;
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
 .tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
 .tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
 &lt;/style&gt;
 &lt;table class="tg"&gt;
   &lt;tr&gt;
-    &lt;th class="tg-txst"&gt;conductor diameter&lt;br&gt;(single wire)&lt;/th&gt;
-    &lt;th class="tg-txst"&gt;0,08 - 0,75 mm²&lt;br&gt;(AWG 28 - 18)&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;Parameter&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT034 - Typ 086&lt;br&gt;(3.81mm grid)&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT035 - Typ 094&lt;br&gt;(5mm grid)&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;conductor diameter&lt;br&gt;(single wire)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td class="tg-2bfz"&gt;conductor diameter&lt;br&gt;(multi wire)&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;0,08 - 0,75 mm²&lt;br&gt; (AWG 28 - 18)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm² &lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td class="tg-txst"&gt;smallest leackage path&lt;/td&gt;
     &lt;td class="tg-txst"&gt;2 mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;3,2 mm&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td class="tg-2bfz"&gt;IEC 60529&lt;/td&gt;
     &lt;td class="tg-2bfz"&gt;IP 00&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 20&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td class="tg-txst"&gt;strip length (min)&lt;/td&gt;
     &lt;td class="tg-txst"&gt;5mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;6 mm&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/p&gt;
@@ -651,6 +683,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
    &lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
+<gate name="G$1" symbol="PSCWR" x="0" y="0"/>
+<gate name="G$2" symbol="PSCWR" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="">
