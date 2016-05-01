@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3838,7 +3838,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </package>
 <package name="RT03405T086">
 <description>&lt;p&gt;
-&lt;h3&gt;RT03502HBLU (Typ 086) - Screw Terminal X4&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;RT03502HBLU (Typ 086) - Screw Terminal X5&lt;/h3&gt;&lt;ul&gt;
   &lt;li&gt;spacing 3.81mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
@@ -5450,7 +5450,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </deviceset>
 <deviceset name="SCWTRMX02" prefix="X">
 <description>&lt;p&gt;
-&lt;h2&gt;Screw solder terminal - X2&lt;/h2&gt;
+&lt;h2&gt;Screw solder terminal - X02&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;pole: 2&lt;/li&gt;
   &lt;li&gt;srew terminal, plugable&lt;/li&gt;
@@ -5553,6 +5553,354 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="AKL 086-02" constant="no"/>
 <attribute name="VALUE" value="RT034 Typ 086" constant="no"/>
 <attribute name="VENDOR#" value="Metz Connect#31086102" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCWTRMX03" prefix="X">
+<description>&lt;p&gt;
+&lt;h2&gt;Screw solder terminal - X03&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;pole: 2&lt;/li&gt;
+  &lt;li&gt;srew terminal, plugable&lt;/li&gt;
+  &lt;li&gt;rectangular cable connection, 90° &lt;/li&gt;
+  &lt;li&gt;stackable without lost of contact &lt;/li&gt;
+  &lt;li&gt;RT034 - Typ 086 - 3.81mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114I.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/AKL086.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;RT035 - Typ 094 - 5mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310941"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310941_RT035xxHBLU_OFF-022741Q.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;Metz connect terminal - electrical and mechanical parameter&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
+.tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-xn4f"&gt;Parameter&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT034 - Typ 086&lt;br&gt;(3.81mm grid)&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT035 - Typ 094&lt;br&gt;(5mm grid)&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;conductor diameter&lt;br&gt;(single wire)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;conductor diameter&lt;br&gt;(multi wire)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm² &lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;smallest leackage path&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;2 mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;3,2 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;IEC 60529&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 00&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;strip length (min)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;5mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;6 mm&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PSCWR" x="0" y="0"/>
+<gate name="G$2" symbol="PSCWR" x="0" y="-2.54"/>
+<gate name="G$3" symbol="PSCWR" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="-3M81" package="RT03403T086">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 086-03" constant="no"/>
+<attribute name="VALUE" value="RT034 Typ 086" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31086103" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-5M00" package="RT03503T094">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 094-03" constant="no"/>
+<attribute name="VALUE" value="RT035 Typ 094" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31094103" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCWTRMX04" prefix="X">
+<description>&lt;p&gt;
+&lt;h2&gt;Screw solder terminal - X04&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;pole: 2&lt;/li&gt;
+  &lt;li&gt;srew terminal, plugable&lt;/li&gt;
+  &lt;li&gt;rectangular cable connection, 90° &lt;/li&gt;
+  &lt;li&gt;stackable without lost of contact &lt;/li&gt;
+  &lt;li&gt;RT034 - Typ 086 - 3.81mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114I.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/AKL086.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;RT035 - Typ 094 - 5mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310941"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310941_RT035xxHBLU_OFF-022741Q.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;Metz connect terminal - electrical and mechanical parameter&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
+.tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-xn4f"&gt;Parameter&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT034 - Typ 086&lt;br&gt;(3.81mm grid)&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT035 - Typ 094&lt;br&gt;(5mm grid)&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;conductor diameter&lt;br&gt;(single wire)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;conductor diameter&lt;br&gt;(multi wire)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm² &lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;smallest leackage path&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;2 mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;3,2 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;IEC 60529&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 00&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;strip length (min)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;5mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;6 mm&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PSCWR" x="0" y="0"/>
+<gate name="G$2" symbol="PSCWR" x="0" y="-2.54"/>
+<gate name="G$3" symbol="PSCWR" x="0" y="-5.08"/>
+<gate name="G$4" symbol="PSCWR" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="-3M81" package="RT03404T086">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 086-04" constant="no"/>
+<attribute name="VALUE" value="RT034 Typ 086" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31086104" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-5M00" package="RT03504T094">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 094-04" constant="no"/>
+<attribute name="VALUE" value="RT035 Typ 094" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31094104" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCWTRMX05" prefix="X">
+<description>&lt;p&gt;
+&lt;h2&gt;Screw solder terminal - X05&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;pole: 2&lt;/li&gt;
+  &lt;li&gt;srew terminal, plugable&lt;/li&gt;
+  &lt;li&gt;rectangular cable connection, 90° &lt;/li&gt;
+  &lt;li&gt;stackable without lost of contact &lt;/li&gt;
+  &lt;li&gt;RT034 - Typ 086 - 3.81mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114I.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/AKL086.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;RT035 - Typ 094 - 5mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310941"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310941_RT035xxHBLU_OFF-022741Q.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;Metz connect terminal - electrical and mechanical parameter&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
+.tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-xn4f"&gt;Parameter&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT034 - Typ 086&lt;br&gt;(3.81mm grid)&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT035 - Typ 094&lt;br&gt;(5mm grid)&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;conductor diameter&lt;br&gt;(single wire)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;conductor diameter&lt;br&gt;(multi wire)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm² &lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;smallest leackage path&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;2 mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;3,2 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;IEC 60529&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 00&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;strip length (min)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;5mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;6 mm&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PSCWR" x="0" y="0"/>
+<gate name="G$2" symbol="PSCWR" x="0" y="-2.54"/>
+<gate name="G$3" symbol="PSCWR" x="0" y="-5.08"/>
+<gate name="G$4" symbol="PSCWR" x="0" y="-7.62"/>
+<gate name="G$5" symbol="PSCWR" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="-3M81" package="RT03405T086">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 086-05" constant="no"/>
+<attribute name="VALUE" value="RT034 Typ 086" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31086105" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-5M00" package="RT03505T094">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 094-05" constant="no"/>
+<attribute name="VALUE" value="RT035 Typ 094" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31094105" constant="no"/>
 </technology>
 </technologies>
 </device>
