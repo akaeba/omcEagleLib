@@ -1859,7 +1859,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="18.87" y1="0.186" x2="16.134375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="3.868125" y1="0.5035" x2="1.1325" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="3.868125" y1="0.186" x2="1.1325" y2="0.186" width="0.127" layer="21"/>
-<pad name="9" x="25.003125" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="6" x="25.003125" y="0" drill="1.3" shape="long" rot="R90"/>
 <wire x1="27.043125" y1="3.1436" x2="26.999325" y2="3.4844" width="0.127" layer="21" curve="14.529549"/>
 <wire x1="26.999325" y1="3.4844" x2="26.870425" y2="3.8095" width="0.127" layer="21" curve="14.02952"/>
 <wire x1="26.870425" y1="3.8095" x2="26.629425" y2="4.1412" width="0.127" layer="21" curve="16.398865"/>
@@ -2362,7 +2362,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="18.87" y1="0.186" x2="16.134375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="3.868125" y1="0.5035" x2="1.1325" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="3.868125" y1="0.186" x2="1.1325" y2="0.186" width="0.127" layer="21"/>
-<pad name="9" x="25.003125" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="6" x="25.003125" y="0" drill="1.3" shape="long" rot="R90"/>
 <wire x1="27.043125" y1="3.1436" x2="26.999325" y2="3.4844" width="0.127" layer="21" curve="14.529549"/>
 <wire x1="26.999325" y1="3.4844" x2="26.870425" y2="3.8095" width="0.127" layer="21" curve="14.02952"/>
 <wire x1="26.870425" y1="3.8095" x2="26.629425" y2="4.1412" width="0.127" layer="21" curve="16.398865"/>
@@ -2445,7 +2445,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="33.265" y1="-3.66" x2="36.744375" y2="-3.66" width="0.127" layer="21"/>
 <wire x1="36.744375" y1="-3.66" x2="36.744375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="33.265" y1="-0.46" x2="33.265" y2="-3.66" width="0.127" layer="21"/>
-<pad name="6" x="35.004375" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="8" x="35.004375" y="0" drill="1.3" shape="long" rot="R90"/>
 <wire x1="33.886875" y1="-0.46" x2="33.265" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="33.464375" y1="-2.86" x2="36.54375" y2="-2.86" width="0.127" layer="51"/>
 <wire x1="36.54375" y1="-2.86" x2="36.54375" y2="-1.21" width="0.127" layer="51"/>
@@ -2465,7 +2465,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="28.264375" y1="-3.66" x2="31.74375" y2="-3.66" width="0.127" layer="21"/>
 <wire x1="31.74375" y1="-3.66" x2="31.74375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="28.264375" y1="-0.46" x2="28.264375" y2="-3.66" width="0.127" layer="21"/>
-<pad name="10" x="30.00375" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="7" x="30.00375" y="0" drill="1.3" shape="long" rot="R90"/>
 <wire x1="28.88625" y1="-0.46" x2="28.264375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="28.46375" y1="-2.86" x2="31.543125" y2="-2.86" width="0.127" layer="51"/>
 <wire x1="31.543125" y1="-2.86" x2="31.543125" y2="-1.21" width="0.127" layer="51"/>
@@ -3025,7 +3025,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="18.87" y1="0.186" x2="16.134375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="3.868125" y1="0.5035" x2="1.1325" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="3.868125" y1="0.186" x2="1.1325" y2="0.186" width="0.127" layer="21"/>
-<pad name="9" x="25.003125" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="6" x="25.003125" y="0" drill="1.3" shape="long" rot="R90"/>
 <wire x1="27.043125" y1="3.1436" x2="26.999325" y2="3.4844" width="0.127" layer="21" curve="14.529549"/>
 <wire x1="26.999325" y1="3.4844" x2="26.870425" y2="3.8095" width="0.127" layer="21" curve="14.02952"/>
 <wire x1="26.870425" y1="3.8095" x2="26.629425" y2="4.1412" width="0.127" layer="21" curve="16.398865"/>
@@ -3108,7 +3108,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="33.265" y1="-3.66" x2="36.744375" y2="-3.66" width="0.127" layer="21"/>
 <wire x1="36.744375" y1="-3.66" x2="36.744375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="33.265" y1="-0.46" x2="33.265" y2="-3.66" width="0.127" layer="21"/>
-<pad name="6" x="35.004375" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="8" x="35.004375" y="0" drill="1.3" shape="long" rot="R90"/>
 <wire x1="33.886875" y1="-0.46" x2="33.265" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="33.464375" y1="-2.86" x2="36.54375" y2="-2.86" width="0.127" layer="51"/>
 <wire x1="36.54375" y1="-2.86" x2="36.54375" y2="-1.21" width="0.127" layer="51"/>
@@ -3128,7 +3128,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="28.264375" y1="-3.66" x2="31.74375" y2="-3.66" width="0.127" layer="21"/>
 <wire x1="31.74375" y1="-3.66" x2="31.74375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="28.264375" y1="-0.46" x2="28.264375" y2="-3.66" width="0.127" layer="21"/>
-<pad name="10" x="30.00375" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="7" x="30.00375" y="0" drill="1.3" shape="long" rot="R90"/>
 <wire x1="28.88625" y1="-0.46" x2="28.264375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="28.46375" y1="-2.86" x2="31.543125" y2="-2.86" width="0.127" layer="51"/>
 <wire x1="31.543125" y1="-2.86" x2="31.543125" y2="-1.21" width="0.127" layer="51"/>
@@ -3270,7 +3270,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="43.26625" y1="-3.739375" x2="46.745625" y2="-3.739375" width="0.127" layer="21"/>
 <wire x1="46.745625" y1="-3.739375" x2="46.745625" y2="-0.539375" width="0.127" layer="21"/>
 <wire x1="43.26625" y1="-0.539375" x2="43.26625" y2="-3.739375" width="0.127" layer="21"/>
-<pad name="7" x="45.005625" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="10" x="45.005625" y="0" drill="1.3" shape="long" rot="R90"/>
 <wire x1="43.888125" y1="-0.539375" x2="43.26625" y2="-0.539375" width="0.127" layer="21"/>
 <wire x1="43.465625" y1="-2.939375" x2="46.545" y2="-2.939375" width="0.127" layer="51"/>
 <wire x1="46.545" y1="-2.939375" x2="46.545" y2="-1.289375" width="0.127" layer="51"/>
@@ -3290,7 +3290,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="38.265625" y1="-3.66" x2="41.745" y2="-3.66" width="0.127" layer="21"/>
 <wire x1="41.745" y1="-3.66" x2="41.745" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="38.265625" y1="-0.46" x2="38.265625" y2="-3.66" width="0.127" layer="21"/>
-<pad name="12" x="40.005" y="0" drill="1.3" shape="long" rot="R90"/>
+<pad name="9" x="40.005" y="0" drill="1.3" shape="long" rot="R90"/>
 <wire x1="38.8875" y1="-0.46" x2="38.265625" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="38.465" y1="-2.86" x2="41.544375" y2="-2.86" width="0.127" layer="51"/>
 <wire x1="41.544375" y1="-2.86" x2="41.544375" y2="-1.21" width="0.127" layer="51"/>
@@ -5901,6 +5901,390 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="AKL 094-05" constant="no"/>
 <attribute name="VALUE" value="RT035 Typ 094" constant="no"/>
 <attribute name="VENDOR#" value="Metz Connect#31094105" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCWTRMX06" prefix="X">
+<description>&lt;p&gt;
+&lt;h2&gt;Screw solder terminal - X05&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;pole: 2&lt;/li&gt;
+  &lt;li&gt;srew terminal, plugable&lt;/li&gt;
+  &lt;li&gt;rectangular cable connection, 90° &lt;/li&gt;
+  &lt;li&gt;stackable without lost of contact &lt;/li&gt;
+  &lt;li&gt;RT034 - Typ 086 - 3.81mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114I.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/AKL086.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;RT035 - Typ 094 - 5mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310941"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310941_RT035xxHBLU_OFF-022741Q.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;Metz connect terminal - electrical and mechanical parameter&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
+.tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-xn4f"&gt;Parameter&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT034 - Typ 086&lt;br&gt;(3.81mm grid)&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT035 - Typ 094&lt;br&gt;(5mm grid)&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;conductor diameter&lt;br&gt;(single wire)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;conductor diameter&lt;br&gt;(multi wire)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm² &lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;smallest leackage path&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;2 mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;3,2 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;IEC 60529&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 00&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;strip length (min)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;5mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;6 mm&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PSCWR" x="0" y="0"/>
+<gate name="G$2" symbol="PSCWR" x="0" y="-2.54"/>
+<gate name="G$3" symbol="PSCWR" x="0" y="-5.08"/>
+<gate name="G$4" symbol="PSCWR" x="0" y="-7.62"/>
+<gate name="G$5" symbol="PSCWR" x="0" y="-10.16"/>
+<gate name="G$6" symbol="PSCWR" x="0" y="-12.7"/>
+</gates>
+<devices>
+<device name="-3M81" package="RT03406T086">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+<connect gate="G$6" pin="P$1" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 086-06" constant="no"/>
+<attribute name="VALUE" value="RT034 Typ 086" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31086106" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-5M00" package="RT03506T094">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+<connect gate="G$6" pin="P$1" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 094-06" constant="no"/>
+<attribute name="VALUE" value="RT035 Typ 094" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31094106" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCWTRMX08" prefix="X">
+<description>&lt;p&gt;
+&lt;h2&gt;Screw solder terminal - X05&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;pole: 2&lt;/li&gt;
+  &lt;li&gt;srew terminal, plugable&lt;/li&gt;
+  &lt;li&gt;rectangular cable connection, 90° &lt;/li&gt;
+  &lt;li&gt;stackable without lost of contact &lt;/li&gt;
+  &lt;li&gt;RT034 - Typ 086 - 3.81mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114I.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/AKL086.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;RT035 - Typ 094 - 5mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310941"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310941_RT035xxHBLU_OFF-022741Q.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;Metz connect terminal - electrical and mechanical parameter&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
+.tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-xn4f"&gt;Parameter&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT034 - Typ 086&lt;br&gt;(3.81mm grid)&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT035 - Typ 094&lt;br&gt;(5mm grid)&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;conductor diameter&lt;br&gt;(single wire)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;conductor diameter&lt;br&gt;(multi wire)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm² &lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;smallest leackage path&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;2 mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;3,2 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;IEC 60529&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 00&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;strip length (min)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;5mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;6 mm&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PSCWR" x="0" y="0"/>
+<gate name="G$2" symbol="PSCWR" x="0" y="-2.54"/>
+<gate name="G$3" symbol="PSCWR" x="0" y="-5.08"/>
+<gate name="G$4" symbol="PSCWR" x="0" y="-7.62"/>
+<gate name="G$5" symbol="PSCWR" x="0" y="-10.16"/>
+<gate name="G$6" symbol="PSCWR" x="0" y="-12.7"/>
+<gate name="G$7" symbol="PSCWR" x="0" y="-15.24"/>
+<gate name="G$8" symbol="PSCWR" x="0" y="-17.78"/>
+</gates>
+<devices>
+<device name="-3M81" package="RT03408T086">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+<connect gate="G$6" pin="P$1" pad="6"/>
+<connect gate="G$7" pin="P$1" pad="7"/>
+<connect gate="G$8" pin="P$1" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 086-08" constant="no"/>
+<attribute name="VALUE" value="RT034 Typ 086" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31086108" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-5M00" package="RT03508T094">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+<connect gate="G$6" pin="P$1" pad="6"/>
+<connect gate="G$7" pin="P$1" pad="7"/>
+<connect gate="G$8" pin="P$1" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 094-08" constant="no"/>
+<attribute name="VALUE" value="RT035 Typ 094" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31094108" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCWTRMX10" prefix="X">
+<description>&lt;p&gt;
+&lt;h2&gt;Screw solder terminal - X05&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;pole: 2&lt;/li&gt;
+  &lt;li&gt;srew terminal, plugable&lt;/li&gt;
+  &lt;li&gt;rectangular cable connection, 90° &lt;/li&gt;
+  &lt;li&gt;stackable without lost of contact &lt;/li&gt;
+  &lt;li&gt;RT034 - Typ 086 - 3.81mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114I.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/AKL086.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;RT035 - Typ 094 - 5mm grid:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310941"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310941_RT035xxHBLU_OFF-022741Q.pdf"&gt;Metz Connect Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;Metz connect terminal - electrical and mechanical parameter&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
+.tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-xn4f"&gt;Parameter&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT034 - Typ 086&lt;br&gt;(3.81mm grid)&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;RT035 - Typ 094&lt;br&gt;(5mm grid)&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;conductor diameter&lt;br&gt;(single wire)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;conductor diameter&lt;br&gt;(multi wire)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm² &lt;br&gt;(AWG 28 - 16)&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;0,2 - 1,5 mm²&lt;br&gt;(AWG 26 - 16)&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;smallest leackage path&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;2 mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;3,2 mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-2bfz"&gt;IEC 60529&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 00&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;IP 20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-txst"&gt;strip length (min)&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;5mm&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;6 mm&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Reichelt: avialable
+   &lt;li&gt; Conrad: avialable
+   &lt;li&gt; Digi-Key: -
+   &lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PSCWR" x="0" y="0"/>
+<gate name="G$2" symbol="PSCWR" x="0" y="-2.54"/>
+<gate name="G$3" symbol="PSCWR" x="0" y="-5.08"/>
+<gate name="G$4" symbol="PSCWR" x="0" y="-7.62"/>
+<gate name="G$5" symbol="PSCWR" x="0" y="-10.16"/>
+<gate name="G$6" symbol="PSCWR" x="0" y="-12.7"/>
+<gate name="G$7" symbol="PSCWR" x="0" y="-15.24"/>
+<gate name="G$8" symbol="PSCWR" x="0" y="-17.78"/>
+<gate name="G$9" symbol="PSCWR" x="0" y="-20.32"/>
+<gate name="G$10" symbol="PSCWR" x="0" y="-22.86"/>
+</gates>
+<devices>
+<device name="-3M81" package="RT03410T086">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$10" pin="P$1" pad="10"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+<connect gate="G$6" pin="P$1" pad="6"/>
+<connect gate="G$7" pin="P$1" pad="7"/>
+<connect gate="G$8" pin="P$1" pad="8"/>
+<connect gate="G$9" pin="P$1" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 086-10" constant="no"/>
+<attribute name="VALUE" value="RT034 Typ 086" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31086110" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-5M00" package="RT03510T094">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$10" pin="P$1" pad="10"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+<connect gate="G$6" pin="P$1" pad="6"/>
+<connect gate="G$7" pin="P$1" pad="7"/>
+<connect gate="G$8" pin="P$1" pad="8"/>
+<connect gate="G$9" pin="P$1" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="AKL 094-10" constant="no"/>
+<attribute name="VALUE" value="RT035 Typ 094" constant="no"/>
+<attribute name="VENDOR#" value="Metz Connect#31094110" constant="no"/>
 </technology>
 </technologies>
 </device>
