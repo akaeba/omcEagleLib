@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3431,9 +3431,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;spacing 3.81mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
-<text x="-2.06375" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="6.35" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
-<text x="-2.06375" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
+<text x="-1.905" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="6.19125" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
 <wire x1="-1.1425" y1="-2.86" x2="1.143125" y2="-2.86" width="0.127" layer="21"/>
 <wire x1="1.143125" y1="-2.86" x2="1.143125" y2="-1.21" width="0.127" layer="21"/>
 <wire x1="-1.1425" y1="-1.21" x2="-1.1425" y2="-2.86" width="0.127" layer="21"/>
@@ -3471,17 +3471,17 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="2.07" y1="-0.46" x2="2.07" y2="-3.421875" width="0.127" layer="51"/>
 <wire x1="5.55" y1="-0.46" x2="4.769375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="2.968125" y1="-1.21" x2="2.6675" y2="-1.21" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="-2.06375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="5.87375" y2="-3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="3.730625" x2="5.87375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="5.87375" y1="-3.730625" x2="5.87375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="5.8525" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="21"/>
-<wire x1="5.8525" y1="0.186" x2="4.78375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="-1.905" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="5.715" y2="-3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="3.730625" x2="5.715" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-3.730625" x2="5.715" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="5.69375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="5.69375" y1="0.186" x2="4.78375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.186" x2="0.97375" y2="0.186" width="0.127" layer="21"/>
-<wire x1="5.8525" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="21"/>
-<wire x1="5.8525" y1="0.5035" x2="4.78375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="5.69375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="5.69375" y1="0.5035" x2="4.78375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.5035" x2="0.97375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="-1.42875" y1="2.301875" x2="-1.42875" y2="2.143125" width="0.1016" layer="51"/>
 <wire x1="-1.42875" y1="2.143125" x2="-0.079375" y2="0.9525" width="0.1016" layer="51" curve="90"/>
@@ -3528,9 +3528,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;spacing 3.81mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
-<text x="-2.06375" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="10.16" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
-<text x="-2.06375" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
+<text x="-1.905" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="9.921875" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
 <wire x1="-1.1425" y1="-2.86" x2="1.143125" y2="-2.86" width="0.127" layer="21"/>
 <wire x1="1.143125" y1="-2.86" x2="1.143125" y2="-1.21" width="0.127" layer="21"/>
 <wire x1="-1.1425" y1="-1.21" x2="-1.1425" y2="-2.86" width="0.127" layer="21"/>
@@ -3568,17 +3568,17 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="2.07" y1="-0.46" x2="2.07" y2="-3.421875" width="0.127" layer="51"/>
 <wire x1="5.55" y1="-0.46" x2="4.769375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="2.968125" y1="-1.21" x2="2.6675" y2="-1.21" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="-2.06375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="9.68375" y2="-3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="3.730625" x2="9.68375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="9.68375" y1="-3.730625" x2="9.68375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="9.6625" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="21"/>
-<wire x1="9.6625" y1="0.186" x2="8.59375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="-1.905" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="9.525" y2="-3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="3.730625" x2="9.525" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="9.525" y1="-3.730625" x2="9.525" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="9.50375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="9.50375" y1="0.186" x2="8.59375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.186" x2="0.97375" y2="0.186" width="0.127" layer="21"/>
-<wire x1="9.6625" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="21"/>
-<wire x1="9.6625" y1="0.5035" x2="8.59375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="9.50375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="9.50375" y1="0.5035" x2="8.59375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.5035" x2="0.97375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="-1.42875" y1="2.301875" x2="-1.42875" y2="2.143125" width="0.1016" layer="51"/>
 <wire x1="-1.42875" y1="2.143125" x2="-0.079375" y2="0.9525" width="0.1016" layer="51" curve="90"/>
@@ -3665,9 +3665,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;spacing 3.81mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
-<text x="-2.06375" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="13.97" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
-<text x="-2.06375" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
+<text x="-1.905" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="13.81125" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
 <wire x1="-1.1425" y1="-2.86" x2="1.143125" y2="-2.86" width="0.127" layer="21"/>
 <wire x1="1.143125" y1="-2.86" x2="1.143125" y2="-1.21" width="0.127" layer="21"/>
 <wire x1="-1.1425" y1="-1.21" x2="-1.1425" y2="-2.86" width="0.127" layer="21"/>
@@ -3705,17 +3705,17 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="2.07" y1="-0.46" x2="2.07" y2="-3.421875" width="0.127" layer="51"/>
 <wire x1="5.55" y1="-0.46" x2="4.769375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="2.968125" y1="-1.21" x2="2.6675" y2="-1.21" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="-2.06375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="13.49375" y2="-3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="3.730625" x2="13.49375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="13.49375" y1="-3.730625" x2="13.49375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="13.4725" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="21"/>
-<wire x1="13.4725" y1="0.186" x2="12.40375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="-1.905" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="13.335" y2="-3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="3.730625" x2="13.335" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="13.335" y1="-3.730625" x2="13.335" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="13.31375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="13.31375" y1="0.186" x2="12.40375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.186" x2="0.97375" y2="0.186" width="0.127" layer="21"/>
-<wire x1="13.4725" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="21"/>
-<wire x1="13.4725" y1="0.5035" x2="12.40375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="13.31375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="13.31375" y1="0.5035" x2="12.40375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.5035" x2="0.97375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="-1.42875" y1="2.301875" x2="-1.42875" y2="2.143125" width="0.1016" layer="51"/>
 <wire x1="-1.42875" y1="2.143125" x2="-0.079375" y2="0.9525" width="0.1016" layer="51" curve="90"/>
@@ -3842,9 +3842,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;spacing 3.81mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
-<text x="-2.06375" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="17.78" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
-<text x="-2.06375" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
+<text x="-1.905" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="17.62125" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
 <wire x1="-1.1425" y1="-2.86" x2="1.143125" y2="-2.86" width="0.127" layer="21"/>
 <wire x1="1.143125" y1="-2.86" x2="1.143125" y2="-1.21" width="0.127" layer="21"/>
 <wire x1="-1.1425" y1="-1.21" x2="-1.1425" y2="-2.86" width="0.127" layer="21"/>
@@ -3882,17 +3882,17 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="2.07" y1="-0.46" x2="2.07" y2="-3.421875" width="0.127" layer="51"/>
 <wire x1="5.55" y1="-0.46" x2="4.769375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="2.968125" y1="-1.21" x2="2.6675" y2="-1.21" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="-2.06375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="17.30375" y2="-3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="3.730625" x2="17.30375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="17.30375" y1="-3.730625" x2="17.30375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="17.2825" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="21"/>
-<wire x1="17.2825" y1="0.186" x2="16.21375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="-1.905" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="17.145" y2="-3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="3.730625" x2="17.145" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="17.145" y1="-3.730625" x2="17.145" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="17.12375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="17.12375" y1="0.186" x2="16.21375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.186" x2="0.97375" y2="0.186" width="0.127" layer="21"/>
-<wire x1="17.2825" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="21"/>
-<wire x1="17.2825" y1="0.5035" x2="16.21375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="17.12375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="17.12375" y1="0.5035" x2="16.21375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.5035" x2="0.97375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="-1.42875" y1="2.301875" x2="-1.42875" y2="2.143125" width="0.1016" layer="51"/>
 <wire x1="-1.42875" y1="2.143125" x2="-0.079375" y2="0.9525" width="0.1016" layer="51" curve="90"/>
@@ -4059,9 +4059,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;spacing 3.81mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
-<text x="-2.06375" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="21.59" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
-<text x="-2.06375" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
+<text x="-1.905" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="21.43125" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
 <wire x1="-1.1425" y1="-2.86" x2="1.143125" y2="-2.86" width="0.127" layer="21"/>
 <wire x1="1.143125" y1="-2.86" x2="1.143125" y2="-1.21" width="0.127" layer="21"/>
 <wire x1="-1.1425" y1="-1.21" x2="-1.1425" y2="-2.86" width="0.127" layer="21"/>
@@ -4099,17 +4099,17 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="2.07" y1="-0.46" x2="2.07" y2="-3.421875" width="0.127" layer="51"/>
 <wire x1="5.55" y1="-0.46" x2="4.769375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="2.968125" y1="-1.21" x2="2.6675" y2="-1.21" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="-2.06375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="21.11375" y2="-3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="3.730625" x2="21.11375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="21.11375" y1="-3.730625" x2="21.11375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="21.0925" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="21"/>
-<wire x1="21.0925" y1="0.186" x2="20.02375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="-1.905" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="20.955" y2="-3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="3.730625" x2="20.955" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="20.955" y1="-3.730625" x2="20.955" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="20.93375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="20.93375" y1="0.186" x2="20.02375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.186" x2="0.97375" y2="0.186" width="0.127" layer="21"/>
-<wire x1="21.0925" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="21"/>
-<wire x1="21.0925" y1="0.5035" x2="20.02375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="20.93375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="20.93375" y1="0.5035" x2="20.02375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.5035" x2="0.97375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="-1.42875" y1="2.301875" x2="-1.42875" y2="2.143125" width="0.1016" layer="51"/>
 <wire x1="-1.42875" y1="2.143125" x2="-0.079375" y2="0.9525" width="0.1016" layer="51" curve="90"/>
@@ -4316,9 +4316,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;spacing 3.81mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
-<text x="-2.06375" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="29.21" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
-<text x="-2.06375" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
+<text x="-1.905" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="29.05125" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
 <wire x1="-1.1425" y1="-2.86" x2="1.143125" y2="-2.86" width="0.127" layer="21"/>
 <wire x1="1.143125" y1="-2.86" x2="1.143125" y2="-1.21" width="0.127" layer="21"/>
 <wire x1="-1.1425" y1="-1.21" x2="-1.1425" y2="-2.86" width="0.127" layer="21"/>
@@ -4356,17 +4356,17 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="2.07" y1="-0.46" x2="2.07" y2="-3.421875" width="0.127" layer="51"/>
 <wire x1="5.55" y1="-0.46" x2="4.769375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="2.968125" y1="-1.21" x2="2.6675" y2="-1.21" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="-2.06375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="28.73375" y2="-3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="3.730625" x2="28.73375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="28.73375" y1="-3.730625" x2="28.73375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="28.7125" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="21"/>
-<wire x1="28.7125" y1="0.186" x2="27.64375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="-1.905" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="28.575" y2="-3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="3.730625" x2="28.575" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="28.575" y1="-3.730625" x2="28.575" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="28.55375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="28.55375" y1="0.186" x2="27.64375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.186" x2="0.97375" y2="0.186" width="0.127" layer="21"/>
-<wire x1="28.7125" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="21"/>
-<wire x1="28.7125" y1="0.5035" x2="27.64375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="28.55375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="28.55375" y1="0.5035" x2="27.64375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.5035" x2="0.97375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="-1.42875" y1="2.301875" x2="-1.42875" y2="2.143125" width="0.1016" layer="51"/>
 <wire x1="-1.42875" y1="2.143125" x2="-0.079375" y2="0.9525" width="0.1016" layer="51" curve="90"/>
@@ -4652,9 +4652,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;spacing 3.81mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Metz Connect Productside&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
-<text x="-2.06375" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="36.83" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
-<text x="-2.06375" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
+<text x="-1.905" y="4.206875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="36.67125" y="3.730625" size="1.27" layer="27" font="vector" rot="R270">&gt;VALUE</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="21" font="vector" rot="R180">1</text>
 <wire x1="-1.1425" y1="-2.86" x2="1.143125" y2="-2.86" width="0.127" layer="21"/>
 <wire x1="1.143125" y1="-2.86" x2="1.143125" y2="-1.21" width="0.127" layer="21"/>
 <wire x1="-1.1425" y1="-1.21" x2="-1.1425" y2="-2.86" width="0.127" layer="21"/>
@@ -4692,17 +4692,17 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="2.07" y1="-0.46" x2="2.07" y2="-3.421875" width="0.127" layer="51"/>
 <wire x1="5.55" y1="-0.46" x2="4.769375" y2="-0.46" width="0.127" layer="21"/>
 <wire x1="2.968125" y1="-1.21" x2="2.6675" y2="-1.21" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="-2.06375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="-3.730625" x2="36.35375" y2="-3.730625" width="0.127" layer="21"/>
-<wire x1="-2.06375" y1="3.730625" x2="36.35375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="36.35375" y1="-3.730625" x2="36.35375" y2="3.730625" width="0.127" layer="21"/>
-<wire x1="36.3325" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.186" x2="-2.0425" y2="0.186" width="0.127" layer="21"/>
-<wire x1="36.3325" y1="0.186" x2="35.26375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="-1.905" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-3.730625" x2="36.195" y2="-3.730625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="3.730625" x2="36.195" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="36.195" y1="-3.730625" x2="36.195" y2="3.730625" width="0.127" layer="21"/>
+<wire x1="36.17375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.186" x2="-1.88375" y2="0.186" width="0.127" layer="21"/>
+<wire x1="36.17375" y1="0.186" x2="35.26375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.186" x2="0.97375" y2="0.186" width="0.127" layer="21"/>
-<wire x1="36.3325" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="51"/>
-<wire x1="-0.97375" y1="0.5035" x2="-2.0425" y2="0.5035" width="0.127" layer="21"/>
-<wire x1="36.3325" y1="0.5035" x2="35.26375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="36.17375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="51"/>
+<wire x1="-0.97375" y1="0.5035" x2="-1.88375" y2="0.5035" width="0.127" layer="21"/>
+<wire x1="36.17375" y1="0.5035" x2="35.26375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="2.83625" y1="0.5035" x2="0.97375" y2="0.5035" width="0.127" layer="21"/>
 <wire x1="-1.42875" y1="2.301875" x2="-1.42875" y2="2.143125" width="0.1016" layer="51"/>
 <wire x1="-1.42875" y1="2.143125" x2="-0.079375" y2="0.9525" width="0.1016" layer="51" curve="90"/>
