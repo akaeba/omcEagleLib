@@ -1960,8 +1960,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </device>
 </devices>
 </deviceset>
-<deviceset name="NPO" prefix="C" uservalue="yes">
-<description>&lt;h2&gt;NPO Surface-Mount Ceramic Multilayer Capacitors&lt;/h2&gt;
+<deviceset name="NP0" prefix="C" uservalue="yes">
+<description>&lt;h2&gt;NP0 Surface-Mount Ceramic Multilayer Capacitors&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;YAGEO Multilayer Capacitors&lt;/li&gt;&lt;ul&gt;
     &lt;li&gt;For General Purpose&lt;/li&gt;
@@ -2072,6 +2072,133 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="NPO-G1206 47P" constant="no"/>
 <attribute name="VALUE" value="47p/50V"/>
 <attribute name="VENDOR#" value="YAGEO#1206CG479J9BP" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-1000P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 1,0N" constant="no"/>
+<attribute name="VALUE" value="1n/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG102J9BP" constant="no"/>
+</technology>
+<technology name="-100P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 100P" constant="no"/>
+<attribute name="VALUE" value="100p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG101J9BP" constant="no"/>
+</technology>
+<technology name="-10P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 10P" constant="no"/>
+<attribute name="VALUE" value="10p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG109J9BP" constant="no"/>
+</technology>
+<technology name="-150P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 150P" constant="no"/>
+<attribute name="VALUE" value="150p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG151J9BP" constant="no"/>
+</technology>
+<technology name="-15P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 15P" constant="no"/>
+<attribute name="VALUE" value="15p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG159J9BP" constant="no"/>
+</technology>
+<technology name="-1P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 1,0P" constant="no"/>
+<attribute name="VALUE" value="1p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG108J9BP" constant="no"/>
+</technology>
+<technology name="-220P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 220P" constant="no"/>
+<attribute name="VALUE" value="220p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG221J9BP" constant="no"/>
+</technology>
+<technology name="-22P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 22P" constant="no"/>
+<attribute name="VALUE" value="22p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG229J9BP" constant="no"/>
+</technology>
+<technology name="-2P2">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 2,2P" constant="no"/>
+<attribute name="VALUE" value="2p2/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG228J9BP" constant="no"/>
+</technology>
+<technology name="-330P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 330P" constant="no"/>
+<attribute name="VALUE" value="330p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG331J9BP" constant="no"/>
+</technology>
+<technology name="-33P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 33P" constant="no"/>
+<attribute name="VALUE" value="33p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG339J9BP" constant="no"/>
+</technology>
+<technology name="-470P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 470P" constant="no"/>
+<attribute name="VALUE" value="470p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG471J9BP" constant="no"/>
+</technology>
+<technology name="-47P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 47P" constant="no"/>
+<attribute name="VALUE" value="47p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG479J9BP" constant="no"/>
+</technology>
+<technology name="-4P7">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 4,7P" constant="no"/>
+<attribute name="VALUE" value="4p7/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG478J9BP" constant="no"/>
+</technology>
+<technology name="-680P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 680P" constant="no"/>
+<attribute name="VALUE" value="680p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG681J9BP" constant="no"/>
+</technology>
+<technology name="-68P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 68P" constant="no"/>
+<attribute name="VALUE" value="68p/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG689J9BP" constant="no"/>
+</technology>
+<technology name="-8P2">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO-G0805 8,2P" constant="no"/>
+<attribute name="VALUE" value="8p2/50V"/>
+<attribute name="VENDOR#" value="YAGEO#0805CG828J9BP" constant="no"/>
 </technology>
 </technologies>
 </device>
