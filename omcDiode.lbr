@@ -1258,7 +1258,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;Fast switching for high efficiency&lt;/li&gt;
   &lt;li&gt;Plastic material used carries Underwriters Laboratory Classification 94V-O &lt;/li&gt;
   &lt;li&gt;High temperature soldering: 260°C/10sec at terminals &lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://diotec.com/tl_files/diotec/files/pdf/datasheets/1n4001"&gt;Diotec Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://www.taiwansemi.com/products/datasheet/RS1A%20SERIES_K15.pdf"&gt;Taiwan Semiconductor Datasheet&lt;/a&gt;&lt;/il&gt;
   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/RS1-TSC.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -1372,13 +1372,13 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;tr&gt;
     &lt;td class="tg-7kzq"&gt;Operating Temperature Range&lt;/td&gt;
     &lt;td class="tg-v4l8"&gt;TJ&lt;/td&gt;
-    &lt;td class="tg-v4l8" colspan="7"&gt;- 55 to + 150&lt;/td&gt;
+    &lt;td class="tg-v4l8" colspan="7"&gt;-55 to +150&lt;/td&gt;
     &lt;td class="tg-v4l8"&gt;°C&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td class="tg-glis"&gt;Storage Temperature Range&lt;/td&gt;
     &lt;td class="tg-gozu"&gt;TSTG&lt;/td&gt;
-    &lt;td class="tg-gozu" colspan="7"&gt;- 55 to + 150&lt;/td&gt;
+    &lt;td class="tg-gozu" colspan="7"&gt;-55 to +150&lt;/td&gt;
     &lt;td class="tg-gozu"&gt;°C&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
@@ -1406,35 +1406,35 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHET#" value="RS 1B" constant="no"/>
 <attribute name="VALUE" value="RS1B"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Taiwan Semiconductor#RS1BHR3G" constant="no"/>
 </technology>
 <technology name="D">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHET#" value="RS 1D" constant="no"/>
 <attribute name="VALUE" value="RS1D"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Taiwan Semiconductor#RS1DHR3G" constant="no"/>
 </technology>
 <technology name="G">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHET#" value="RS 1G" constant="no"/>
 <attribute name="VALUE" value="RS1G"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Taiwan Semiconductor#RS1GHR3G" constant="no"/>
 </technology>
 <technology name="J">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHET#" value="RS 1J" constant="no"/>
 <attribute name="VALUE" value="RS1J"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Taiwan Semiconductor#RS1JHR3G" constant="no"/>
 </technology>
 <technology name="M">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHET#" value="RS 1M" constant="no"/>
 <attribute name="VALUE" value="RS1M"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Taiwan Semiconductor#RS1MHR3G" constant="no"/>
 </technology>
 </technologies>
 </device>
