@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -171,26 +171,38 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <package name="DO214AB">
 <description>&lt;p&gt;
 &lt;h3&gt;DO214AB/SMC Package&lt;/h3&gt;&lt;ul&gt;
-  &lt;li&gt;DO214 or SMC Package&lt;/li&gt;
-  &lt;li&gt;Technology: SMD&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.vishay.com/docs/95023/smc.pdf"&gt;Package Dimensions&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;DO214AB or SMC Package&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/packages/SMC.pdf"&gt;Mechanical outline&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/DO-214"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
-<wire x1="3.5433" y1="3.0099" x2="-3.5433" y2="3.0099" width="0.1524" layer="21"/>
-<wire x1="1.008" y1="1.5525" x2="-1.0715" y2="0" width="0.4064" layer="21"/>
-<wire x1="-1.0715" y1="0" x2="1.008" y2="-1.5525" width="0.4064" layer="21"/>
-<wire x1="1.008" y1="-1.5525" x2="1.008" y2="1.5525" width="0.4064" layer="21"/>
-<text x="-2.794" y="3.683" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.794" y="-4.953" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="3.5179" y1="-3.1496" x2="4.0767" y2="3.1496" layer="51"/>
-<smd name="C" x="-3.81" y="0" dx="3.175" dy="3.175" layer="1"/>
-<smd name="A" x="3.81" y="0" dx="3.175" dy="3.175" layer="1"/>
-<rectangle x1="-4.1021" y1="-3.1496" x2="-3.5433" y2="3.1496" layer="51"/>
-<wire x1="3.5433" y1="-3.0226" x2="-3.5433" y2="-3.0226" width="0.1524" layer="21"/>
-<rectangle x1="-1.27" y1="-1.778" x2="-0.889" y2="1.778" layer="21"/>
-<wire x1="-5.08" y1="3.175" x2="-5.08" y2="-3.175" width="0.127" layer="39"/>
-<wire x1="-5.08" y1="-3.175" x2="5.08" y2="-3.175" width="0.127" layer="39"/>
-<wire x1="5.08" y1="-3.175" x2="5.08" y2="3.175" width="0.127" layer="39"/>
-<wire x1="5.08" y1="3.175" x2="-5.08" y2="3.175" width="0.127" layer="39"/>
+<smd name="C" x="-3.33375" y="0" dx="2.5" dy="3.3" layer="1"/>
+<smd name="A" x="3.33375" y="0" dx="2.5" dy="3.3" layer="1"/>
+<wire x1="-4.28625" y1="3.4925" x2="-4.28625" y2="-3.4925" width="0.127" layer="39"/>
+<wire x1="-4.28625" y1="-3.4925" x2="4.28625" y2="-3.4925" width="0.127" layer="39"/>
+<wire x1="4.28625" y1="-3.4925" x2="4.28625" y2="3.4925" width="0.127" layer="39"/>
+<wire x1="4.28625" y1="3.4925" x2="-4.28625" y2="3.4925" width="0.127" layer="39"/>
+<wire x1="-3.4925" y1="3.175" x2="3.4925" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="-3.175" x2="3.4925" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="3.175" x2="-3.4925" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="3.4925" y1="3.175" x2="3.4925" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="3.4925" y1="-3.175" x2="3.4925" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="-3.175" x2="-3.4925" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="3.175" x2="-3.4925" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-3.4925" y1="-3.175" x2="3.4925" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="3.4925" y1="-3.175" x2="3.4925" y2="3.175" width="0.127" layer="51"/>
+<wire x1="3.4925" y1="3.175" x2="-3.4925" y2="3.175" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.1905" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.1905" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.1905" layer="21"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="1.27" width="0.1905" layer="21"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="-1.27" width="0.1905" layer="21"/>
+<rectangle x1="-2.8575" y1="-3.175" x2="-2.2225" y2="3.175" layer="51"/>
+<rectangle x1="-2.8575" y1="-3.175" x2="-2.2225" y2="-1.74625" layer="21"/>
+<rectangle x1="-2.8575" y1="1.74625" x2="-2.2225" y2="3.175" layer="21"/>
+<rectangle x1="-4.1275" y1="-1.5875" x2="-3.4925" y2="1.5875" layer="51"/>
+<rectangle x1="3.4925" y1="-1.5875" x2="4.1275" y2="1.5875" layer="51"/>
+<text x="-4.28625" y="-5.08" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-4.28625" y="3.96875" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="SOD123">
 <description>&lt;p&gt;
@@ -266,30 +278,38 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <description>&lt;p&gt;
 &lt;h3&gt;DO214AA/SMB Package&lt;/h3&gt;&lt;ul&gt;
   &lt;li&gt;DO214AA or SMB or MELF Package&lt;/li&gt;
-  &lt;li&gt;Technology: SMD&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Mechanical outline&lt;/a&gt; (MELF, P135)&lt;/il&gt;
-  &lt;li&gt;&lt;a href="http://www.onsemi.com/pub_link/Collateral/403A-03.PDF"&gt;Mechanical outline&lt;/a&gt; (SMB)&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/packages/SMB.pdf"&gt;Mechanical outline&lt;/a&gt; (SMB)&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/package-outlines.html"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
-<smd name="C" x="-2.413" y="0" dx="2.159" dy="2.794" layer="1"/>
-<wire x1="0.881" y1="0.981" x2="-0.627" y2="0" width="0.3048" layer="21"/>
-<wire x1="-0.627" y1="0" x2="0.881" y2="-0.981" width="0.3048" layer="21"/>
-<wire x1="0.881" y1="-0.981" x2="0.881" y2="0.981" width="0.3048" layer="21"/>
-<text x="-2.921" y="1.905" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.921" y="-3.048" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<rectangle x1="-1.016" y1="-1.016" x2="-0.635" y2="1.016" layer="21"/>
-<wire x1="3.556" y1="1.524" x2="-3.556" y2="1.524" width="0.127" layer="39"/>
-<wire x1="-3.556" y1="1.524" x2="-3.556" y2="-1.524" width="0.127" layer="39"/>
-<wire x1="-3.556" y1="-1.524" x2="3.556" y2="-1.524" width="0.127" layer="39"/>
-<wire x1="3.556" y1="-1.524" x2="3.556" y2="1.524" width="0.127" layer="39"/>
-<smd name="A" x="2.413" y="0" dx="2.159" dy="2.794" layer="1"/>
-<wire x1="-2.667" y1="1.143" x2="-2.667" y2="-1.143" width="0.127" layer="51"/>
-<wire x1="2.667" y1="1.143" x2="2.667" y2="-1.143" width="0.127" layer="51"/>
-<wire x1="-1.23825" y1="1.143" x2="1.23825" y2="1.143" width="0.127" layer="21"/>
-<wire x1="-2.667" y1="1.143" x2="-1.30175" y2="1.143" width="0.127" layer="51"/>
-<wire x1="-1.23825" y1="-1.143" x2="1.23825" y2="-1.143" width="0.127" layer="21"/>
-<wire x1="-2.667" y1="-1.143" x2="-1.30175" y2="-1.143" width="0.127" layer="51"/>
-<wire x1="1.30175" y1="-1.143" x2="2.667" y2="-1.143" width="0.127" layer="51"/>
-<wire x1="1.30175" y1="1.143" x2="2.667" y2="1.143" width="0.127" layer="51"/>
+<smd name="C" x="-2.174875" y="0" dx="2.5" dy="2.3" layer="1"/>
+<text x="-3.2385" y="2.8575" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.2385" y="-4.0005" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="3.2385" y1="2.31775" x2="-3.2385" y2="2.31775" width="0.127" layer="39"/>
+<wire x1="-3.2385" y1="2.31775" x2="-3.2385" y2="-2.31775" width="0.127" layer="39"/>
+<wire x1="-3.2385" y1="-2.31775" x2="3.2385" y2="-2.31775" width="0.127" layer="39"/>
+<wire x1="3.2385" y1="-2.31775" x2="3.2385" y2="2.31775" width="0.127" layer="39"/>
+<smd name="A" x="2.174875" y="0" dx="2.5" dy="2.3" layer="1"/>
+<wire x1="-2.54" y1="-2.06375" x2="2.54" y2="-2.06375" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.06375" x2="2.54" y2="2.06375" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.06375" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.06375" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.06375" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.06375" x2="2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.06375" x2="-2.54" y2="-2.06375" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="-2.06375" x2="2.54" y2="-2.06375" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-2.06375" x2="2.54" y2="2.06375" width="0.127" layer="51"/>
+<wire x1="2.54" y1="2.06375" x2="-2.54" y2="2.06375" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="0.9525" x2="-0.635" y2="0" width="0.1905" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.9525" width="0.1905" layer="21"/>
+<wire x1="0.635" y1="0.9525" x2="0.635" y2="-0.9525" width="0.1905" layer="21"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="0.9525" width="0.1905" layer="21"/>
+<wire x1="-0.635" y1="0" x2="0.635" y2="-0.9525" width="0.1905" layer="21"/>
+<rectangle x1="-3.01625" y1="-1.11125" x2="-2.54" y2="1.11125" layer="51"/>
+<rectangle x1="2.54" y1="-1.11125" x2="3.01625" y2="1.11125" layer="51"/>
+<rectangle x1="-2.06375" y1="-2.06375" x2="-1.42875" y2="2.06375" layer="51"/>
+<rectangle x1="-2.06375" y1="-2.06375" x2="-1.42875" y2="-1.27" layer="21"/>
+<rectangle x1="-2.06375" y1="1.27" x2="-1.42875" y2="2.06375" layer="21"/>
 </package>
 <package name="SODIL">
 <description>&lt;p&gt;
@@ -328,8 +348,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <package name="DO214AC">
 <description>&lt;p&gt;
 &lt;h3&gt;DO214AC/SMA Package&lt;/h3&gt;&lt;ul&gt;
-  &lt;li&gt;Technology: SMD&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/packages/SMA.pdf"&gt;Package Dimensions&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;DO214AC or SMA Package&lt;/li&gt;  
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/packages/SMA.pdf"&gt;Mechanical outline&lt;/a&gt;&lt;/il&gt;
   &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/DO-214"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
 &lt;/p&gt;</description>
 <text x="-3.1115" y="2.25425" size="1.27" layer="25" font="vector">&gt;NAME</text>
@@ -358,6 +378,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <rectangle x1="-2.06375" y1="-1.42875" x2="-1.74625" y2="1.42875" layer="51"/>
 <rectangle x1="-2.8575" y1="-0.635" x2="-2.38125" y2="0.635" layer="51"/>
 <rectangle x1="2.38125" y1="-0.635" x2="2.8575" y2="0.635" layer="51"/>
+<rectangle x1="-2.06375" y1="0.9525" x2="-1.74625" y2="1.42875" layer="21"/>
+<rectangle x1="-2.06375" y1="-1.42875" x2="-1.74625" y2="-0.9525" layer="21"/>
 </package>
 </packages>
 <symbols>
