@@ -555,6 +555,33 @@ TO252, D-Pak</description>
 <wire x1="-10.16" y1="-2.921" x2="-9.68375" y2="-2.921" width="0.1524" layer="21"/>
 <wire x1="-9.68375" y1="2.921" x2="-10.16" y2="2.921" width="0.1524" layer="21"/>
 </package>
+<package name="SOT23">
+<description>&lt;p&gt;
+&lt;h3&gt;SOT23 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SOT-23&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (SOD123, P171)&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="1" x="-0.9525" y="-0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<smd name="2" x="0.9525" y="-0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<smd name="3" x="0" y="0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-1.5875" y1="0.635" x2="-1.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.635" x2="1.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-0.635" x2="1.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="0.635" x2="-1.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="-0.47625" y1="0.635" x2="-1.5875" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="0.635" x2="-1.5875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.47625" y1="0.635" x2="1.5875" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.635" x2="1.5875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="-0.635" x2="0.47625" y2="-0.635" width="0.127" layer="21"/>
+<rectangle x1="-1.2065" y1="-1.27" x2="-0.7239" y2="-0.635" layer="51"/>
+<rectangle x1="0.6985" y1="-1.27" x2="1.1811" y2="-0.635" layer="51"/>
+<rectangle x1="-0.254" y1="0.635" x2="0.2286" y2="1.27" layer="51"/>
+<wire x1="-1.5875" y1="-0.635" x2="-1.42875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="-0.635" x2="1.42875" y2="-0.635" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="INVOC">
@@ -779,20 +806,18 @@ Ground &amp; Freewheeling Connector</description>
 <deviceset name="IRLR2905" prefix="T" uservalue="yes">
 <description>&lt;h2&gt;IRLR 2905 - HEXFET Power MOSFET&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt; VDSS=55V&lt;/li&gt;
-  &lt;li&gt; RDS(on)=0.027Ω&lt;/li&gt;
-  &lt;li&gt; ID=42A&lt;/li&gt;
-  &lt;li&gt; Logic-Level Gate Drive&lt;/li&gt;
-  &lt;li&gt; &lt;a href="http://www.irf.com/product-info/datasheets/data/irlr2905.pdf"&gt;IRF Datasheet&lt;/a&gt;&lt;/li&gt;
-  &lt;/il&gt;
+  &lt;li&gt;V&lt;sub&gt;DSS&lt;/sub&gt;=55V&lt;/li&gt;
+  &lt;li&gt;R&lt;sub&gt;DS,on&lt;/sub&gt;=0.027Ω&lt;/li&gt;
+  &lt;li&gt;I&lt;sub&gt;D&lt;/sub&gt;=42A&lt;/li&gt;
+  &lt;li&gt;Logic-Level Gate Drive&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.irf.com/product-info/datasheets/data/irlr2905.pdf"&gt;IRF Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
 &lt;ul&gt;
-   &lt;li&gt; Reichelt: IRLR 2905
-   &lt;li&gt; Conrad: 162848 - 62
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
+   &lt;li&gt;Reichelt: IRLR 2905&lt;/il&gt;
+   &lt;li&gt;Conrad: 162848 - 62&lt;/il&gt;
+   &lt;li&gt;Digi-Key: -&lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="NMOS" x="0" y="0"/>
@@ -980,6 +1005,49 @@ Ground &amp; Freewheeling Connector</description>
 <attribute name="DIST#REICHELT#" value="ULN 2004 AD SMD" constant="no"/>
 <attribute name="VALUE" value="ULN2004D"/>
 <attribute name="VENDOR#" value="STM#ULN2003D1013TR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS138" prefix="T" uservalue="yes">
+<description>&lt;h2&gt;BSS 138 - N-Channel Logic Level Enhancement Mode Field Effect Transistor &lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;V&lt;sub&gt;DSS&lt;/sub&gt;=50V&lt;/li&gt;
+  &lt;li&gt;V&lt;sub&gt;GS&lt;/sub&gt;=±20V&lt;/li&gt;
+  &lt;li&gt;R&lt;sub&gt;DS,on&lt;/sub&gt;=3.5Ω&lt;/li&gt;
+  &lt;li&gt;Drain currunt:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; 200mA continous&lt;/li&gt;
+    &lt;li&gt; 800mA pulsed&lt;/i&gt;
+   &lt;/ul&gt;
+  &lt;li&gt;P&lt;sub&gt;D&lt;/sub&gt;=225mW&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.onsemi.com/pub_link/Collateral/BSS138LT1-D.PDF"&gt;On Semiconductor Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/BSS138-FSC.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt;Reichelt: BSS 138 SMD&lt;/li&gt;
+   &lt;li&gt;Conrad:&lt;/li&gt;
+   &lt;li&gt;Digi-Key:&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="NMOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="BSS 138 SMD" constant="no"/>
+<attribute name="VALUE" value="BSS138"/>
+<attribute name="VENDOR#" value="ON_SEMICONDUCTOR#BSS138L" constant="no"/>
 </technology>
 </technologies>
 </device>
