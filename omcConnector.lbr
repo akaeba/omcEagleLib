@@ -6326,12 +6326,12 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C140/DS_MPE_087.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
   &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="PHDR" x="-7.62" y="2.54"/>
-<gate name="G$2" symbol="PHDL" x="7.62" y="2.54"/>
-<gate name="G$3" symbol="PHDR" x="-7.62" y="0"/>
-<gate name="G$4" symbol="PHDL" x="7.62" y="0"/>
-<gate name="G$5" symbol="PHDR" x="-7.62" y="-2.54"/>
-<gate name="G$6" symbol="PHDL" x="7.62" y="-2.54"/>
+<gate name="G$1" symbol="PHDL" x="-2.54" y="2.54"/>
+<gate name="G$2" symbol="PHDR" x="2.54" y="2.54"/>
+<gate name="G$3" symbol="PHDL" x="-2.54" y="0"/>
+<gate name="G$4" symbol="PHDR" x="2.54" y="0"/>
+<gate name="G$5" symbol="PHDL" x="-2.54" y="-2.54"/>
+<gate name="G$6" symbol="PHDR" x="2.54" y="-2.54"/>
 </gates>
 <devices>
 <device name="ILCK" package="PH2X3P254I">
