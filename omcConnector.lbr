@@ -37,9 +37,9 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -5061,6 +5061,28 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="29.50625" y1="0.186" x2="27.64375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="33.31625" y1="0.186" x2="31.45375" y2="0.186" width="0.127" layer="21"/>
 </package>
+<package name="PH2X3P254I">
+<description>&lt;p&gt;
+&lt;h3&gt;Pin Header 2X3 - Straight&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Hint: requires metallized holes, otherwise no lead less connection possible
+  &lt;li&gt;Technology: THT&lt;/li&gt;
+  &lt;li&gt;Pitch: 2.54mm&lt;/li&gt;
+  &lt;li&gt;Holes: interlocked
+  &lt;li&gt;&lt;a href="https://www.sparkfun.com/tutorials/114"&gt;Reference&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<wire x1="-3.175" y1="5.08" x2="-3.175" y2="-5.08" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="-5.08" x2="3.175" y2="-5.08" width="0.4064" layer="21"/>
+<wire x1="3.175" y1="-5.08" x2="3.175" y2="5.08" width="0.4064" layer="21"/>
+<wire x1="3.175" y1="5.08" x2="-3.175" y2="5.08" width="0.4064" layer="21"/>
+<text x="-2.54" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<pad name="1" x="-1.42875" y="2.54" drill="0.9" diameter="1.6764" shape="square"/>
+<pad name="2" x="1.42875" y="2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-1.11125" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
+<pad name="4" x="1.11125" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
+<pad name="5" x="-1.42875" y="-2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
+<pad name="6" x="1.42875" y="-2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SOLDPINVAL">
@@ -5304,7 +5326,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </device>
 </devices>
 </deviceset>
-<deviceset name="2X4S" prefix="X" uservalue="yes">
+<deviceset name="1X4S" prefix="X" uservalue="yes">
 <description>&lt;p&gt;
 &lt;h2&gt;Single Side X4 Soldering Connector - Footprint only&lt;/h2&gt;
 &lt;ul&gt;
@@ -5343,7 +5365,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </device>
 </devices>
 </deviceset>
-<deviceset name="2X5S" prefix="X" uservalue="yes">
+<deviceset name="1X5S" prefix="X" uservalue="yes">
 <description>&lt;p&gt;
 &lt;h2&gt;Single Side X5 Soldering Connector - Footprint only&lt;/h2&gt;
 &lt;ul&gt;
@@ -6285,6 +6307,48 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="AKL 094-10" constant="no"/>
 <attribute name="VALUE" value="RT035 Typ 094" constant="no"/>
 <attribute name="VENDOR#" value="Metz Connect#31094110" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PH2X3" prefix="X" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;PH2X3 - Two column pinheader with three terminals per side &lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pole: 6&lt;/li&gt;
+  &lt;li&gt;Column: 2&lt;/li&gt;
+  &lt;li&gt;Interlock (ILCK):&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; Bomless connector f.e. programming interefaces&lt;/li&gt;
+    &lt;li&gt;Footprint only&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Trough-Hole-Technology (THT):&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C140/DS_MPE_087.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="PHDR" x="-7.62" y="2.54"/>
+<gate name="G$2" symbol="PHDL" x="7.62" y="2.54"/>
+<gate name="G$3" symbol="PHDR" x="-7.62" y="0"/>
+<gate name="G$4" symbol="PHDL" x="7.62" y="0"/>
+<gate name="G$5" symbol="PHDR" x="-7.62" y="-2.54"/>
+<gate name="G$6" symbol="PHDL" x="7.62" y="-2.54"/>
+</gates>
+<devices>
+<device name="ILCK" package="PH2X3P254I">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+<connect gate="G$6" pin="P$1" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="#BOMLESS#" constant="no"/>
+<attribute name="DIST#MOUSER#" value="#BOMLESS#" constant="no"/>
+<attribute name="DIST#REICHELT#" value="#BOMLESS#" constant="no"/>
+<attribute name="VALUE" value="PH2X3LOCK" constant="no"/>
 </technology>
 </technologies>
 </device>
