@@ -63,12 +63,8 @@
 
 &lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt;PN-Diode&lt;/li&gt;&lt;ul&gt;
-     &lt;li&gt;1N4148&lt;/li&gt;
-     &lt;li&gt;LL4148&lt;/li&gt;
-   &lt;/ul&gt;
-  &lt;li&gt;Schottky-Diode&lt;/li&gt;&lt;ul&gt;
-     &lt;li&gt;BAT46&lt;/li&gt;
+  &lt;li&gt;Schurter&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;OMT125/OMT250 SMD Fuses&lt;/li&gt;
    &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -82,14 +78,39 @@
 &lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
 More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
 In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
-&lt;/p&gt;
-
-&lt;h2&gt;Version History&lt;/h2&gt;
-&lt;dl&gt;
-  &lt;dt&gt;2016-01-27&lt;/dt&gt;
-  &lt;dd&gt;Initial Release&lt;/dd&gt;
-&lt;/dl&gt;</description>
+&lt;/p&gt;</description>
 <packages>
+<package name="OMT125">
+<description>&lt;p&gt;
+&lt;h3&gt;Schurter OMT125&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SMD Fuse&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.schurter.ch/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OMT_125.pdf"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="1" x="-3.175" y="0" dx="3" dy="2.8" layer="1"/>
+<smd name="2" x="3.175" y="0" dx="3" dy="2.8" layer="1"/>
+<wire x1="-1.27" y1="1.5875" x2="1.27" y2="1.5875" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-1.5875" x2="1.27" y2="-1.5875" width="0.3048" layer="21"/>
+<wire x1="-3.81" y1="1.5875" x2="3.81" y2="1.5875" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="-1.5875" x2="3.81" y2="-1.5875" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="1.5875" x2="-3.81" y2="1.27" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="-1.5875" x2="-3.81" y2="-1.27" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="1.5875" x2="3.81" y2="1.27" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="-1.5875" x2="3.81" y2="-1.27" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.3048" layer="51" curve="-180"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.3048" layer="51" curve="-180"/>
+<wire x1="-0.9525" y1="0.9525" x2="0.9525" y2="-0.9525" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.3175" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="0.9525" x2="-2.8575" y2="0.9525" width="0.127" layer="51"/>
+<wire x1="0.9525" y1="-0.9525" x2="2.8575" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="0.9525" y1="-0.9525" x2="-0.9525" y2="0.9525" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="0.3175" width="0.127" layer="51"/>
+<wire x1="-4.1275" y1="1.905" x2="-4.1275" y2="-1.905" width="0.3048" layer="39"/>
+<wire x1="-4.1275" y1="-1.905" x2="4.1275" y2="-1.905" width="0.3048" layer="39"/>
+<wire x1="4.1275" y1="-1.905" x2="4.1275" y2="1.905" width="0.3048" layer="39"/>
+<wire x1="4.1275" y1="1.905" x2="-4.1275" y2="1.905" width="0.3048" layer="39"/>
+<text x="-3.175" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PTC">
@@ -238,9 +259,82 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="-125V" package="OMT125">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
 <technologies>
-<technology name=""/>
+<technology name="-T0A5">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 0,5A" constant="no"/>
+<attribute name="VALUE" value="T 0A5"/>
+<attribute name="VENDOR#" value="Schurter_3404.0112.11" constant="no"/>
+</technology>
+<technology name="-T0A75">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 0,75A" constant="no"/>
+<attribute name="VALUE" value="T 0A75"/>
+<attribute name="VENDOR#" value="Schurter_3404.0113.11" constant="no"/>
+</technology>
+<technology name="-T1A0">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 1,0A" constant="no"/>
+<attribute name="VALUE" value="T 1A0"/>
+<attribute name="VENDOR#" value="Schurter_3404.0114.11" constant="no"/>
+</technology>
+<technology name="-T1A5">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 1,5A" constant="no"/>
+<attribute name="VALUE" value="T 1A5"/>
+<attribute name="VENDOR#" value="Schurter_3404.0115.11" constant="no"/>
+</technology>
+<technology name="-T2A0">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 2,0A" constant="no"/>
+<attribute name="VALUE" value="T 2A0"/>
+<attribute name="VENDOR#" value="Schurter_3404.0116.11" constant="no"/>
+</technology>
+<technology name="-T2A5">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 2,5A" constant="no"/>
+<attribute name="VALUE" value="T 2A5"/>
+<attribute name="VENDOR#" value="Schurter_3404.0117.11" constant="no"/>
+</technology>
+<technology name="-T3A0">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 3,0A" constant="no"/>
+<attribute name="VALUE" value="T 3A0"/>
+<attribute name="VENDOR#" value="Schurter_3404.0118.11" constant="no"/>
+</technology>
+<technology name="-T3A5">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 3,5A" constant="no"/>
+<attribute name="VALUE" value="T 3A5"/>
+<attribute name="VENDOR#" value="Schurter_3404.0119.11" constant="no"/>
+</technology>
+<technology name="-T4A0">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 4,0A" constant="no"/>
+<attribute name="VALUE" value="T 4A0"/>
+<attribute name="VENDOR#" value="Schurter_3404.0120.11" constant="no"/>
+</technology>
+<technology name="-T5A0">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 5,0A" constant="no"/>
+<attribute name="VALUE" value="T 5A0"/>
+<attribute name="VENDOR#" value="Schurter_3404.0121.11" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
