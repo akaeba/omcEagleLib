@@ -111,6 +111,39 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <text x="-3.175" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-3.175" y="-3.81" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="OMT250">
+<description>&lt;p&gt;
+&lt;h3&gt;Schurter OMT250&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SMD Fuse&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.schurter.ch/bundles/snceschurter/epim/_ProdPool_/newDS/de/typ_OMT.pdf"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="1" x="-4.7625" y="0" dx="3.6" dy="4.4" layer="1"/>
+<smd name="2" x="4.7625" y="0" dx="3.6" dy="4.4" layer="1"/>
+<wire x1="-2.69875" y1="2.38125" x2="2.69875" y2="2.38125" width="0.3048" layer="21"/>
+<wire x1="-5.55625" y1="2.38125" x2="5.55625" y2="2.38125" width="0.3048" layer="51"/>
+<wire x1="-5.55625" y1="-2.38125" x2="5.55625" y2="-2.38125" width="0.3048" layer="51"/>
+<wire x1="-5.55625" y1="2.38125" x2="-5.55625" y2="1.74625" width="0.3048" layer="51"/>
+<wire x1="-5.55625" y1="-2.38125" x2="-5.55625" y2="-1.74625" width="0.3048" layer="51"/>
+<wire x1="5.55625" y1="2.38125" x2="5.55625" y2="1.74625" width="0.3048" layer="51"/>
+<wire x1="5.55625" y1="-2.38125" x2="5.55625" y2="-1.74625" width="0.3048" layer="51"/>
+<wire x1="-5.55625" y1="1.74625" x2="-5.55625" y2="-1.74625" width="0.3048" layer="51" curve="-180"/>
+<wire x1="5.55625" y1="-1.74625" x2="5.55625" y2="1.74625" width="0.3048" layer="51" curve="-180"/>
+<wire x1="-1.5875" y1="1.5875" x2="1.5875" y2="-1.5875" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.3175" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.3175" width="0.127" layer="51"/>
+<text x="-3.175" y="3.175" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.175" y="-4.445" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-2.69875" y1="-2.38125" x2="2.69875" y2="-2.38125" width="0.3048" layer="21"/>
+<wire x1="-1.5875" y1="1.5875" x2="-2.69875" y2="1.5875" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="-1.5875" x2="2.69875" y2="-1.5875" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="1.5875" x2="1.5875" y2="-1.5875" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-1.5875" x2="4.60375" y2="-1.5875" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="1.5875" x2="-4.60375" y2="1.5875" width="0.127" layer="51"/>
+<wire x1="-5.87375" y1="2.69875" x2="-5.87375" y2="-2.69875" width="0.3048" layer="39"/>
+<wire x1="-5.87375" y1="-2.69875" x2="5.87375" y2="-2.69875" width="0.3048" layer="39"/>
+<wire x1="5.87375" y1="-2.69875" x2="5.87375" y2="2.69875" width="0.3048" layer="39"/>
+<wire x1="5.87375" y1="2.69875" x2="-5.87375" y2="2.69875" width="0.3048" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PTC">
@@ -334,6 +367,49 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="OMT 125 5,0A" constant="no"/>
 <attribute name="VALUE" value="T 5A0"/>
 <attribute name="VENDOR#" value="Schurter_3404.0121.11" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-250V" package="OMT250">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-T0A75">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 250 0,75A" constant="no"/>
+<attribute name="VALUE" value="T 0A75"/>
+<attribute name="VENDOR#" value="Schurter_3403.0129.11" constant="no"/>
+</technology>
+<technology name="-T1A0">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 250 1,0A" constant="no"/>
+<attribute name="VALUE" value="T 1A0"/>
+<attribute name="VENDOR#" value="Schurter_3403.0116.11" constant="no"/>
+</technology>
+<technology name="-T1A25">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 250 1,25A" constant="no"/>
+<attribute name="VALUE" value="T 1A25"/>
+<attribute name="VENDOR#" value="Schurter_3403.0117.11" constant="no"/>
+</technology>
+<technology name="-T1A5">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 250 1,5A" constant="no"/>
+<attribute name="VALUE" value="T 1A5"/>
+<attribute name="VENDOR#" value="Schurter_3403.0130.11" constant="no"/>
+</technology>
+<technology name="-T2A0">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="OMT 250 2,0A" constant="no"/>
+<attribute name="VALUE" value="T 2A0"/>
+<attribute name="VENDOR#" value="Schurter_3403.0119.11" constant="no"/>
 </technology>
 </technologies>
 </device>
