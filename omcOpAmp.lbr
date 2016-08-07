@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -64,11 +64,12 @@
 <library>
 <description>&lt;h1&gt;omcOpAmp.lbr&lt;/h1&gt;
 
-&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;&lt;ul&gt;
-  &lt;li&gt;Linear Technolgy:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt; LT6000
-    &lt;/li&gt;
-    &lt;/ul&gt;
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+Contains operational ampflifieres from the foloowing vendors:
+
+&lt;ul&gt;
+  &lt;li&gt;Linear Technolgy&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 
@@ -81,15 +82,9 @@
 &lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
 More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
 In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
-&lt;/p&gt;
-
-&lt;h2&gt;Version History&lt;/h2&gt;
-&lt;dl&gt;
-  &lt;dt&gt;2016-01-16&lt;/dt&gt;
-  &lt;dd&gt;Initial Release&lt;/dd&gt;
-&lt;/dl&gt;</description>
+&lt;/p&gt;</description>
 <packages>
-<package name="DFN8">
+<package name="DFN8R">
 <wire x1="-1.475" y1="1.5" x2="1.47625" y2="1.5" width="0.127" layer="51"/>
 <wire x1="1.47625" y1="1.5" x2="1.47625" y2="-1.5" width="0.127" layer="51"/>
 <wire x1="1.47625" y1="-1.5" x2="-1.475" y2="-1.5" width="0.127" layer="51"/>
@@ -128,37 +123,81 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <vertex x="-1.125" y="0.675"/>
 </polygon>
 </package>
-<package name="DFN6">
-<wire x1="-1.185" y1="1.55" x2="1.16625" y2="1.55" width="0.127" layer="51"/>
-<wire x1="1.16625" y1="1.55" x2="1.16625" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="1.16625" y1="-1.45" x2="-1.185" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-1.185" y1="-1.45" x2="-1.185" y2="1.55" width="0.127" layer="51"/>
-<wire x1="-1.185" y1="1.545" x2="-1.185" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="1.16625" y1="-1.45" x2="1.16625" y2="1.525" width="0.127" layer="21"/>
-<wire x1="0.34" y1="1.545" x2="0.24" y2="1.545" width="0.127" layer="21"/>
-<wire x1="-0.16" y1="1.545" x2="-0.26" y2="1.545" width="0.127" layer="21"/>
-<circle x="-0.915" y="-1.145" radius="0.1" width="0.127" layer="21"/>
-<text x="2.69" y="-1.4" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
-<text x="4.29" y="-1.45" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
-<smd name="2" x="0.03" y="-1.425" dx="0.675" dy="0.25" layer="1" rot="R90"/>
-<smd name="3" x="0.53" y="-1.425" dx="0.675" dy="0.25" layer="1" rot="R90"/>
-<smd name="5" x="0.03" y="1.51" dx="0.675" dy="0.25" layer="1" rot="R90"/>
-<smd name="6" x="-0.47" y="1.51" dx="0.675" dy="0.25" layer="1" rot="R90"/>
-<smd name="4" x="0.53" y="1.51" dx="0.675" dy="0.25" layer="1" rot="R90"/>
-<smd name="1" x="-0.47" y="-1.425" dx="0.675" dy="0.25" layer="1" rot="R90"/>
-<wire x1="0.34" y1="-1.46" x2="0.24" y2="-1.46" width="0.127" layer="21"/>
-<wire x1="-0.16" y1="-1.46" x2="-0.26" y2="-1.46" width="0.127" layer="21"/>
-<wire x1="-0.66" y1="-1.46" x2="-1.185" y2="-1.46" width="0.127" layer="21"/>
-<wire x1="1.165" y1="-1.46" x2="0.74" y2="-1.46" width="0.127" layer="21"/>
-<wire x1="1.165" y1="1.545" x2="0.74" y2="1.545" width="0.127" layer="21"/>
-<wire x1="-0.66" y1="1.545" x2="-1.185" y2="1.545" width="0.127" layer="21"/>
-<polygon width="0.127" layer="1">
-<vertex x="-0.65" y="-0.65"/>
-<vertex x="-0.5" y="-0.8"/>
-<vertex x="0.7" y="-0.8"/>
-<vertex x="0.7" y="0.85"/>
-<vertex x="-0.65" y="0.85"/>
-</polygon>
+<package name="DFN6R_2X3">
+<description>&lt;p&gt;
+&lt;h3&gt;DFN6&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;2x3mm&lt;/li&gt;
+  &lt;li&gt;0.95 pitch&lt;/li&gt;
+  &lt;li&gt;Reflow lead footprint&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cds.linear.com/docs/en/datasheet/600012fa.pdf"&gt;Mechanical, p. 15&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<text x="-1.4" y="-2.69" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.45" y="-4.29" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<smd name="2" x="-1.425" y="-0.03" dx="0.7" dy="0.25" layer="1"/>
+<smd name="3" x="-1.425" y="-0.53" dx="0.7" dy="0.25" layer="1"/>
+<smd name="5" x="1.430625" y="-0.03" dx="0.7" dy="0.25" layer="1"/>
+<smd name="6" x="1.430625" y="0.47" dx="0.7" dy="0.25" layer="1"/>
+<smd name="4" x="1.430625" y="-0.53" dx="0.7" dy="0.25" layer="1"/>
+<smd name="1" x="-1.425" y="0.47" dx="0.7" dy="0.25" layer="1"/>
+<smd name="7" x="0" y="0" dx="1.5" dy="1.35" layer="1" roundness="10"/>
+<wire x1="-1.508125" y1="0.714375" x2="-1.508125" y2="-1.031875" width="0.127" layer="51"/>
+<wire x1="-1.508125" y1="-1.031875" x2="1.508125" y2="-1.031875" width="0.127" layer="51"/>
+<wire x1="1.508125" y1="-1.031875" x2="1.508125" y2="1.031875" width="0.127" layer="51"/>
+<wire x1="1.508125" y1="1.031875" x2="-1.190625" y2="1.031875" width="0.127" layer="51"/>
+<wire x1="-1.508125" y1="0.714375" x2="-1.190625" y2="1.031875" width="0.127" layer="51"/>
+<wire x1="-1.508125" y1="0.714375" x2="-1.190625" y2="1.031875" width="0.127" layer="21"/>
+<wire x1="-1.190625" y1="1.031875" x2="1.508125" y2="1.031875" width="0.127" layer="21"/>
+<wire x1="1.508125" y1="1.031875" x2="1.508125" y2="0.714375" width="0.127" layer="21"/>
+<wire x1="1.508125" y1="-0.79375" x2="1.508125" y2="-1.031875" width="0.127" layer="21"/>
+<wire x1="1.508125" y1="-1.031875" x2="-1.508125" y2="-1.031875" width="0.127" layer="21"/>
+<wire x1="-1.508125" y1="-1.031875" x2="-1.508125" y2="-0.79375" width="0.127" layer="21"/>
+<wire x1="-1.508125" y1="-0.3175" x2="-1.508125" y2="-0.238125" width="0.127" layer="21"/>
+<wire x1="-1.508125" y1="0.15875" x2="-1.508125" y2="0.238125" width="0.127" layer="21"/>
+<wire x1="1.508125" y1="0.15875" x2="1.508125" y2="0.238125" width="0.127" layer="21"/>
+<wire x1="1.508125" y1="-0.3175" x2="1.508125" y2="-0.238125" width="0.127" layer="21"/>
+<wire x1="-1.666875" y1="-1.190625" x2="1.666875" y2="-1.190625" width="0.127" layer="39"/>
+<wire x1="1.666875" y1="-1.190625" x2="1.666875" y2="1.190625" width="0.127" layer="39"/>
+<wire x1="1.666875" y1="1.190625" x2="-1.666875" y2="1.190625" width="0.127" layer="39"/>
+<wire x1="-1.666875" y1="1.190625" x2="-1.666875" y2="-1.190625" width="0.127" layer="39"/>
+</package>
+<package name="DFN6W_2X3">
+<description>&lt;p&gt;
+&lt;h3&gt;DFN6&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;2x3mm&lt;/li&gt;
+  &lt;li&gt;0.95 pitch&lt;/li&gt;
+  &lt;li&gt;Wave lead footprint&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Middle thermal pad is replaced by drill, to allow soldering from backside through the drill&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;&lt;a href="http://cds.linear.com/docs/en/datasheet/600012fa.pdf"&gt;Mechanical, p. 15&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<text x="-1.4" y="-2.69" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.45" y="-4.29" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<smd name="2" x="-1.425" y="-0.03" dx="0.7" dy="0.25" layer="1"/>
+<smd name="3" x="-1.425" y="-0.53" dx="0.7" dy="0.25" layer="1"/>
+<smd name="5" x="1.430625" y="-0.03" dx="0.7" dy="0.25" layer="1"/>
+<smd name="6" x="1.430625" y="0.47" dx="0.7" dy="0.25" layer="1"/>
+<smd name="4" x="1.430625" y="-0.53" dx="0.7" dy="0.25" layer="1"/>
+<smd name="1" x="-1.425" y="0.47" dx="0.7" dy="0.25" layer="1"/>
+<wire x1="-1.508125" y1="0.714375" x2="-1.508125" y2="-1.031875" width="0.127" layer="51"/>
+<wire x1="-1.508125" y1="-1.031875" x2="1.508125" y2="-1.031875" width="0.127" layer="51"/>
+<wire x1="1.508125" y1="-1.031875" x2="1.508125" y2="1.031875" width="0.127" layer="51"/>
+<wire x1="1.508125" y1="1.031875" x2="-1.190625" y2="1.031875" width="0.127" layer="51"/>
+<wire x1="-1.508125" y1="0.714375" x2="-1.190625" y2="1.031875" width="0.127" layer="51"/>
+<wire x1="-1.508125" y1="0.714375" x2="-1.190625" y2="1.031875" width="0.127" layer="21"/>
+<wire x1="-1.190625" y1="1.031875" x2="1.508125" y2="1.031875" width="0.127" layer="21"/>
+<wire x1="1.508125" y1="1.031875" x2="1.508125" y2="0.714375" width="0.127" layer="21"/>
+<wire x1="1.508125" y1="-0.79375" x2="1.508125" y2="-1.031875" width="0.127" layer="21"/>
+<wire x1="1.508125" y1="-1.031875" x2="-1.508125" y2="-1.031875" width="0.127" layer="21"/>
+<wire x1="-1.508125" y1="-1.031875" x2="-1.508125" y2="-0.79375" width="0.127" layer="21"/>
+<wire x1="-1.508125" y1="-0.3175" x2="-1.508125" y2="-0.238125" width="0.127" layer="21"/>
+<wire x1="-1.508125" y1="0.15875" x2="-1.508125" y2="0.238125" width="0.127" layer="21"/>
+<wire x1="1.508125" y1="0.15875" x2="1.508125" y2="0.238125" width="0.127" layer="21"/>
+<wire x1="1.508125" y1="-0.3175" x2="1.508125" y2="-0.238125" width="0.127" layer="21"/>
+<pad name="7" x="0" y="0" drill="0.8" diameter="1.4224" shape="square"/>
+<wire x1="-1.666875" y1="-1.190625" x2="1.666875" y2="-1.190625" width="0.127" layer="39"/>
+<wire x1="1.666875" y1="-1.190625" x2="1.666875" y2="1.190625" width="0.127" layer="39"/>
+<wire x1="1.666875" y1="1.190625" x2="-1.666875" y2="1.190625" width="0.127" layer="39"/>
+<wire x1="-1.666875" y1="1.190625" x2="-1.666875" y2="-1.190625" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -201,37 +240,27 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LT6000" prefix="OPV" uservalue="yes">
+<deviceset name="LT6000" prefix="OPA" uservalue="yes">
 <description>&lt;h2&gt;LTC6000 - Single 1.8V, 13μA Precision Rail-to-Rail Op Amp&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt; Ideal for Battery-Powered Applications &lt;ul&gt;
-     &lt;li&gt; Low Voltage: 1.8V to 16V Operation
-     &lt;li&gt; Low Current: 16μA/Amplifier Max
-     &lt;li&gt; Shutdown to 1.5μA Max
-     &lt;/li&gt;
-     &lt;/ul&gt;
-  &lt;li&gt; Low Offset Voltage: 600μV Max
-  &lt;li&gt; Rail-to-Rail Input and Output
-  &lt;li&gt; Fully Specified on 1.8V and 5V Supplies
-  &lt;li&gt; Operating Temperature Range: –40°C to 85°C
-  &lt;li&gt; Gain bandwidth product: 60kHz
-  &lt;li&gt; &lt;a href="http://cds.linear.com/docs/en/datasheet/600012fa.pdf"&gt;http://cds.linear.com/docs/en/datasheet/600012fa.pdf&lt;/a&gt;
-  &lt;/il&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: -
-   &lt;li&gt; Conrad: 1255128 - 62
-   &lt;li&gt; Digi-Key: LT6000CDCB#TRMPBFCT-ND
-   &lt;/il&gt;
+    &lt;li&gt; Low Voltage: 1.8V to 16V Operation&lt;/li&gt;
+    &lt;li&gt; Low Current: 16μA/Amplifier Max&lt;/li&gt;
+    &lt;li&gt; Shutdown to 1.5μA Max&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; Low Offset Voltage: 600μV Max&lt;/li&gt;
+  &lt;li&gt; Rail-to-Rail Input and Output&lt;/li&gt;
+  &lt;li&gt; Fully Specified on 1.8V and 5V Supplies&lt;/li&gt;
+  &lt;li&gt; Operating Temperature Range: –40°C to 85°C&lt;/li&gt;
+  &lt;li&gt; Gain bandwidth product: 60kHz&lt;/li&gt;
+  &lt;li&gt; &lt;a href="http://cds.linear.com/docs/en/datasheet/600012fa.pdf"&gt;Datasheet Linear Technology&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="OPV_NSHTD" x="0" y="0"/>
 <gate name="G$2" symbol="PWR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DFN6">
+<device name="R" package="DFN6R_2X3">
 <connects>
 <connect gate="G$1" pin="!SHDN" pad="1"/>
 <connect gate="G$1" pin="+IN" pad="3"/>
@@ -242,10 +271,30 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CONRAD#" value="1255128 - 62" constant="no"/>
-<attribute name="DIGIKEY#" value="LT6000CDCB#TRMPBFCT-ND" constant="no"/>
-<attribute name="REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="LT6000" constant="no"/>
+<attribute name="DIST#CONRAD#" value="1255128 - 62" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="LT6000CDCB#TRMPBFCT-ND" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="LT6000"/>
+<attribute name="VENDOR#" value="Linear Technology,LT6000CDCB" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="W" package="DFN6W_2X3">
+<connects>
+<connect gate="G$1" pin="!SHDN" pad="1"/>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$2" pin="V+" pad="6"/>
+<connect gate="G$2" pin="V-" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#CONRAD#" value="1255128 - 62" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="LT6000CDCB#TRMPBFCT-ND" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="LT6000"/>
+<attribute name="VENDOR#" value="Linear Technology,LT6000CDCB" constant="no"/>
 </technology>
 </technologies>
 </device>
