@@ -303,70 +303,70 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="OMT 125 0,5A" constant="no"/>
 <attribute name="VALUE" value="T 0A5"/>
-<attribute name="VENDOR#" value="Schurter_3404.0112.11" constant="no"/>
+<attribute name="VENDOR#" value="Schurter,3404.0112.11" constant="no"/>
 </technology>
 <technology name="-T0A75">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="OMT 125 0,75A" constant="no"/>
 <attribute name="VALUE" value="T 0A75"/>
-<attribute name="VENDOR#" value="Schurter_3404.0113.11" constant="no"/>
+<attribute name="VENDOR#" value="Schurter,3404.0113.11" constant="no"/>
 </technology>
 <technology name="-T1A0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="OMT 125 1,0A" constant="no"/>
 <attribute name="VALUE" value="T 1A0"/>
-<attribute name="VENDOR#" value="Schurter_3404.0114.11" constant="no"/>
+<attribute name="VENDOR#" value="Schurter,3404.0114.11" constant="no"/>
 </technology>
 <technology name="-T1A5">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="OMT 125 1,5A" constant="no"/>
 <attribute name="VALUE" value="T 1A5"/>
-<attribute name="VENDOR#" value="Schurter_3404.0115.11" constant="no"/>
+<attribute name="VENDOR#" value="Schurter,3404.0115.11" constant="no"/>
 </technology>
 <technology name="-T2A0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="OMT 125 2,0A" constant="no"/>
 <attribute name="VALUE" value="T 2A0"/>
-<attribute name="VENDOR#" value="Schurter_3404.0116.11" constant="no"/>
+<attribute name="VENDOR#" value="Schurter,3404.0116.11" constant="no"/>
 </technology>
 <technology name="-T2A5">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="OMT 125 2,5A" constant="no"/>
 <attribute name="VALUE" value="T 2A5"/>
-<attribute name="VENDOR#" value="Schurter_3404.0117.11" constant="no"/>
+<attribute name="VENDOR#" value="Schurter,3404.0117.11" constant="no"/>
 </technology>
 <technology name="-T3A0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="OMT 125 3,0A" constant="no"/>
 <attribute name="VALUE" value="T 3A0"/>
-<attribute name="VENDOR#" value="Schurter_3404.0118.11" constant="no"/>
+<attribute name="VENDOR#" value="Schurter,3404.0118.11" constant="no"/>
 </technology>
 <technology name="-T3A5">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="OMT 125 3,5A" constant="no"/>
 <attribute name="VALUE" value="T 3A5"/>
-<attribute name="VENDOR#" value="Schurter_3404.0119.11" constant="no"/>
+<attribute name="VENDOR#" value="Schurter,3404.0119.11" constant="no"/>
 </technology>
 <technology name="-T4A0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="OMT 125 4,0A" constant="no"/>
 <attribute name="VALUE" value="T 4A0"/>
-<attribute name="VENDOR#" value="Schurter_3404.0120.11" constant="no"/>
+<attribute name="VENDOR#" value="Schurter,3404.0120.11" constant="no"/>
 </technology>
 <technology name="-T5A0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="OMT 125 5,0A" constant="no"/>
 <attribute name="VALUE" value="T 5A0"/>
-<attribute name="VENDOR#" value="Schurter_3404.0121.11" constant="no"/>
+<attribute name="VENDOR#" value="Schurter,3404.0121.11" constant="no"/>
 </technology>
 </technologies>
 </device>
