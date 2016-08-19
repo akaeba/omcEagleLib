@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -61,7 +61,7 @@
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -129,7 +129,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <text x="-3.81" y="3.81" size="1.9304" layer="27" font="vector">&gt;Value</text>
 </package>
 <package name="0805">
-<description>&lt;h3&gt; Resistor&lt;/h3&gt;&lt;ul&gt;
+<description>&lt;h3&gt;SMD Resistor&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;0.125W&lt;/li&gt;
 &lt;li&gt;0805 Package (2mm x 1.25mm)&lt;/li&gt;
 &lt;li&gt;Reflow Soldering&lt;/li&gt;
@@ -210,7 +210,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="6.985" y1="0.635" x2="-6.985" y2="0.635" width="0.127" layer="39"/>
 </package>
 <package name="1206">
-<description>&lt;h3&gt; Resistor&lt;/h3&gt;&lt;ul&gt;
+<description>&lt;h3&gt;SMD Resistor&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;0.25W&lt;/li&gt;
 &lt;li&gt;1206 Package (3.20mm x 1.60mm)&lt;/li&gt;
 &lt;li&gt;Reflow Soldering&lt;/li&gt;
@@ -229,9 +229,27 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.0508" layer="39"/>
 <wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.0508" layer="39"/>
 </package>
+<package name="PT6V">
+<description>&lt;h3&gt;Piher potentiometer&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;6mm&lt;/li&gt;
+&lt;li&gt;Horizontal mount / Vertical adjust&lt;/li&gt;
+&lt;li&gt;THT&lt;/li&gt;
+&lt;/ul&gt;</description>
+<pad name="1" x="-2.54" y="-2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="2.54" y="-2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
+<hole x="0" y="0" drill="2.5"/>
+<wire x1="-1.905" y1="-3.175" x2="1.905" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="-3.175" x2="1.905" y2="-3.175" width="0.127" layer="51" curve="-295.448711"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
+<description>&lt;p&gt;
+&lt;h3&gt;Resistor&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;two terminal&lt;/li&gt;
+  &lt;li&gt;european symbol&lt;/il&gt;
+&lt;/p&gt;</description>
 <wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
@@ -242,6 +260,11 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="RS">
+<description>&lt;p&gt;
+&lt;h3&gt;Shunt resistor&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;two terminal&lt;/li&gt;
+  &lt;li&gt;european symbol&lt;/il&gt;
+&lt;/p&gt;</description>
 <wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
@@ -252,6 +275,30 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="RPOT">
+<description>&lt;p&gt;
+&lt;h3&gt;Poteniometer&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;three terminal&lt;/li&gt;
+  &lt;li&gt;european symbol&lt;/il&gt;
+&lt;/p&gt;</description>
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.1597" y1="1.2939" x2="-3.1989" y2="2.4495" width="0.1524" layer="94"/>
+<wire x1="-3.1989" y1="2.4495" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-3.048" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.032" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-2.1597" y1="1.2939" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
+<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="A" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2199,6 +2246,44 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="VALUE" value="9M1"/>
 <attribute name="VENDOR#" value="YAGEO#RC1206FR-079M1L" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PT" prefix="R" uservalue="yes">
+<description>&lt;h2&gt;Piher -  Carbon Potentiometer&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Carbon resistive element&lt;/li&gt;
+  &lt;li&gt;Dust proof enclosure&lt;/li&gt;
+  &lt;li&gt;Polyester substrate&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;PT-6:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;
+  &lt;li&gt;Mechanical:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Mechanical Rotation angle: 235° ±5°&lt;/li&gt;
+    &lt;li&gt;Electrical Rotation angle: 200° ±20°&lt;/li&gt;
+    &lt;li&gt;Torque: 0.2 to 2 Ncm&lt;/li&gt;
+    &lt;li&gt;Stop torque: &gt; 4 Ncm&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Electrical:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Range of values: 220Ω ≤ R&lt;sub&gt;n&lt;/sub&gt; ≤ 5MΩ &lt;/li&gt;
+    &lt;li&gt;Tolerance:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;220Ω ≤ R&lt;sub&gt;n&lt;/sub&gt; ≤ 1MΩ: ±20%&lt;/li&gt;
+      &lt;li&gt;1MΩ ≤ R&lt;sub&gt;n&lt;/sub&gt; ≤ 5MΩ: ±30%&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Max. Voltage: 100 VDC (lin), 50 VDC (no lin)&lt;/li&gt;
+    &lt;li&gt;Nominal Power @50°C: 0.1 W (lin) 0.05 W (no lin)&lt;/li&gt;
+    &lt;li&gt;Operating Temperature: -25°C +70°C&lt;/li&gt;
+  &lt;/ul&gt;
+    &lt;li&gt;&lt;a href="http://piher.net/piher/?p=190"&gt;Piher Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PT6-S_PT6-L%23PIH.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="RPOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
