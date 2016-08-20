@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="1.5625" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -239,8 +239,60 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pad name="3" x="2.54" y="-2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
 <pad name="2" x="0" y="2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
 <hole x="0" y="0" drill="2.5"/>
-<wire x1="-1.905" y1="-3.175" x2="1.905" y2="-3.175" width="0.127" layer="51"/>
-<wire x1="-1.905" y1="-3.175" x2="1.905" y2="-3.175" width="0.127" layer="51" curve="-295.448711"/>
+<wire x1="-1.74625" y1="-3.175" x2="1.74625" y2="-3.175" width="0.127" layer="21"/>
+<text x="5.08" y="-3.175" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<wire x1="-1.74625" y1="-3.175" x2="1.74625" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-3.095625" y1="-2.778125" x2="-1.74625" y2="-2.778125" width="0.127" layer="51"/>
+<wire x1="-1.74625" y1="-2.778125" x2="-1.74625" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="1.74625" y1="-2.778125" x2="1.74625" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-3.095625" y1="-2.778125" x2="-3.095625" y2="-1.984375" width="0.127" layer="51"/>
+<wire x1="-3.095625" y1="-1.984375" x2="-3.095625" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="1.74625" y1="-2.778125" x2="3.095625" y2="-2.778125" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.17999375" width="0.127" layer="51"/>
+<wire x1="0" y1="0.3175" x2="0.635" y2="0.9525" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0" x2="0.9525" y2="0.635" width="0.127" layer="51"/>
+<wire x1="0" y1="0.3175" x2="-0.3175" y2="0.635" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-0.3175" x2="0.3175" y2="0" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-0.3175" x2="0" y2="-0.3175" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="-0.9525" x2="0" y2="-0.3175" width="0.127" layer="51"/>
+<wire x1="-0.9525" y1="-0.635" x2="-0.3175" y2="-0.079375" width="0.127" layer="51"/>
+<wire x1="-0.3175" y1="0.635" x2="-0.3175" y2="-0.079375" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="2.2743375" width="0.0635" layer="51"/>
+<wire x1="3.095625" y1="-2.778125" x2="3.095625" y2="-1.984375" width="0.127" layer="51"/>
+<wire x1="3.095625" y1="-1.984375" x2="3.095625" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="-3.095625" y1="-0.79375" x2="3.095625" y2="-0.79375" width="0.127" layer="51" curve="-211.502347"/>
+<wire x1="-3.095625" y1="-0.79375" x2="-1.11125" y2="3.095625" width="0.127" layer="21" curve="-85.526314"/>
+<wire x1="-3.095625" y1="-0.79375" x2="-3.095625" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="3.095625" y1="-0.79375" x2="3.095625" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="-2.778125" y1="-1.031875" x2="-2.301875" y2="-0.555625" width="0.127" layer="51"/>
+<wire x1="-2.460625" y1="-1.349375" x2="-3.095625" y2="-1.984375" width="0.127" layer="51"/>
+<wire x1="-0.7540625" y1="-2.1828125" x2="-1.11125" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-1.11125" y1="-2.54" x2="-1.42875" y2="-2.2225" width="0.127" layer="51"/>
+<wire x1="-1.74625" y1="-2.778125" x2="-1.74625" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-1.74625" y1="-2.54" x2="-1.42875" y2="-2.2225" width="0.127" layer="51"/>
+<wire x1="-2.460625" y1="-1.349375" x2="-2.778125" y2="-1.031875" width="0.127" layer="51"/>
+<wire x1="1.74625" y1="-2.778125" x2="1.74625" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="1.74625" y1="-2.54" x2="1.42875" y2="-2.2225" width="0.127" layer="51"/>
+<wire x1="1.42875" y1="-2.2225" x2="1.11125" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="0.7540625" y1="-2.1828125" x2="1.11125" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="2.460625" y1="-1.349375" x2="3.095625" y2="-1.984375" width="0.127" layer="51"/>
+<wire x1="2.778125" y1="-1.031875" x2="2.460625" y2="-1.349375" width="0.127" layer="51"/>
+<wire x1="2.778125" y1="-1.031875" x2="2.301875" y2="-0.555625" width="0.127" layer="51"/>
+<wire x1="-2.301875" y1="-0.555625" x2="-2.778125" y2="-1.031875" width="0.127" layer="21"/>
+<wire x1="-2.778125" y1="-1.031875" x2="-2.460625" y2="-1.349375" width="0.127" layer="21"/>
+<wire x1="-2.460625" y1="-1.349375" x2="-2.69875" y2="-1.5875" width="0.127" layer="21"/>
+<wire x1="2.301875" y1="-0.555625" x2="2.778125" y2="-1.031875" width="0.127" layer="21"/>
+<wire x1="2.778125" y1="-1.031875" x2="2.460625" y2="-1.349375" width="0.127" layer="21"/>
+<wire x1="2.460625" y1="-1.349375" x2="2.69875" y2="-1.5875" width="0.127" layer="21"/>
+<wire x1="0.79375" y1="-2.2225" x2="1.11125" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.11125" y1="-2.54" x2="1.42875" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="1.42875" y1="-2.2225" x2="1.5875" y2="-2.38125" width="0.127" layer="21"/>
+<wire x1="-0.79375" y1="-2.2225" x2="-1.11125" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.11125" y1="-2.54" x2="-1.42875" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="-1.42875" y1="-2.2225" x2="-1.5875" y2="-2.38125" width="0.127" layer="21"/>
+<wire x1="0.873125" y1="2.1034375" x2="-0.873125" y2="2.1034375" width="0.0635" layer="21" curve="-314.913878"/>
+<wire x1="3.095625" y1="-0.79375" x2="0.9921875" y2="3.1353125" width="0.127" layer="21" curve="87.763839"/>
 </package>
 </packages>
 <symbols>
@@ -2281,7 +2333,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="G$1" symbol="RPOT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="-6V" package="PT6V">
 <technologies>
 <technology name=""/>
 </technologies>
