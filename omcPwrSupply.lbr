@@ -75,27 +75,18 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <library>
-<description>&lt;h1&gt;omcSupplyRegulator.lbr&lt;/h1&gt;
+<description>&lt;h1&gt;omcPwrSupply.lbr&lt;/h1&gt;
 
 &lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+Collection of integrated circuits to bilud-up a power supply chain
 &lt;ul&gt;
-  &lt;li&gt;Linear Regulator&lt;/li&gt;&lt;ul&gt;
-     &lt;li&gt;78XX&lt;/li&gt;
-   &lt;/ul&gt;
+  &lt;li&gt;Linear Regulator&lt;/li&gt;
   &lt;li&gt;Switching Regulator&lt;/li&gt;&lt;ul&gt;
-      &lt;li&gt;Voltage Mode&lt;/li&gt; &lt;ul&gt;
-           &lt;li&gt;LM2574&lt;/li&gt; 
-           &lt;li&gt;LM2575&lt;/li&gt; 
-           &lt;li&gt;LM2576&lt;/li&gt; 
-           &lt;li&gt;LTC3531&lt;/li&gt;
-      &lt;/ul&gt;
-     &lt;li&gt; Current Mode:&lt;/li&gt; &lt;ul&gt;
-       &lt;li&gt; LTC1624&lt;/li&gt;
-     &lt;/ul&gt;
-    &lt;/ul&gt;
+    &lt;li&gt;Voltage Mode&lt;/li&gt;
+    &lt;li&gt;Current Mode&lt;/li&gt;
+  &lt;/ul&gt;
   &lt;li&gt; DC/DC Converter&lt;/li&gt; &lt;ul&gt;
-     &lt;li&gt; SIM1-XXXX-SIL4 (1W)
-     &lt;li&gt; SIM2-XXXX-SIL7 (2W)
+     &lt;li&gt;1W/2W&lt;/li&gt;
    &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -109,15 +100,7 @@
 &lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
 More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
 In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
-&lt;/p&gt;
-
-&lt;h2&gt;Version History&lt;/h2&gt;
-&lt;dl&gt;
-  &lt;dt&gt;2013-12-08&lt;/dt&gt;
-  &lt;dd&gt;Initial Release&lt;/dd&gt;
-  &lt;dt&gt;2016-01-10&lt;/dt&gt;
-  &lt;dd&gt;add LTC3531, DCDC Converter&lt;/dd&gt;
-&lt;/dl&gt;</description>
+&lt;/p&gt;</description>
 <packages>
 <package name="TO92">
 <description>&lt;b&gt;TO-92&lt;/b&gt;</description>
