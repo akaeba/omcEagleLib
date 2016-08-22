@@ -1114,14 +1114,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;RoHS compliant&lt;/li&gt;
   &lt;li&gt;Colour: red, green, yellow, orange&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://www.avagotech.com/docs/AV02-0981EN"&gt;Avago Technologies Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt;Reichelt: -&lt;/li&gt;
-   &lt;li&gt;Conrad: -&lt;/li&gt;
-   &lt;li&gt;Farnell: red&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="SEG7-CA-DPUL-X2" x="0" y="0"/>
@@ -1148,7 +1140,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#FARNELL#" value="1651415" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="Red"/>
-<attribute name="VENDOR#" value="Avago_Technologies#HDSM-291C" constant="no"/>
+<attribute name="VENDOR#" value="Avago Technologies,HDSM-291C" constant="no"/>
 </technology>
 <technology name="F">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1156,7 +1148,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#FARNELL#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="Yellow"/>
-<attribute name="VENDOR#" value="Avago_Technologies#HDSM-291F" constant="no"/>
+<attribute name="VENDOR#" value="Avago Technologies,HDSM-291F" constant="no"/>
 </technology>
 <technology name="H">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1164,7 +1156,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#FARNELL#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="Green"/>
-<attribute name="VENDOR#" value="Avago_Technologies#HDSM-291H" constant="no"/>
+<attribute name="VENDOR#" value="Avago Technologies,HDSM-291H" constant="no"/>
 </technology>
 <technology name="L">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
@@ -1172,7 +1164,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#FARNELL#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="Orange"/>
-<attribute name="VENDOR#" value="Avago_Technologies#HDSM-291L" constant="no"/>
+<attribute name="VENDOR#" value="Avago Technologies,HDSM-291L" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1188,14 +1180,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt; 43 lm/W (red), 36 lm/W (true green), 11 lm/W (blue)&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://www.osram-os.com/Graphics/XPic4/00067263_0.pdf"&gt;Osram Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/X100/lrtb_g6tg.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt;Reichelt: LRTB G6TG&lt;/li&gt;
-   &lt;li&gt;Conrad: -&lt;/li&gt;
-   &lt;li&gt;Digikey: -&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED-RGB" x="0" y="0"/>
@@ -1216,7 +1200,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LRTB G6TG" constant="no"/>
 <attribute name="VALUE" value="LRTB G6TG"/>
-<attribute name="VENDOR#" value="OSRAM#Q65111A2479" constant="no"/>
+<attribute name="VENDOR#" value="OSRAM,Q65111A2479" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1231,14 +1215,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;mini-flat package&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://optoelectronics.liteon.com/upload/download/DS70-2001-012/S_110_LTV-357T%2020140520.pdf"&gt;Lite-On Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KB357NT%28V6%29.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt;Reichelt: LTV 357T-SMD&lt;/li&gt;
-   &lt;li&gt;Conrad: -&lt;/li&gt;
-   &lt;li&gt;Digikey: -&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="OC" x="2.54" y="0"/>
@@ -1257,7 +1233,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LTV 357T-SMD" constant="no"/>
 <attribute name="VALUE" value="LTV357T"/>
-<attribute name="VENDOR#" value="LITEON#LTV-357T" constant="no"/>
+<attribute name="VENDOR#" value="LITEON,LTV-357T" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1275,14 +1251,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;Internal power-on reset&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.nxp.com/documents/data_sheet/PCA9531.pdf"&gt;NXP Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1100000-1199999/001116597-da-01-en-IC_LED_TREIBE_R_PCA9531D_112_SOIC_16_NXP.pdf"&gt;Conrad Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt;Reichelt: -&lt;/li&gt;
-   &lt;li&gt;Conrad: 1116597 - 62&lt;/li&gt;
-   &lt;li&gt;Digikey: -&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="PCA9531" x="0" y="0"/>
@@ -1313,7 +1281,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="PCA9531"/>
-<attribute name="VENDOR#" value="NXP#PCA9531D" constant="no"/>
+<attribute name="VENDOR#" value="NXP,PCA9531D" constant="no"/>
 </technology>
 </technologies>
 </device>
