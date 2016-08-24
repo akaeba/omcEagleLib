@@ -1459,25 +1459,25 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </connects>
 <technologies>
 <technology name="F">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#CONRAD#" value="1121175 - 62" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="MAX4080F"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Maxim Integrated,MAX4080FASA+" constant="no"/>
 </technology>
 <technology name="S">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#CONRAD#" value="1121174 - 62" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="MAX4080S"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Maxim Integrated,MAX4080SASA+" constant="no"/>
 </technology>
 <technology name="T">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#CONRAD#" value="1121176 - 62" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="MAX4080T"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Maxim Integrated,MAX4080TASA+" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1491,25 +1491,25 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </connects>
 <technologies>
 <technology name="F">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#CONRAD#" value="1121108 - 62" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="MAX4080F"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Maxim Integrated,MAX4080FAUA+" constant="no"/>
 </technology>
 <technology name="S">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#CONRAD#" value="1121106 - 62" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="MAX4080S"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Maxim Integrated,MAX4080SAUA+" constant="no"/>
 </technology>
 <technology name="T">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#CONRAD#" value="1121107 - 62" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="MAX4080T"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Maxim Integrated,MAX4080TAUA+" constant="no"/>
 </technology>
 </technologies>
 </device>
