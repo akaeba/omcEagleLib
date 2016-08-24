@@ -970,15 +970,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt; Current Mode Operation for Excellent Line and Load Transient Response
   &lt;li&gt; &lt;a href="http://cds.linear.com/docs/en/datasheet/1624f.pdf"&gt;Linear Technolgy Datasheet&lt;/a&gt;
   &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/LTC1624-DB.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: LTC 1624 CS8
-   &lt;li&gt; Conrad: 157668 - 62
-   &lt;li&gt; Digi-Key: LTC1624CS8#PBF-ND
-   &lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LT1624" x="0" y="0"/>
@@ -1001,7 +992,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <attribute name="DIST#DIGIKEY#" value="LTC1624CS8#PBF-ND" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LTC 1624 CS8" constant="no"/>
 <attribute name="VALUE" value="LTC1624"/>
-<attribute name="VENDOR#" value="Linear Technology#LTC1624CS" constant="no"/>
+<attribute name="VENDOR#" value="Linear Technology,LTC1624CS" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1022,14 +1013,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt;Thermal shutdown and current limit protection&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://www.ti.com/lit/ds/symlink/lm2574.pdf"&gt;Texas Instruments Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/LM2574%23NSC.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt;Reichelt: 3.3V, 5.0V, ADJ;&lt;/li&gt;
-   &lt;li&gt;Conrad:&lt;/li&gt;
-   &lt;li&gt;Digi-Key:&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LM2574" x="-2.54" y="-2.54"/>
@@ -1050,28 +1033,28 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="LM2574N-12"/>
-<attribute name="VENDOR#" value="Texas_Instruments#LM2574N-12/NOPB" constant="no"/>
+<attribute name="VENDOR#" value="Texas Instruments,LM2574N-12/NOPB" constant="no"/>
 </technology>
 <technology name="-3.3">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LM 2574 N3,3" constant="no"/>
 <attribute name="VALUE" value="LM2574N-3.3"/>
-<attribute name="VENDOR#" value="Texas_Instruments#LM2574N-3.3/NOPB" constant="no"/>
+<attribute name="VENDOR#" value="Texas Instruments,LM2574N-3.3/NOPB" constant="no"/>
 </technology>
 <technology name="-5.0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LM 2574 N5" constant="no"/>
 <attribute name="VALUE" value="LM2574N-5.0"/>
-<attribute name="VENDOR#" value="Texas_Instruments#LM2574N-5.0/NOPB" constant="no"/>
+<attribute name="VENDOR#" value="Texas Instruments,LM2574N-5.0/NOPB" constant="no"/>
 </technology>
 <technology name="-ADJ">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LM 2574 N-ADJ" constant="no"/>
 <attribute name="VALUE" value="LM2574N-ADJ"/>
-<attribute name="VENDOR#" value="Texas_Instruments#LM2574N-ADJ/NOPB" constant="no"/>
+<attribute name="VENDOR#" value="Texas Instruments,LM2574N-ADJ/NOPB" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1134,15 +1117,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt;Protection against feedback disconnection&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm1575.pdf"&gt;Texas Instruments Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/LM2575-NAT.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: LM 2575
-   &lt;li&gt; Conrad:  available
-   &lt;li&gt; Digi-Key:
-   &lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LM2575" x="-5.08" y="0"/>
@@ -1188,14 +1162,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt;P+ Product Enhancement tested&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://www.ti.com/lit/ds/symlink/lm2576.pdf"&gt;Texas Instruments Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/DS_LM_2576.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt;Reichelt: 3.3V, 5.0V, ADJ;&lt;/li&gt;
-   &lt;li&gt;Conrad:&lt;/li&gt;
-   &lt;li&gt;Digi-Key:&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LM2576" x="0" y="0"/>
@@ -1216,21 +1182,21 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LM 2576 S12" constant="no"/>
 <attribute name="VALUE" value="LM2576S-12"/>
-<attribute name="VENDOR#" value="Texas_Instruments#LM2576SX-12/NOPB" constant="no"/>
+<attribute name="VENDOR#" value="Texas Instruments,LM2576SX-12/NOPB" constant="no"/>
 </technology>
 <technology name="-5.0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LM 2576 S5,0" constant="no"/>
 <attribute name="VALUE" value="LM2576S-5.0"/>
-<attribute name="VENDOR#" value="Texas_Instruments#LM2576SX-5.0/NOPB" constant="no"/>
+<attribute name="VENDOR#" value="Texas Instruments,LM2576SX-5.0/NOPB" constant="no"/>
 </technology>
 <technology name="-ADJ">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LM 2576 S-ADJ" constant="no"/>
 <attribute name="VALUE" value="LM2576S-ADJ"/>
-<attribute name="VENDOR#" value="Texas_Instruments#LM2576SX-ADJ/NOPB" constant="no"/>
+<attribute name="VENDOR#" value="Texas Instruments,LM2576SX-ADJ/NOPB" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1253,13 +1219,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt;Internal Diode for Bootstrapped Gate Drive&lt;/li&gt;
   &lt;li&gt;Current Mode Operation for Excellent Line and Load Transient Response&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://cds.linear.com/docs/en/datasheet/1624f.pdf"&gt;Linear Technology Datasheet&lt;/a&gt;v
-&lt;/ul&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: -&lt;/li&gt;
-   &lt;li&gt; Conrad: -&lt;/li&gt;
-   &lt;li&gt; Digi-Key: LTC3531EDD#PBF-ND&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LT3531ADJ" x="0" y="2.54"/>
@@ -1298,13 +1257,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt; short-time short circuit protection&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://www.hnec.de/pdf/sim1sil4.pdf"&gt;HN Electronics Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/D400/SIM1_SIL4%23HN.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: SIM1-XXXX SIL4&lt;/li&gt;
-   &lt;li&gt; Conrad: -&lt;/li&gt;
-   &lt;li&gt; Digi-Key: -&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="DC/DC" x="0" y="0"/>
@@ -1339,13 +1291,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt;short-time short circuit protection&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.hnec.de/pdf/sim2sil7.pdf"&gt;HN Electronics Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/D400/SIM2SIL7HN.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt;Reichelt: SIM2-XXXXS SIL7&lt;/li&gt;
-   &lt;li&gt;Conrad: -&lt;/li&gt;
-   &lt;li&gt;Digi-Key: -&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="DC/DC" x="0" y="0"/>
@@ -1388,15 +1333,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt; Thermal shutdown&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00002173.pdf"&gt;STM Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/DS_5970D.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: L 5970 D&lt;/li&gt;
-   &lt;li&gt; Conrad: 1185187 - 62&lt;/li&gt;
-   &lt;li&gt; Digi-Key:&lt;/li&gt;
-   &lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="L5970D" x="0" y="0"/>
@@ -1419,7 +1355,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value=" L 5970 D" constant="no"/>
 <attribute name="VALUE" value="L5790D"/>
-<attribute name="VENDOR#" value="STM#L5970D013TR" constant="no"/>
+<attribute name="VENDOR#" value="STM,L5970D013TR" constant="no"/>
 </technology>
 </technologies>
 </device>
