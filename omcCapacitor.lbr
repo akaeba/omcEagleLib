@@ -931,14 +931,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
    &lt;li&gt;&lt;a href="http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx"&gt;Murata Datasheet&lt;/a&gt;&lt;/il&gt;
    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A900/DATASHEET_SMD_0805_1206_1210.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
   &lt;/ul&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: avialable
-   &lt;li&gt; Conrad: avialable
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
@@ -974,7 +966,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-10000P">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="X7R-G1206 4,7N" constant="no"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 10N" constant="no"/>
 <attribute name="VALUE" value="10n/50V"/>
 <attribute name="VENDOR#" value="YAGEO#12062R103K9BP0D" constant="no"/>
 </technology>
@@ -1044,7 +1036,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-4700P">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="X7R-G1206 3,3N" constant="no"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 4,7N" constant="no"/>
 <attribute name="VALUE" value="4n7/50V"/>
 <attribute name="VENDOR#" value="YAGEO#12062R472K9BP0D" constant="no"/>
 </technology>
