@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -208,7 +208,94 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <description>&lt;h3&gt; Capacitor 1210 Package&lt;/h3&gt;&lt;ul&gt;
   &lt;li&gt;LxW: 3.2mm x 2.5mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.knowlescapacitors.com/File%20Library/Novacap/English/GlobalNavigation/Technical%20Info/Application%20Notes/solder.pdf"&gt;Dimensions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;b&gt;Capacitor Height Dimension (T)&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-megi{font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#d0d0d0;vertical-align:top}
+.tg .tg-iuhm{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.tg .tg-zzfq{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;vertical-align:top}
+.tg .tg-25al{font-size:10px;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-megi"&gt;Code&lt;/th&gt;
+    &lt;th class="tg-megi"&gt;Dimension&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;2&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.2mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;3&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.3mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;4&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.4mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;5&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;6&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.6mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;7&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.7mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;8&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.8mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;9&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.85mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;A&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.0mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;B&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;1.25mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;C&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.6mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;D&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;2.0mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;E&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;2.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;M&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;1.15mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;Q&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-25al"&gt;S&lt;/td&gt;
+    &lt;td class="tg-25al"&gt;2.8mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;X&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;Depends on individual standards.&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
 <smd name="1" x="-1.4" y="0" dx="1.651" dy="2.794" layer="1"/>
 <smd name="2" x="1.4" y="0" dx="1.651" dy="2.794" layer="1"/>
 <text x="-1.905" y="1.905" size="1.27" layer="25" font="vector">&gt;NAME</text>
@@ -884,15 +971,51 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="X5R-G1206 100/6" constant="no"/>
-<attribute name="VALUE" value="100µ/6V" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VALUE" value="100µ/6V"/>
+<attribute name="VENDOR#" value="MURATA,GRM31CR60J107ME39#" constant="no"/>
 </technology>
 <technology name="-47000000P">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="X5R-G1206 47/6" constant="no"/>
 <attribute name="VALUE" value="47µ/6V"/>
-<attribute name="VENDOR#" value="MURATA#GRM31CR60J476" constant="no"/>
+<attribute name="VENDOR#" value="MURATA,GRM31CR60J476ME19#" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-1210" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-100000000P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1210 100" constant="no"/>
+<attribute name="VALUE" value="100µ/6.3V"/>
+<attribute name="VENDOR#" value="MURATA,GRM32ER60J107ME20#" constant="no"/>
+</technology>
+<technology name="-10000000P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1210 10" constant="no"/>
+<attribute name="VALUE" value="10µ/35V"/>
+<attribute name="VENDOR#" value="MURATA,GRM32ER6YA106KA12#" constant="no"/>
+</technology>
+<technology name="-22000000P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1210 22" constant="no"/>
+<attribute name="VALUE" value="22µ/25V"/>
+<attribute name="VENDOR#" value="MURATA,GRM32ER61E226ME15#" constant="no"/>
+</technology>
+<technology name="-47000000P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1210 47" constant="no"/>
+<attribute name="VALUE" value="47µ/16V"/>
+<attribute name="VENDOR#" value="MURATA,GRM32ER61C476ME15#" constant="no"/>
 </technology>
 </technologies>
 </device>
