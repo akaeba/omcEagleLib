@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -5083,6 +5083,104 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pad name="5" x="-1.42875" y="-2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
 <pad name="6" x="1.42875" y="-2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
 </package>
+<package name="STL21-03G">
+<description>&lt;p&gt;
+&lt;h3&gt;STL21-03G - Pin Header 1,27 mm Series 176 - 2X3&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.mpegarry.de/index.php?lang=en&amp;menu=16&amp;s_product=STL21&amp;product_group[]=5&amp;s_parameter[1]=46&amp;s_parameter[16]=6&amp;action=Search&amp;id_product=1762"&gt;MPE-Garry Productside&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Technical data:&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-s5wt{font-size:10px;background-color:#efefef;vertical-align:top}
+.tg .tg-glis{font-size:10px}
+.tg .tg-trly{font-weight:bold;font-size:10px;background-color:#c0c0c0;vertical-align:top}
+.tg .tg-7kzq{font-size:10px;background-color:#efefef}
+.tg .tg-25al{font-size:10px;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-trly"&gt;Property&lt;/th&gt;
+    &lt;th class="tg-trly"&gt;Value&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7kzq"&gt;Gender&lt;/td&gt;
+    &lt;td class="tg-7kzq"&gt;Male&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-glis"&gt;Pitch (mm)&lt;/td&gt;
+    &lt;td class="tg-glis"&gt;1,27&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7kzq"&gt;Mating contact size&lt;/td&gt;
+    &lt;td class="tg-7kzq"&gt;☐ 0,40&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-glis"&gt;Board termination&lt;/td&gt;
+    &lt;td class="tg-glis"&gt;Through hole&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7kzq"&gt;Orientation to PCB&lt;/td&gt;
+    &lt;td class="tg-7kzq"&gt;Vertical&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-glis"&gt;No of contacts&lt;/td&gt;
+    &lt;td class="tg-glis"&gt;6, 8, 10, 12, 14, ... 80&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7kzq"&gt;No of rows&lt;/td&gt;
+    &lt;td class="tg-7kzq"&gt;2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-glis"&gt;Row distance (mm)&lt;/td&gt;
+    &lt;td class="tg-glis"&gt;1,27&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7kzq"&gt;Polarising&lt;/td&gt;
+    &lt;td class="tg-7kzq"&gt;No&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-glis"&gt;Locking&lt;/td&gt;
+    &lt;td class="tg-glis"&gt;No&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7kzq"&gt;Material contact&lt;/td&gt;
+    &lt;td class="tg-7kzq"&gt;Copper alloy&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-25al"&gt;Material insulator&lt;/td&gt;
+    &lt;td class="tg-25al"&gt;High temp. thermoplast UL94V-0&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-s5wt"&gt;Rated current&lt;/td&gt;
+    &lt;td class="tg-s5wt"&gt;1,0 A&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-25al"&gt;Rated voltage&lt;/td&gt;
+    &lt;td class="tg-25al"&gt;100 VRMS / VDC&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-s5wt"&gt;Withstand voltage&lt;/td&gt;
+    &lt;td class="tg-s5wt"&gt;300 VRMS for 1 minute&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-25al"&gt;Operating temperature&lt;/td&gt;
+    &lt;td class="tg-25al"&gt;-40°C to +105°C&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-s5wt"&gt;Max. processing temperature&lt;/td&gt;
+    &lt;td class="tg-s5wt"&gt;260°C for 10 seconds&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-25al"&gt;Packaging&lt;/td&gt;
+    &lt;td class="tg-25al"&gt;Standard&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
+</package>
 </packages>
 <symbols>
 <symbol name="SOLDPINVAL">
@@ -6334,7 +6432,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="G$6" symbol="PHDR" x="2.54" y="-2.54"/>
 </gates>
 <devices>
-<device name="ILCK" package="PH2X3P254I">
+<device name="-P2.54-LCK" package="PH2X3P254I">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$2" pin="P$1" pad="2"/>
@@ -6345,6 +6443,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="">
+<attribute name="#MULTIPLIER" value="" constant="no"/>
 <attribute name="DIST#CONRAD#" value="#BOMLESS#" constant="no"/>
 <attribute name="DIST#MOUSER#" value="#BOMLESS#" constant="no"/>
 <attribute name="DIST#REICHELT#" value="#BOMLESS#" constant="no"/>
