@@ -6207,7 +6207,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </deviceset>
 <deviceset name="SCWTRMX06" prefix="X">
 <description>&lt;p&gt;
-&lt;h2&gt;Screw solder terminal - X05&lt;/h2&gt;
+&lt;h2&gt;Screw solder terminal - X06&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;pole: 2&lt;/li&gt;
   &lt;li&gt;srew terminal, plugable&lt;/li&gt;
@@ -6329,7 +6329,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </deviceset>
 <deviceset name="SCWTRMX08" prefix="X">
 <description>&lt;p&gt;
-&lt;h2&gt;Screw solder terminal - X05&lt;/h2&gt;
+&lt;h2&gt;Screw solder terminal - X08&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;pole: 2&lt;/li&gt;
   &lt;li&gt;srew terminal, plugable&lt;/li&gt;
@@ -6457,7 +6457,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </deviceset>
 <deviceset name="SCWTRMX10" prefix="X">
 <description>&lt;p&gt;
-&lt;h2&gt;Screw solder terminal - X05&lt;/h2&gt;
+&lt;h2&gt;Screw solder terminal - X10&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;pole: 2&lt;/li&gt;
   &lt;li&gt;srew terminal, plugable&lt;/li&gt;
