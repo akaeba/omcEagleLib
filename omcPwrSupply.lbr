@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -430,6 +430,10 @@ TS-003</description>
 <wire x1="1.475" y1="1.495" x2="0.95" y2="1.495" width="0.127" layer="21"/>
 <wire x1="-0.95" y1="1.495" x2="-1.475" y2="1.495" width="0.127" layer="21"/>
 <smd name="9" x="0" y="0" dx="2.159" dy="1.524" layer="1" roundness="10"/>
+<wire x1="-1.74625" y1="2.06375" x2="-1.74625" y2="-2.06375" width="0.127" layer="39"/>
+<wire x1="-1.74625" y1="-2.06375" x2="1.74625" y2="-2.06375" width="0.127" layer="39"/>
+<wire x1="1.74625" y1="-2.06375" x2="1.74625" y2="2.06375" width="0.127" layer="39"/>
+<wire x1="1.74625" y1="2.06375" x2="-1.74625" y2="2.06375" width="0.127" layer="39"/>
 </package>
 <package name="SIL4">
 <wire x1="-5.715" y1="-2.54" x2="-5.715" y2="3.81" width="0.127" layer="21"/>
@@ -689,6 +693,10 @@ TS-003</description>
 <wire x1="1.475" y1="1.495" x2="0.95" y2="1.495" width="0.127" layer="21"/>
 <wire x1="-0.95" y1="1.495" x2="-1.475" y2="1.495" width="0.127" layer="21"/>
 <pad name="9" x="0" y="0" drill="0.8" diameter="1.4224" shape="long"/>
+<wire x1="-1.74625" y1="2.06375" x2="-1.74625" y2="-2.06375" width="0.127" layer="39"/>
+<wire x1="-1.74625" y1="-2.06375" x2="1.74625" y2="-2.06375" width="0.127" layer="39"/>
+<wire x1="1.74625" y1="-2.06375" x2="1.74625" y2="2.06375" width="0.127" layer="39"/>
+<wire x1="1.74625" y1="2.06375" x2="-1.74625" y2="2.06375" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
