@@ -654,6 +654,50 @@ TS-003</description>
 <wire x1="2.936875" y1="-1.666875" x2="2.936875" y2="1.74625" width="0.127" layer="39"/>
 <wire x1="2.936875" y1="1.74625" x2="-2.936875" y2="1.74625" width="0.127" layer="39"/>
 </package>
+<package name="DFN8-THT">
+<description>&lt;h3&gt;DFN8-THT&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD/THT&lt;/li&gt;
+&lt;li&gt;3mm × 3mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cds.linear.com/docs/en/packaging/DFN_8_05-08-1698.pdf"&gt;LTC Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;li&gt;&lt;i&gt;&lt;b&gt;Hint:&lt;/b&gt; Allows backside soldering of cental pad in case of using a non reflow soldering process.&lt;/i&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<wire x1="-1.475" y1="1.5" x2="1.47625" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.47625" y1="1.5" x2="1.47625" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.47625" y1="-1.5" x2="-1.475" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.475" y1="-1.5" x2="-1.475" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.475" y1="1.495" x2="-1.475" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.47625" y1="-1.5" x2="1.47625" y2="1.475" width="0.127" layer="21"/>
+<wire x1="0.05" y1="1.495" x2="-0.05" y2="1.495" width="0.127" layer="21"/>
+<wire x1="-0.45" y1="1.495" x2="-0.55" y2="1.495" width="0.127" layer="21"/>
+<circle x="-1.205" y="-1.195" radius="0.1" width="0.127" layer="21"/>
+<text x="2.9" y="-1.5" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="4.5" y="-1.5" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<smd name="2" x="-0.26" y="-1.475" dx="0.675" dy="0.25" layer="1" rot="R90"/>
+<smd name="3" x="0.24" y="-1.475" dx="0.675" dy="0.25" layer="1" rot="R90"/>
+<smd name="4" x="0.74" y="-1.475" dx="0.675" dy="0.25" layer="1" rot="R90"/>
+<smd name="7" x="-0.26" y="1.46" dx="0.675" dy="0.25" layer="1" rot="R90"/>
+<smd name="8" x="-0.76" y="1.46" dx="0.675" dy="0.25" layer="1" rot="R90"/>
+<smd name="6" x="0.24" y="1.46" dx="0.675" dy="0.25" layer="1" rot="R90"/>
+<smd name="5" x="0.74" y="1.46" dx="0.675" dy="0.25" layer="1" rot="R90"/>
+<smd name="1" x="-0.76" y="-1.475" dx="0.675" dy="0.25" layer="1" rot="R90"/>
+<wire x1="0.55" y1="1.495" x2="0.45" y2="1.495" width="0.127" layer="21"/>
+<wire x1="0.05" y1="-1.51" x2="-0.05" y2="-1.51" width="0.127" layer="21"/>
+<wire x1="0.55" y1="-1.51" x2="0.45" y2="-1.51" width="0.127" layer="21"/>
+<wire x1="-0.45" y1="-1.51" x2="-0.55" y2="-1.51" width="0.127" layer="21"/>
+<wire x1="-0.95" y1="-1.51" x2="-1.475" y2="-1.51" width="0.127" layer="21"/>
+<wire x1="1.475" y1="-1.51" x2="0.95" y2="-1.51" width="0.127" layer="21"/>
+<wire x1="1.475" y1="1.495" x2="0.95" y2="1.495" width="0.127" layer="21"/>
+<wire x1="-0.95" y1="1.495" x2="-1.475" y2="1.495" width="0.127" layer="21"/>
+<pad name="9" x="0" y="0" drill="0.8" diameter="1.4224" shape="square"/>
+<wire x1="-1.11125" y1="0.79375" x2="-1.11125" y2="-0.79375" width="0" layer="17"/>
+<wire x1="-1.11125" y1="-0.79375" x2="1.11125" y2="-0.79375" width="0" layer="17"/>
+<wire x1="1.11125" y1="-0.79375" x2="1.11125" y2="0.79375" width="0" layer="17"/>
+<wire x1="1.11125" y1="0.79375" x2="-1.11125" y2="0.79375" width="0" layer="17"/>
+<rectangle x1="-1.11125" y1="-0.79375" x2="-0.635" y2="0.79375" layer="17"/>
+<rectangle x1="0.635" y1="-0.79375" x2="1.11125" y2="0.79375" layer="17"/>
+<rectangle x1="-0.635" y1="-0.79375" x2="0.635" y2="-0.635" layer="17"/>
+<rectangle x1="-0.635" y1="0.635" x2="0.635" y2="0.79375" layer="17"/>
+</package>
 </packages>
 <symbols>
 <symbol name="78XX">
@@ -1230,13 +1274,13 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
   &lt;li&gt;Logic-Controlled Micropower Shutdown&lt;/li&gt;
   &lt;li&gt;Internal Diode for Bootstrapped Gate Drive&lt;/li&gt;
   &lt;li&gt;Current Mode Operation for Excellent Line and Load Transient Response&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://cds.linear.com/docs/en/datasheet/1624f.pdf"&gt;Linear Technology Datasheet&lt;/a&gt;v
+  &lt;li&gt;&lt;a href="http://cds.linear.com/docs/en/datasheet/1624f.pdf"&gt;Linear Technology Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LT3531ADJ" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="-ADJ" package="DFN8">
+<device name="" package="DFN8">
 <connects>
 <connect gate="G$1" pin="FB" pad="5"/>
 <connect gate="G$1" pin="GND" pad="3"/>
@@ -1248,12 +1292,33 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <connect gate="G$1" pin="VOUT" pad="6"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<technology name="-ADJ">
+<attribute name="DIST#CONRAD#" value="1257517 - 62" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="LTC3531EDD#PBF-ND" constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="LTC3531-ADJ"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#" value="Linear Technology,LTC3531EDD#PBF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-THT" package="DFN8-THT">
+<connects>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="PGND" pad="8"/>
+<connect gate="G$1" pin="SHDN" pad="4"/>
+<connect gate="G$1" pin="SW1" pad="1"/>
+<connect gate="G$1" pin="SW2" pad="7"/>
+<connect gate="G$1" pin="VIN" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="6"/>
+</connects>
+<technologies>
+<technology name="-ADJ">
+<attribute name="DIST#CONRAD#" value="1257517 - 62" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="LTC3531EDD#PBF-ND" constant="no"/>
+<attribute name="VALUE" value="LTC3531-ADJ"/>
+<attribute name="VENDOR#" value="Linear Technology,LTC3531EDD#PBF" constant="no"/>
 </technology>
 </technologies>
 </device>
