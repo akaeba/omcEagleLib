@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -123,7 +123,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <vertex x="-1.125" y="0.675"/>
 </polygon>
 </package>
-<package name="DFN6R_2X3">
+<package name="DFN06">
 <description>&lt;p&gt;
 &lt;h3&gt;DFN6&lt;/h3&gt;&lt;ul&gt;
   &lt;li&gt;2x3mm&lt;/li&gt;
@@ -155,12 +155,12 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="-1.508125" y1="0.15875" x2="-1.508125" y2="0.238125" width="0.127" layer="21"/>
 <wire x1="1.508125" y1="0.15875" x2="1.508125" y2="0.238125" width="0.127" layer="21"/>
 <wire x1="1.508125" y1="-0.3175" x2="1.508125" y2="-0.238125" width="0.127" layer="21"/>
-<wire x1="-1.666875" y1="-1.190625" x2="1.666875" y2="-1.190625" width="0.127" layer="39"/>
-<wire x1="1.666875" y1="-1.190625" x2="1.666875" y2="1.190625" width="0.127" layer="39"/>
-<wire x1="1.666875" y1="1.190625" x2="-1.666875" y2="1.190625" width="0.127" layer="39"/>
-<wire x1="-1.666875" y1="1.190625" x2="-1.666875" y2="-1.190625" width="0.127" layer="39"/>
+<wire x1="-1.978025" y1="-1.3462" x2="1.978025" y2="-1.3462" width="0.127" layer="39"/>
+<wire x1="1.978025" y1="-1.3462" x2="1.978025" y2="1.3462" width="0.127" layer="39"/>
+<wire x1="1.978025" y1="1.3462" x2="-1.978025" y2="1.3462" width="0.127" layer="39"/>
+<wire x1="-1.978025" y1="1.3462" x2="-1.978025" y2="-1.3462" width="0.127" layer="39"/>
 </package>
-<package name="DFN6W_2X3">
+<package name="DFN06-THT">
 <description>&lt;p&gt;
 &lt;h3&gt;DFN6&lt;/h3&gt;&lt;ul&gt;
   &lt;li&gt;2x3mm&lt;/li&gt;
@@ -194,10 +194,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="1.508125" y1="0.15875" x2="1.508125" y2="0.238125" width="0.127" layer="21"/>
 <wire x1="1.508125" y1="-0.3175" x2="1.508125" y2="-0.238125" width="0.127" layer="21"/>
 <pad name="7" x="0" y="0" drill="0.8" diameter="1.4224" shape="square"/>
-<wire x1="-1.666875" y1="-1.190625" x2="1.666875" y2="-1.190625" width="0.127" layer="39"/>
-<wire x1="1.666875" y1="-1.190625" x2="1.666875" y2="1.190625" width="0.127" layer="39"/>
-<wire x1="1.666875" y1="1.190625" x2="-1.666875" y2="1.190625" width="0.127" layer="39"/>
-<wire x1="-1.666875" y1="1.190625" x2="-1.666875" y2="-1.190625" width="0.127" layer="39"/>
+<wire x1="-1.978025" y1="-1.3462" x2="1.978025" y2="-1.3462" width="0.127" layer="39"/>
+<wire x1="1.978025" y1="-1.3462" x2="1.978025" y2="1.3462" width="0.127" layer="39"/>
+<wire x1="1.978025" y1="1.3462" x2="-1.978025" y2="1.3462" width="0.127" layer="39"/>
+<wire x1="-1.978025" y1="1.3462" x2="-1.978025" y2="-1.3462" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -260,7 +260,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="G$2" symbol="PWR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="R" package="DFN6R_2X3">
+<device name="R" package="DFN06">
 <connects>
 <connect gate="G$1" pin="!SHDN" pad="1"/>
 <connect gate="G$1" pin="+IN" pad="3"/>
@@ -279,7 +279,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </technology>
 </technologies>
 </device>
-<device name="W" package="DFN6W_2X3">
+<device name="W" package="DFN06-THT">
 <connects>
 <connect gate="G$1" pin="!SHDN" pad="1"/>
 <connect gate="G$1" pin="+IN" pad="3"/>
