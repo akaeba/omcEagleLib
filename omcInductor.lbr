@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -377,10 +377,9 @@ H: 9mm</description>
 </connects>
 <technologies>
 <technology name="220M">
-<attribute name="CONRAD#" value="440522 - 62" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="MESC 22µ" constant="no"/>
-<attribute name="VALUE" value="22µ" constant="no"/>
+<attribute name="DIST#CONRAD#" value="440522 - 62" constant="no"/>
+<attribute name="DIST#REICHELT#" value="MESC 22µ" constant="no"/>
+<attribute name="VALUE" value="22µ"/>
 </technology>
 </technologies>
 </device>
@@ -614,133 +613,133 @@ H: 9mm</description>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 10µ" constant="no"/>
 <attribute name="VALUE" value="10µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-100X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-100X-04" constant="no"/>
 </technology>
 <technology name="-101X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 100µ" constant="no"/>
 <attribute name="VALUE" value="100µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-101X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-101X-04" constant="no"/>
 </technology>
 <technology name="-102X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 1,0M" constant="no"/>
 <attribute name="VALUE" value="1000µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-103X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-103X-04" constant="no"/>
 </technology>
 <technology name="-150X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 15µ" constant="no"/>
 <attribute name="VALUE" value="15µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-150X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-150X-04" constant="no"/>
 </technology>
 <technology name="-151X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 150µ" constant="no"/>
 <attribute name="VALUE" value="150µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-151X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-151X-04" constant="no"/>
 </technology>
 <technology name="-1R0X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 1,0µ" constant="no"/>
 <attribute name="VALUE" value="1µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-1R0X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-1R0X-04" constant="no"/>
 </technology>
 <technology name="-1R5X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 1,5µ" constant="no"/>
 <attribute name="VALUE" value="1µ5"/>
-<attribute name="VENDOR#" value="Fastron#PISM-1R5X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-1R5X-04" constant="no"/>
 </technology>
 <technology name="-220X">
 <attribute name="DIST#CONRAD#" value="449640 - 62" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 22µ" constant="no"/>
 <attribute name="VALUE" value="22µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-220X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-220X-04" constant="no"/>
 </technology>
 <technology name="-221X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 220µ" constant="no"/>
 <attribute name="VALUE" value="220µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-221X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-221X-04" constant="no"/>
 </technology>
 <technology name="-2R2X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 2,2µ" constant="no"/>
 <attribute name="VALUE" value="2µ2"/>
-<attribute name="VENDOR#" value="Fastron#PISM-2R2X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-2R2X-04" constant="no"/>
 </technology>
 <technology name="-330X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 33µ" constant="no"/>
 <attribute name="VALUE" value="33µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-330X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-330X-04" constant="no"/>
 </technology>
 <technology name="-331X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 330µ" constant="no"/>
 <attribute name="VALUE" value="330µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-331X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-331X-04" constant="no"/>
 </technology>
 <technology name="-3R3X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 3,3µ" constant="no"/>
 <attribute name="VALUE" value="3µ3"/>
-<attribute name="VENDOR#" value="Fastron#PISM-3R3X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-3R3X-04" constant="no"/>
 </technology>
 <technology name="-470X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 47µ" constant="no"/>
 <attribute name="VALUE" value="47µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-470X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-470X-04" constant="no"/>
 </technology>
 <technology name="-471X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 470µ" constant="no"/>
 <attribute name="VALUE" value="470µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-471X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-471X-04" constant="no"/>
 </technology>
 <technology name="-4R7X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 4,7µ" constant="no"/>
 <attribute name="VALUE" value="4µ7"/>
-<attribute name="VENDOR#" value="Fastron#PISM-4R7X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-4R7X-04" constant="no"/>
 </technology>
 <technology name="-680X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 68µ" constant="no"/>
 <attribute name="VALUE" value="68µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-680X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-680X-04" constant="no"/>
 </technology>
 <technology name="-681X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 680µ" constant="no"/>
 <attribute name="VALUE" value="680µ"/>
-<attribute name="VENDOR#" value="Fastron#PISM-681X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-681X-04" constant="no"/>
 </technology>
 <technology name="-6R8X">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 6,8µ" constant="no"/>
 <attribute name="VALUE" value="6µ8"/>
-<attribute name="VENDOR#" value="Fastron#PISM-6R8X-04" constant="no"/>
+<attribute name="VENDOR#" value="Fastron,PISM-6R8X-04" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -781,10 +780,8 @@ H: 9mm</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CONRAD#" value="398687 - 62" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="1m1" constant="no"/>
+<attribute name="DIST#CONRAD#" value="398687 - 62" constant="no"/>
+<attribute name="VALUE" value="1m1"/>
 </technology>
 </technologies>
 </device>
@@ -827,16 +824,12 @@ H: 9mm</description>
 </connects>
 <technologies>
 <technology name="4Y">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="FED 64µ" constant="no"/>
-<attribute name="VALUE" value="64µ" constant="no"/>
+<attribute name="DIST#REICHELT#" value="FED 64µ" constant="no"/>
+<attribute name="VALUE" value="64µ"/>
 </technology>
 <technology name="5Y">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="FED 100µ" constant="no"/>
-<attribute name="VALUE" value="100µ" constant="no"/>
+<attribute name="DIST#REICHELT#" value="FED 100µ" constant="no"/>
+<attribute name="VALUE" value="100µ"/>
 </technology>
 </technologies>
 </device>
@@ -879,16 +872,12 @@ H: 9mm</description>
 </connects>
 <technologies>
 <technology name="3Y">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="FED 40µ" constant="no"/>
-<attribute name="VALUE" value="40µ" constant="no"/>
+<attribute name="DIST#REICHELT#" value="FED 40µ" constant="no"/>
+<attribute name="VALUE" value="40µ"/>
 </technology>
 <technology name="4Y">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="FED 72" constant="no"/>
-<attribute name="VALUE" value="72µ" constant="no"/>
+<attribute name="DIST#REICHELT#" value="FED 72" constant="no"/>
+<attribute name="VALUE" value="72µ"/>
 </technology>
 </technologies>
 </device>
@@ -931,10 +920,9 @@ H: 9mm</description>
 </connects>
 <technologies>
 <technology name="220M">
-<attribute name="CONRAD#" value="436916 - 62" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="L-PISG 22µ" constant="no"/>
-<attribute name="VALUE" value="22µ" constant="no"/>
+<attribute name="DIST#CONRAD#" value="436916 - 62" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISG 22µ" constant="no"/>
+<attribute name="VALUE" value="22µ"/>
 </technology>
 </technologies>
 </device>
@@ -1098,60 +1086,44 @@ H: 9mm</description>
 </connects>
 <technologies>
 <technology name="100K">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LQH3C 10µ" constant="no"/>
 <attribute name="VALUE" value="10µ"/>
-<attribute name="VENDOR" value="Murata#LGH3C100K34" constant="no"/>
+<attribute name="VENDOR#" value="Murata,LGH3C100K34" constant="no"/>
 </technology>
 <technology name="101K">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LQH3C 100µ" constant="no"/>
 <attribute name="VALUE" value="100µ"/>
-<attribute name="VENDOR" value="Murata#LGH3C101K34" constant="no"/>
+<attribute name="VENDOR#" value="Murata,LGH3C101K34" constant="no"/>
 </technology>
 <technology name="1R0M">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LQH3C 1,0µ" constant="no"/>
 <attribute name="VALUE" value="1µ"/>
-<attribute name="VENDOR" value="Murata#LGH3C1R0M34" constant="no"/>
+<attribute name="VENDOR#" value="Murata,LGH3C1R0M34" constant="no"/>
 </technology>
 <technology name="220K">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LQH3C 22µ" constant="no"/>
 <attribute name="VALUE" value="22µ"/>
-<attribute name="VENDOR" value="Murata#LGH3C220K34" constant="no"/>
+<attribute name="VENDOR#" value="Murata,LGH3C220K34" constant="no"/>
 </technology>
 <technology name="221K">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LQH3C 220µ" constant="no"/>
 <attribute name="VALUE" value="220µ"/>
-<attribute name="VENDOR" value="Murata#LGH3C221K34" constant="no"/>
+<attribute name="VENDOR#" value="Murata,LGH3C221K34" constant="no"/>
 </technology>
 <technology name="2R2M">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LQH3C 2,2µ" constant="no"/>
 <attribute name="VALUE" value="2µ2"/>
-<attribute name="VENDOR" value="Murata#LGH3C2R2M34" constant="no"/>
+<attribute name="VENDOR#" value="Murata,LGH3C2R2M34" constant="no"/>
 </technology>
 <technology name="470K">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LQH3C 47µ" constant="no"/>
 <attribute name="VALUE" value="47µ"/>
-<attribute name="VENDOR" value="Murata#LGH3C470K34" constant="no"/>
+<attribute name="VENDOR#" value="Murata,LGH3C470K34" constant="no"/>
 </technology>
 <technology name="4R7M">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="LQH3C 4,7µ" constant="no"/>
 <attribute name="VALUE" value="4µ7"/>
-<attribute name="VENDOR" value="Murata#LGH3C4R7M34" constant="no"/>
+<attribute name="VENDOR#" value="Murata,LGH3C4R7M34" constant="no"/>
 </technology>
 </technologies>
 </device>
