@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1011,17 +1011,21 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </device>
 </devices>
 </deviceset>
-<deviceset name="DF0" prefix="BR" uservalue="yes">
+<deviceset name="RECT-DIL-1A" prefix="BR" uservalue="yes">
 <description>&lt;p&gt;
-&lt;h2&gt;DB10XS - 1.0A Single-Phase Glass Passivated Bridge Rectifier&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=" http://www.diodes.com/_files/datasheets/ds21201.pdf"&gt;Diodes Incorporate Datasheet&lt;/a&gt;&lt;/il&gt;
-  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/SMD_DF_02_SEP_DB.PDF"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+&lt;h2&gt;DIL Rechtifier - 1.0A Single-Phase Glass Passivated Bridge Rectifier&lt;/h2&gt;&lt;ul&gt;
+  &lt;li&gt;Diodes Incorporate:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href=" http://www.diodes.com/_files/datasheets/ds21201.pdf"&gt;Diodes Incorporate Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/SMD_DF_02_SEP_DB.PDF"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;SEP Electronic Corp:&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/DB101S-DB107S_SEP.PDF"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt; 
+  &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-&lt;b&gt;Maximum Ratings and Electrical Characteristics&lt;/b&gt;
+&lt;b&gt;Diodes Incorporate - Maximum Ratings and Electrical Characteristics&lt;/b&gt;
 &lt;style type="text/css"&gt;
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
@@ -1117,7 +1121,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="G$1" symbol="DB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="M" package="SODIL">
+<device name="-SMD" package="SODIL">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1125,20 +1129,33 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <connect gate="G$1" pin="AC2" pad="AC2"/>
 </connects>
 <technologies>
-<technology name="05">
-<attribute name="DIST#REICHELT#" value="SMD DF 005" constant="no"/>
-<attribute name="VALUE" value="DF005" constant="no"/>
-<attribute name="VENDOR#" value="Diodes Incorporate,DF005M" constant="no"/>
+<technology name="-050V">
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#OLD" value="SMD DF 005" constant="no"/>
+<attribute name="VALUE" value="35VAC/1A"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="VENDOR#OLD" value="Diodes Incorporate,DF005M" constant="no"/>
 </technology>
-<technology name="2">
-<attribute name="DIST#REICHELT#" value="SMD DF 02" constant="no"/>
-<attribute name="VALUE" value="DF02" constant="no"/>
-<attribute name="VENDOR#" value="Diodes Incorporate,DF02M" constant="no"/>
+<technology name="-100V">
+<attribute name="DIST#REICHELT#" value="SMD DB1A70" constant="no"/>
+<attribute name="DIST#REICHELT#OLD" value="" constant="no"/>
+<attribute name="VALUE" value="70VAC/1A"/>
+<attribute name="VENDOR#" value="SEP ELECTRONIC CORP.,DB102S" constant="no"/>
+<attribute name="VENDOR#OLD" value="" constant="no"/>
 </technology>
-<technology name="4">
-<attribute name="DIST#REICHELT#" value="SMD DF 04" constant="no"/>
-<attribute name="VALUE" value="DF04" constant="no"/>
-<attribute name="VENDOR#" value="Diodes Incorporate,DF04M" constant="no"/>
+<technology name="-200V">
+<attribute name="DIST#REICHELT#" value="SMD DB1A140" constant="no"/>
+<attribute name="DIST#REICHELT#OLD" value="SMD DF 02" constant="no"/>
+<attribute name="VALUE" value="140VAC/1A"/>
+<attribute name="VENDOR#" value="SEP ELECTRONIC CORP.,DB103S" constant="no"/>
+<attribute name="VENDOR#OLD" value="Diodes Incorporate,DF02M" constant="no"/>
+</technology>
+<technology name="-400V">
+<attribute name="DIST#REICHELT#" value="SMD DB1A280" constant="no"/>
+<attribute name="DIST#REICHELT#OLD" value="SMD DF 04" constant="no"/>
+<attribute name="VALUE" value="280VAC/1A"/>
+<attribute name="VENDOR#" value="SEP ELECTRONIC CORP.,DB104S" constant="no"/>
+<attribute name="VENDOR#OLD" value="Diodes Incorporate,DF04M" constant="no"/>
 </technology>
 </technologies>
 </device>
