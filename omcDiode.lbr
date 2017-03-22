@@ -714,6 +714,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;/p&gt;
 
 &lt;p&gt;
+&lt;b&gt;MAXIMUM RATINGS AND ELECTRICAL CHARACTERISTICS&lt;/b&gt;
 &lt;style type="text/css"&gt;
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
@@ -783,16 +784,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;td class="tg-chud"&gt;&lt;br&gt;mA&lt;br&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;/p&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: avialable
-   &lt;li&gt; Conrad: ?
-   &lt;li&gt; Digi-Key: ?
-   &lt;/il&gt;
-&lt;/ul&gt;</description>
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
@@ -1516,6 +1508,176 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHET#" value="RS 1M" constant="no"/>
 <attribute name="VALUE" value="RS1M"/>
 <attribute name="VENDOR#" value="Taiwan Semiconductor,RS1MHR3G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B1" prefix="D" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;B1X0 - 1A Surface Mount SCHOTTKY Barrier Rectifiers&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;For surface mounted applications&lt;/li&gt;
+  &lt;li&gt;Metal-Semiconductor junction with guardring &lt;/li&gt;
+  &lt;li&gt;Epitaxial construction&lt;/li&gt;
+  &lt;li&gt;Very Low forward voltage drop&lt;/li&gt;
+  &lt;li&gt;High current capability&lt;/li&gt;
+  &lt;li&gt;For use in low voltage, high frequency inverters, free wheeling, and polarity protection applications&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.vishay.com/docs/88946/b120.pdf"&gt;Vishay Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/B120-B160.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;MAXIMUM RATINGS AND ELECTRICAL CHARACTERISTICS&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-jgh0{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-e8d4{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center;vertical-align:top}
+.tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
+.tg .tg-iuhm{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.tg .tg-ktlt{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef}
+.tg .tg-tbqn{font-weight:bold;font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#c0c0c0;text-align:center;vertical-align:top}
+.tg .tg-zzfq{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;vertical-align:top}
+.tg .tg-juk8{font-weight:bold;font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#c0c0c0;text-align:center}
+.tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
+.tg .tg-cw2b{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-juk8" colspan="2"&gt;Characteristics&lt;/th&gt;
+    &lt;th class="tg-juk8"&gt;Symbol&lt;/th&gt;
+    &lt;th class="tg-tbqn"&gt;B120&lt;/th&gt;
+    &lt;th class="tg-tbqn"&gt;B130&lt;/th&gt;
+    &lt;th class="tg-tbqn"&gt;B140&lt;/th&gt;
+    &lt;th class="tg-tbqn"&gt;B150&lt;/th&gt;
+    &lt;th class="tg-tbqn"&gt;B160&lt;/th&gt;
+    &lt;th class="tg-tbqn"&gt;Unit&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-ktlt" colspan="2"&gt;Maximum Recurrent Peak Reverse Voltage&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;VRRM&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;20&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;30&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;40&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;50&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;60&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-cw2b" colspan="2"&gt;Maximum RMS Voltage&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;VRMS&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;14&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;21&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;28&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;35&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;42&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-ktlt" colspan="2"&gt;Maximum DC Blocking Voltage&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;VDC&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;20&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;30&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;40&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;50&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;60&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-cw2b"&gt;Maximum Average Forward Rectified Current &lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;@TL=100°C&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;I(AV)&lt;/td&gt;
+    &lt;td class="tg-e8d4" colspan="5"&gt;1.0&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;A&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-ktlt" colspan="2"&gt;Peak Forward Surge Current&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;IFSM&lt;/td&gt;
+    &lt;td class="tg-jgh0" colspan="5"&gt;30&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;A&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm" colspan="2"&gt;Maximum forward Voltage at 1.0A DC&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;VF&lt;/td&gt;
+    &lt;td class="tg-e8d4" colspan="3"&gt;0.5&lt;/td&gt;
+    &lt;td class="tg-e8d4" colspan="2"&gt;0.7&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-ktlt" rowspan="2"&gt;Maximum DC Reverse Current&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;@TJ=25°C&lt;/td&gt;
+    &lt;td class="tg-txst" rowspan="2"&gt;IR&lt;/td&gt;
+    &lt;td class="tg-jgh0" colspan="5"&gt;0.5&lt;/td&gt;
+    &lt;td class="tg-jgh0" rowspan="2"&gt;mA&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;@TJ=100°C&lt;/td&gt;
+    &lt;td class="tg-jgh0" colspan="5"&gt;10&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-cw2b" colspan="2"&gt;Typical Junction Capacitance&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;CJ&lt;/td&gt;
+    &lt;td class="tg-e8d4" colspan="5"&gt;110&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;pF&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-ktlt" colspan="2"&gt;Typical Thermal Resistance&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;R0JL&lt;/td&gt;
+    &lt;td class="tg-jgh0" colspan="5"&gt;20&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;°C/W&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-cw2b" colspan="2"&gt;Operating Temperature Range&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;TJ&lt;/td&gt;
+    &lt;td class="tg-e8d4" colspan="5"&gt;-55 to +125&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;°C&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-ktlt" colspan="2"&gt;Storage Temperature Range&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;TSTG&lt;/td&gt;
+    &lt;td class="tg-jgh0" colspan="5"&gt;-55 to +150&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;°C&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO214AC">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="20">
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="B120"/>
+<attribute name="VENDOR#" value="Vishay,B120-E3/61T" constant="no"/>
+</technology>
+<technology name="30">
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="B130"/>
+<attribute name="VENDOR#" value="Vishay,B130-E3/61T" constant="no"/>
+</technology>
+<technology name="40">
+<attribute name="DIST#REICHELT#" value="B 140 F" constant="no"/>
+<attribute name="VALUE" value="B140"/>
+<attribute name="VENDOR#" value="Vishay,B140-E3/61T" constant="no"/>
+</technology>
+<technology name="50">
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="B150"/>
+<attribute name="VENDOR#" value="Vishay,B150-E3/61T" constant="no"/>
+</technology>
+<technology name="60">
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="B160"/>
+<attribute name="VENDOR#" value="Vishay,B160-E3/61T" constant="no"/>
 </technology>
 </technologies>
 </device>
