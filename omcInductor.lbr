@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -326,6 +326,58 @@ H: 9mm</description>
 <wire x1="3.01625" y1="-1.5875" x2="3.01625" y2="1.5875" width="0.127" layer="39"/>
 <wire x1="3.01625" y1="1.5875" x2="-3.01625" y2="1.5875" width="0.127" layer="39"/>
 </package>
+<package name="PIS2812">
+<description>&lt;h3&gt;PIS2812 Series - SMD Power Inductors (Also Shielded)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;7.5mm×7.5mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.fastrongroup.com/series/49/findProducts"&gt;Product Website&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="0" y="3.175" dx="2.159" dy="1.524" layer="1"/>
+<smd name="2" x="0" y="-3.175" dx="2.159" dy="1.524" layer="1"/>
+<wire x1="-3.65125" y1="3.65125" x2="-3.65125" y2="-3.65125" width="0.3048" layer="21"/>
+<wire x1="3.65125" y1="-3.65125" x2="3.65125" y2="3.65125" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="3.65125" x2="3.65125" y2="3.65125" width="0.3048" layer="21"/>
+<wire x1="-3.65125" y1="3.65125" x2="-1.27" y2="3.65125" width="0.3048" layer="21"/>
+<wire x1="-3.65125" y1="-3.65125" x2="-1.27" y2="-3.65125" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="-3.65125" x2="3.65125" y2="-3.65125" width="0.3048" layer="21"/>
+<wire x1="-4.1275" y1="4.1275" x2="-4.1275" y2="-4.1275" width="0.127" layer="39"/>
+<wire x1="-4.1275" y1="-4.1275" x2="4.1275" y2="-4.1275" width="0.127" layer="39"/>
+<wire x1="4.1275" y1="-4.1275" x2="4.1275" y2="4.1275" width="0.127" layer="39"/>
+<wire x1="4.1275" y1="4.1275" x2="-4.1275" y2="4.1275" width="0.127" layer="39"/>
+<wire x1="-1.42875" y1="2.69875" x2="-1.42875" y2="-2.69875" width="0.3048" layer="21" curve="122.559042"/>
+<text x="-3.81" y="5.715" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-3.81" y="4.28625" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<circle x="0" y="0" radius="3.053615625" width="0.3048" layer="51"/>
+<wire x1="1.42875" y1="-2.69875" x2="1.42875" y2="2.69875" width="0.3048" layer="21" curve="122.559042"/>
+<wire x1="-2.69875" y1="1.74625" x2="-3.175" y2="2.2225" width="0.3048" layer="51"/>
+<wire x1="-3.175" y1="2.2225" x2="-2.2225" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="-2.2225" y1="3.175" x2="-1.74625" y2="2.69875" width="0.3048" layer="51"/>
+<wire x1="-3.175" y1="2.2225" x2="-2.2225" y2="3.175" width="0.3048" layer="21"/>
+<wire x1="-2.2225" y1="3.175" x2="-1.74625" y2="2.69875" width="0.3048" layer="21"/>
+<wire x1="-3.175" y1="2.2225" x2="-2.69875" y2="1.74625" width="0.3048" layer="21"/>
+<wire x1="1.74625" y1="2.69875" x2="2.2225" y2="3.175" width="0.3048" layer="51"/>
+<wire x1="2.2225" y1="3.175" x2="3.175" y2="2.2225" width="0.3048" layer="51"/>
+<wire x1="3.175" y1="2.2225" x2="2.69875" y2="1.74625" width="0.3048" layer="51"/>
+<wire x1="2.2225" y1="3.175" x2="3.175" y2="2.2225" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="2.2225" x2="2.69875" y2="1.74625" width="0.3048" layer="21"/>
+<wire x1="2.2225" y1="3.175" x2="1.74625" y2="2.69875" width="0.3048" layer="21"/>
+<wire x1="-1.74625" y1="-2.69875" x2="-2.2225" y2="-3.175" width="0.3048" layer="51"/>
+<wire x1="-2.2225" y1="-3.175" x2="-3.175" y2="-2.2225" width="0.3048" layer="51"/>
+<wire x1="-3.175" y1="-2.2225" x2="-2.69875" y2="-1.74625" width="0.3048" layer="51"/>
+<wire x1="-2.2225" y1="-3.175" x2="-3.175" y2="-2.2225" width="0.3048" layer="21"/>
+<wire x1="-3.175" y1="-2.2225" x2="-2.69875" y2="-1.74625" width="0.3048" layer="21"/>
+<wire x1="-2.2225" y1="-3.175" x2="-1.74625" y2="-2.69875" width="0.3048" layer="21"/>
+<wire x1="2.69875" y1="-1.74625" x2="3.175" y2="-2.2225" width="0.3048" layer="51"/>
+<wire x1="3.175" y1="-2.2225" x2="2.2225" y2="-3.175" width="0.3048" layer="51"/>
+<wire x1="2.2225" y1="-3.175" x2="1.74625" y2="-2.69875" width="0.3048" layer="51"/>
+<wire x1="3.175" y1="-2.2225" x2="2.2225" y2="-3.175" width="0.3048" layer="21"/>
+<wire x1="2.2225" y1="-3.175" x2="1.74625" y2="-2.69875" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="-2.2225" x2="2.69875" y2="-1.74625" width="0.3048" layer="21"/>
+<wire x1="-3.65125" y1="3.65125" x2="-3.65125" y2="-3.65125" width="0.3048" layer="51"/>
+<wire x1="-3.65125" y1="-3.65125" x2="3.65125" y2="-3.65125" width="0.3048" layer="51"/>
+<wire x1="3.65125" y1="-3.65125" x2="3.65125" y2="3.65125" width="0.3048" layer="51"/>
+<wire x1="3.65125" y1="3.65125" x2="-3.65125" y2="3.65125" width="0.3048" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DRK">
@@ -397,7 +449,7 @@ H: 9mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PISM" prefix="L" uservalue="yes">
+<deviceset name="PISM-" prefix="L" uservalue="yes">
 <description>&lt;p&gt;
 &lt;h2&gt;PISM - SMD Power Inductors&lt;/h2&gt;
 &lt;ul&gt;
@@ -620,137 +672,137 @@ H: 9mm</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name="-100X">
-<attribute name="DIST#CONRAD#" value="449625 - 62" constant="no"/>
+<technology name="1000U">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="L-PISM 10µ" constant="no"/>
-<attribute name="VALUE" value="10µ"/>
-<attribute name="VENDOR#" value="Fastron,PISM-100X-04" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 1,0M" constant="no"/>
+<attribute name="VALUE" value="1m"/>
+<attribute name="VENDOR#" value="Fastron,PISM-103X-04" constant="no"/>
 </technology>
-<technology name="-101X">
+<technology name="100U">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 100µ" constant="no"/>
 <attribute name="VALUE" value="100µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-101X-04" constant="no"/>
 </technology>
-<technology name="-102X">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<technology name="10U">
+<attribute name="DIST#CONRAD#" value="449625 - 62" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="L-PISM 1,0M" constant="no"/>
-<attribute name="VALUE" value="1000µ"/>
-<attribute name="VENDOR#" value="Fastron,PISM-103X-04" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 10µ" constant="no"/>
+<attribute name="VALUE" value="10µ"/>
+<attribute name="VENDOR#" value="Fastron,PISM-100X-04" constant="no"/>
 </technology>
-<technology name="-150X">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="L-PISM 15µ" constant="no"/>
-<attribute name="VALUE" value="15µ"/>
-<attribute name="VENDOR#" value="Fastron,PISM-150X-04" constant="no"/>
-</technology>
-<technology name="-151X">
+<technology name="150U">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 150µ" constant="no"/>
 <attribute name="VALUE" value="150µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-151X-04" constant="no"/>
 </technology>
-<technology name="-1R0X">
+<technology name="15U">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 15µ" constant="no"/>
+<attribute name="VALUE" value="15µ"/>
+<attribute name="VENDOR#" value="Fastron,PISM-150X-04" constant="no"/>
+</technology>
+<technology name="1U">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 1,0µ" constant="no"/>
 <attribute name="VALUE" value="1µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-1R0X-04" constant="no"/>
 </technology>
-<technology name="-1R5X">
+<technology name="1U5">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 1,5µ" constant="no"/>
-<attribute name="VALUE" value="1µ5"/>
+<attribute name="VALUE" value="1.5µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-1R5X-04" constant="no"/>
 </technology>
-<technology name="-220X">
-<attribute name="DIST#CONRAD#" value="449640 - 62" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="L-PISM 22µ" constant="no"/>
-<attribute name="VALUE" value="22µ"/>
-<attribute name="VENDOR#" value="Fastron,PISM-220X-04" constant="no"/>
-</technology>
-<technology name="-221X">
+<technology name="220U">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 220µ" constant="no"/>
 <attribute name="VALUE" value="220µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-221X-04" constant="no"/>
 </technology>
-<technology name="-2R2X">
+<technology name="22U">
+<attribute name="DIST#CONRAD#" value="449640 - 62" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 22µ" constant="no"/>
+<attribute name="VALUE" value="22µ"/>
+<attribute name="VENDOR#" value="Fastron,PISM-220X-04" constant="no"/>
+</technology>
+<technology name="2U2">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 2,2µ" constant="no"/>
-<attribute name="VALUE" value="2µ2"/>
+<attribute name="VALUE" value="2.2µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-2R2X-04" constant="no"/>
 </technology>
-<technology name="-330X">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="L-PISM 33µ" constant="no"/>
-<attribute name="VALUE" value="33µ"/>
-<attribute name="VENDOR#" value="Fastron,PISM-330X-04" constant="no"/>
-</technology>
-<technology name="-331X">
+<technology name="330U">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 330µ" constant="no"/>
 <attribute name="VALUE" value="330µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-331X-04" constant="no"/>
 </technology>
-<technology name="-3R3X">
+<technology name="33U">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 33µ" constant="no"/>
+<attribute name="VALUE" value="33µ"/>
+<attribute name="VENDOR#" value="Fastron,PISM-330X-04" constant="no"/>
+</technology>
+<technology name="3U3">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 3,3µ" constant="no"/>
-<attribute name="VALUE" value="3µ3"/>
+<attribute name="VALUE" value="3.3µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-3R3X-04" constant="no"/>
 </technology>
-<technology name="-470X">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="L-PISM 47µ" constant="no"/>
-<attribute name="VALUE" value="47µ"/>
-<attribute name="VENDOR#" value="Fastron,PISM-470X-04" constant="no"/>
-</technology>
-<technology name="-471X">
+<technology name="470U">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 470µ" constant="no"/>
 <attribute name="VALUE" value="470µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-471X-04" constant="no"/>
 </technology>
-<technology name="-4R7X">
+<technology name="47U">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 47µ" constant="no"/>
+<attribute name="VALUE" value="47µ"/>
+<attribute name="VENDOR#" value="Fastron,PISM-470X-04" constant="no"/>
+</technology>
+<technology name="4U7">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 4,7µ" constant="no"/>
-<attribute name="VALUE" value="4µ7"/>
+<attribute name="VALUE" value="4.7µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-4R7X-04" constant="no"/>
 </technology>
-<technology name="-680X">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="L-PISM 68µ" constant="no"/>
-<attribute name="VALUE" value="68µ"/>
-<attribute name="VENDOR#" value="Fastron,PISM-680X-04" constant="no"/>
-</technology>
-<technology name="-681X">
+<technology name="680U">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 680µ" constant="no"/>
 <attribute name="VALUE" value="680µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-681X-04" constant="no"/>
 </technology>
-<technology name="-6R8X">
+<technology name="68U">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PISM 68µ" constant="no"/>
+<attribute name="VALUE" value="68µ"/>
+<attribute name="VENDOR#" value="Fastron,PISM-680X-04" constant="no"/>
+</technology>
+<technology name="6U8">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="L-PISM 6,8µ" constant="no"/>
-<attribute name="VALUE" value="6µ8"/>
+<attribute name="VALUE" value="6.8µ"/>
 <attribute name="VENDOR#" value="Fastron,PISM-6R8X-04" constant="no"/>
 </technology>
 </technologies>
@@ -1136,6 +1188,37 @@ H: 9mm</description>
 <attribute name="DIST#REICHELT#" value="LQH3C 4,7µ" constant="no"/>
 <attribute name="VALUE" value="4µ7"/>
 <attribute name="VENDOR#" value="Murata,LGH3C4R7M34" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIS-" prefix="L" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;PIS - SMD Power Inductors (Shielded)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mounting: SMD&lt;/li&gt;
+  &lt;li&gt;Material: Ferrite&lt;/li&gt;  
+  &lt;li&gt;PIS2812 Series:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.fastrongroup.com/image-show/49/PIS2812.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron Datasheet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PIS2812.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2812" package="PIS2812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="10U">
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="10µ" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
