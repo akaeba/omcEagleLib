@@ -326,11 +326,13 @@ H: 9mm</description>
 <wire x1="3.01625" y1="-1.5875" x2="3.01625" y2="1.5875" width="0.127" layer="39"/>
 <wire x1="3.01625" y1="1.5875" x2="-3.01625" y2="1.5875" width="0.127" layer="39"/>
 </package>
-<package name="PIS2812">
-<description>&lt;h3&gt;PIS2812 Series - SMD Power Inductors (Also Shielded)&lt;/h3&gt;&lt;ul&gt;
+<package name="PIS281X">
+<description>&lt;h3&gt;PIS281X Series - SMD Power Inductors (Also Shielded)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;SMD&lt;/li&gt;
-&lt;li&gt;7.5mm×7.5mm&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.fastrongroup.com/series/49/findProducts"&gt;Product Website&lt;/a&gt;&lt;/il&gt;
+&lt;li&gt;2812 Series:&lt;/li&gt;&lt;ul&gt;
+  &lt;li&gt;7.5mm×7.5mm×3.6mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.fastrongroup.com/series/49/findProducts"&gt;Product Website&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;
 &lt;/ul&gt;</description>
 <smd name="1" x="0" y="3.175" dx="2.159" dy="1.524" layer="1"/>
 <smd name="2" x="0" y="-3.175" dx="2.159" dy="1.524" layer="1"/>
@@ -1200,6 +1202,7 @@ H: 9mm</description>
   &lt;li&gt;Mounting: SMD&lt;/li&gt;
   &lt;li&gt;Material: Ferrite&lt;/li&gt;  
   &lt;li&gt;PIS2812 Series:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;7.5mm×7.5mm×3.6m&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://www.fastrongroup.com/image-show/49/PIS2812.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron Datasheet&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PIS2812.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
@@ -1209,16 +1212,86 @@ H: 9mm</description>
 <gate name="G$1" symbol="DRK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-2812" package="PIS2812">
+<device name="-2812" package="PIS281X">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="1000U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 1,0M" constant="no"/>
+<attribute name="VALUE" value="1m"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-102M-04" constant="no"/>
+</technology>
+<technology name="100U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 100µ" constant="no"/>
+<attribute name="VALUE" value="100µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-101M-04" constant="no"/>
+</technology>
 <technology name="10U">
-<attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="10µ" constant="no"/>
-<attribute name="VENDOR#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="L-PIS2812 10µ" constant="no"/>
+<attribute name="VALUE" value="10µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-100M-04" constant="no"/>
+</technology>
+<technology name="150U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 150µ" constant="no"/>
+<attribute name="VALUE" value="150µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-151M-04" constant="no"/>
+</technology>
+<technology name="15U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 15µ" constant="no"/>
+<attribute name="VALUE" value="15µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-150M-04" constant="no"/>
+</technology>
+<technology name="220U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 220µ" constant="no"/>
+<attribute name="VALUE" value="220µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-221M-04" constant="no"/>
+</technology>
+<technology name="22U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 22µ" constant="no"/>
+<attribute name="VALUE" value="22µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-220M-04" constant="no"/>
+</technology>
+<technology name="270U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 270µ" constant="no"/>
+<attribute name="VALUE" value="270µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-271M-04" constant="no"/>
+</technology>
+<technology name="27U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 27µ" constant="no"/>
+<attribute name="VALUE" value="27µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-270M-04" constant="no"/>
+</technology>
+<technology name="330U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 330µ" constant="no"/>
+<attribute name="VALUE" value="330µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-331M-04" constant="no"/>
+</technology>
+<technology name="33U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 33µ" constant="no"/>
+<attribute name="VALUE" value="33µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-330M-04" constant="no"/>
+</technology>
+<technology name="470U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 470µ" constant="no"/>
+<attribute name="VALUE" value="470µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-471M-04" constant="no"/>
+</technology>
+<technology name="47U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 47µ" constant="no"/>
+<attribute name="VALUE" value="47µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-470M-04" constant="no"/>
+</technology>
+<technology name="680U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 680µ" constant="no"/>
+<attribute name="VALUE" value="680µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-681M-04" constant="no"/>
+</technology>
+<technology name="68U">
+<attribute name="DIST#REICHELT#" value="L-PIS2812 68µ" constant="no"/>
+<attribute name="VALUE" value="68µ"/>
+<attribute name="VENDOR#" value="Fastron,PIS2812-680M-04" constant="no"/>
 </technology>
 </technologies>
 </device>
