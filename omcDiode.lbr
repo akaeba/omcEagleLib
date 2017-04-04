@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -60,6 +60,8 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -68,6 +70,11 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Parts" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
@@ -489,6 +496,37 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="-2.54" y1="-1.524" x2="-2.54" y2="-2.54" width="0.1524" layer="51"/>
 <wire x1="2.032" y1="-2.032" x2="3.048" y2="-2.032" width="0.1524" layer="51"/>
 </package>
+<package name="SOT23">
+<description>&lt;p&gt;
+&lt;h3&gt;SOT23 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SOT-23&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (SOD123, P171)&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="1" x="-0.9525" y="-0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<smd name="2" x="0.9525" y="-0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<smd name="3" x="0" y="0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-1.5875" y1="0.635" x2="-1.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.635" x2="1.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-0.635" x2="1.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="0.635" x2="-1.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="-0.47625" y1="0.635" x2="-1.5875" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="0.635" x2="-1.5875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.47625" y1="0.635" x2="1.5875" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.635" x2="1.5875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="-0.635" x2="0.47625" y2="-0.635" width="0.127" layer="21"/>
+<rectangle x1="-1.2065" y1="-1.27" x2="-0.7239" y2="-0.635" layer="51"/>
+<rectangle x1="0.6985" y1="-1.27" x2="1.1811" y2="-0.635" layer="51"/>
+<rectangle x1="-0.254" y1="0.635" x2="0.2286" y2="1.27" layer="51"/>
+<wire x1="-1.5875" y1="-0.635" x2="-1.42875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="-0.635" x2="1.42875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-1.905" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.905" x2="-1.905" y2="1.905" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="D">
@@ -533,6 +571,18 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pin name="+" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 <pin name="AC2" x="0" y="-5.08" visible="off" length="point" direction="pas" rot="R90"/>
 <pin name="-" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
+</symbol>
+<symbol name="DZ">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
