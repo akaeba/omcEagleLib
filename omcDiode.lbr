@@ -603,14 +603,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;li&gt;&lt;a href="http://www.semtech.net.cn/script/product/manage/pic/7301654109639.pdf"&gt;Semtech Datasheet&lt;/a&gt;&lt;/il&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/1N4148WS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
   &lt;/ul&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: avialable
-   &lt;li&gt; Conrad: avialable
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
@@ -636,10 +628,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="1N 4148 WS" constant="no"/>
-<attribute name="VALUE" value="1N4148" constant="no"/>
+<attribute name="DIST#REICHELT#" value="1N 4148 WS" constant="no"/>
+<attribute name="VALUE" value="1N4148"/>
 <attribute name="VENDOR#" value="VISHAY_1N4148WS-E3-08" constant="no"/>
 </technology>
 </technologies>
@@ -1738,6 +1728,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;h2&gt;BZX84 - Small Signal Zener Diodes&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Silicon planar Zener diodes&lt;/li&gt;
+  &lt;li&gt;SOT23 Package&lt;/li&gt;
   &lt;li&gt;Tolerance:&lt;/li&gt;&lt;ul&gt;
     &lt;li&gt;B=±2%&lt;/li&gt;
     &lt;li&gt;C=±5%&lt;/il&gt;
@@ -1832,6 +1823,11 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="SMD ZF 3,9" constant="no"/>
 <attribute name="VALUE" value="3V9"/>
 <attribute name="VENDOR#" value="VISHAY,BZX84C3V9" constant="no"/>
+</technology>
+<technology name="-04V3">
+<attribute name="DIST#REICHELT#" value="SMD ZF 4,3" constant="no"/>
+<attribute name="VALUE" value="4V3"/>
+<attribute name="VENDOR#" value="VISHAY,BZX84C4V3" constant="no"/>
 </technology>
 <technology name="-04V7">
 <attribute name="DIST#REICHELT#" value="SMD ZF 4,7" constant="no"/>
@@ -1942,6 +1938,234 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="SMD ZF 51" constant="no"/>
 <attribute name="VALUE" value="51V"/>
 <attribute name="VENDOR#" value="VISHAY,BZX84C51" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TZM" prefix="D" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;TZM - Small Signal Zener Diodes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Silicon planar Zener diodes&lt;/li&gt;
+  &lt;li&gt;Mini-Melf Package&lt;/li&gt;
+  &lt;li&gt;Tolerance:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;B=±2%&lt;/li&gt;
+    &lt;li&gt;C=±5%&lt;/il&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;&lt;a href="http://www.vishay.com/docs/84122/tzm.pdf"&gt;Vishay Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A900/SMD%20ZD_Serie%23fair.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Absolute Maximum Ratings&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-jgh0{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-e8d4{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center;vertical-align:top}
+.tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
+.tg .tg-iuhm{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.tg .tg-ktlt{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef}
+.tg .tg-zzfq{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;vertical-align:top}
+.tg .tg-juk8{font-weight:bold;font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#c0c0c0;text-align:center}
+.tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
+.tg .tg-cw2b{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-juk8"&gt;Parameter&lt;/th&gt;
+    &lt;th class="tg-juk8"&gt;Value&lt;/th&gt;
+    &lt;th class="tg-juk8"&gt;Units&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-ktlt"&gt;Power dissipation&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;500&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;mW&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-cw2b"&gt;Junction to ambient air&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;500&lt;/td&gt;
+    &lt;td class="tg-2bfz"&gt;K/W&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;Junction temperature&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;175&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;°C&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;Storage temperature range&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;-65 to +175&lt;/td&gt;
+    &lt;td class="tg-e8d4"&gt;°C&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-ktlt"&gt;Forward voltage (max.) IF=200mA&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;1.5&lt;/td&gt;
+    &lt;td class="tg-txst"&gt;V&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DZ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD80">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="-02V7">
+<attribute name="DIST#REICHELT#" value="SMD ZF 2,7" constant="no"/>
+<attribute name="VALUE" value="2V7"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC2V7" constant="no"/>
+</technology>
+<technology name="-03V0">
+<attribute name="DIST#REICHELT#" value="SMD ZF 3,0" constant="no"/>
+<attribute name="VALUE" value="3V0"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC3V0" constant="no"/>
+</technology>
+<technology name="-03V3">
+<attribute name="DIST#REICHELT#" value="SMD ZF 3,3" constant="no"/>
+<attribute name="VALUE" value="3V3"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC3V3" constant="no"/>
+</technology>
+<technology name="-03V6">
+<attribute name="DIST#REICHELT#" value="SMD ZF 3,6" constant="no"/>
+<attribute name="VALUE" value="3V6"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC3V6" constant="no"/>
+</technology>
+<technology name="-03V9">
+<attribute name="DIST#REICHELT#" value="SMD ZF 3,9" constant="no"/>
+<attribute name="VALUE" value="3V9"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC3V9" constant="no"/>
+</technology>
+<technology name="-04V3">
+<attribute name="DIST#REICHELT#" value="SMD ZF 4,3" constant="no"/>
+<attribute name="VALUE" value="4V3"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC4V3" constant="no"/>
+</technology>
+<technology name="-04V7">
+<attribute name="DIST#REICHELT#" value="SMD ZF 4,7" constant="no"/>
+<attribute name="VALUE" value="4V7"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC4V7" constant="no"/>
+</technology>
+<technology name="-05V1">
+<attribute name="DIST#REICHELT#" value="SMD ZF 5,1" constant="no"/>
+<attribute name="VALUE" value="5V1"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC5V1" constant="no"/>
+</technology>
+<technology name="-05V6">
+<attribute name="DIST#REICHELT#" value="SMD ZF 5,6" constant="no"/>
+<attribute name="VALUE" value="5V6"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC5V6" constant="no"/>
+</technology>
+<technology name="-06V2">
+<attribute name="DIST#REICHELT#" value="SMD ZF 6,2" constant="no"/>
+<attribute name="VALUE" value="6V2"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC6V2" constant="no"/>
+</technology>
+<technology name="-06V8">
+<attribute name="DIST#REICHELT#" value="SMD ZF 6,8" constant="no"/>
+<attribute name="VALUE" value="6V8"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC6V8" constant="no"/>
+</technology>
+<technology name="-07V5">
+<attribute name="DIST#REICHELT#" value="SMD ZF 7,5" constant="no"/>
+<attribute name="VALUE" value="7V5"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC7V5" constant="no"/>
+</technology>
+<technology name="-08V2">
+<attribute name="DIST#REICHELT#" value="SMD ZF 8,2" constant="no"/>
+<attribute name="VALUE" value="8V2"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC8V2" constant="no"/>
+</technology>
+<technology name="-09V1">
+<attribute name="DIST#REICHELT#" value="SMD ZF 9,1" constant="no"/>
+<attribute name="VALUE" value="9V1"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC9V1" constant="no"/>
+</technology>
+<technology name="-10V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 10" constant="no"/>
+<attribute name="VALUE" value="10V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC10" constant="no"/>
+</technology>
+<technology name="-11V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 11" constant="no"/>
+<attribute name="VALUE" value="11V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC11" constant="no"/>
+</technology>
+<technology name="-12V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 12" constant="no"/>
+<attribute name="VALUE" value="12V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC12" constant="no"/>
+</technology>
+<technology name="-13V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 13" constant="no"/>
+<attribute name="VALUE" value="13V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC13" constant="no"/>
+</technology>
+<technology name="-15V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 15" constant="no"/>
+<attribute name="VALUE" value="15V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC15" constant="no"/>
+</technology>
+<technology name="-16V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 16" constant="no"/>
+<attribute name="VALUE" value="16V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC16" constant="no"/>
+</technology>
+<technology name="-18V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 18" constant="no"/>
+<attribute name="VALUE" value="18V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC18" constant="no"/>
+</technology>
+<technology name="-20V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 20" constant="no"/>
+<attribute name="VALUE" value="20V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC20" constant="no"/>
+</technology>
+<technology name="-22V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 22" constant="no"/>
+<attribute name="VALUE" value="22V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC22" constant="no"/>
+</technology>
+<technology name="-24V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 24" constant="no"/>
+<attribute name="VALUE" value="24V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC24" constant="no"/>
+</technology>
+<technology name="-27V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 27" constant="no"/>
+<attribute name="VALUE" value="27V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC27" constant="no"/>
+</technology>
+<technology name="-30V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 30" constant="no"/>
+<attribute name="VALUE" value="30V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC30" constant="no"/>
+</technology>
+<technology name="-33V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 33" constant="no"/>
+<attribute name="VALUE" value="33V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC33" constant="no"/>
+</technology>
+<technology name="-36V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 36" constant="no"/>
+<attribute name="VALUE" value="36V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC36" constant="no"/>
+</technology>
+<technology name="-51V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 51" constant="no"/>
+<attribute name="VALUE" value="51V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC51" constant="no"/>
+</technology>
+<technology name="-68V">
+<attribute name="DIST#REICHELT#" value="SMD ZF 68" constant="no"/>
+<attribute name="VALUE" value="68V"/>
+<attribute name="VENDOR#" value="VISHAY,TZMC68" constant="no"/>
 </technology>
 </technologies>
 </device>
