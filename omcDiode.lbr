@@ -590,7 +590,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <description>&lt;h2&gt;1N4148 - Fast Switching PN Diode&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Silicon Epitaxial Planar Diodes&lt;/li&gt;
-  &lt;li&gt;Temperature: -65°C...175°C&lt;/li&gt;
+  &lt;li&gt;Temperature: -65°C to +175°C&lt;/li&gt;
   &lt;li&gt;1N4148&lt;/li&gt;&lt;ul&gt;
     &lt;li&gt;100V/0.15A&lt;/li&gt;
     &lt;li&gt;DO35 Package&lt;/li&gt;
@@ -603,12 +603,18 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;li&gt;&lt;a href="http://www.semtech.net.cn/script/product/manage/pic/7301654109639.pdf"&gt;Semtech Datasheet&lt;/a&gt;&lt;/il&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/1N4148WS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
   &lt;/ul&gt;
+  &lt;li&gt;LL4148&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;100V/0.15A&lt;/li&gt;
+    &lt;li&gt; SOD80/MiniMELF Package&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ds30044.pdf"&gt;Vishay Datasheet&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A100/SMD1N4148%23VIS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
-<device name="&quot;" package="DO35_L10M0">
+<device name="" package="DO35_L10M0">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -630,7 +636,20 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="">
 <attribute name="DIST#REICHELT#" value="1N 4148 WS" constant="no"/>
 <attribute name="VALUE" value="1N4148"/>
-<attribute name="VENDOR#" value="VISHAY_1N4148WS-E3-08" constant="no"/>
+<attribute name="VENDOR#" value="VISHAY,1N4148WS-E3-08" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="LL" package="SOD80">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#REICHELT#" value="1N 4148 SMD" constant="no"/>
+<attribute name="VALUE" value="1N4148"/>
+<attribute name="VENDOR#" value="VISHAY,LL4448-GS18" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -932,44 +951,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="REICHELT#" value="BAT 46 SMD" constant="no"/>
 <attribute name="VALUE" value="BAT46" constant="no"/>
 <attribute name="VENDOR#" value="STM_TMMBAT46FILM" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LL4148" prefix="D" uservalue="yes">
-<description>&lt;h2&gt;LL4148 - Fast Switching PN Diode&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;100V/0.15A&lt;/li&gt;
-  &lt;li&gt;Silicon Epitaxial Planar Diodes&lt;/li&gt;
-  &lt;li&gt;Electrical data identical with the devices 1N4148 and 1N4448 respectively&lt;/li&gt; 
-  &lt;li&gt;Temperature: -65°C...175°C&lt;/li&gt;
-  &lt;li&gt; SOD80/MiniMELF Package&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ds30044.pdf"&gt;Vishay Datasheet&lt;/a&gt;&lt;/il&gt;
-  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A100/SMD1N4148%23VIS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: avialable
-   &lt;li&gt; Conrad: avialable
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD80">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIST#REICHELT#" value="1N 4148 SMD" constant="no"/>
-<attribute name="VALUE" value="LL4148" constant="no"/>
-<attribute name="VENDOR#" value="VISHAY,LL4448-GS18" constant="no"/>
 </technology>
 </technologies>
 </device>
