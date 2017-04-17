@@ -819,24 +819,19 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </package>
 <package name="LED3216">
 <description>&lt;h3&gt;LED 3216 (1206)&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;SMD 1206&lt;/li&gt;
-&lt;li&gt;3.2x1.6mm SMD chip LED lamps&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.kingbrightusa.com/images/catalog/SPEC/APTR3216SURCK.pdf"&gt;Knighbright Reference (3216)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;SMD 1206&lt;/li&gt;
+  &lt;li&gt;3.2x1.6mm SMD chip LED lamps&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.kingbrightusa.com/images/catalog/SPEC/APTR3216SURCK.pdf"&gt;Mechanical Reference (3216) [Knightbright]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.resistorguide.com/resistor-sizes-and-packages/"&gt;Mechanical Reference (3216)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-<smd name="1" x="-1.905" y="0" dx="1.75" dy="1.5" layer="1"/>
-<smd name="2" x="1.905" y="0" dx="1.75" dy="1.5" layer="1"/>
+<smd name="1" x="-1.905" y="0" dx="1.524" dy="2.286" layer="1"/>
+<smd name="2" x="1.905" y="0" dx="1.524" dy="2.286" layer="1"/>
 <wire x1="-1.5875" y1="0.79375" x2="-1.5875" y2="-0.79375" width="0.127" layer="51"/>
-<wire x1="-1.5875" y1="-0.79375" x2="0.635" y2="-0.79375" width="0.127" layer="51"/>
-<wire x1="0.79375" y1="-0.79375" x2="1.5875" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.79375" x2="1.5875" y2="-0.79375" width="0.127" layer="51"/>
 <wire x1="1.5875" y1="-0.79375" x2="1.5875" y2="0.79375" width="0.127" layer="51"/>
-<wire x1="1.5875" y1="0.79375" x2="0.79375" y2="0.79375" width="0.127" layer="51"/>
-<wire x1="0.635" y1="0.79375" x2="-1.5875" y2="0.79375" width="0.127" layer="51"/>
-<wire x1="-0.79375" y1="0.79375" x2="0.635" y2="0.79375" width="0.127" layer="21"/>
-<wire x1="0.635" y1="0.79375" x2="0.714375" y2="0.79375" width="0.127" layer="21"/>
-<wire x1="0.714375" y1="0.79375" x2="0.79375" y2="0.79375" width="0.127" layer="21"/>
-<wire x1="-0.79375" y1="-0.79375" x2="0.635" y2="-0.79375" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-0.79375" x2="0.714375" y2="-0.79375" width="0.127" layer="21"/>
-<wire x1="0.714375" y1="-0.79375" x2="0.79375" y2="-0.79375" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.79375" x2="-1.5875" y2="0.79375" width="0.127" layer="51"/>
+<wire x1="-1.031875" y1="0.79375" x2="1.031875" y2="0.79375" width="0.127" layer="21"/>
+<wire x1="-1.031875" y1="-0.79375" x2="1.031875" y2="-0.79375" width="0.127" layer="21"/>
 <wire x1="-0.47625" y1="0.635" x2="-0.47625" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-0.47625" y1="0.635" x2="0.3175" y2="0" width="0.127" layer="21"/>
 <wire x1="0.3175" y1="0" x2="-0.47625" y2="-0.635" width="0.127" layer="21"/>
@@ -848,32 +843,46 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="0.3175" y1="0.635" x2="0.3175" y2="-0.635" width="0.127" layer="51"/>
 <rectangle x1="-1.5875" y1="-0.79375" x2="-0.9525" y2="0.79375" layer="51"/>
 <rectangle x1="0.9525" y1="-0.79375" x2="1.5875" y2="0.79375" layer="51"/>
-<wire x1="0.79375" y1="0.79375" x2="0.79375" y2="0.3175" width="0.127" layer="21"/>
-<wire x1="0.79375" y1="-0.3175" x2="0.79375" y2="-0.79375" width="0.127" layer="21"/>
-<wire x1="0.714375" y1="-0.79375" x2="0.714375" y2="-0.3175" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-0.79375" x2="0.635" y2="-0.3175" width="0.127" layer="21"/>
-<wire x1="0.714375" y1="0.79375" x2="0.714375" y2="0.3175" width="0.127" layer="21"/>
-<wire x1="0.635" y1="0.79375" x2="0.635" y2="0.3175" width="0.127" layer="21"/>
-<wire x1="0.635" y1="0.3175" x2="0.79375" y2="0.3175" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-0.3175" x2="0.79375" y2="-0.3175" width="0.127" layer="21"/>
-<wire x1="0.635" y1="0.79375" x2="0.635" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="0.635" y1="0.3175" x2="0.79375" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="0.79375" y1="0.3175" x2="0.79375" y2="0.79375" width="0.127" layer="51"/>
-<wire x1="0.79375" y1="0.79375" x2="0.635" y2="0.79375" width="0.127" layer="51"/>
-<wire x1="0.714375" y1="0.714375" x2="0.714375" y2="0.396875" width="0.127" layer="51"/>
-<wire x1="0.635" y1="-0.3175" x2="0.635" y2="-0.79375" width="0.127" layer="51"/>
-<wire x1="0.635" y1="-0.79375" x2="0.714375" y2="-0.79375" width="0.127" layer="51"/>
-<wire x1="0.714375" y1="-0.79375" x2="0.79375" y2="-0.79375" width="0.127" layer="51"/>
-<wire x1="0.79375" y1="-0.79375" x2="0.79375" y2="-0.3175" width="0.127" layer="51"/>
-<wire x1="0.79375" y1="-0.3175" x2="0.714375" y2="-0.3175" width="0.127" layer="51"/>
-<wire x1="0.714375" y1="-0.3175" x2="0.635" y2="-0.3175" width="0.127" layer="51"/>
-<wire x1="0.714375" y1="-0.3175" x2="0.714375" y2="-0.79375" width="0.127" layer="51"/>
-<wire x1="-3.01625" y1="1.031875" x2="-3.01625" y2="-1.031875" width="0.127" layer="39"/>
-<wire x1="-3.01625" y1="-1.031875" x2="3.01625" y2="-1.031875" width="0.127" layer="39"/>
-<wire x1="3.01625" y1="-1.031875" x2="3.01625" y2="1.031875" width="0.127" layer="39"/>
-<wire x1="3.01625" y1="1.031875" x2="-3.01625" y2="1.031875" width="0.127" layer="39"/>
+<wire x1="-2.8575" y1="1.27" x2="-2.8575" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.8575" y1="-1.27" x2="2.8575" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.8575" y1="-1.27" x2="2.8575" y2="1.27" width="0.127" layer="39"/>
+<wire x1="2.8575" y1="1.27" x2="-2.8575" y2="1.27" width="0.127" layer="39"/>
+<text x="-2.54" y="-2.54" size="1.016" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.016" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="LED2012">
+<description>&lt;h3&gt;LED 2012 (0805)&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SMD 0805&lt;/li&gt;
+  &lt;li&gt;2.0mm x1.25mm SMD LED&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.kingbright.com/attachments/file/psearch/000/00/00/KP-2012SGC(Ver.20B).pdf"&gt;Mechanical Reference (2012) [Knightbright]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.resistorguide.com/resistor-sizes-and-packages/"&gt;Mechanical Reference (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="-1.190625" y="0" dx="1.27" dy="1.143" layer="1" rot="R180"/>
+<smd name="2" x="1.190625" y="0" dx="1.27" dy="1.143" layer="1"/>
+<wire x1="-0.3175" y1="0.3175" x2="-0.3175" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="-0.3175" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0.3175" x2="-0.3175" y2="-0.3175" width="0.127" layer="51"/>
+<wire x1="-0.3175" y1="-0.3175" x2="0.3175" y2="0" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0" x2="-0.3175" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.3175" width="0.127" layer="51"/>
+<wire x1="-2.2225" y1="0.873125" x2="-2.2225" y2="-0.873125" width="0.127" layer="39"/>
+<wire x1="-2.2225" y1="-0.873125" x2="2.2225" y2="-0.873125" width="0.127" layer="39"/>
+<wire x1="2.2225" y1="-0.873125" x2="2.2225" y2="0.873125" width="0.127" layer="39"/>
+<wire x1="2.2225" y1="0.873125" x2="-2.2225" y2="0.873125" width="0.127" layer="39"/>
 <text x="-2.54" y="-2.06375" size="1.016" layer="25" font="vector" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.33375" size="1.016" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="1.031875" y1="-0.555625" x2="1.031875" y2="0.555625" width="0.127" layer="51"/>
+<wire x1="-1.031875" y1="-0.555625" x2="1.031875" y2="-0.555625" width="0.127" layer="51"/>
+<wire x1="-1.031875" y1="0.555625" x2="1.031875" y2="0.555625" width="0.127" layer="51"/>
+<wire x1="-1.031875" y1="-0.555625" x2="-1.031875" y2="0.555625" width="0.127" layer="51"/>
+<rectangle x1="-1.031875" y1="-0.555625" x2="-0.555625" y2="0.555625" layer="51"/>
+<rectangle x1="0.555625" y1="-0.555625" x2="1.031875" y2="0.555625" layer="51"/>
+<wire x1="-0.47625" y1="-0.555625" x2="0.47625" y2="-0.555625" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="0.555625" x2="0.47625" y2="0.555625" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1383,18 +1392,20 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <description>&lt;h2&gt;LED Monochromatic&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt;Knighbright 3216:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt;3KP3216&lt;/li&gt;
-    &lt;li&gt;3.2x1.6mm SMD chip LED lamps&lt;/li&gt;
+    &lt;li&gt;KP3216&lt;/li&gt;
+    &lt;li&gt;3.2x1.6mm (1206) SMD chip LED lamps&lt;/li&gt;
     &lt;li&gt;operating temperature: -40 to +85 °C&lt;/li&gt;
-    &lt;li&gt;1.1mm thickness&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KP-3216SERIES.pdf"&gt;Reichelt Datasheet (Red/Green/Yellow)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KP-3216QBC-D.pdf"&gt;Reichelt Datasheet (Blue)&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
   &lt;li&gt;Everlight 2521:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt;3.2x1.6mm SMD chip LED lamps&lt;/li&gt;
-   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-S2C-AQ2R2B.pdf"&gt;Reichelt Datasheet (Orange)&lt;/a&gt;&lt;/li&gt;
-   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-T7D-JQ2S1PY.pdf"&gt;Reichelt Datasheet (White)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;3.2x1.6mm (1206) SMD chip LED lamps&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-S2C-AQ2R2B.pdf"&gt;Reichelt Datasheet (Orange)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-T7D-JQ2S1PY.pdf"&gt;Reichelt Datasheet (White)&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
+  &lt;li&gt;Lucky Light S172:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;2.0x1.25mm (0805) SMD chip LED lamps&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/S172W-W2-1C.pdf"&gt;Reichelt Datasheet (White)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
@@ -1443,6 +1454,19 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="LED EL 1206 WS" constant="no"/>
 <attribute name="VALUE" value="White"/>
 <attribute name="VENDOR#" value="Everlight,15-21/T7D-JQ2S1PY/2T" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-S172" package="LED2012">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="-WHITE">
+<attribute name="DIST#REICHELT#" value="LED LL 0805 WS" constant="no"/>
+<attribute name="VALUE" value="White"/>
+<attribute name="VENDOR#" value="Lucky Light,S172W-W2-1C" constant="no"/>
 </technology>
 </technologies>
 </device>
