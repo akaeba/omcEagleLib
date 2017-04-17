@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -817,10 +817,11 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="5.08" y1="-3.81" x2="5.08" y2="3.81" width="0.127" layer="39"/>
 <wire x1="5.08" y1="3.81" x2="-5.08" y2="3.81" width="0.127" layer="39"/>
 </package>
-<package name="KP3216">
-<description>&lt;h3&gt;Kingbright KP3216&lt;/h3&gt;&lt;ul&gt;
+<package name="LED3216">
+<description>&lt;h3&gt;LED 3216 (1206)&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;SMD 1206&lt;/li&gt;
-&lt;li&gt;Knightbright 3.2x1.6mm SMD chip LED lamps&lt;/li&gt;
+&lt;li&gt;3.2x1.6mm SMD chip LED lamps&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.kingbrightusa.com/images/catalog/SPEC/APTR3216SURCK.pdf"&gt;Knighbright Reference (3216)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
 <smd name="1" x="-1.905" y="0" dx="1.75" dy="1.5" layer="1"/>
 <smd name="2" x="1.905" y="0" dx="1.75" dy="1.5" layer="1"/>
@@ -1378,56 +1379,70 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </device>
 </devices>
 </deviceset>
-<deviceset name="KP3216" prefix="LED" uservalue="yes">
-<description>&lt;h2&gt;KP-3216 - 3.2x1.6mm SMD chip LED lamps&lt;/h2&gt;&lt;p&gt;
+<deviceset name="LEDMONO" prefix="LED" uservalue="yes">
+<description>&lt;h2&gt;LED Monochromatic&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt;operating temperature: -40 to +85 °C&lt;/li&gt;
-  &lt;li&gt;3.2mmx1.6mm SMD LED&lt;/li&gt;
-  &lt;li&gt;1.1mm thickness&lt;/li&gt;
-  &lt;li&gt;low power consumption&lt;/li&gt;
-  &lt;li&gt;wide view angle&lt;/li&gt;
-  &lt;li&gt;ideal for backlight and indicator&lt;/li&gt;
-  &lt;li&gt;various colors and lens types available&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KP-3216SERIES.pdf"&gt;Reichelt Datasheet (Red/Green/Yellow)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KP-3216QBC-D.pdf"&gt;Reichelt Datasheet (Blue)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Knighbright 3216:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;3KP3216&lt;/li&gt;
+    &lt;li&gt;3.2x1.6mm SMD chip LED lamps&lt;/li&gt;
+    &lt;li&gt;operating temperature: -40 to +85 °C&lt;/li&gt;
+    &lt;li&gt;1.1mm thickness&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KP-3216SERIES.pdf"&gt;Reichelt Datasheet (Red/Green/Yellow)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KP-3216QBC-D.pdf"&gt;Reichelt Datasheet (Blue)&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Everlight 2521:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;3.2x1.6mm SMD chip LED lamps&lt;/li&gt;
+   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-S2C-AQ2R2B.pdf"&gt;Reichelt Datasheet (Orange)&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-T7D-JQ2S1PY.pdf"&gt;Reichelt Datasheet (White)&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="KP3216">
+<device name="-KP3216" package="LED3216">
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
-<technology name="HD">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD-LED 1206 RT" constant="no"/>
-<attribute name="VALUE" value="Red"/>
-<attribute name="VENDOR#" value="Kingbright,KP-3216HD" constant="no"/>
-</technology>
-<technology name="QBC">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<technology name="-BLUE">
 <attribute name="DIST#REICHELT#" value="SMD-LED 1206 BL" constant="no"/>
 <attribute name="VALUE" value="Blue"/>
 <attribute name="VENDOR#" value="Kingbright,KP-3216QBC" constant="no"/>
 </technology>
-<technology name="SGD">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<technology name="-GREEN">
 <attribute name="DIST#REICHELT#" value="SMD-LED 1206 GN" constant="no"/>
 <attribute name="VALUE" value="Green"/>
 <attribute name="VENDOR#" value="Kingbright,KP-3216SGD" constant="no"/>
 </technology>
-<technology name="SYD">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<technology name="-RED">
+<attribute name="DIST#REICHELT#" value="SMD-LED 1206 RT" constant="no"/>
+<attribute name="VALUE" value="Red"/>
+<attribute name="VENDOR#" value="Kingbright,KP-3216HD" constant="no"/>
+</technology>
+<technology name="-YELLOW">
 <attribute name="DIST#REICHELT#" value="SMD-LED 1206 GE" constant="no"/>
 <attribute name="VALUE" value="Yellow"/>
 <attribute name="VENDOR#" value="Kingbright,KP-3216SYD" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-EL1521" package="LED3216">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="-ORANGE">
+<attribute name="DIST#REICHELT#" value="LED EL 1206 OR" constant="no"/>
+<attribute name="VALUE" value="Orange"/>
+<attribute name="VENDOR#" value="Everlight,15-21/S2C-AQ2R2B/2T" constant="no"/>
+</technology>
+<technology name="-WHITE">
+<attribute name="DIST#REICHELT#" value="LED EL 1206 WS" constant="no"/>
+<attribute name="VALUE" value="White"/>
+<attribute name="VENDOR#" value="Everlight,15-21/T7D-JQ2S1PY/2T" constant="no"/>
 </technology>
 </technologies>
 </device>
