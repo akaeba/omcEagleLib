@@ -1391,19 +1391,22 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <deviceset name="LEDMONO" prefix="LED" uservalue="yes">
 <description>&lt;h2&gt;LED Monochromatic&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Knighbright 3216:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt;KP3216&lt;/li&gt;
+  &lt;li&gt;Knighbright (KP3216)&lt;/li&gt;&lt;ul&gt;
     &lt;li&gt;3.2x1.6mm (1206) SMD chip LED lamps&lt;/li&gt;
     &lt;li&gt;operating temperature: -40 to +85 °C&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KP-3216SERIES.pdf"&gt;Reichelt Datasheet (Red/Green/Yellow)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KP-3216QBC-D.pdf"&gt;Reichelt Datasheet (Blue)&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
-  &lt;li&gt;Everlight 2521:&lt;/li&gt;&lt;ul&gt;
+  &lt;li&gt;Knighbright (KP2012)&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;2.0x1.25mm (0805) SMD chip LED lamps&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050393-da-01-en-SMD_CHIPLED_OR_0805_KP_2012SECK.pdf"&gt;Conrad Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Everlight (2521)&lt;/li&gt;&lt;ul&gt;
     &lt;li&gt;3.2x1.6mm (1206) SMD chip LED lamps&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-S2C-AQ2R2B.pdf"&gt;Reichelt Datasheet (Orange)&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-T7D-JQ2S1PY.pdf"&gt;Reichelt Datasheet (White)&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
-  &lt;li&gt;Lucky Light S172:&lt;/li&gt;&lt;ul&gt;
+  &lt;li&gt;Lucky Light (S172)&lt;/li&gt;&lt;ul&gt;
     &lt;li&gt;2.0x1.25mm (0805) SMD chip LED lamps&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/S172W-W2-1C.pdf"&gt;Reichelt Datasheet (White)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -1467,6 +1470,19 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="LED LL 0805 WS" constant="no"/>
 <attribute name="VALUE" value="White"/>
 <attribute name="VENDOR#" value="Lucky Light,S172W-W2-1C" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-KP2012" package="LED2012">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="-ORANGE">
+<attribute name="DIST#CONRAD#" value="1050393 - 62" constant="no"/>
+<attribute name="VALUE" value="Orange"/>
+<attribute name="VENDOR#" value="Knighbright,KP-2012SECK" constant="no"/>
 </technology>
 </technologies>
 </device>
