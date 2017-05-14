@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1433,6 +1433,17 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;li&gt;2.0x1.25mm (0805) SMD chip LED lamps&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050393-da-01-en-SMD_CHIPLED_OR_0805_KP_2012SECK.pdf"&gt;Conrad Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
+  &lt;li&gt;Knighbright (KP1608)&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;SMD 0603&lt;/li&gt;
+    &lt;li&gt;1.6mm x 0.8mm SMD LED&lt;/li&gt;
+    &lt;li&gt;Datasheet Color:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050379-da-01-en-SMD_CHIPLED_BL_0603_KP_1608QBC_D.pdf"&gt;Blue [Conrad]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050377-da-01-en-SMD_CHIPLED_GR_0603_KP_1608CGCK.pdf"&gt;Green [Conrad]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050375-da-01-en-SMD_CHIPLED_OR_0603_KP_1608SECK.pdf"&gt;Orange [Conrad]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050374-da-01-en-SMD_CHIPLED_ROT_0603_KP_1608SURCK.pdf"&gt;Red [Conrad]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050376-da-01-en-SMD_CHIPLED_GE_0603_KP_1608SYCK.pdf"&gt;Yellow [Conrad]&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/ul&gt;
   &lt;li&gt;Everlight (2521)&lt;/li&gt;&lt;ul&gt;
     &lt;li&gt;3.2x1.6mm (1206) SMD chip LED lamps&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-S2C-AQ2R2B.pdf"&gt;Reichelt Datasheet (Orange)&lt;/a&gt;&lt;/li&gt;
@@ -1515,6 +1526,39 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#CONRAD#" value="1050393 - 62" constant="no"/>
 <attribute name="VALUE" value="Orange"/>
 <attribute name="VENDOR#" value="Knighbright,KP-2012SECK" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-KP1608" package="LED1608">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="-BLUE">
+<attribute name="DIST#CONRAD#" value="1050379 - 62" constant="no"/>
+<attribute name="VALUE" value="Blue"/>
+<attribute name="VENDOR#" value="Knighbright,KP-1608QBC-D" constant="no"/>
+</technology>
+<technology name="-GREEN">
+<attribute name="DIST#CONRAD#" value="1050377 - 62" constant="no"/>
+<attribute name="VALUE" value="Green"/>
+<attribute name="VENDOR#" value="Knighbright,KP-1608CGCK" constant="no"/>
+</technology>
+<technology name="-ORANGE">
+<attribute name="DIST#CONRAD#" value="1050375 - 62" constant="no"/>
+<attribute name="VALUE" value="Orange"/>
+<attribute name="VENDOR#" value="Knighbright,KP-1608SECK" constant="no"/>
+</technology>
+<technology name="-RED">
+<attribute name="DIST#CONRAD#" value="1050374 - 62" constant="no"/>
+<attribute name="VALUE" value="Red"/>
+<attribute name="VENDOR#" value="Knighbright,KP-1608SURCK " constant="no"/>
+</technology>
+<technology name="-YELLOW">
+<attribute name="DIST#CONRAD#" value="1050376 - 62" constant="no"/>
+<attribute name="VALUE" value="Yellow"/>
+<attribute name="VENDOR#" value="Knighbright,KP-1608SYCK" constant="no"/>
 </technology>
 </technologies>
 </device>
