@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -198,9 +198,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.9304"/>
 <pad name="2" x="0" y="1.27" drill="0.9" diameter="1.9304"/>
 </package>
-<package name="BOXHD-03-2.54-S">
+<package name="BOXHD-06-2.54-S">
 <description>&lt;p&gt;
-&lt;h3&gt;Box Header X6 - Straight&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;Box Header 2X03 - Straight&lt;/h3&gt;&lt;ul&gt;
   &lt;li&gt;Technology: THT&lt;/li&gt;
   &lt;li&gt;Pitch: 2.54mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/WSL_6G_DB.PDF"&gt;Mechanical Reference (Reichelt)&lt;/a&gt;&lt;/il&gt;
@@ -5361,9 +5361,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="9.525" y1="2.38125" x2="9.525" y2="-1.11125" width="0.127" layer="51"/>
 <wire x1="10.795" y1="2.38125" x2="10.795" y2="-1.11125" width="0.127" layer="51"/>
 </package>
-<package name="BOXHD-03-1.27-S">
+<package name="BOXHD-06-1.27-S">
 <description>&lt;p&gt;
-&lt;h3&gt;Box Header X6 - Straight&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;Box Header 2X03 - Straight&lt;/h3&gt;&lt;ul&gt;
   &lt;li&gt;Technology: THT&lt;/li&gt;
   &lt;li&gt;Pitch: 1.27mm&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://www.metz-connect.com/de/products/310861"&gt;Mechanical Reference&lt;/a&gt;&lt;/il&gt;
@@ -5394,6 +5394,43 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="-1.905" y1="1.27" x2="-2.54" y2="1.27" width="0.3048" layer="51"/>
 <wire x1="-1.905" y1="1.27" x2="-1.905" y2="-1.27" width="0.3048" layer="51"/>
 <wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-1.27" width="0.3048" layer="51"/>
+</package>
+<package name="BOXHD-20-2.00-S">
+<description>&lt;p&gt;
+&lt;h3&gt;Box Header 2X10 - Straight&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Technology: THT&lt;/li&gt;
+  &lt;li&gt;Pitch: 2.00mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/WSL2X13_SMD2_00.pdf"&gt;Mechanical Reference (Reichelt)&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<wire x1="-13.255625" y1="-3.175" x2="13.414375" y2="-3.175" width="0.4064" layer="51"/>
+<wire x1="13.414375" y1="-3.175" x2="13.414375" y2="3.175" width="0.4064" layer="51"/>
+<wire x1="13.414375" y1="3.175" x2="-13.255625" y2="3.175" width="0.4064" layer="51"/>
+<wire x1="-13.255625" y1="3.175" x2="-13.255625" y2="-3.175" width="0.4064" layer="51"/>
+<wire x1="-1.984375" y1="-3.175" x2="-1.984375" y2="-4.143375" width="0.4064" layer="21"/>
+<wire x1="-1.984375" y1="-4.143375" x2="2.06375" y2="-4.143375" width="0.4064" layer="21"/>
+<wire x1="2.06375" y1="-4.143375" x2="2.06375" y2="-3.175" width="0.4064" layer="21"/>
+<text x="-13.97" y="-3.175" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="15.24" y="-3.175" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<smd name="1" x="-8.89" y="-2.38125" dx="0.889" dy="2.921" layer="1"/>
+<smd name="2" x="-8.89" y="2.301875" dx="0.889" dy="2.921" layer="1"/>
+<smd name="3" x="-6.905625" y="-2.38125" dx="0.889" dy="2.921" layer="1"/>
+<smd name="4" x="-6.905625" y="2.301875" dx="0.889" dy="2.921" layer="1"/>
+<smd name="6" x="-4.92125" y="2.301875" dx="0.889" dy="2.921" layer="1"/>
+<smd name="5" x="-4.92125" y="-2.38125" dx="0.889" dy="2.921" layer="1"/>
+<smd name="8" x="-2.936875" y="2.301875" dx="0.889" dy="2.921" layer="1"/>
+<smd name="7" x="-2.936875" y="-2.38125" dx="0.889" dy="2.921" layer="1"/>
+<smd name="10" x="-0.9525" y="2.301875" dx="0.889" dy="2.921" layer="1"/>
+<smd name="9" x="-0.9525" y="-2.38125" dx="0.889" dy="2.921" layer="1"/>
+<smd name="12" x="1.031875" y="2.301875" dx="0.889" dy="2.921" layer="1"/>
+<smd name="11" x="1.031875" y="-2.38125" dx="0.889" dy="2.921" layer="1"/>
+<smd name="13" x="3.01625" y="-2.38125" dx="0.889" dy="2.921" layer="1"/>
+<smd name="14" x="3.01625" y="2.301875" dx="0.889" dy="2.921" layer="1"/>
+<smd name="15" x="5.000625" y="-2.38125" dx="0.889" dy="2.921" layer="1"/>
+<smd name="16" x="5.000625" y="2.301875" dx="0.889" dy="2.921" layer="1"/>
+<smd name="17" x="6.985" y="-2.38125" dx="0.889" dy="2.921" layer="1"/>
+<smd name="18" x="6.985" y="2.301875" dx="0.889" dy="2.921" layer="1"/>
+<smd name="20" x="8.969375" y="2.301875" dx="0.889" dy="2.921" layer="1"/>
+<smd name="19" x="8.969375" y="-2.38125" dx="0.889" dy="2.921" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -5736,7 +5773,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="6" symbol="PHDR" x="2.54" y="-2.54" addlevel="must"/>
 </gates>
 <devices>
-<device name="-2.54" package="BOXHD-03-2.54-S">
+<device name="-2.54" package="BOXHD-06-2.54-S">
 <connects>
 <connect gate="1" pin="P$1" pad="1"/>
 <connect gate="2" pin="P$1" pad="2"/>
@@ -5755,7 +5792,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </technology>
 </technologies>
 </device>
-<device name="-1.27" package="BOXHD-03-1.27-S">
+<device name="-1.27" package="BOXHD-06-1.27-S">
 <connects>
 <connect gate="1" pin="P$1" pad="1"/>
 <connect gate="2" pin="P$1" pad="2"/>
