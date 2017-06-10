@@ -6847,20 +6847,20 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="2" symbol="PHDR" x="2.54" y="10.16" addlevel="must"/>
 <gate name="4" symbol="PHDR" x="2.54" y="7.62" addlevel="must"/>
 <gate name="6" symbol="PHDR" x="2.54" y="5.08" addlevel="must"/>
-<gate name="7" symbol="PHDL" x="-2.54" y="2.54"/>
-<gate name="8" symbol="PHDR" x="2.54" y="2.54"/>
-<gate name="9" symbol="PHDL" x="-2.54" y="0"/>
-<gate name="10" symbol="PHDR" x="2.54" y="0"/>
-<gate name="11" symbol="PHDL" x="-2.54" y="-2.54"/>
-<gate name="12" symbol="PHDR" x="2.54" y="-2.54"/>
-<gate name="13" symbol="PHDL" x="-2.54" y="-5.08"/>
-<gate name="14" symbol="PHDR" x="2.54" y="-5.08"/>
-<gate name="15" symbol="PHDL" x="-2.54" y="-7.62"/>
-<gate name="16" symbol="PHDR" x="2.54" y="-7.62"/>
-<gate name="17" symbol="PHDL" x="-2.54" y="-10.16"/>
-<gate name="18" symbol="PHDR" x="2.54" y="-10.16"/>
-<gate name="19" symbol="PHDL" x="-2.54" y="-12.7"/>
-<gate name="20" symbol="PHDR" x="2.54" y="-12.7"/>
+<gate name="7" symbol="PHDL" x="-2.54" y="2.54" addlevel="must"/>
+<gate name="8" symbol="PHDR" x="2.54" y="2.54" addlevel="must"/>
+<gate name="9" symbol="PHDL" x="-2.54" y="0" addlevel="must"/>
+<gate name="10" symbol="PHDR" x="2.54" y="0" addlevel="must"/>
+<gate name="11" symbol="PHDL" x="-2.54" y="-2.54" addlevel="must"/>
+<gate name="12" symbol="PHDR" x="2.54" y="-2.54" addlevel="must"/>
+<gate name="13" symbol="PHDL" x="-2.54" y="-5.08" addlevel="must"/>
+<gate name="14" symbol="PHDR" x="2.54" y="-5.08" addlevel="must"/>
+<gate name="15" symbol="PHDL" x="-2.54" y="-7.62" addlevel="must"/>
+<gate name="16" symbol="PHDR" x="2.54" y="-7.62" addlevel="must"/>
+<gate name="17" symbol="PHDL" x="-2.54" y="-10.16" addlevel="must"/>
+<gate name="18" symbol="PHDR" x="2.54" y="-10.16" addlevel="must"/>
+<gate name="19" symbol="PHDL" x="-2.54" y="-12.7" addlevel="must"/>
+<gate name="20" symbol="PHDR" x="2.54" y="-12.7" addlevel="must"/>
 </gates>
 <devices>
 <device name="-2.00" package="BOXHD-20-2.00-S">
