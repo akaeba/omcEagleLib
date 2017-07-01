@@ -1,0 +1,24 @@
+#************************************************************************
+# License          : LGPL v3
+# Company          : Obervogtländischer Modelleisenbahnclub e.V.
+# Address          : Markt 35b, 08626 Adorf, Germany
+# Author           : Andreas Kaeberlein
+#
+# File             : .gitconfig.
+#
+# Description      : configuration for git
+#
+# Sources          : none
+#
+# on               : 2016-03-29
+# last update      : 2016-03-30
+#************************************************************************
+
+
+
+# Setup Word Diff Tool (.docx Files)
+# SRC: http://xcafebabe.blogspot.de/2012/09/sexy-comparison-of-word-documents-with.html
+[diff]
+	tool = wdiff
+[difftool "wdiff"]
+	cmd="wscript.exe \"c:\\Program Files\\TortoiseGit\\Diff-Scripts\\diff-doc.js\" \"$LOCAL\" \"`pwd`/$REMOTE\""
