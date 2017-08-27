@@ -1108,14 +1108,10 @@ Ground &amp; Freewheeling Connector</description>
 <description>&lt;p&gt;
 &lt;h2&gt;BC857 - PNP general purpose transistors&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
-  &lt;li&gt;V&lt;sub&gt;DSS&lt;/sub&gt;=50V&lt;/li&gt;
-  &lt;li&gt;V&lt;sub&gt;GS&lt;/sub&gt;=±20V&lt;/li&gt;
-  &lt;li&gt;R&lt;sub&gt;DS,on&lt;/sub&gt;=3.5Ω&lt;/li&gt;
-  &lt;li&gt;Drain currunt:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt; 200mA continous&lt;/li&gt;
-    &lt;li&gt; 800mA pulsed&lt;/i&gt;
-   &lt;/ul&gt;
-  &lt;li&gt;&lt;a href="http://www.onsemi.com/pub_link/Collateral/BSS138LT1-D.PDF"&gt;On Semiconductor Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;V&lt;sub&gt;CEO&lt;/sub&gt;=45V&lt;/li&gt;
+  &lt;li&gt;I&lt;sub&gt;C&lt;/sub&gt;=100mA&lt;/li&gt;
+  &lt;li&gt;Complementary Type: BC847&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.infineon.com/dgdl/Infineon-BC857SERIES_BC858SERIES_BC859SERIES_BC860SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541da0e3a1661"&gt;Infineon Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A100/BC856_BC857_BC858-NXP.PDF"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
@@ -1145,7 +1141,7 @@ Ground &amp; Freewheeling Connector</description>
     &lt;th class="tg-tbqn"&gt;Unit&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-zzfq" rowspan="4"&gt;hFE&lt;/td&gt;
+    &lt;td class="tg-zzfq" rowspan="4"&gt;h&lt;sub&gt;FE&lt;/sub&gt;&lt;/td&gt;
     &lt;td class="tg-zzfq" rowspan="4"&gt;DC Current Gain&lt;/td&gt;
     &lt;td class="tg-zzfq"&gt;BC857&lt;/td&gt;
     &lt;td class="tg-zzfq" rowspan="4"&gt;Ic=-2mA&lt;br&gt;Vce=-5V&lt;/td&gt;
@@ -1173,7 +1169,7 @@ Ground &amp; Freewheeling Connector</description>
     &lt;td class="tg-jgh0"&gt;800&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-iuhm"&gt;Vbe&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;V&lt;sub&gt;BE&lt;/sub&gt;&lt;/td&gt;
     &lt;td class="tg-iuhm" colspan="2"&gt;Base-emitter-volatge&lt;/td&gt;
     &lt;td class="tg-iuhm"&gt;Ic=-2mA&lt;br&gt;Vce=-5V&lt;/td&gt;
     &lt;td class="tg-iuhm"&gt;-600&lt;/td&gt;
@@ -1182,7 +1178,7 @@ Ground &amp; Freewheeling Connector</description>
     &lt;td class="tg-iuhm"&gt;mV&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-zzfq"&gt;Ptot&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;P&lt;sub&gt;tot&lt;/sub&gt;&lt;/td&gt;
     &lt;td class="tg-zzfq" colspan="2"&gt;Total Power dissipation&lt;/td&gt;
     &lt;td class="tg-zzfq"&gt;Tamb ≤ 25 °C&lt;/td&gt;
     &lt;td class="tg-zzfq"&gt;&lt;/td&gt;
@@ -1191,7 +1187,7 @@ Ground &amp; Freewheeling Connector</description>
     &lt;td class="tg-zzfq"&gt;mW&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td class="tg-iuhm"&gt;Tamb&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;T&lt;sub&gt;amb&lt;/sub&gt;&lt;/td&gt;
     &lt;td class="tg-iuhm" colspan="2"&gt;operating ambient temperature&lt;/td&gt;
     &lt;td class="tg-iuhm"&gt;&lt;/td&gt;
     &lt;td class="tg-iuhm"&gt;-65&lt;/td&gt;
@@ -1205,11 +1201,28 @@ Ground &amp; Freewheeling Connector</description>
 <gate name="G$1" symbol="PNP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
 <technologies>
-<technology name="A"/>
-<technology name="B"/>
-<technology name="C"/>
+<technology name="A">
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="BC857A"/>
+<attribute name="VENDOR#" value="NXP,BC857-3E" constant="no"/>
+</technology>
+<technology name="B">
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="BC857B"/>
+<attribute name="VENDOR#" value="NXP,BC857-3F" constant="no"/>
+</technology>
+<technology name="C">
+<attribute name="DIST#REICHELT#" value="BC 857C SMD" constant="no"/>
+<attribute name="VALUE" value="BC857C"/>
+<attribute name="VENDOR#" value="NXP,BC857-3G" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
