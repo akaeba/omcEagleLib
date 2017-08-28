@@ -1343,7 +1343,21 @@ Ground &amp; Freewheeling Connector</description>
 <connect gate="G$1" pin="E" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="A">
+<attribute name="DIST#REICHELT#" value="BC 847A SMD" constant="no"/>
+<attribute name="VALUE" value="BC847A"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="B">
+<attribute name="DIST#REICHELT#" value="BC 847B SMD" constant="no"/>
+<attribute name="VALUE" value="BC847B"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="C">
+<attribute name="DIST#REICHELT#" value="BC 847C SMD" constant="no"/>
+<attribute name="VALUE" value="BC847C"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
