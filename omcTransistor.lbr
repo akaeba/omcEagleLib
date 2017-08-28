@@ -668,6 +668,24 @@ Ground &amp; Freewheeling Connector</description>
 <pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
+<symbol name="NPN">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ULN280" prefix="U" uservalue="yes">
@@ -1223,6 +1241,109 @@ Ground &amp; Freewheeling Connector</description>
 <attribute name="VALUE" value="BC857C"/>
 <attribute name="VENDOR#" value="NXP,BC857-3G" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC847" prefix="T" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;BC847 - NPN general purpose transistors&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;V&lt;sub&gt;CEO&lt;/sub&gt;=45V&lt;/li&gt;
+  &lt;li&gt;I&lt;sub&gt;C&lt;/sub&gt;=100mA&lt;/li&gt;
+  &lt;li&gt;Complementary Type: BC847&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"&gt;Infineon Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A100/BC846-848-CDIL.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;Ratings&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-jgh0{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-iuhm{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.tg .tg-txbl{font-weight:bold;font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#c0c0c0;vertical-align:top}
+.tg .tg-tbqn{font-weight:bold;font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#c0c0c0;text-align:center;vertical-align:top}
+.tg .tg-zzfq{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;vertical-align:top}
+.tg .tg-2bnu{font-weight:bold;font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#c0c0c0}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-2bnu"&gt;Symbol&lt;/th&gt;
+    &lt;th class="tg-tbqn" colspan="2"&gt;Parameter&lt;/th&gt;
+    &lt;th class="tg-txbl"&gt;Conditions&lt;/th&gt;
+    &lt;th class="tg-tbqn"&gt;Min.&lt;/th&gt;
+    &lt;th class="tg-tbqn"&gt;Typ.&lt;/th&gt;
+    &lt;th class="tg-tbqn"&gt;Max.&lt;/th&gt;
+    &lt;th class="tg-tbqn"&gt;Unit&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq" rowspan="3"&gt;h&lt;sub&gt;FE&lt;/sub&gt;&lt;/td&gt;
+    &lt;td class="tg-zzfq" rowspan="3"&gt;DC Current Gain&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;BC847A&lt;/td&gt;
+    &lt;td class="tg-zzfq" rowspan="3"&gt;Ic=2mA&lt;br&gt;Vce=5V&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;110&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;180&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;220&lt;/td&gt;
+    &lt;td class="tg-jgh0" rowspan="3"&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;BC847B&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;200&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;290&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;450&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;BC847C&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;420&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;520&lt;/td&gt;
+    &lt;td class="tg-jgh0"&gt;800&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;V&lt;sub&gt;BE&lt;/sub&gt;&lt;/td&gt;
+    &lt;td class="tg-iuhm" colspan="2"&gt;Base-emitter-volatge&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;Ic=2mA&lt;br&gt;Vce=5V&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;580&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;660&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;700&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;mV&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;P&lt;sub&gt;tot&lt;/sub&gt;&lt;/td&gt;
+    &lt;td class="tg-zzfq" colspan="2"&gt;Total Power dissipation&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;Tamb ≤ 25 °C&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;250&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;mW&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;T&lt;sub&gt;amb&lt;/sub&gt;&lt;/td&gt;
+    &lt;td class="tg-iuhm" colspan="2"&gt;operating ambient temperature&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;-65&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;150&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;°C&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
