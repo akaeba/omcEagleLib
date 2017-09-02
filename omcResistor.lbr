@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="3.125" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -297,6 +297,83 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="-1.42875" y1="-2.2225" x2="-1.5875" y2="-2.38125" width="0.127" layer="21"/>
 <wire x1="0.873125" y1="2.1034375" x2="-0.873125" y2="2.1034375" width="0.0635" layer="21" curve="-314.913878"/>
 <wire x1="3.095625" y1="-0.79375" x2="0.9921875" y2="3.1353125" width="0.127" layer="21" curve="87.763839"/>
+</package>
+<package name="TTM23A">
+<description>&lt;h3&gt;TT Electronics Potentiometer&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Model 23&lt;/li&gt;
+&lt;li&gt;Variant A&lt;/li&gt;
+&lt;li&gt;4mm Square&lt;/li&gt;
+&lt;li&gt;Sealed Single Turn&lt;/li&gt;
+&lt;li&gt;Surface Mount&lt;/li&gt;
+&lt;li&gt;Cermet Trimming Potentiometer&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="2" x="0" y="2.06375" dx="2.0066" dy="2.0066" layer="1" rot="R270"/>
+<smd name="1" x="-1.11125" y="-1.905" dx="2.0066" dy="1.2954" layer="1" rot="R270"/>
+<smd name="3" x="1.11125" y="-1.905" dx="2.0066" dy="1.2954" layer="1" rot="R270"/>
+<wire x1="-2.54" y1="-2.2225" x2="2.54" y2="-2.2225" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-2.2225" x2="2.54" y2="2.2225" width="0.127" layer="51"/>
+<wire x1="2.54" y1="2.2225" x2="-2.54" y2="2.2225" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="2.2225" x2="-2.54" y2="-2.2225" width="0.127" layer="51"/>
+<wire x1="-1.11125" y1="2.2225" x2="-2.54" y2="2.2225" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="2.2225" x2="-2.54" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.2225" x2="-1.905" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="-2.2225" x2="0.3175" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-2.2225" x2="2.54" y2="-2.2225" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.2225" x2="2.54" y2="2.2225" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.2225" x2="1.11125" y2="2.2225" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.63443125" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-2.2225" y="-0.9525"/>
+<vertex x="-2.2225" y="-1.27"/>
+<vertex x="-1.11125" y="-1.27"/>
+<vertex x="-1.42875" y="-0.9525"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="2.2225" y="-1.27"/>
+<vertex x="1.11125" y="-1.27"/>
+<vertex x="1.42875" y="-0.9525"/>
+<vertex x="2.2225" y="-0.9525"/>
+</polygon>
+<rectangle x1="-2.06375" y1="1.11125" x2="-1.42875" y2="1.42875" layer="51" rot="R142"/>
+<rectangle x1="1.42875" y1="1.11125" x2="2.06375" y2="1.42875" layer="51" rot="R216"/>
+<wire x1="-1.11125" y1="1.190625" x2="-1.42875" y2="-0.79375" width="0.127" layer="21" curve="77.757669"/>
+<wire x1="1.11125" y1="1.190625" x2="1.42875" y2="-0.79375" width="0.127" layer="21" curve="-76.029538"/>
+<wire x1="-0.396875" y1="-1.5875" x2="0.396875" y2="-1.5875" width="0.127" layer="21" curve="28.072487"/>
+<rectangle x1="-2.06375" y1="1.11125" x2="-1.42875" y2="1.42875" layer="21" rot="R142"/>
+<rectangle x1="1.42875" y1="1.11125" x2="2.06375" y2="1.42875" layer="21" rot="R216"/>
+<rectangle x1="-1.42875" y1="-2.619375" x2="-0.79375" y2="-2.2225" layer="51"/>
+<rectangle x1="0.79375" y1="-2.619375" x2="1.42875" y2="-2.2225" layer="51"/>
+<wire x1="-1.5875" y1="0.238125" x2="-1.031875" y2="0.238125" width="0.127" layer="51"/>
+<wire x1="-1.031875" y1="0.238125" x2="-0.555625" y2="0.714375" width="0.127" layer="51"/>
+<wire x1="-0.555625" y1="-0.714375" x2="-1.031875" y2="-0.238125" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.238125" x2="-1.031875" y2="-0.238125" width="0.127" layer="51"/>
+<wire x1="-0.555625" y1="-0.714375" x2="-0.555625" y2="-0.238125" width="0.127" layer="51"/>
+<wire x1="-0.555625" y1="-0.238125" x2="1.5875" y2="-0.238125" width="0.127" layer="51"/>
+<wire x1="-0.555625" y1="0.714375" x2="-0.555625" y2="0.238125" width="0.127" layer="51"/>
+<wire x1="-0.555625" y1="0.238125" x2="1.5875" y2="0.238125" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="0.238125" x2="-1.031875" y2="0.238125" width="0.127" layer="21"/>
+<wire x1="-1.031875" y1="0.238125" x2="-0.555625" y2="0.714375" width="0.127" layer="21"/>
+<wire x1="-0.555625" y1="0.714375" x2="-0.555625" y2="0.238125" width="0.127" layer="21"/>
+<wire x1="-0.555625" y1="0.238125" x2="1.5875" y2="0.238125" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="-0.238125" x2="-1.031875" y2="-0.238125" width="0.127" layer="21"/>
+<wire x1="-1.031875" y1="-0.238125" x2="-0.555625" y2="-0.714375" width="0.127" layer="21"/>
+<wire x1="-0.555625" y1="-0.714375" x2="-0.555625" y2="-0.238125" width="0.127" layer="21"/>
+<wire x1="-0.555625" y1="-0.238125" x2="1.5875" y2="-0.238125" width="0.127" layer="21"/>
+<text x="4.445" y="-2.54" size="1.27" layer="27" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="-3.175" y="-2.54" size="1.27" layer="25" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+<polygon width="0.127" layer="21">
+<vertex x="-2.2225" y="-0.9525"/>
+<vertex x="-2.2225" y="-1.27"/>
+<vertex x="-1.905" y="-1.27"/>
+<vertex x="-1.905" y="-0.9525"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="2.2225" y="-0.9525"/>
+<vertex x="2.2225" y="-1.27"/>
+<vertex x="1.905" y="-1.27"/>
+<vertex x="1.905" y="-0.9525"/>
+</polygon>
+<rectangle x1="-0.47625" y1="2.2225" x2="0.47625" y2="2.619375" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -2439,6 +2516,92 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="PT 6-L 500K" constant="no"/>
 <attribute name="VALUE" value="500K"/>
 <attribute name="VENDOR#" value="Piher,PT 6 V 500 K A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="M23" prefix="R" uservalue="yes">
+<description>&lt;h2&gt;TT Electronics -  Cermet Trimming Potentiometer Model 23&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Electrical:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Standard Resistance Range: 100 Ohms to 2 Megohms&lt;/li&gt;
+    &lt;li&gt;Standard Resistance Tolerance: ±20%&lt;/li&gt;
+    &lt;li&gt;Input Voltage: 200 Vdc Max. or rms not to exceed power rating&lt;/li&gt;
+    &lt;li&gt;Power Rating: 0.25 Watts at 70°C derating to 0°C at 125°C&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Environmental:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Operating Temperature: –55°C to +125°C&lt;/li&gt;
+    &lt;li&gt;Load Life: 1,000 hours at 70°C &amp; 0.25 Watts&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;&lt;a href="http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_SingleTurn%20Trimmer_23.pdf"&gt;TT Electronics Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/BI-SERIE-23.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="RPOT" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="A" package="TTM23A">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="-100">
+<attribute name="DIST#REICHELT#" value="23A-100" constant="no"/>
+<attribute name="VALUE" value="100R"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 100 LF TR" constant="no"/>
+</technology>
+<technology name="-1000">
+<attribute name="DIST#REICHELT#" value="23A-1,0K" constant="no"/>
+<attribute name="VALUE" value="1k"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 1K LF TR" constant="no"/>
+</technology>
+<technology name="-10000">
+<attribute name="DIST#REICHELT#" value="23A-10K" constant="no"/>
+<attribute name="VALUE" value="10k"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 10K LF TR" constant="no"/>
+</technology>
+<technology name="-100000">
+<attribute name="DIST#REICHELT#" value="23A-100K" constant="no"/>
+<attribute name="VALUE" value="100k"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 100K LF TR" constant="no"/>
+</technology>
+<technology name="-200">
+<attribute name="DIST#REICHELT#" value="23A-200" constant="no"/>
+<attribute name="VALUE" value="200R"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 200 LF TR" constant="no"/>
+</technology>
+<technology name="-2000">
+<attribute name="DIST#REICHELT#" value="23A-2,0K" constant="no"/>
+<attribute name="VALUE" value="2k"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 2K LF TR" constant="no"/>
+</technology>
+<technology name="-20000">
+<attribute name="DIST#REICHELT#" value="23A-20K" constant="no"/>
+<attribute name="VALUE" value="20k"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 20K LF TR" constant="no"/>
+</technology>
+<technology name="-200000">
+<attribute name="DIST#REICHELT#" value="23A-200K" constant="no"/>
+<attribute name="VALUE" value="200k"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 200K LF TR" constant="no"/>
+</technology>
+<technology name="-500">
+<attribute name="DIST#REICHELT#" value="23A-500" constant="no"/>
+<attribute name="VALUE" value="500R"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 500 LF TR" constant="no"/>
+</technology>
+<technology name="-5000">
+<attribute name="DIST#REICHELT#" value="23A-5,0K" constant="no"/>
+<attribute name="VALUE" value="5k"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 5K LF TR" constant="no"/>
+</technology>
+<technology name="-50000">
+<attribute name="DIST#REICHELT#" value="23A-50K" constant="no"/>
+<attribute name="VALUE" value="50k"/>
+<attribute name="VENDOR#" value="TT Electronics, 23 A R 50K LF TR" constant="no"/>
 </technology>
 </technologies>
 </device>
