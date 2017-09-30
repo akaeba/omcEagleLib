@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -386,7 +386,7 @@ TO252, D-Pak</description>
 <vertex x="2.5654" y="3.937"/>
 </polygon>
 </package>
-<package name="SOIC8">
+<package name="SOIC08">
 <description>&lt;h3&gt;SOIC8&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;SMD&lt;/li&gt;
 &lt;li&gt;5mm×4mm&lt;/li&gt;
@@ -495,10 +495,10 @@ TO252, D-Pak</description>
 <wire x1="3.65125" y1="-1.905" x2="3.96875" y2="-1.905" width="0.2032" layer="21"/>
 <wire x1="2.38125" y1="-1.905" x2="2.69875" y2="-1.905" width="0.2032" layer="21"/>
 <wire x1="1.11125" y1="-1.905" x2="1.42875" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="3.175" x2="-5.08" y2="-3.175" width="0.127" layer="39"/>
-<wire x1="-5.08" y1="-3.175" x2="5.08" y2="-3.175" width="0.127" layer="39"/>
-<wire x1="5.08" y1="-3.175" x2="5.08" y2="3.175" width="0.127" layer="39"/>
-<wire x1="5.08" y1="3.175" x2="-5.08" y2="3.175" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="-3.81" x2="5.08" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="3.81" width="0.127" layer="39"/>
+<wire x1="5.08" y1="3.81" x2="-5.08" y2="3.81" width="0.127" layer="39"/>
 </package>
 <package name="DIL16">
 <description>&lt;h3&gt;DIL16&lt;/h3&gt;&lt;ul&gt;
