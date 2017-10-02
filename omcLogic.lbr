@@ -247,6 +247,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pin name="GND" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
 <text x="1.27" y="-5.08" size="0.8128" layer="94" rot="R90">GND</text>
 <text x="1.27" y="2.54" size="0.8128" layer="94" rot="R90">VDD</text>
+<text x="-3.81" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -267,7 +268,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="74HC595" x="0" y="0"/>
-<gate name="G$2" symbol="PWR" x="20.32" y="0"/>
+<gate name="P" symbol="PWR" x="20.32" y="0"/>
 </gates>
 <devices>
 <device name="D" package="SOIC16">
@@ -286,8 +287,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <connect gate="G$1" pin="Q7'" pad="9"/>
 <connect gate="G$1" pin="SH_CP" pad="11"/>
 <connect gate="G$1" pin="ST_CP" pad="12"/>
-<connect gate="G$2" pin="GND" pad="8"/>
-<connect gate="G$2" pin="VDD" pad="16"/>
+<connect gate="P" pin="GND" pad="8"/>
+<connect gate="P" pin="VDD" pad="16"/>
 </connects>
 <technologies>
 <technology name="">
@@ -313,8 +314,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <connect gate="G$1" pin="Q7'" pad="9"/>
 <connect gate="G$1" pin="SH_CP" pad="11"/>
 <connect gate="G$1" pin="ST_CP" pad="12"/>
-<connect gate="G$2" pin="GND" pad="8"/>
-<connect gate="G$2" pin="VDD" pad="16"/>
+<connect gate="P" pin="GND" pad="8"/>
+<connect gate="P" pin="VDD" pad="16"/>
 </connects>
 <technologies>
 <technology name="">
