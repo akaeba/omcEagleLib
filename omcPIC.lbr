@@ -563,17 +563,28 @@ In short: You are welcome to use (and extend) this library, but extensions must 
       &lt;li&gt;Dedicated low-power 32kHz oscillator&lt;/il&gt;
     &lt;/ul&gt;
     &lt;li&gt;Timer2: 8-bit timer/counter with 8-bit period register, prescaler and postscaler&lt;/li&gt;
-    &lt;li&gt;Enhanced Capture, Compare, PWM+ module::&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Enhanced Capture, Compare, PWM+ module:&lt;/li&gt;&lt;ul&gt;
       &lt;li&gt;16-bit capture, max. resolution 12.5ns&lt;/il&gt;
       &lt;li&gt;Compare, max resolution 200ns&lt;/il&gt;
       &lt;li&gt;10-bit PWM with 1, 2 or 4 output channels, programmable "dead time", max frequency 20kHz&lt;/il&gt;
       &lt;li&gt;PWM output steering control&lt;/il&gt;
     &lt;/ul&gt;
+    &lt;li&gt;Capture, Compare, PWM module:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;16-bit capture, max. resolution 12.5ns&lt;/il&gt;
+      &lt;li&gt;Compare, max resolution 200ns&lt;/il&gt;
+      &lt;li&gt;10-bit PWM, max frequency 20kHz&lt;/il&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Enhanced USART module:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;Supports RS485, RS232 and LIN 2.0&lt;/il&gt;
+      &lt;li&gt;Auto-Baud Detect&lt;/il&gt;
+      &lt;li&gt;Auto-Wake-Up on Start bit&lt;/il&gt;
+    &lt;/ul&gt;
     &lt;li&gt; In-Circuit Serial Programming (ICSP) via two pins&lt;/li&gt;
+    &lt;li&gt;Master Synchronous Serial Port (MSSP) module supporting 3-wire SPI (all 4 modes) and I2C master and slave modes with I2C address mask&lt;/li&gt;
   &lt;/ul&gt; 
   &lt;li&gt;&lt;b&gt;Reference:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf"&gt;Microchip Datasheet&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A300/PIC12F629_PIC12F675%23MIC.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf"&gt;Microchip Datasheet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A300/PIC16F88x.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/ul&gt;</description>
 <gates>
@@ -613,7 +624,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="-I">
-<attribute name="VALUE" value="PIC16F886" constant="no"/>
+<attribute name="DIST#REICHELT#" value="PIC 16F886-I/SO" constant="no"/>
+<attribute name="VALUE" value="PIC16F886"/>
+<attribute name="VENDOR#" value="Microchip,PIC16F886-I/SO" constant="no"/>
 </technology>
 </technologies>
 </device>
