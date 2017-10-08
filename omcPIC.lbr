@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -435,14 +435,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf"&gt;Microchip Datasheet&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A300/PIC12F629_PIC12F675%23MIC.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt;Reichelt: avl&lt;/li&gt;
-   &lt;li&gt;Conrad:&lt;/li&gt;
-   &lt;li&gt;Digi-Key:&lt;/li&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="PIC12F675" x="0" y="0"/>
@@ -492,9 +484,100 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </device>
 </devices>
 </deviceset>
-<deviceset name="PIC16F886">
+<deviceset name="PIC16F886" prefix="IC" uservalue="yes">
+<description>&lt;h2&gt;PIC16F886 - 28-Pin FLASH-Based 8-Bit CMOS Microcontroller with nanoWatt Technology&lt;/h2&gt;&lt;p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;High Performance RISC CPU:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Only 35 instructions&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;All single cycle instructions except branches&lt;/il&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Operating speed:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;DC - 20 MHz oscillator/clock input&lt;/il&gt;
+      &lt;li&gt;DC - 200 ns instruction cycle&lt;/il&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Interrupt capability&lt;/li&gt;
+    &lt;li&gt;8-level deep hardware stack&lt;/li&gt;
+    &lt;li&gt;Direct, Indirect, and Relative Addressing modes&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;&lt;b&gt;Special Microcontroller Features:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Precision Internal Oscillator&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;Factory calibrated to ±1%&lt;/il&gt;
+      &lt;li&gt;Software selectable frequency range of 8MHz to 31kHz&lt;/il&gt;
+      &lt;li&gt;Software tuneable&lt;/il&gt;
+      &lt;li&gt;Two-Speed Start-up mode&lt;/il&gt;
+      &lt;li&gt;Crystal fail detect for critical applications&lt;/il&gt;
+      &lt;li&gt;Clock mode switching during operation for power savings&lt;/il&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Power saving SLEEP mode&lt;/li&gt;
+    &lt;li&gt;Wide operating voltage range - 2.0V to 5.5V&lt;/li&gt;
+    &lt;li&gt;Industrial and Extended temperature range&lt;/li&gt;
+    &lt;li&gt;Low power Power-on Reset (POR)&lt;/li&gt;
+    &lt;li&gt;Power-up Timer (PWRT) and Oscillator Start-up Timer (OST)&lt;/li&gt;
+    &lt;li&gt;Brown-out Detect (BOD)&lt;/li&gt;
+    &lt;li&gt;WEnhanced low-current Watchdof Timer (WDT) with on-chip oscillator (software selectable nominal 268s with full prescalar) with software enable&lt;/li&gt;
+    &lt;li&gt;Multiplexed Master clear with pull-up/input pin&lt;/li&gt;
+    &lt;li&gt;Programmable code protection&lt;/li&gt;
+    &lt;li&gt;High Endurance FLASH/EEPROM Cell&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;100,000 write FLASH endurance&lt;/il&gt;
+      &lt;li&gt;1,000,000 write EEPROM endurance&lt;/il&gt;
+      &lt;li&gt;FLASH/Data EEPROM Retention: &gt; 40 years&lt;/il&gt;
+    &lt;li&gt;Programm memory Read/Write during run time&lt;/li&gt;
+    &lt;li&gt;In-Cuircuit Debugger (on board)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;&lt;b&gt;Low Power Features:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Standby Current:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;50nA @ 2.0V, typical&lt;/il&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Operating Current:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;11µA @ 32 kHz, 2.0V, typical&lt;/il&gt;
+      &lt;li&gt;220µA @ 1 MHz, 2.0V, typical&lt;/il&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Watchdog Timer Current:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;1µA @ 2.0V, typical&lt;/il&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;&lt;b&gt;Peripheral Features:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;24 I/O pins with individual direction control:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;High current sink/source for direct LED drive&lt;/li&gt;  
+      &lt;li&gt;Interrupt-on-Change pin&lt;/li&gt; 
+      &lt;li&gt;Individually programmable weak pull-ups&lt;/li&gt;
+      &lt;li&gt;Ultra Low-Power Wake-up (ULPWU)&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; Analog comparator module with:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;Two analog comparator&lt;/il&gt;
+      &lt;li&gt;Programmable on-chip comparator voltage reference (CVREF) module&lt;/il&gt;
+      &lt;li&gt;Fixed voltage reference (0.6V)&lt;/il&gt;
+      &lt;li&gt;Comparator inputs and output externally accessible&lt;/il&gt;
+      &lt;li&gt;SR Latch mode&lt;/il&gt;
+      &lt;li&gt;Ecternal Timer1 Gate (count enable)&lt;/il&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;A/D Converter:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;10-bit resolution and 11 channels&lt;/il&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Timer0: 8-bit timer/counter with 8-bit programmable prescaler&lt;/li&gt;
+    &lt;li&gt;Enhanced Timer1:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;16-bit timer/counter with prescaler&lt;/il&gt;
+      &lt;li&gt;External Gate Input mode&lt;/il&gt;
+      &lt;li&gt;Dedicated low-power 32kHz oscillator&lt;/il&gt;
+    &lt;/ul&gt;
+    &lt;li&gt;Timer2: 8-bit timer/counter with 8-bit period register, prescaler and postscaler&lt;/li&gt;
+    &lt;li&gt;Enhanced Capture, Compare, PWM+ module::&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;16-bit capture, max. resolution 12.5ns&lt;/il&gt;
+      &lt;li&gt;Compare, max resolution 200ns&lt;/il&gt;
+      &lt;li&gt;10-bit PWM with 1, 2 or 4 output channels, programmable "dead time", max frequency 20kHz&lt;/il&gt;
+      &lt;li&gt;PWM output steering control&lt;/il&gt;
+    &lt;/ul&gt;
+    &lt;li&gt; In-Circuit Serial Programming (ICSP) via two pins&lt;/li&gt;
+  &lt;/ul&gt; 
+  &lt;li&gt;&lt;b&gt;Reference:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/41190G.pdf"&gt;Microchip Datasheet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A300/PIC12F629_PIC12F675%23MIC.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="PIC16F886" x="0" y="5.08"/>
+<gate name="G$1" symbol="PIC16F886" x="0" y="0"/>
 </gates>
 <devices>
 <device name="/SO" package="SOIC28-7.62">
@@ -529,7 +612,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <connect gate="G$1" pin="VSS@1" pad="19"/>
 </connects>
 <technologies>
-<technology name="-I"/>
+<technology name="-I">
+<attribute name="VALUE" value="PIC16F886" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
