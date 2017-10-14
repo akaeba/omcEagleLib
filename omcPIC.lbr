@@ -453,11 +453,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="PIC 12F675-I/P" constant="no"/>
 <attribute name="VALUE" value="PIC12F675"/>
-<attribute name="VENDOR#" value="Microchip#PIC12F675-I/P" constant="no"/>
+<attribute name="VENDOR#" value="Microchip,PIC12F675-I/P" constant="no"/>
 </technology>
 </technologies>
 </device>
