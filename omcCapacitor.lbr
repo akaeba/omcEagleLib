@@ -974,15 +974,11 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="-100000000P">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="X5R-G1206 100/6" constant="no"/>
 <attribute name="VALUE" value="100µ/6V"/>
 <attribute name="VENDOR#" value="MURATA,GRM31CR60J107ME39#" constant="no"/>
 </technology>
 <technology name="-47000000P">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="X5R-G1206 47/6" constant="no"/>
 <attribute name="VALUE" value="47µ/6V"/>
 <attribute name="VENDOR#" value="MURATA,GRM31CR60J476ME19#" constant="no"/>
@@ -996,32 +992,42 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="-100000000P">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="X5R-G1210 100" constant="no"/>
 <attribute name="VALUE" value="100µ/6.3V"/>
 <attribute name="VENDOR#" value="MURATA,GRM32ER60J107ME20#" constant="no"/>
 </technology>
 <technology name="-10000000P">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="X5R-G1210 10" constant="no"/>
 <attribute name="VALUE" value="10µ/35V"/>
 <attribute name="VENDOR#" value="MURATA,GRM32ER6YA106KA12#" constant="no"/>
 </technology>
 <technology name="-22000000P">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="X5R-G1210 22" constant="no"/>
 <attribute name="VALUE" value="22µ/25V"/>
 <attribute name="VENDOR#" value="MURATA,GRM32ER61E226ME15#" constant="no"/>
 </technology>
 <technology name="-47000000P">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="X5R-G1210 47" constant="no"/>
 <attribute name="VALUE" value="47µ/16V"/>
 <attribute name="VENDOR#" value="MURATA,GRM32ER61C476ME15#" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-10000000P">
+<attribute name="DIST#REICHELT#" value="X5R-G0805 10/16" constant="no"/>
+<attribute name="VALUE" value="10µ/16V"/>
+<attribute name="VENDOR#" value="MURATA,GRM21BB31C106ME15" constant="no"/>
+</technology>
+<technology name="-22000000P">
+<attribute name="DIST#REICHELT#" value="X5R-G0805 22/6" constant="no"/>
+<attribute name="VALUE" value="22µ/6V"/>
+<attribute name="VENDOR#" value="MURATA,GRM21BR60J226ME39" constant="no"/>
 </technology>
 </technologies>
 </device>
