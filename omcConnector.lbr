@@ -5062,28 +5062,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="29.50625" y1="0.186" x2="27.64375" y2="0.186" width="0.127" layer="21"/>
 <wire x1="33.31625" y1="0.186" x2="31.45375" y2="0.186" width="0.127" layer="21"/>
 </package>
-<package name="PH2X3P254I">
-<description>&lt;p&gt;
-&lt;h3&gt;Pin Header 2X3 - Straight&lt;/h3&gt;&lt;ul&gt;
-  &lt;li&gt;Hint: requires metallized holes, otherwise no lead less connection possible
-  &lt;li&gt;Technology: THT&lt;/li&gt;
-  &lt;li&gt;Pitch: 2.54mm&lt;/li&gt;
-  &lt;li&gt;Holes: interlocked
-  &lt;li&gt;&lt;a href="https://www.sparkfun.com/tutorials/114"&gt;Reference&lt;/a&gt;&lt;/il&gt;
-&lt;/p&gt;</description>
-<wire x1="-3.175" y1="5.08" x2="-3.175" y2="-5.08" width="0.4064" layer="21"/>
-<wire x1="-3.175" y1="-5.08" x2="3.175" y2="-5.08" width="0.4064" layer="21"/>
-<wire x1="3.175" y1="-5.08" x2="3.175" y2="5.08" width="0.4064" layer="21"/>
-<wire x1="3.175" y1="5.08" x2="-3.175" y2="5.08" width="0.4064" layer="21"/>
-<text x="-2.54" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-6.985" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<pad name="1" x="-1.42875" y="2.54" drill="0.9" diameter="1.6764" shape="square"/>
-<pad name="2" x="1.42875" y="2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
-<pad name="3" x="-1.11125" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
-<pad name="4" x="1.11125" y="0" drill="0.9" diameter="1.6764" shape="octagon"/>
-<pad name="5" x="-1.42875" y="-2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
-<pad name="6" x="1.42875" y="-2.54" drill="0.9" diameter="1.6764" shape="octagon"/>
-</package>
 <package name="STL21-03G-1.27">
 <description>&lt;p&gt;
 &lt;h3&gt;STL21-03G - Pin Header 1,27 mm Series 176 - 2X3&lt;/h3&gt;&lt;ul&gt;
@@ -5462,6 +5440,55 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="-1.984375" y1="-3.175" x2="-1.984375" y2="-4.1275" width="0.4064" layer="21"/>
 <wire x1="-1.984375" y1="-4.1275" x2="2.06375" y2="-4.1275" width="0.4064" layer="21"/>
 <wire x1="2.06375" y1="-4.1275" x2="2.06375" y2="-3.175" width="0.4064" layer="21"/>
+</package>
+<package name="PH3M03-2-1.27">
+<description>&lt;p&gt;
+&lt;h3&gt;PH3M3 - Pin Header 1,27 mm&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C140/SL2XxxGSMD127.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;derived from 10P variant&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="1" x="-1.27" y="-1.905" dx="2.794" dy="0.762" layer="1" rot="R90"/>
+<text x="-2.54" y="-3.175" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-3.175" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-1.905" y1="1.74625" x2="-1.905" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="0" x2="-1.905" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-1.74625" x2="1.905" y2="0" width="0.127" layer="21"/>
+<wire x1="1.905" y1="0" x2="1.905" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.74625" x2="-1.905" y2="0" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="0" x2="-1.905" y2="-1.74625" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="-1.74625" x2="-0.635" y2="-1.74625" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="-1.74625" x2="0.635" y2="-1.74625" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-1.74625" x2="1.905" y2="-1.74625" width="0.127" layer="51"/>
+<wire x1="1.905" y1="-1.74625" x2="1.905" y2="0" width="0.127" layer="51"/>
+<wire x1="1.905" y1="0" x2="1.905" y2="1.74625" width="0.127" layer="51"/>
+<wire x1="1.905" y1="1.74625" x2="0.635" y2="1.74625" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.74625" x2="-0.635" y2="1.74625" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.74625" x2="-1.905" y2="1.74625" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="1.74625" x2="-0.635" y2="-1.74625" width="0.127" layer="51"/>
+<wire x1="0.635" y1="1.74625" x2="0.635" y2="-1.74625" width="0.127" layer="51"/>
+<smd name="2" x="-1.27" y="1.905" dx="2.794" dy="0.762" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-1.905" dx="2.794" dy="0.762" layer="1" rot="R90"/>
+<smd name="4" x="0" y="1.905" dx="2.794" dy="0.762" layer="1" rot="R90"/>
+<smd name="5" x="1.27" y="-1.905" dx="2.794" dy="0.762" layer="1" rot="R90"/>
+<smd name="6" x="1.27" y="1.905" dx="2.794" dy="0.762" layer="1" rot="R90"/>
+<wire x1="-1.905" y1="1.74625" x2="-1.825625" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-1.74625" x2="-1.825625" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="-0.714375" y1="-1.74625" x2="-0.635" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-1.74625" x2="-0.555625" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="0.555625" y1="-1.74625" x2="0.635" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-1.74625" x2="0.714375" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-1.74625" x2="1.825625" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="1.905" y1="1.74625" x2="1.825625" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="0.555625" y1="1.74625" x2="0.635" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.74625" x2="0.714375" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="-0.714375" y1="1.74625" x2="-0.635" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.74625" x2="-0.555625" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="1.74625" x2="-0.635" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="0.635" y1="1.74625" x2="0.635" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.127" layer="51"/>
+<rectangle x1="-1.905" y1="-0.396875" x2="-1.349375" y2="0" layer="21"/>
+<rectangle x1="-1.905" y1="-0.396875" x2="-1.349375" y2="0" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -6724,26 +6751,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="G$6" symbol="PHDR" x="2.54" y="-2.54"/>
 </gates>
 <devices>
-<device name="-P2.54-LCK" package="PH2X3P254I">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$2" pin="P$1" pad="2"/>
-<connect gate="G$3" pin="P$1" pad="3"/>
-<connect gate="G$4" pin="P$1" pad="4"/>
-<connect gate="G$5" pin="P$1" pad="5"/>
-<connect gate="G$6" pin="P$1" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="#MULTIPLIER" value="" constant="no"/>
-<attribute name="DIST#CONRAD#" value="#BOMLESS#" constant="no"/>
-<attribute name="DIST#MOUSER#" value="#BOMLESS#" constant="no"/>
-<attribute name="DIST#REICHELT#" value="#BOMLESS#" constant="no"/>
-<attribute name="VALUE" value="PH2X3LOCK"/>
-</technology>
-</technologies>
-</device>
-<device name="-P1.27" package="STL21-03G-1.27">
+<device name="-THT1.27" package="STL21-03G-1.27">
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$2" pin="P$1" pad="2"/>
@@ -6756,9 +6764,25 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="">
 <attribute name="#MULTIPLIER_REICHELT" value="3/10" constant="no"/>
 <attribute name="#VENDOR" value="MPE GARRY,176-2-006-0-F-XS0" constant="no"/>
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="SL 2X10G 1,27 " constant="no"/>
+<attribute name="VALUE" value="PH2X3"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD1.27" package="PH3M03-2-1.27">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+<connect gate="G$6" pin="P$1" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="#MULTIPLIER_REICHELT" value="3/10" constant="no"/>
+<attribute name="#VENDOR" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SL 2X10G SMD1,27" constant="no"/>
 <attribute name="VALUE" value="PH2X3"/>
 </technology>
 </technologies>
