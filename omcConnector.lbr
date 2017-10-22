@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -5490,6 +5490,35 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <rectangle x1="-1.905" y1="-0.396875" x2="-1.349375" y2="0" layer="21"/>
 <rectangle x1="-1.905" y1="-0.396875" x2="-1.349375" y2="0" layer="51"/>
 </package>
+<package name="BOXHD-10-2.54-S">
+<description>&lt;p&gt;
+&lt;h3&gt;Box Header 2X05 - Straight&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Technology: THT&lt;/li&gt;
+  &lt;li&gt;Pitch: 2.54mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/BH1S-XX-L.pdf"&gt;Mechanical Reference (Reichelt)&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<wire x1="-3.175" y1="7.62" x2="-3.175" y2="0" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-3.175" y2="-5.08" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="-5.08" x2="-3.175" y2="-12.7" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="-12.7" x2="3.175" y2="-12.7" width="0.4064" layer="21"/>
+<wire x1="3.175" y1="-12.7" x2="3.175" y2="7.62" width="0.4064" layer="21"/>
+<wire x1="3.175" y1="7.62" x2="-3.175" y2="7.62" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="0" x2="-4.064" y2="0" width="0.4064" layer="21"/>
+<wire x1="-4.064" y1="0" x2="-4.064" y2="-5.08" width="0.4064" layer="21"/>
+<wire x1="-4.064" y1="-5.08" x2="-3.175" y2="-5.08" width="0.4064" layer="21"/>
+<text x="-2.54" y="8.255" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-14.605" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<pad name="1" x="-1.27" y="2.54" drill="1" shape="square"/>
+<pad name="2" x="1.27" y="2.54" drill="1" shape="octagon"/>
+<pad name="3" x="-1.27" y="0" drill="1" shape="octagon"/>
+<pad name="4" x="1.27" y="0" drill="1" shape="octagon"/>
+<pad name="5" x="-1.27" y="-2.54" drill="1" shape="octagon"/>
+<pad name="6" x="1.27" y="-2.54" drill="1" shape="octagon"/>
+<pad name="7" x="-1.27" y="-5.08" drill="1" shape="octagon"/>
+<pad name="8" x="1.27" y="-5.08" drill="1" shape="octagon"/>
+<pad name="9" x="-1.27" y="-7.62" drill="1" shape="octagon"/>
+<pad name="10" x="1.27" y="-7.62" drill="1" shape="octagon"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SOLDPINVAL">
@@ -5817,9 +5846,17 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <description>&lt;p&gt;
 &lt;h2&gt;Box Header 2X3&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Terminals: 6&lt;/li&gt;
-  &lt;li&gt;Rows: 2&lt;/li&gt;
-
+  &lt;li&gt;Mechanical&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Terminals: 6&lt;/li&gt;
+    &lt;li&gt;Rows: 2&lt;/li&gt;
+    &lt;li&gt;Operating Temperature: -55°C...+105°C&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Electrical&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;I&lt;sub&gt;max&lt;/sub&gt;: 3A&lt;/li&gt;
+    &lt;li&gt;R&lt;sub&gt;Insulation,min&lt;/sub&gt;: 1000MΩ&lt;/li&gt;
+    &lt;li&gt;R&lt;sub&gt;contact,max&lt;/sub&gt;: 20mΩ&lt;/li&gt;
+    &lt;li&gt;VAC: 550V&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -5842,10 +5879,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="-S">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="WSL 6G" constant="no"/>
-<attribute name="VALUE" value="Box Header"/>
+<attribute name="VALUE" value="2X3"/>
 <attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 </technologies>
@@ -5863,7 +5898,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="-S">
 <attribute name="ALTDIST#REICHELT#" value="SL 2X10G 1,27 " constant="no"/>
 <attribute name="DIST#REICHELT#" value="" constant="no"/>
-<attribute name="VALUE" value="Box Header"/>
+<attribute name="VALUE" value="2X3"/>
 </technology>
 </technologies>
 </device>
@@ -6914,6 +6949,59 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technology name="">
 <attribute name="DIST#REICHELT#" value="WSL 2X10SMD 2,00" constant="no"/>
 <attribute name="VALUE" value="Box Header" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOXHD-10" prefix="X" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;Box Header 2X5&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mechanical&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Terminals: 10&lt;/li&gt;
+    &lt;li&gt;Rows: 2&lt;/li&gt;
+    &lt;li&gt;Operating Temperature: -55°C...+105°C&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Electrical&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;I&lt;sub&gt;max&lt;/sub&gt;: 3A&lt;/li&gt;
+    &lt;li&gt;R&lt;sub&gt;Insulation,min&lt;/sub&gt;: 1000MΩ&lt;/li&gt;
+    &lt;li&gt;R&lt;sub&gt;contact,max&lt;/sub&gt;: 20mΩ&lt;/li&gt;
+    &lt;li&gt;VAC: 550V&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PHDL" x="-2.54" y="5.08"/>
+<gate name="G$2" symbol="PHDR" x="2.54" y="5.08"/>
+<gate name="G$3" symbol="PHDL" x="-2.54" y="2.54"/>
+<gate name="G$4" symbol="PHDR" x="2.54" y="2.54"/>
+<gate name="G$5" symbol="PHDL" x="-2.54" y="0"/>
+<gate name="G$6" symbol="PHDR" x="2.54" y="0"/>
+<gate name="G$7" symbol="PHDL" x="-2.54" y="-2.54"/>
+<gate name="G$8" symbol="PHDR" x="2.54" y="-2.54"/>
+<gate name="G$9" symbol="PHDL" x="-2.54" y="-5.08"/>
+<gate name="G$10" symbol="PHDR" x="2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="-2.54" package="BOXHD-10-2.54-S">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$10" pin="P$1" pad="10"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+<connect gate="G$6" pin="P$1" pad="6"/>
+<connect gate="G$7" pin="P$1" pad="7"/>
+<connect gate="G$8" pin="P$1" pad="8"/>
+<connect gate="G$9" pin="P$1" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#REICHELT#" value="WSL 10G" constant="no"/>
+<attribute name="VALUE" value="2X5"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
