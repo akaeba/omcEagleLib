@@ -898,14 +898,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;li&gt;&lt;a href="http://www.vishay.com/docs/85662/bat46.pdf"&gt;Vishay Datasheet&lt;/a&gt;&lt;/il&gt;
     &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A400/BAT46_VIS.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
   &lt;/ul&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: avialable
-   &lt;li&gt; Conrad: avialable
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
@@ -918,11 +910,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="BAT 46W" constant="no"/>
+<attribute name="DIST#REICHELT#" value="BAT 46W" constant="no"/>
 <attribute name="VALUE" value="BAT46" constant="no"/>
-<attribute name="VENDOR#" value="DIODES_BAT46W-7-F" constant="no"/>
+<attribute name="VENDOR#" value="DIODES,BAT46W-7-F" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -946,11 +936,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CONRAD#" value="" constant="no"/>
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="REICHELT#" value="BAT 46 SMD" constant="no"/>
+<attribute name="DIST#REICHELT#" value="BAT 46 SMD" constant="no"/>
 <attribute name="VALUE" value="BAT46" constant="no"/>
-<attribute name="VENDOR#" value="STM_TMMBAT46FILM" constant="no"/>
+<attribute name="VENDOR#" value="STM,TMMBAT46FILM" constant="no"/>
 </technology>
 </technologies>
 </device>
