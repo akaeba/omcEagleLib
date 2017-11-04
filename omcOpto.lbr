@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1558,10 +1558,35 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
 <technologies>
+<technology name="-BLUE">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-LED 0805 BL" constant="no"/>
+<attribute name="VALUE" value="Blue"/>
+<attribute name="VENDOR#" value="Knighbright,KP-2012QBC-D" constant="no"/>
+</technology>
+<technology name="-GREEN">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-LED 0805 GN" constant="no"/>
+<attribute name="VALUE" value="Green"/>
+<attribute name="VENDOR#" value="Knighbright,KP-2012SGD" constant="no"/>
+</technology>
 <technology name="-ORANGE">
 <attribute name="DIST#CONRAD#" value="1050393 - 62" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
 <attribute name="VALUE" value="Orange"/>
 <attribute name="VENDOR#" value="Knighbright,KP-2012SECK" constant="no"/>
+</technology>
+<technology name="-RED">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-LED 0805 RT" constant="no"/>
+<attribute name="VALUE" value="Red"/>
+<attribute name="VENDOR#" value="Knighbright,KP-2012SRD" constant="no"/>
+</technology>
+<technology name="-YELLOW">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-LED 0805 GE" constant="no"/>
+<attribute name="VALUE" value="Yellow"/>
+<attribute name="VENDOR#" value="Knighbright,KP-2012YD" constant="no"/>
 </technology>
 </technologies>
 </device>
