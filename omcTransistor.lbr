@@ -997,9 +997,9 @@ Ground &amp; Freewheeling Connector</description>
 <connect gate="G$1" pin="OUT" pad="16"/>
 <connect gate="G$2" pin="IN" pad="2"/>
 <connect gate="G$2" pin="OUT" pad="15"/>
-<connect gate="G$3" pin="IN" pad="3"/>
+<connect gate="G$3" pin="IN" pad="4"/>
 <connect gate="G$3" pin="OUT" pad="13"/>
-<connect gate="G$4" pin="IN" pad="4"/>
+<connect gate="G$4" pin="IN" pad="3"/>
 <connect gate="G$4" pin="OUT" pad="14"/>
 <connect gate="G$5" pin="IN" pad="5"/>
 <connect gate="G$5" pin="OUT" pad="12"/>
