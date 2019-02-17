@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -158,6 +158,22 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="2.54" y1="-4.572" x2="5.08" y2="-4.572" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="-4.572" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="555">
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="TRE" x="-10.16" y="7.62" length="short" direction="in"/>
+<pin name="OUT" x="10.16" y="0" length="short" direction="out" rot="R180"/>
+<pin name="DIS" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="!TRI" x="-10.16" y="-7.62" length="short" direction="in"/>
+<pin name="VCC+" x="10.16" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="10.16" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="CON" x="10.16" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="!RES" x="10.16" y="5.08" length="short" direction="in" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM334" prefix="REF" uservalue="yes">
@@ -168,8 +184,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;li&gt;0.02%/V Current Regulation &lt;/li&gt;
   &lt;li&gt;Programmable From 1μA to 10mA&lt;/li&gt;
   &lt;li&gt;True 2-Terminal Operation&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm334.pdf"&gt;Texas Instruments Datasheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/DS_LM_334.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Datasheet&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm334.pdf"&gt;Texas Instruments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A200/DS_LM_334.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -190,6 +208,50 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="LM 334 M" constant="no"/>
 <attribute name="VALUE" value="LM334"/>
 <attribute name="VENDOR#" value="Texas Instruments, LM334M/NOPB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMC555" prefix="IC" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;LMC555 - CMOS Timer&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Industry's Fastest Astable Frequency of 3 MHz&lt;/li&gt;
+  &lt;li&gt;Less Than 1 mW Typical Power Dissipation at 5 V Supply&lt;/li&gt;
+  &lt;li&gt;1.5 V Supply Operating Voltage Ensured&lt;/li&gt;
+  &lt;li&gt;Output Fully Compatible With TTL and CMOS Logic at 5 V Supply&lt;/li&gt;
+  &lt;li&gt;Tested to −10 mA, 50 mA Output Current Levels&lt;/li&gt;
+  &lt;li&gt;Reduced Supply Current Spikes During Output Transitions&lt;/li&gt;
+  &lt;li&gt;Extremely Low Reset, Trigger, and Threshold Currents&lt;/li&gt;
+  &lt;li&gt;Excellent Temperature Stability&lt;/li&gt;
+  &lt;li&gt;Pin-for-Pin Compatible With 555 Series of Timers&lt;/li&gt;
+  &lt;li&gt;Datasheet&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lmc555.pdf"&gt;Texas Instruments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/A200/LMC555-TI.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="555" x="0" y="0"/>
+</gates>
+<devices>
+<device name="CM" package="SOIC08">
+<connects>
+<connect gate="G$1" pin="!RES" pad="4"/>
+<connect gate="G$1" pin="!TRI" pad="2"/>
+<connect gate="G$1" pin="CON" pad="5"/>
+<connect gate="G$1" pin="DIS" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="TRE" pad="6"/>
+<connect gate="G$1" pin="VCC+" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#REICHELT#" value="LMC 555 CM" constant="no"/>
+<attribute name="VALUE" value="LMC555" constant="no"/>
+<attribute name="VENDOR#" value="TI, LMC555CM " constant="no"/>
 </technology>
 </technologies>
 </device>
