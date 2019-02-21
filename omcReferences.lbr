@@ -257,6 +257,54 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </device>
 </devices>
 </deviceset>
+<deviceset name="TLC555" prefix="IC" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;TLC555 - LinCMOS Timer&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Very Low Power Consumption&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;1 mW Typ at VDD = 5 V&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Capable of Operation in Astable Mode&lt;/li&gt;
+  &lt;li&gt;CMOS Output Capable of Swinging Rail to Rail&lt;/li&gt;
+  &lt;li&gt;High Output-Current Capability&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Sink 100 mA Typ&lt;/li&gt;
+    &lt;li&gt;Source 10 mA Typ&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Output Fully Compatible With CMOS, TTL, and MOS&lt;/li&gt;
+  &lt;li&gt;Low Supply Current Reduces Spikes During Output Transitions&lt;/li&gt;
+  &lt;li&gt;Single-Supply Operation From 2 V to 15 V&lt;/li&gt;
+  &lt;li&gt;Functionally Interchangeable With the NE555; Has Same Pinout&lt;/li&gt;
+  &lt;li&gt;Datasheet&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/tlc555.pdf"&gt;Texas Instruments&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/A200/TLC555-TI.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="555" x="0" y="0"/>
+</gates>
+<devices>
+<device name="ID" package="SOIC08">
+<connects>
+<connect gate="G$1" pin="!RES" pad="4"/>
+<connect gate="G$1" pin="!TRI" pad="2"/>
+<connect gate="G$1" pin="CON" pad="5"/>
+<connect gate="G$1" pin="DIS" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="TRE" pad="6"/>
+<connect gate="G$1" pin="VCC+" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#REICHELT#" value="TLC 555 ID" constant="no"/>
+<attribute name="VALUE" value="TLC555" constant="no"/>
+<attribute name="VENDOR#" value="TI,TLC555ID" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
