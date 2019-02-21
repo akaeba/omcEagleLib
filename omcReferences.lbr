@@ -167,12 +167,12 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="TRE" x="-10.16" y="-5.08" length="short" direction="in"/>
 <pin name="OUT" x="10.16" y="0" length="short" direction="out" rot="R180"/>
-<pin name="DIS" x="-10.16" y="7.62" length="short" direction="in"/>
+<pin name="DIS" x="-10.16" y="5.08" length="short" direction="in"/>
 <pin name="!TRI" x="-10.16" y="-7.62" length="short" direction="in"/>
 <pin name="VCC+" x="10.16" y="7.62" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="10.16" y="-7.62" length="short" direction="pwr" rot="R180"/>
 <pin name="CON" x="10.16" y="-5.08" length="short" direction="in" rot="R180"/>
-<pin name="!RES" x="10.16" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="!RES" x="-10.16" y="7.62" length="short" direction="in"/>
 </symbol>
 </symbols>
 <devicesets>
