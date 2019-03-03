@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -117,7 +117,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;/ul&gt;
   &lt;/ul&gt;
 &lt;/ul&gt;</description>
-<text x="31.7246" y="0.0508" size="1.778" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 <text x="34.29" y="0" size="1.778" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
 <wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="21"/>
 <wire x1="0" y1="0" x2="29.21" y2="0" width="0.254" layer="21"/>
@@ -168,6 +167,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="1.11125" y1="5.23875" x2="3.33375" y2="7.46125" width="0.254" layer="21"/>
 <wire x1="2.2225" y1="5.23875" x2="2.2225" y2="4.7625" width="0.254" layer="21"/>
 <wire x1="2.2225" y1="7.9375" x2="2.2225" y2="7.46125" width="0.254" layer="21"/>
+<text x="31.75" y="0" size="1.778" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 </package>
 <package name="THT_7M62M_15M24M_6M35M">
 <description>&lt;h3&gt;THT Relay&lt;/h3&gt;&lt;ul&gt;
@@ -205,7 +205,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pad name="A1" x="1.27" y="8.89" drill="1" diameter="2.1844" shape="octagon"/>
 <pad name="S2" x="16.51" y="1.27" drill="1.2" diameter="2.1844" shape="octagon"/>
 <pad name="S1" x="16.51" y="7.62" drill="1.2" diameter="2.1844" shape="octagon"/>
-<text x="20.2946" y="0.0508" size="1.778" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 <text x="23.368" y="0" size="1.778" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
 <wire x1="0" y1="0" x2="0" y2="10.16" width="0.254" layer="51"/>
 <wire x1="0" y1="10.16" x2="17.78" y2="10.16" width="0.254" layer="51"/>
@@ -223,6 +222,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="17.78" y1="0" x2="17.78" y2="0.635" width="0.254" layer="21"/>
 <wire x1="15.875" y1="0" x2="1.905" y2="0" width="0.254" layer="21"/>
 <wire x1="0.635" y1="3.81" x2="1.905" y2="6.0325" width="0.254" layer="21"/>
+<text x="20.32" y="0" size="1.778" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 </package>
 <package name="THT_7M62M_7M62M_5M08M">
 <description>&lt;h3&gt;THT Relay&lt;/h3&gt;&lt;ul&gt;
@@ -263,7 +263,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pad name="22" x="13.97" y="1.27" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
 <pad name="11" x="8.89" y="8.89" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
 <pad name="14" x="19.05" y="8.89" drill="0.8" diameter="1.6764" shape="octagon" rot="R90"/>
-<text x="22.8346" y="0.0508" size="1.778" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
 <text x="25.908" y="0" size="1.778" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
 <wire x1="0" y1="0" x2="0" y2="10.16" width="0.254" layer="21"/>
 <wire x1="0" y1="10.16" x2="20.32" y2="10.16" width="0.254" layer="21"/>
@@ -277,6 +276,71 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="1.905" y1="3.81" x2="1.905" y2="6.35" width="0.254" layer="21"/>
 <wire x1="1.905" y1="6.35" x2="1.27" y2="6.35" width="0.254" layer="21"/>
 <wire x1="0.635" y1="3.81" x2="1.905" y2="6.35" width="0.254" layer="21"/>
+<text x="22.86" y="0" size="1.778" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+</package>
+<package name="THT_5M08M_5M08M_2M54M">
+<description>&lt;h3&gt;THT Relay&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Mechanical:&lt;/li&gt;&lt;ul&gt;
+  &lt;li&gt;row switch-over contact-to-contact distance: 2.54mm&lt;/li&gt;
+  &lt;li&gt;switch-over contact-to-coil distance: 5.08mm&lt;/li&gt;
+  &lt;li&gt;row to row distance: 5.08mm&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Electrical:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Terminal: 8 &lt;/li&gt;
+    &lt;li&gt;Change-over contacts: 2&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Used by:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Fujitsu:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;NV&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;</description>
+<pad name="1" x="0" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="12" x="0" y="5.08" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="5.08" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="4" x="7.62" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="5" x="10.16" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="10" x="5.08" y="5.08" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="9" x="7.62" y="5.08" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="8" x="10.16" y="5.08" drill="0.8" diameter="1.6764" shape="octagon"/>
+<text x="19.05" y="-1.27" size="1.778" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="6.35" width="0.254" layer="21"/>
+<wire x1="-1.27" y1="6.35" x2="13.97" y2="6.35" width="0.254" layer="21"/>
+<wire x1="13.97" y1="6.35" x2="13.97" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="13.97" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="21"/>
+<text x="16.51" y="-1.27" size="1.778" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="1.5875" width="0.254" layer="21"/>
+<wire x1="5.08" y1="1.5875" x2="5.08" y2="1.74625" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.4925" x2="5.08" y2="3.33375" width="0.254" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="1.74625" width="0.254" layer="21"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="3.33375" width="0.254" layer="21"/>
+<wire x1="5.08" y1="1.5875" x2="5.3975" y2="1.5875" width="0.254" layer="21"/>
+<wire x1="5.3975" y1="1.5875" x2="5.08" y2="1.905" width="0.254" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="4.7625" y2="1.5875" width="0.254" layer="21"/>
+<wire x1="4.7625" y1="1.5875" x2="5.08" y2="1.5875" width="0.254" layer="21"/>
+<wire x1="10.16" y1="1.27" x2="10.16" y2="1.5875" width="0.254" layer="21"/>
+<wire x1="10.16" y1="1.5875" x2="10.16" y2="1.74625" width="0.254" layer="21"/>
+<wire x1="10.16" y1="1.5875" x2="10.4775" y2="1.5875" width="0.254" layer="21"/>
+<wire x1="10.4775" y1="1.5875" x2="10.16" y2="1.905" width="0.254" layer="21"/>
+<wire x1="10.16" y1="1.905" x2="9.8425" y2="1.5875" width="0.254" layer="21"/>
+<wire x1="9.8425" y1="1.5875" x2="10.16" y2="1.5875" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.4925" x2="5.3975" y2="3.4925" width="0.254" layer="21"/>
+<wire x1="5.3975" y1="3.4925" x2="5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.175" x2="4.7625" y2="3.4925" width="0.254" layer="21"/>
+<wire x1="4.7625" y1="3.4925" x2="5.08" y2="3.4925" width="0.254" layer="21"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="3.4925" width="0.254" layer="21"/>
+<wire x1="10.16" y1="3.4925" x2="10.16" y2="3.33375" width="0.254" layer="21"/>
+<wire x1="10.16" y1="3.4925" x2="10.4775" y2="3.4925" width="0.254" layer="21"/>
+<wire x1="10.4775" y1="3.4925" x2="10.16" y2="3.175" width="0.254" layer="21"/>
+<wire x1="10.16" y1="3.175" x2="9.8425" y2="3.4925" width="0.254" layer="21"/>
+<wire x1="9.8425" y1="3.4925" x2="10.16" y2="3.4925" width="0.254" layer="21"/>
+<circle x="7.62" y="3.33375" radius="0.15875" width="0.254" layer="21"/>
+<circle x="7.62" y="1.74625" radius="0.15875" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.175" x2="7.62" y2="3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="7.62" y2="1.905" width="0.254" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="10.16" y2="2.38125" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.4925" x2="5.08" y2="3.81" width="0.254" layer="21"/>
+<wire x1="7.62" y1="3.175" x2="10.16" y2="2.69875" width="0.254" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -520,9 +584,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </device>
 </devices>
 </deviceset>
-<deviceset name="NV" prefix="K" uservalue="yes">
+<deviceset name="NA" prefix="K" uservalue="yes">
 <description>&lt;p&gt;
-&lt;h2&gt;Fujitsu NV - Minature Relay - 2 Poles - 1 to 2A&lt;/h2&gt;&lt;p&gt;
+&lt;h2&gt;Fujitsu NA - Minature Relay - 2 Poles - 1 to 2A&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt;2-pole&lt;/li&gt;
   &lt;li&gt;max. Voltage: 125VAC / 30VDC&lt;/li&gt;
@@ -542,11 +606,33 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <gate name="G$3" symbol="U" x="10.16" y="-7.62"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="THT_5M08M_5M08M_2M54M">
+<connects>
+<connect gate="G$1" pin="1" pad="12"/>
+<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="G$2" pin="O" pad="10"/>
+<connect gate="G$2" pin="P" pad="9"/>
+<connect gate="G$2" pin="S" pad="8"/>
+<connect gate="G$3" pin="O" pad="3"/>
+<connect gate="G$3" pin="P" pad="4"/>
+<connect gate="G$3" pin="S" pad="5"/>
+</connects>
 <technologies>
-<technology name="-12VDC"/>
-<technology name="-24VDC"/>
-<technology name="-5VDC"/>
+<technology name="-12VDC">
+<attribute name="DIST#REICHELT#" value="NA 12W K" constant="no"/>
+<attribute name="VALUE" value="NA-12V" constant="no"/>
+<attribute name="VENDOR#" value="Fujitsu,NAA-12W-K" constant="no"/>
+</technology>
+<technology name="-24VDC">
+<attribute name="DIST#REICHELT#" value="NA 24W K" constant="no"/>
+<attribute name="VALUE" value="NA-24V" constant="no"/>
+<attribute name="VENDOR#" value="Fujitsu,NAA-24W-K" constant="no"/>
+</technology>
+<technology name="-5VDC">
+<attribute name="DIST#REICHELT#" value="NA 05W K" constant="no"/>
+<attribute name="VALUE" value="NA-5V" constant="no"/>
+<attribute name="VENDOR#" value="Fujitsu,NAA-05W-K" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
