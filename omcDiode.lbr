@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1001,15 +1001,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;td class="tg-zzfq"&gt;1000V&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;/p&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: avialable
-   &lt;li&gt; Conrad: avialable
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
-&lt;/ul&gt;</description>
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
@@ -1311,16 +1303,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;td class="tg-chud"&gt;&lt;br&gt;mA&lt;br&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;/p&gt;
-
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: avialable
-   &lt;li&gt; Conrad: ?
-   &lt;li&gt; Digi-Key: ?
-   &lt;/il&gt;
-&lt;/ul&gt;</description>
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
@@ -1474,15 +1457,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;td class="tg-gozu"&gt;°C&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-&lt;/p&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: avialable
-   &lt;li&gt; Conrad: avialable
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
-&lt;/ul&gt;</description>
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
@@ -2135,6 +2110,49 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="SMD ZF 68" constant="no"/>
 <attribute name="VALUE" value="68V"/>
 <attribute name="VENDOR#" value="VISHAY,TZMC68" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PMEGXX10" prefix="D" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;PMEGXX10 - 1A very low V&lt;sub&gt;F&lt;/sub&gt; MEGA Schottky barrier rectifier - NXP&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Schottky&lt;/li&gt;
+  &lt;li&gt;Forward current: 1 A&lt;/li&gt;
+  &lt;li&gt;Reverse voltages: 20V, 30V, 40V&lt;/li&gt;
+  &lt;li&gt;Very low forward voltage&lt;/li&gt;
+  &lt;li&gt;Datasheet:&lt;/il&gt;&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://assets.nexperia.com/documents/data-sheet/PMEGXX10BEA_PMEGXX10BEV.pdf"&gt;Nexperia&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/A400/PMEG4010BEA_ENG_TDS.pdf"&gt;Reichelt&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BEA" package="SOD323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="-20V">
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="PMEG2010" constant="no"/>
+<attribute name="VENDOR#" value="NXP,PMEG2010BEA" constant="no"/>
+</technology>
+<technology name="-30V">
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="PMEG3010" constant="no"/>
+<attribute name="VENDOR#" value="NXP,PMEG3010BEA" constant="no"/>
+</technology>
+<technology name="-40V">
+<attribute name="DIST#REICHELT#" value="PMEG 4010BEA NXP" constant="no"/>
+<attribute name="VALUE" value="PMEG4010" constant="no"/>
+<attribute name="VENDOR#" value="NXP,PMEG3010BEA" constant="no"/>
 </technology>
 </technologies>
 </device>
