@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -46,6 +46,8 @@
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -55,6 +57,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Parts" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
@@ -125,6 +128,37 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="3.175" y1="-3.81" x2="3.175" y2="3.81" width="0.127" layer="39"/>
 <wire x1="3.175" y1="3.81" x2="-3.175" y2="3.81" width="0.127" layer="39"/>
 </package>
+<package name="SOT23">
+<description>&lt;p&gt;
+&lt;h3&gt;SOT23 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SOT-23&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (SOD123, P171)&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="1" x="-0.9525" y="-0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<smd name="2" x="0.9525" y="-0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<smd name="3" x="0" y="0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-1.5875" y1="0.635" x2="-1.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.635" x2="1.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-0.635" x2="1.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="0.635" x2="-1.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="-0.47625" y1="0.635" x2="-1.5875" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="0.635" x2="-1.5875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.47625" y1="0.635" x2="1.5875" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.635" x2="1.5875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="-0.635" x2="0.47625" y2="-0.635" width="0.127" layer="21"/>
+<rectangle x1="-1.2065" y1="-1.27" x2="-0.7239" y2="-0.635" layer="51"/>
+<rectangle x1="0.6985" y1="-1.27" x2="1.1811" y2="-0.635" layer="51"/>
+<rectangle x1="-0.254" y1="0.635" x2="0.2286" y2="1.27" layer="51"/>
+<wire x1="-1.5875" y1="-0.635" x2="-1.42875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="-0.635" x2="1.42875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-1.905" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.905" x2="-1.905" y2="1.905" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LM334">
@@ -173,6 +207,19 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <pin name="GND" x="10.16" y="-7.62" length="short" direction="pwr" rot="R180"/>
 <pin name="CON" x="10.16" y="-5.08" length="short" direction="in" rot="R180"/>
 <pin name="!RES" x="-10.16" y="7.62" length="short" direction="in"/>
+</symbol>
+<symbol name="DS">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -300,6 +347,56 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="TLC 555 ID" constant="no"/>
 <attribute name="VALUE" value="TLC555" constant="no"/>
 <attribute name="VENDOR#" value="TI,TLC555ID" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM4040" prefix="REF" uservalue="yes">
+<description>&lt;h2&gt;LM4040 - Precision Micropower Shunt Voltage Reference&lt;/h2&gt;&lt;p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Features:&lt;/b&gt;&lt;ul&gt;
+  &lt;li&gt;2.5V/SOT-23 AEC Q-100 Grades 1 and 3 available&lt;/li&gt;
+  &lt;li&gt;Small packages: SOT-23, TO-92 and SC70&lt;/li&gt;
+  &lt;li&gt;No output capacitor required&lt;/li&gt;
+  &lt;li&gt;Tolerates capacitive loads&lt;/li&gt;
+  &lt;li&gt;Fixed reverse breakdown voltages of 2.048V, 2.500V, 3.000V, 4.096V, 5.000V, 8.192V, and 10.000V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;Key Specifications:&lt;/b&gt;&lt;ul&gt;
+  &lt;li&gt;Output voltage tolerance: ±0.1% (max)&lt;/li&gt;
+  &lt;li&gt;Low output noise (10Hz to 10kHz): 35 μV&lt;sub&gt;rms&lt;/sub&gt;(typ)&lt;/li&gt;
+  &lt;li&gt;Wide operating current range: 60 μA to 15 mA&lt;/li&gt;
+  &lt;li&gt;Industrial temperature range: −40°C to +85°C&lt;/li&gt;
+  &lt;li&gt;Low temperature coefficient: 100 ppm/°C (max)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;b&gt;Datasheets:&lt;/b&gt;&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"&gt;Texas Instruments&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/A200/LM4040-TI.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MF03A" package="SOT23">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="-4.1V">
+<attribute name="DIST#REICHELT#" value="LM 4040 BIM3-4.1" constant="no"/>
+<attribute name="VALUE" value="LM4040-4.1V" constant="no"/>
+<attribute name="VENDOR#" value="TI, LM4040BIM3-4.1/NOPB" constant="no"/>
 </technology>
 </technologies>
 </device>
