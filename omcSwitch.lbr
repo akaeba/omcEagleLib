@@ -239,9 +239,13 @@ Contents Switches.
 <connect gate="G$1" pin="P$4" pad="4"/>
 </connects>
 <technologies>
-<technology name="-5MM">
+<technology name="-4.3MM">
+<attribute name="DIST#REICHELT#" value="TASTER 9314" constant="no"/>
+<attribute name="VALUE" value="JTP1138/4.3" constant="no"/>
+</technology>
+<technology name="-5.0MM">
 <attribute name="DIST#REICHELT#" value="TASTER 9315" constant="no"/>
-<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VALUE" value="JTP1138/5" constant="no"/>
 </technology>
 </technologies>
 </device>
