@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1093,6 +1093,11 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="X7R-G1206 2,2/50" constant="no"/>
 <attribute name="VALUE" value="2µ2/50V"/>
 <attribute name="VENDOR#" value="MURATA,GCM31CR71H225KA55" constant="no"/>
+</technology>
+<technology name="-220000P">
+<attribute name="DIST#REICHELT#" value="KEM X7R1206 220N" constant="no"/>
+<attribute name="VALUE" value="220n/50V"/>
+<attribute name="VENDOR#" value="KEMET,1206C225K5R" constant="no"/>
 </technology>
 <technology name="-22000P">
 <attribute name="DIST#REICHELT#" value="X7R-G1206 22N" constant="no"/>
