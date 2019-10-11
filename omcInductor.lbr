@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -377,6 +377,58 @@ H: 9mm</description>
 <wire x1="-3.65125" y1="-3.65125" x2="3.65125" y2="-3.65125" width="0.3048" layer="51"/>
 <wire x1="3.65125" y1="-3.65125" x2="3.65125" y2="3.65125" width="0.3048" layer="51"/>
 <wire x1="3.65125" y1="3.65125" x2="-3.65125" y2="3.65125" width="0.3048" layer="51"/>
+</package>
+<package name="PIS472X">
+<description>&lt;h3&gt;PIS282X Series - SMD Power Inductors (Also Shielded)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;2820 Series&lt;/li&gt;
+&lt;li&gt;2828 Series&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="0" y="4.92125" dx="5.4" dy="2.9" layer="1"/>
+<smd name="2" x="0" y="-4.92125" dx="5.4" dy="2.9" layer="1"/>
+<wire x1="-6.19125" y1="6.19125" x2="-6.19125" y2="-6.19125" width="0.3048" layer="21"/>
+<wire x1="6.19125" y1="-6.19125" x2="6.19125" y2="6.19125" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="6.19125" x2="6.19125" y2="6.19125" width="0.3048" layer="21"/>
+<wire x1="-6.19125" y1="6.19125" x2="-3.175" y2="6.19125" width="0.3048" layer="21"/>
+<wire x1="-6.19125" y1="-6.19125" x2="-3.175" y2="-6.19125" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="-6.19125" x2="6.19125" y2="-6.19125" width="0.3048" layer="21"/>
+<wire x1="-6.6675" y1="6.82625" x2="-6.6675" y2="-6.82625" width="0.127" layer="39"/>
+<wire x1="-6.6675" y1="-6.82625" x2="6.6675" y2="-6.82625" width="0.127" layer="39"/>
+<wire x1="6.6675" y1="-6.82625" x2="6.6675" y2="6.82625" width="0.127" layer="39"/>
+<wire x1="6.6675" y1="6.82625" x2="-6.6675" y2="6.82625" width="0.127" layer="39"/>
+<wire x1="-3.01625" y1="3.96875" x2="-3.01625" y2="-3.96875" width="0.3048" layer="21" curve="106"/>
+<text x="-6.35" y="8.255" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-6.35" y="6.82625" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<circle x="0" y="0" radius="5" width="0.3048" layer="51"/>
+<wire x1="3.01625" y1="-3.96875" x2="3.01625" y2="3.96875" width="0.3048" layer="21" curve="106"/>
+<wire x1="-4.28625" y1="3.01625" x2="-4.7625" y2="3.4925" width="0.3048" layer="51"/>
+<wire x1="-4.7625" y1="3.4925" x2="-3.81" y2="4.445" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="4.445" x2="-3.33375" y2="3.96875" width="0.3048" layer="51"/>
+<wire x1="-4.7625" y1="3.4925" x2="-3.81" y2="4.445" width="0.3048" layer="21"/>
+<wire x1="-3.81" y1="4.445" x2="-3.33375" y2="3.96875" width="0.3048" layer="21"/>
+<wire x1="-4.7625" y1="3.4925" x2="-4.28625" y2="3.01625" width="0.3048" layer="21"/>
+<wire x1="3.33375" y1="3.96875" x2="3.81" y2="4.445" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="4.445" x2="4.7625" y2="3.4925" width="0.3048" layer="51"/>
+<wire x1="4.7625" y1="3.4925" x2="4.28625" y2="3.01625" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="4.445" x2="4.7625" y2="3.4925" width="0.3048" layer="21"/>
+<wire x1="4.7625" y1="3.4925" x2="4.28625" y2="3.01625" width="0.3048" layer="21"/>
+<wire x1="3.81" y1="4.445" x2="3.33375" y2="3.96875" width="0.3048" layer="21"/>
+<wire x1="-3.33375" y1="-3.96875" x2="-3.81" y2="-4.445" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="-4.445" x2="-4.7625" y2="-3.4925" width="0.3048" layer="51"/>
+<wire x1="-4.7625" y1="-3.4925" x2="-4.28625" y2="-3.01625" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="-4.445" x2="-4.7625" y2="-3.4925" width="0.3048" layer="21"/>
+<wire x1="-4.7625" y1="-3.4925" x2="-4.28625" y2="-3.01625" width="0.3048" layer="21"/>
+<wire x1="-3.81" y1="-4.445" x2="-3.33375" y2="-3.96875" width="0.3048" layer="21"/>
+<wire x1="4.28625" y1="-3.01625" x2="4.7625" y2="-3.4925" width="0.3048" layer="51"/>
+<wire x1="4.7625" y1="-3.4925" x2="3.81" y2="-4.445" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="-4.445" x2="3.33375" y2="-3.96875" width="0.3048" layer="51"/>
+<wire x1="4.7625" y1="-3.4925" x2="3.81" y2="-4.445" width="0.3048" layer="21"/>
+<wire x1="3.81" y1="-4.445" x2="3.33375" y2="-3.96875" width="0.3048" layer="21"/>
+<wire x1="4.7625" y1="-3.4925" x2="4.28625" y2="-3.01625" width="0.3048" layer="21"/>
+<wire x1="-6.19125" y1="6.19125" x2="-6.19125" y2="-6.19125" width="0.3048" layer="51"/>
+<wire x1="-6.19125" y1="-6.19125" x2="6.19125" y2="-6.19125" width="0.3048" layer="51"/>
+<wire x1="6.19125" y1="-6.19125" x2="6.19125" y2="6.19125" width="0.3048" layer="51"/>
+<wire x1="6.19125" y1="6.19125" x2="-6.19125" y2="6.19125" width="0.3048" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -1199,146 +1251,28 @@ H: 9mm</description>
 &lt;ul&gt;
   &lt;li&gt;Mounting: SMD&lt;/li&gt;
   &lt;li&gt;Material: Ferrite&lt;/li&gt;  
-  &lt;li&gt;PIS2812 Series:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt;7.5mm×7.5mm×3.6mm&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://www.fastrongroup.com/image-show/49/PIS2812.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron Datasheet&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PIS2812.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PIS2812:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Dimension: 7.5mm×7.5mm×3.6mm&lt;/li&gt;
+    &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;&lt;a href="http://www.fastrongroup.com/image-show/49/PIS2812.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PIS2812.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/ul&gt;
-  &lt;li&gt;PIS2816 Series:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt;7.5mm×7.5mm×4.7mm&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://www.fastrongroup.com/image-show/50/PIS2816.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron Datasheet&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PIS2816.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PIS2816:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Dimension: 7.5mm×7.5mm×4.7mm&lt;/li&gt;
+    &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;&lt;a href="http://www.fastrongroup.com/image-show/50/PIS2816.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PIS2816.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;PIS2820:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Dimension: 12.3mm×12.3mm×6.3mm&lt;/li&gt;
+    &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;&lt;a href="http://fastrongroup.com/series/52/findProducts?print=y&amp;pageSize=1000"&gt;Fastron&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/B400/PIS4720.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/ul&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
-
-
-&lt;p&gt;
-&lt;b&gt;Electrical Charactistics PIS2816&lt;/b&gt;
-&lt;style type="text/css"&gt;
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-.tg .tg-jgh0{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center;vertical-align:top}
-.tg .tg-e8d4{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center;vertical-align:top}
-.tg .tg-2bfz{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;text-align:center}
-.tg .tg-juk8{font-weight:bold;font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#c0c0c0;text-align:center}
-.tg .tg-txst{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;text-align:center}
-&lt;/style&gt;
-&lt;table class="tg"&gt;
-  &lt;tr&gt;
-    &lt;th class="tg-juk8"&gt;Inductance&lt;br&gt;[µH]&lt;/th&gt;
-    &lt;th class="tg-juk8"&gt;fL &lt;br&gt;[kHz]&lt;/th&gt;
-    &lt;th class="tg-juk8"&gt;Tol&lt;br&gt;±%&lt;/th&gt;
-    &lt;th class="tg-juk8"&gt;DCR,max&lt;br&gt;[mΩ]&lt;/th&gt;
-    &lt;th class="tg-juk8"&gt;Rated DC Current&lt;br&gt;[A]&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-txst"&gt;10&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;1&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;20&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;52&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;1.84&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-2bfz"&gt;15&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;1&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;20&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;81&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;1.47&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-txst"&gt;22&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;1&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;20&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;110&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;1.23&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-2bfz"&gt;27&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;1&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;20&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;150&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;1.12&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-txst"&gt;33&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;1&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;20&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;170&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;0.96&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-2bfz"&gt;47&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;1&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;20&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;260&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;0.88&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-txst"&gt;68&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;1&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;20&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;380&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;0.69&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-2bfz"&gt;100&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;1&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;20&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;610&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;0.60&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-txst"&gt;150&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;1&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;20&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;880&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;0.46&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-2bfz"&gt;220&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;1&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;20&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;1170&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;0.36&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-txst"&gt;270&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;1&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;20&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;1640&lt;/td&gt;
-    &lt;td class="tg-txst"&gt;0.34&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-2bfz"&gt;330&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;1&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;20&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;1860&lt;/td&gt;
-    &lt;td class="tg-2bfz"&gt;0.32&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-jgh0"&gt;470&lt;/td&gt;
-    &lt;td class="tg-jgh0"&gt;1&lt;/td&gt;
-    &lt;td class="tg-jgh0"&gt;20&lt;/td&gt;
-    &lt;td class="tg-jgh0"&gt;3010&lt;/td&gt;
-    &lt;td class="tg-jgh0"&gt;0.26&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-e8d4"&gt;680&lt;/td&gt;
-    &lt;td class="tg-e8d4"&gt;1&lt;/td&gt;
-    &lt;td class="tg-e8d4"&gt;20&lt;/td&gt;
-    &lt;td class="tg-e8d4"&gt;4630&lt;/td&gt;
-    &lt;td class="tg-e8d4"&gt;0.22&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td class="tg-jgh0"&gt;1000&lt;/td&gt;
-    &lt;td class="tg-jgh0"&gt;1&lt;/td&gt;
-    &lt;td class="tg-jgh0"&gt;20&lt;/td&gt;
-    &lt;td class="tg-jgh0"&gt;6000&lt;/td&gt;
-    &lt;td class="tg-jgh0"&gt;0.18&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="DRK" x="0" y="0"/>
@@ -1507,6 +1441,19 @@ H: 9mm</description>
 <attribute name="DIST#REICHELT#" value="L-PIS2816 68µ" constant="no"/>
 <attribute name="VALUE" value="68µ"/>
 <attribute name="VENDOR#" value="Fastron,PIS2816-680M-04" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-4720" package="PIS472X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="10U">
+<attribute name="DIST#REICHELT#" value="L-PIS4720 10µ" constant="no"/>
+<attribute name="VALUE" value="10µ"/>
+<attribute name="VENDOR#" value="Fastron, PIS4720-100M-04" constant="no"/>
 </technology>
 </technologies>
 </device>
