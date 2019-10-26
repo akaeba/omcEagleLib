@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -463,6 +463,55 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="MCP 6402-E/SN" constant="no"/>
 <attribute name="VALUE" value="MCP6402-E" constant="no"/>
 <attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP6H02" prefix="OPA" uservalue="yes">
+<description>&lt;h2&gt;MCP6H02 - 1.2 MHz, 16V Op Amps - Microchip&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Input Offset Voltage: ±0.7 mV (typical)&lt;/li&gt;
+  &lt;li&gt; Quiescent Current: 135 μA (typical)&lt;/li&gt;
+  &lt;li&gt; Common Mode Rejection Ratio: 100 dB (typical)&lt;/li&gt;
+  &lt;li&gt; Power Supply Rejection Ratio: 102 dB (typical)&lt;/li&gt;
+  &lt;li&gt; Rail-to-Rail Output&lt;/li&gt;
+  &lt;li&gt; Supply Voltage Range::&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; Single-Supply Operation: 3.5V to 16V&lt;/li&gt;
+    &lt;li&gt; Dual-Supply Operation: ±1.75V to ±8V&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; Gain Bandwidth Product: 1.2 MHz (typical)&lt;/li&gt;
+  &lt;li&gt; Slew Rate: 0.8V/μs (typical)&lt;/li&gt;
+  &lt;li&gt;Unity Gain Stable&lt;/li&gt;
+  &lt;li&gt;Extended Temperature Range: -40°C to +125°C&lt;/li&gt;
+  &lt;li&gt;No Phase Reversal&lt;/li&gt;
+  &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/devicedoc/22243d.pdf"&gt;Microchip&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/A200/MCP6H01-2-4.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPV" x="5.08" y="5.08"/>
+<gate name="G$2" symbol="OPV" x="5.08" y="20.32"/>
+<gate name="G$3" symbol="PWR" x="5.08" y="5.08" addlevel="must"/>
+</gates>
+<devices>
+<device name="" package="SOIC08">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$2" pin="+IN" pad="5"/>
+<connect gate="G$2" pin="-IN" pad="6"/>
+<connect gate="G$2" pin="OUT" pad="7"/>
+<connect gate="G$3" pin="V+" pad="8"/>
+<connect gate="G$3" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#REICHELT#" value="MCP 6H02-E/SN" constant="no"/>
+<attribute name="VALUE" value="MCP6H02" constant="no"/>
+<attribute name="VENDOR#" value="Microchip,MCP6H01E" constant="no"/>
 </technology>
 </technologies>
 </device>
