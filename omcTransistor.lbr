@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -353,8 +353,13 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="5.65" y1="-3.92" x2="5.9" y2="-3.67" width="0.1524" layer="51" curve="90" cap="flat"/>
 </package>
 <package name="TO252">
-<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
-TO252, D-Pak</description>
+<description>&lt;p&gt;
+&lt;h3&gt; TO252 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt; TO252&lt;/li&gt;
+  &lt;li&gt; D-Pak&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.diodes.com/assets/Package-Files/TO252-DPAK.pdf"&gt;Package reference&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
 <wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
 <wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
 <wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
@@ -585,6 +590,51 @@ TO252, D-Pak</description>
 <wire x1="-1.905" y1="-1.905" x2="1.905" y2="-1.905" width="0.127" layer="39"/>
 <wire x1="1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.127" layer="39"/>
 <wire x1="1.905" y1="1.905" x2="-1.905" y2="1.905" width="0.127" layer="39"/>
+</package>
+<package name="TO263AB">
+<description>&lt;p&gt;
+&lt;h3&gt; TO263AB Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt; TO263AB&lt;/li&gt;
+  &lt;li&gt; D2-PAK&lt;/li&gt;
+  &lt;li&gt; D2PAK&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.diodes.com/assets/Package-Files/TO263AB%20(D2PAK).pdf"&gt;Package reference&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<wire x1="3.1496" y1="14.732" x2="3.1496" y2="15.4432" width="0.2032" layer="51"/>
+<wire x1="3.1496" y1="15.4432" x2="3.6068" y2="15.9004" width="0.2032" layer="51"/>
+<wire x1="3.6068" y1="15.9004" x2="7.8232" y2="15.9004" width="0.2032" layer="51"/>
+<wire x1="7.8232" y1="15.9004" x2="8.2804" y2="15.4432" width="0.2032" layer="51"/>
+<wire x1="8.2804" y1="15.4432" x2="8.2804" y2="14.732" width="0.2032" layer="51"/>
+<wire x1="8.2804" y1="14.732" x2="3.1496" y2="14.732" width="0.2032" layer="51"/>
+<smd name="4" x="5.715" y="12.66" dx="10.41" dy="7.01" layer="1"/>
+<text x="9.525" y="3.175" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="9.525" y="1.27" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<polygon width="0.1998" layer="51">
+<vertex x="1.8796" y="14.732"/>
+<vertex x="1.8796" y="15.4432"/>
+<vertex x="2.3368" y="15.9004"/>
+<vertex x="9.0932" y="15.9004"/>
+<vertex x="9.5504" y="15.4432"/>
+<vertex x="9.5504" y="14.732"/>
+</polygon>
+<smd name="1" x="3.175" y="1.905" dx="1.1" dy="3.5" layer="1"/>
+<smd name="3" x="8.255" y="1.905" dx="1.1" dy="3.5" layer="1"/>
+<wire x1="0.238125" y1="5.000625" x2="11.191875" y2="5.000625" width="0.127" layer="51"/>
+<wire x1="0.238125" y1="5.000625" x2="0.238125" y2="14.605" width="0.127" layer="51"/>
+<wire x1="0.238125" y1="14.605" x2="11.191875" y2="14.605" width="0.127" layer="51"/>
+<wire x1="11.191875" y1="14.605" x2="11.191875" y2="5.000625" width="0.127" layer="51"/>
+<wire x1="0.238125" y1="14.605" x2="0.238125" y2="5.000625" width="0.127" layer="21"/>
+<wire x1="0.238125" y1="5.000625" x2="11.191875" y2="5.000625" width="0.127" layer="21"/>
+<wire x1="11.191875" y1="5.000625" x2="11.191875" y2="14.605" width="0.127" layer="21"/>
+<rectangle x1="2.69875" y1="3.81" x2="3.65125" y2="5.000625" layer="21"/>
+<rectangle x1="2.69875" y1="2.06375" x2="3.65125" y2="5.000625" layer="51"/>
+<rectangle x1="7.77875" y1="3.81" x2="8.73125" y2="5.000625" layer="21"/>
+<rectangle x1="7.77875" y1="2.06375" x2="8.73125" y2="5.000625" layer="51"/>
+<rectangle x1="5.23875" y1="4.206875" x2="6.19125" y2="5.000625" layer="21"/>
+<wire x1="0" y1="0" x2="11.43" y2="0" width="0.127" layer="39"/>
+<wire x1="11.43" y1="0" x2="11.43" y2="16.51" width="0.127" layer="39"/>
+<wire x1="11.43" y1="16.51" x2="0" y2="16.51" width="0.127" layer="39"/>
+<wire x1="0" y1="16.51" x2="0" y2="0" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -1357,6 +1407,37 @@ Ground &amp; Freewheeling Connector</description>
 <attribute name="DIST#REICHELT#" value="BC 847C SMD" constant="no"/>
 <attribute name="VALUE" value="BC847C"/>
 <attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRL530" prefix="T" uservalue="yes">
+<description>&lt;h2&gt;IRL530NS/L - HEXFET® Power MOSFET&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;V&lt;sub&gt;DSS&lt;/sub&gt;=55V&lt;/li&gt;
+  &lt;li&gt;R&lt;sub&gt;DS,on&lt;/sub&gt;=0.12Ω @ V&lt;sub&gt;GS&lt;/sub&gt; = 5.0V&lt;/li&gt;
+  &lt;li&gt;I&lt;sub&gt;D&lt;/sub&gt;=17A&lt;/li&gt;
+  &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.irf.com/product-info/datasheets/data/irl530ns.pdf"&gt;IRF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/A100/IRL530NS_IR.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="NMOS" x="5.08" y="5.08"/>
+</gates>
+<devices>
+<device name="NS" package="TO263AB">
+<connects>
+<connect gate="G$1" pin="D" pad="4"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#REICHELT#" value="IRL 530NS" constant="no"/>
+<attribute name="VALUE" value="IRL530" constant="no"/>
+<attribute name="VENDOR#" value="IRF, IRL530NS" constant="no"/>
 </technology>
 </technologies>
 </device>
