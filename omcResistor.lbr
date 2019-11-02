@@ -1242,6 +1242,13 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="VALUE" value="0R22"/>
 <attribute name="VENDOR#" value="Panasonic, ERJ-8BQJR22V" constant="no"/>
 </technology>
+<technology name="-0.27">
+<attribute name="DIST#CONRAD#" value="1473270 - 62" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="PMAX" value="500mW" constant="no"/>
+<attribute name="VALUE" value="0R27"/>
+<attribute name="VENDOR#" value="Panasonic, ERJ-8BQJR27V" constant="no"/>
+</technology>
 <technology name="-1.0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#REICHELT#" value="SMD 1/4W 1,0" constant="no"/>
