@@ -1200,7 +1200,7 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <description>&lt;h2&gt;YAGEO RC1206 -  General Purpose Chip Resistors&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt; Power dissipation: 0.250W&lt;/li&gt;
-  &lt;li&gt; 1% Tolerance&lt;/li&gt;
+  &lt;li&gt; 5% Tolerance&lt;/li&gt;
   &lt;li&gt; E96 Series&lt;/li&gt;
   &lt;li&gt; Operating Temperature Range: –55°C to +155°C&lt;/li&gt;
   &lt;li&gt; Maximum Working Voltage: 200V&lt;/li&gt;
@@ -1217,20 +1217,1040 @@ In short: You are welcome to use (and extend) this library, but extensions must 
     &lt;/ul&gt;
   &lt;li&gt;&lt;a href="http://www.yageo.ru/pdf/RC1206.pdf"&gt;Yageo Datasheet&lt;/a&gt;&lt;/il&gt;
   &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A900/SMD_1206.pdf"&gt;Reichelt Datasheet&lt;/a&gt;&lt;/il&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: E24
-   &lt;li&gt; Conrad: avialable
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1206">
+<device name="-5%" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-0.0">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 0,0" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="0R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-070R0L" constant="no"/>
+</technology>
+<technology name="-1.0">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,0" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R0L" constant="no"/>
+</technology>
+<technology name="-1.1">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,1" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1R1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R1L" constant="no"/>
+</technology>
+<technology name="-1.2">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,2" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1R2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R2L" constant="no"/>
+</technology>
+<technology name="-1.3">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,3" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1R3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R3L" constant="no"/>
+</technology>
+<technology name="-1.5">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,5" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1R5"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R5L" constant="no"/>
+</technology>
+<technology name="-1.6">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,6" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1R6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R6L" constant="no"/>
+</technology>
+<technology name="-1.8">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,8" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1R8"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R8L" constant="no"/>
+</technology>
+<technology name="-10">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 10" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="10R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0710RL" constant="no"/>
+</technology>
+<technology name="-100">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 100" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="100R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07100RL" constant="no"/>
+</technology>
+<technology name="-1000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,0K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K0L" constant="no"/>
+</technology>
+<technology name="-10000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 10K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="10K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0710KL" constant="no"/>
+</technology>
+<technology name="-100000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 100K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="100K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07100KL" constant="no"/>
+</technology>
+<technology name="-1000000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,0M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1M"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M0L" constant="no"/>
+</technology>
+<technology name="-10000000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 10M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="10M"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0710ML" constant="no"/>
+</technology>
+<technology name="-11">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 11" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="11R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0711RL" constant="no"/>
+</technology>
+<technology name="-110">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 110" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="110R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07110RL" constant="no"/>
+</technology>
+<technology name="-1100">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,1K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1K1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K1L" constant="no"/>
+</technology>
+<technology name="-11000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 11K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="11K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0711KL" constant="no"/>
+</technology>
+<technology name="-110000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 110K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="110K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07110KL" constant="no"/>
+</technology>
+<technology name="-1100000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,1M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1M1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M1L" constant="no"/>
+</technology>
+<technology name="-12">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 12" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="12R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0712RL" constant="no"/>
+</technology>
+<technology name="-120">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 120" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="120R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07120RL" constant="no"/>
+</technology>
+<technology name="-1200">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,2K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1K2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K2L" constant="no"/>
+</technology>
+<technology name="-12000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 12K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="12K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0712KL" constant="no"/>
+</technology>
+<technology name="-120000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 120K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="120K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07120KL" constant="no"/>
+</technology>
+<technology name="-1200000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,2M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M2L" constant="no"/>
+</technology>
+<technology name="-13">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 13" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="13R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0713RL" constant="no"/>
+</technology>
+<technology name="-130">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 130" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="130R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07130RL" constant="no"/>
+</technology>
+<technology name="-1300">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,3K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1K3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K3L" constant="no"/>
+</technology>
+<technology name="-13000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 13K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="13K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0713KL" constant="no"/>
+</technology>
+<technology name="-130000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 130K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="130K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07130KL" constant="no"/>
+</technology>
+<technology name="-1300000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,3M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1M3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M3L" constant="no"/>
+</technology>
+<technology name="-15">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 15" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="15R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0715RL" constant="no"/>
+</technology>
+<technology name="-150">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 150" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="150R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07150RL" constant="no"/>
+</technology>
+<technology name="-1500">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,5K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1K5"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K5L" constant="no"/>
+</technology>
+<technology name="-15000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 15K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="15K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0715KL" constant="no"/>
+</technology>
+<technology name="-150000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 150K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="150K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07150KL" constant="no"/>
+</technology>
+<technology name="-1500000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,5M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1M5"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M5L" constant="no"/>
+</technology>
+<technology name="-16">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 16" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="16R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0716RL" constant="no"/>
+</technology>
+<technology name="-160">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 160" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="160R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07160RL" constant="no"/>
+</technology>
+<technology name="-1600">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,6K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1K6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K6L" constant="no"/>
+</technology>
+<technology name="-16000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 16K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="16K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0716KL" constant="no"/>
+</technology>
+<technology name="-160000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 160K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="160K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07160KL" constant="no"/>
+</technology>
+<technology name="-1600000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,6M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1M6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M6L" constant="no"/>
+</technology>
+<technology name="-18">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 18" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="18R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0718RL" constant="no"/>
+</technology>
+<technology name="-180">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 180" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="180R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07180RL" constant="no"/>
+</technology>
+<technology name="-1800">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,8K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1K8"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K8L" constant="no"/>
+</technology>
+<technology name="-18000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 18K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="18K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0718KL" constant="no"/>
+</technology>
+<technology name="-180000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 180K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="180K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07180KL" constant="no"/>
+</technology>
+<technology name="-1800000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,8M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="1M8"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M8L" constant="no"/>
+</technology>
+<technology name="-2.0">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,0" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2R0"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072R0L" constant="no"/>
+</technology>
+<technology name="-2.2">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,2" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2R2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072R2L" constant="no"/>
+</technology>
+<technology name="-2.4">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,4" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2R4"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072R4L" constant="no"/>
+</technology>
+<technology name="-2.7">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,7" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2R7"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072R7L" constant="no"/>
+</technology>
+<technology name="-20">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 20" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="20R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0720RL" constant="no"/>
+</technology>
+<technology name="-200">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 200" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="200R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07200RL" constant="no"/>
+</technology>
+<technology name="-2000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,0K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072K0L" constant="no"/>
+</technology>
+<technology name="-20000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 20K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="20K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0720KL" constant="no"/>
+</technology>
+<technology name="-200000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 200K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="200K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07200KL" constant="no"/>
+</technology>
+<technology name="-2000000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,0M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2M"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M0L" constant="no"/>
+</technology>
+<technology name="-22">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 22" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="22R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0722RL" constant="no"/>
+</technology>
+<technology name="-220">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 220" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="220R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07220RL" constant="no"/>
+</technology>
+<technology name="-2200">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,2K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2K2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072K2L" constant="no"/>
+</technology>
+<technology name="-22000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 22K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="22K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0722KL" constant="no"/>
+</technology>
+<technology name="-220000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 220K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="220K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07220KL" constant="no"/>
+</technology>
+<technology name="-2200000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,2M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M2L" constant="no"/>
+</technology>
+<technology name="-24">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 24" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="24R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0724RL" constant="no"/>
+</technology>
+<technology name="-240">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 240" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="240R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07240RL" constant="no"/>
+</technology>
+<technology name="-2400">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,4K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2K4"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072K4L" constant="no"/>
+</technology>
+<technology name="-24000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 24K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="24K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0724KL" constant="no"/>
+</technology>
+<technology name="-240000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 240K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="240K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07240KL" constant="no"/>
+</technology>
+<technology name="-2400000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,2M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2M4"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M4L" constant="no"/>
+</technology>
+<technology name="-27">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 27" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="27R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0727RL" constant="no"/>
+</technology>
+<technology name="-270">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 270" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="270R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07270RL" constant="no"/>
+</technology>
+<technology name="-2700">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,7K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2K7"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072K7L" constant="no"/>
+</technology>
+<technology name="-27000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 27K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="27K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0727KL" constant="no"/>
+</technology>
+<technology name="-270000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 270K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="270K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07270KL" constant="no"/>
+</technology>
+<technology name="-2700000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,7M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="2M7"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M7L" constant="no"/>
+</technology>
+<technology name="-3.0">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,0" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3R0"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073R0L" constant="no"/>
+</technology>
+<technology name="-3.3">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,3" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3R3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073R3L" constant="no"/>
+</technology>
+<technology name="-3.6">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,6" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3R6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073R6L" constant="no"/>
+</technology>
+<technology name="-3.9">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,9" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3R9"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073R9L" constant="no"/>
+</technology>
+<technology name="-30">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 30" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="30R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0730RL" constant="no"/>
+</technology>
+<technology name="-300">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 300" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="300R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07300RL" constant="no"/>
+</technology>
+<technology name="-3000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,0K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073K0L" constant="no"/>
+</technology>
+<technology name="-30000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 20K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="30K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0730KL" constant="no"/>
+</technology>
+<technology name="-300000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 300K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="300K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07300KL" constant="no"/>
+</technology>
+<technology name="-3000000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,0M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3M"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M0L" constant="no"/>
+</technology>
+<technology name="-33">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 33" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="33R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0733RL" constant="no"/>
+</technology>
+<technology name="-330">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 330" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="330R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07330RL" constant="no"/>
+</technology>
+<technology name="-3300">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,3K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3K3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073K3L" constant="no"/>
+</technology>
+<technology name="-33000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 33kK" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="33K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0733KL" constant="no"/>
+</technology>
+<technology name="-330000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 330K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="330K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07330KL" constant="no"/>
+</technology>
+<technology name="-3300000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,3M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3M3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M3L" constant="no"/>
+</technology>
+<technology name="-36">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 36" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="36R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0736RL" constant="no"/>
+</technology>
+<technology name="-360">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 360" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="360R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07360RL" constant="no"/>
+</technology>
+<technology name="-3600">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,6K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3K6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073K6L" constant="no"/>
+</technology>
+<technology name="-36000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 36K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="36K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0736KL" constant="no"/>
+</technology>
+<technology name="-360000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 360K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="360K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07360KL" constant="no"/>
+</technology>
+<technology name="-3600000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,6M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3M6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M6L" constant="no"/>
+</technology>
+<technology name="-39">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 39" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="39R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0739RL" constant="no"/>
+</technology>
+<technology name="-390">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 390" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="390R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07390RL" constant="no"/>
+</technology>
+<technology name="-3900">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,9K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3K9"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073K9L" constant="no"/>
+</technology>
+<technology name="-39000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 39K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="39K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0739KL" constant="no"/>
+</technology>
+<technology name="-390000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 390K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="390K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07390KL" constant="no"/>
+</technology>
+<technology name="-3900000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,9M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="3M9"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M9L" constant="no"/>
+</technology>
+<technology name="-4.3">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,3" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="4R3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-074R3L" constant="no"/>
+</technology>
+<technology name="-4.7">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,7" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="4R7"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-074R7L" constant="no"/>
+</technology>
+<technology name="-43">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 43" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="43R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0743RL" constant="no"/>
+</technology>
+<technology name="-430">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 430" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="430R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07430RL" constant="no"/>
+</technology>
+<technology name="-4300">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,3K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="4K3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-074K3L" constant="no"/>
+</technology>
+<technology name="-43000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 43K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="43K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0743KL" constant="no"/>
+</technology>
+<technology name="-430000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 430K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="430K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07430KL" constant="no"/>
+</technology>
+<technology name="-4300000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,3M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="4M3"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-074M3L" constant="no"/>
+</technology>
+<technology name="-47">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 47" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="47R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0747RL" constant="no"/>
+</technology>
+<technology name="-470">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 470" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="470R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07470RL" constant="no"/>
+</technology>
+<technology name="-4700">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,7K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="4K7"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-074K7L" constant="no"/>
+</technology>
+<technology name="-47000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 47K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="47K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0747KL" constant="no"/>
+</technology>
+<technology name="-470000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 470K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="470K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07470KL" constant="no"/>
+</technology>
+<technology name="-4700000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,7M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="4M7"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-074M7L" constant="no"/>
+</technology>
+<technology name="-5.1">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,1" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="5R1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-075R1L" constant="no"/>
+</technology>
+<technology name="-5.6">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,6" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="5R6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-075R6L" constant="no"/>
+</technology>
+<technology name="-51">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 51" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="51R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0751RL" constant="no"/>
+</technology>
+<technology name="-510">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 510" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="510R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07510RL" constant="no"/>
+</technology>
+<technology name="-5100">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,1K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="5K1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-075K1L" constant="no"/>
+</technology>
+<technology name="-51000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 51K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="51K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0751KL" constant="no"/>
+</technology>
+<technology name="-510000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 510K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="510K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07510KL" constant="no"/>
+</technology>
+<technology name="-5100000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,1M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="5M1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-075M1L" constant="no"/>
+</technology>
+<technology name="-56">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 56" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="56R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0756RL" constant="no"/>
+</technology>
+<technology name="-560">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 560" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="560R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07560RL" constant="no"/>
+</technology>
+<technology name="-5600">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,6K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="5K6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-075K6L" constant="no"/>
+</technology>
+<technology name="-56000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 56K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="56K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0756KL" constant="no"/>
+</technology>
+<technology name="-560000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 560K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="560K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07560KL" constant="no"/>
+</technology>
+<technology name="-5600000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,6M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="5M6"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-075M6L" constant="no"/>
+</technology>
+<technology name="-6.2">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,2" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="6R2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-076R2L" constant="no"/>
+</technology>
+<technology name="-6.8">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,8" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="6R8"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-076R8L" constant="no"/>
+</technology>
+<technology name="-62">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 62" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="62R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0762RL" constant="no"/>
+</technology>
+<technology name="-620">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 620" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="620R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07620RL" constant="no"/>
+</technology>
+<technology name="-6200">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,2K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="6K2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-076K2L" constant="no"/>
+</technology>
+<technology name="-62000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 62K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="62K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0762KL" constant="no"/>
+</technology>
+<technology name="-620000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 620K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="620K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07620KL" constant="no"/>
+</technology>
+<technology name="-6200000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,2M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="6M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-076M2L" constant="no"/>
+</technology>
+<technology name="-68">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 68" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="68R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0768RL" constant="no"/>
+</technology>
+<technology name="-680">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 680" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="680R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07680RL" constant="no"/>
+</technology>
+<technology name="-6800">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,8K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="6K8"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-076K8L" constant="no"/>
+</technology>
+<technology name="-68000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 68K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="68K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0768KL" constant="no"/>
+</technology>
+<technology name="-680000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 680K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="680K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07680KL" constant="no"/>
+</technology>
+<technology name="-6800000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,8M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="6M8"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-076M8L" constant="no"/>
+</technology>
+<technology name="-7.5">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 7,5" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="7R5"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-077R5L" constant="no"/>
+</technology>
+<technology name="-75">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 75" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="75R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0775RL" constant="no"/>
+</technology>
+<technology name="-750">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 750" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="750R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07750RL" constant="no"/>
+</technology>
+<technology name="-7500">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 7,5K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="7K5"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-077K5L" constant="no"/>
+</technology>
+<technology name="-75000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 75K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="75K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0775KL" constant="no"/>
+</technology>
+<technology name="-750000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 750K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="750K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07750KL" constant="no"/>
+</technology>
+<technology name="-7500000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 7,5M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="7M5"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-077M5L" constant="no"/>
+</technology>
+<technology name="-8.2">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 8,2" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="8R2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-078R2L" constant="no"/>
+</technology>
+<technology name="-82">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 82" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="82R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0782RL" constant="no"/>
+</technology>
+<technology name="-820">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 820" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="820R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07820RL" constant="no"/>
+</technology>
+<technology name="-8200">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 8,2K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="8K2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-078K2L" constant="no"/>
+</technology>
+<technology name="-82000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 82K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="82K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0782KL" constant="no"/>
+</technology>
+<technology name="-820000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 820K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="820K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07820KL" constant="no"/>
+</technology>
+<technology name="-8200000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 8,2M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="8M2"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-078M2L" constant="no"/>
+</technology>
+<technology name="-9.1">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 9,1" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="9R1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-079R1L" constant="no"/>
+</technology>
+<technology name="-91">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 91" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="91R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0791RL" constant="no"/>
+</technology>
+<technology name="-910">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 910" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="910R"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07910RL" constant="no"/>
+</technology>
+<technology name="-9100">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 9,1K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="9K1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-079K1L" constant="no"/>
+</technology>
+<technology name="-91000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 91K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="91K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-0791KL" constant="no"/>
+</technology>
+<technology name="-910000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 910K" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="910K"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07910KL" constant="no"/>
+</technology>
+<technology name="-9100000">
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 9,1M" constant="no"/>
+<attribute name="PMAX" value="250mW" constant="no"/>
+<attribute name="VALUE" value="9M1"/>
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-079M1L" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-1%" package="1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1238,1193 +2258,892 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <technologies>
 <technology name="-0.0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 0,0" constant="no"/>
-<attribute name="VALUE" value="0R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-070R0L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1206 0" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
+</technology>
+<technology name="-0.27">
+<attribute name="DIST#CONRAD#" value="1476199 - 62" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="0R27" constant="no"/>
+<attribute name="VENDOR#" value="Panasonic, ERJ-8RQFR27V" constant="no"/>
 </technology>
 <technology name="-1.0">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,0" constant="no"/>
-<attribute name="VALUE" value="1R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R0L" constant="no"/>
-</technology>
-<technology name="-1.1">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,1" constant="no"/>
-<attribute name="VALUE" value="1R1"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R1L" constant="no"/>
-</technology>
-<technology name="-1.2">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,2" constant="no"/>
-<attribute name="VALUE" value="1R2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R2L" constant="no"/>
-</technology>
-<technology name="-1.3">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,3" constant="no"/>
-<attribute name="VALUE" value="1R3"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R3L" constant="no"/>
-</technology>
-<technology name="-1.5">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,5" constant="no"/>
-<attribute name="VALUE" value="1R5"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R5L" constant="no"/>
-</technology>
-<technology name="-1.6">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,6" constant="no"/>
-<attribute name="VALUE" value="1R6"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R6L" constant="no"/>
-</technology>
-<technology name="-1.8">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,8" constant="no"/>
-<attribute name="VALUE" value="1R8"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071R8L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,0" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="1R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-10">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 10" constant="no"/>
-<attribute name="VALUE" value="10R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0710RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="10R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-100">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 100" constant="no"/>
-<attribute name="VALUE" value="100R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07100RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 100" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="100R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-1000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,0K" constant="no"/>
-<attribute name="VALUE" value="1K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K0L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,0K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="1K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-10000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 10K" constant="no"/>
-<attribute name="VALUE" value="10K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0710KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-100000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 100K" constant="no"/>
-<attribute name="VALUE" value="100K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07100KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 100K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="100K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-1000000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,0M" constant="no"/>
-<attribute name="VALUE" value="1M"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M0L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1M" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="1M" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-10000000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 10M" constant="no"/>
-<attribute name="VALUE" value="10M"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0710ML" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10M" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="10M" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-11">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 11" constant="no"/>
-<attribute name="VALUE" value="11R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0711RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 11" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="11R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-110">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 110" constant="no"/>
-<attribute name="VALUE" value="110R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07110RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 110" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="110R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-1100">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,1K" constant="no"/>
-<attribute name="VALUE" value="1K1"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K1L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,1K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="1K1" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-11000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 11K" constant="no"/>
-<attribute name="VALUE" value="11K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0711KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 11K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="11K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-110000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 110K" constant="no"/>
-<attribute name="VALUE" value="110K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07110KL" constant="no"/>
-</technology>
-<technology name="-1100000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,1M" constant="no"/>
-<attribute name="VALUE" value="1M1"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M1L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 110K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="110K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-12">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 12" constant="no"/>
-<attribute name="VALUE" value="12R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0712RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 12" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="12R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-120">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 120" constant="no"/>
-<attribute name="VALUE" value="120R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07120RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 120" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="120R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-1200">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,2K" constant="no"/>
-<attribute name="VALUE" value="1K2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K2L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,2K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="1K2" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-12000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 12K" constant="no"/>
-<attribute name="VALUE" value="12K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0712KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 12K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="12K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-120000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 120K" constant="no"/>
-<attribute name="VALUE" value="120K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07120KL" constant="no"/>
-</technology>
-<technology name="-1200000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,2M" constant="no"/>
-<attribute name="VALUE" value="1M2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M2L" constant="no"/>
-</technology>
-<technology name="-13">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 13" constant="no"/>
-<attribute name="VALUE" value="13R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0713RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 120K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="120K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-130">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 130" constant="no"/>
-<attribute name="VALUE" value="130R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07130RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 130" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="130R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-1300">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,3K" constant="no"/>
-<attribute name="VALUE" value="1K3"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K3L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,3K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="1K3" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-13000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 13K" constant="no"/>
-<attribute name="VALUE" value="13K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0713KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 13K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="13K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-130000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 130K" constant="no"/>
-<attribute name="VALUE" value="130K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07130KL" constant="no"/>
-</technology>
-<technology name="-1300000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,3M" constant="no"/>
-<attribute name="VALUE" value="1M3"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M3L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 130K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="130K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-15">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 15" constant="no"/>
-<attribute name="VALUE" value="15R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0715RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 15" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="15R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-150">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 150" constant="no"/>
-<attribute name="VALUE" value="150R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07150RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 150" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="150R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-1500">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,5K" constant="no"/>
-<attribute name="VALUE" value="1K5"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K5L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,5K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="1K5" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-15000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 15K" constant="no"/>
-<attribute name="VALUE" value="15K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0715KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 15K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="15K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-150000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 150K" constant="no"/>
-<attribute name="VALUE" value="150K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07150KL" constant="no"/>
-</technology>
-<technology name="-1500000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,5M" constant="no"/>
-<attribute name="VALUE" value="1M5"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M5L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 150K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="150K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-16">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 16" constant="no"/>
-<attribute name="VALUE" value="16R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0716RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 16" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="16R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-160">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 160" constant="no"/>
-<attribute name="VALUE" value="160R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07160RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 160" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="160R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-1600">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,6K" constant="no"/>
-<attribute name="VALUE" value="1K6"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K6L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,6K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="1K6" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-16000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 16K" constant="no"/>
-<attribute name="VALUE" value="16K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0716KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 16K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="16K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-160000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 160K" constant="no"/>
-<attribute name="VALUE" value="160K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07160KL" constant="no"/>
-</technology>
-<technology name="-1600000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,6M" constant="no"/>
-<attribute name="VALUE" value="1M6"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M6L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 160K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="160K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-18">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 18" constant="no"/>
-<attribute name="VALUE" value="18R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0718RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 18" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="18R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-180">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 180" constant="no"/>
-<attribute name="VALUE" value="180R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07180RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 180" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="180R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-1800">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,8K" constant="no"/>
-<attribute name="VALUE" value="1K8"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071K8L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,8K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="1K8" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-18000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 18K" constant="no"/>
-<attribute name="VALUE" value="18K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0718KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 18K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="18K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-180000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 180K" constant="no"/>
-<attribute name="VALUE" value="180K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07180KL" constant="no"/>
-</technology>
-<technology name="-1800000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 1,8M" constant="no"/>
-<attribute name="VALUE" value="1M8"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-071M8L" constant="no"/>
-</technology>
-<technology name="-2.0">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,0" constant="no"/>
-<attribute name="VALUE" value="2R0"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072R0L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 180K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="180K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-2.2">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,2" constant="no"/>
-<attribute name="VALUE" value="2R2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072R2L" constant="no"/>
-</technology>
-<technology name="-2.4">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,4" constant="no"/>
-<attribute name="VALUE" value="2R4"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072R4L" constant="no"/>
-</technology>
-<technology name="-2.7">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,7" constant="no"/>
-<attribute name="VALUE" value="2R7"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072R7L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 2,2" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="2R2" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-20">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 20" constant="no"/>
-<attribute name="VALUE" value="20R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0720RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 20" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="20R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-200">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 200" constant="no"/>
-<attribute name="VALUE" value="200R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07200RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 200" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="200R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-2000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,0K" constant="no"/>
-<attribute name="VALUE" value="2K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072K0L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 2,0K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="2K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-20000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 20K" constant="no"/>
-<attribute name="VALUE" value="20K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0720KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 20K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="20K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-200000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 200K" constant="no"/>
-<attribute name="VALUE" value="200K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07200KL" constant="no"/>
-</technology>
-<technology name="-2000000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,0M" constant="no"/>
-<attribute name="VALUE" value="2M"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M0L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 200K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="200K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-22">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 22" constant="no"/>
-<attribute name="VALUE" value="22R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0722RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 22" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="22R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-220">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 220" constant="no"/>
-<attribute name="VALUE" value="220R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07220RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 220" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="220R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-2200">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,2K" constant="no"/>
-<attribute name="VALUE" value="2K2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072K2L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 2,2K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="2K2" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-22000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 22K" constant="no"/>
-<attribute name="VALUE" value="22K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0722KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 22K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="22K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-220000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 220K" constant="no"/>
-<attribute name="VALUE" value="220K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07220KL" constant="no"/>
-</technology>
-<technology name="-2200000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,2M" constant="no"/>
-<attribute name="VALUE" value="2M2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M2L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 220K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="220K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-24">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 24" constant="no"/>
-<attribute name="VALUE" value="24R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0724RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 24" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="24R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-240">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 240" constant="no"/>
-<attribute name="VALUE" value="240R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07240RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 240" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="240R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-2400">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,4K" constant="no"/>
-<attribute name="VALUE" value="2K4"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072K4L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 2,4K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="2K4" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-24000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 24K" constant="no"/>
-<attribute name="VALUE" value="24K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0724KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 24K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="24K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-240000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 240K" constant="no"/>
-<attribute name="VALUE" value="240K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07240KL" constant="no"/>
-</technology>
-<technology name="-2400000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,2M" constant="no"/>
-<attribute name="VALUE" value="2M4"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M4L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 240K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="240K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-27">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 27" constant="no"/>
-<attribute name="VALUE" value="27R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0727RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 27" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="27R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-270">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 270" constant="no"/>
-<attribute name="VALUE" value="270R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07270RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 270" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="270R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-2700">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,7K" constant="no"/>
-<attribute name="VALUE" value="2K7"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072K7L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 2,7K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="2K7" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-27000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 27K" constant="no"/>
-<attribute name="VALUE" value="27K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0727KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 27K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="27K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-270000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 270K" constant="no"/>
-<attribute name="VALUE" value="270K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07270KL" constant="no"/>
-</technology>
-<technology name="-2700000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 2,7M" constant="no"/>
-<attribute name="VALUE" value="2M7"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-072M7L" constant="no"/>
-</technology>
-<technology name="-3.0">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,0" constant="no"/>
-<attribute name="VALUE" value="3R0"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073R0L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 270K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="270K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-3.3">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,3" constant="no"/>
-<attribute name="VALUE" value="3R3"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073R3L" constant="no"/>
-</technology>
-<technology name="-3.6">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,6" constant="no"/>
-<attribute name="VALUE" value="3R6"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073R6L" constant="no"/>
-</technology>
-<technology name="-3.9">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,9" constant="no"/>
-<attribute name="VALUE" value="3R9"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073R9L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 3,3" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="3R3" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-30">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 30" constant="no"/>
-<attribute name="VALUE" value="30R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0730RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 30" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="30R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-300">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 300" constant="no"/>
-<attribute name="VALUE" value="300R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07300RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 300" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="300R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-3000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,0K" constant="no"/>
-<attribute name="VALUE" value="3K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073K0L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 3,0K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="3K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-30000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 20K" constant="no"/>
-<attribute name="VALUE" value="30K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0730KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 30K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="30K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-300000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 300K" constant="no"/>
-<attribute name="VALUE" value="300K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07300KL" constant="no"/>
-</technology>
-<technology name="-3000000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,0M" constant="no"/>
-<attribute name="VALUE" value="3M"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M0L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 300K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="300K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-33">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 33" constant="no"/>
-<attribute name="VALUE" value="33R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0733RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 33" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="33R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-330">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 330" constant="no"/>
-<attribute name="VALUE" value="330R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07330RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 330" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="330R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-3300">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,3K" constant="no"/>
-<attribute name="VALUE" value="3K3"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073K3L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 3,3K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="3K3" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-33000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 33kK" constant="no"/>
-<attribute name="VALUE" value="33K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0733KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 33K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="33K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-330000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 330K" constant="no"/>
-<attribute name="VALUE" value="330K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07330KL" constant="no"/>
-</technology>
-<technology name="-3300000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,3M" constant="no"/>
-<attribute name="VALUE" value="3M3"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M3L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 330K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="330K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-36">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 36" constant="no"/>
-<attribute name="VALUE" value="36R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0736RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 36" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="36R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-360">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 360" constant="no"/>
-<attribute name="VALUE" value="360R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07360RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 360" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="360R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-3600">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,6K" constant="no"/>
-<attribute name="VALUE" value="3K6"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073K6L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 3,6K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="3K6" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-36000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 36K" constant="no"/>
-<attribute name="VALUE" value="36K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0736KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 36K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="36K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-360000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 360K" constant="no"/>
-<attribute name="VALUE" value="360K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07360KL" constant="no"/>
-</technology>
-<technology name="-3600000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,6M" constant="no"/>
-<attribute name="VALUE" value="3M6"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M6L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 360K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="360K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-39">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 39" constant="no"/>
-<attribute name="VALUE" value="39R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0739RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 39" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="39R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-390">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 390" constant="no"/>
-<attribute name="VALUE" value="390R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07390RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 390" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="390R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-3900">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,9K" constant="no"/>
-<attribute name="VALUE" value="3K9"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073K9L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 3,9K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="3K9" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-39000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 39K" constant="no"/>
-<attribute name="VALUE" value="39K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0739KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 39K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="39K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-390000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 390K" constant="no"/>
-<attribute name="VALUE" value="390K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07390KL" constant="no"/>
-</technology>
-<technology name="-3900000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 3,9M" constant="no"/>
-<attribute name="VALUE" value="3M9"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-073M9L" constant="no"/>
-</technology>
-<technology name="-4.3">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,3" constant="no"/>
-<attribute name="VALUE" value="4R3"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-074R3L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 390K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="390K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-4.7">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,7" constant="no"/>
-<attribute name="VALUE" value="4R7"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-074R7L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 4,7" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="4R7" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-43">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 43" constant="no"/>
-<attribute name="VALUE" value="43R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0743RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 43" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="43R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-430">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 430" constant="no"/>
-<attribute name="VALUE" value="430R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07430RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 430" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="430R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-4300">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,3K" constant="no"/>
-<attribute name="VALUE" value="4K3"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-074K3L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 4,3K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="4K3" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-43000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 43K" constant="no"/>
-<attribute name="VALUE" value="43K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0743KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 43K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="43K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-430000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 430K" constant="no"/>
-<attribute name="VALUE" value="430K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07430KL" constant="no"/>
-</technology>
-<technology name="-4300000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,3M" constant="no"/>
-<attribute name="VALUE" value="4M3"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-074M3L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 430K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="430K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-47">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 47" constant="no"/>
-<attribute name="VALUE" value="47R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0747RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 47" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="47R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-470">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 470" constant="no"/>
-<attribute name="VALUE" value="470R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07470RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 470" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="470R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-4700">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,7K" constant="no"/>
-<attribute name="VALUE" value="4K7"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-074K7L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 4,7K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="4K7" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-47000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 47K" constant="no"/>
-<attribute name="VALUE" value="47K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0747KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 47K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="47K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-470000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 470K" constant="no"/>
-<attribute name="VALUE" value="470K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07470KL" constant="no"/>
-</technology>
-<technology name="-4700000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 4,7M" constant="no"/>
-<attribute name="VALUE" value="4M7"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-074M7L" constant="no"/>
-</technology>
-<technology name="-5.1">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,1" constant="no"/>
-<attribute name="VALUE" value="5R1"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-075R1L" constant="no"/>
-</technology>
-<technology name="-5.6">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,6" constant="no"/>
-<attribute name="VALUE" value="5R6"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-075R6L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 470K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="470K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-51">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 51" constant="no"/>
-<attribute name="VALUE" value="51R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0751RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 51" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="51R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-510">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 510" constant="no"/>
-<attribute name="VALUE" value="510R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07510RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 510" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="510R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-5100">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,1K" constant="no"/>
-<attribute name="VALUE" value="5K1"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-075K1L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 5,1K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="5K1" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-51000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 51K" constant="no"/>
-<attribute name="VALUE" value="51K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0751KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 51K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="51K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-510000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 510K" constant="no"/>
-<attribute name="VALUE" value="510K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07510KL" constant="no"/>
-</technology>
-<technology name="-5100000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,1M" constant="no"/>
-<attribute name="VALUE" value="5M1"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-075M1L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 510K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="510K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-56">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 56" constant="no"/>
-<attribute name="VALUE" value="56R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0756RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 56" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="56R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-560">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 560" constant="no"/>
-<attribute name="VALUE" value="560R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07560RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 560" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="560R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-5600">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,6K" constant="no"/>
-<attribute name="VALUE" value="5K6"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-075K6L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 5,6K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="5K6" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-56000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 56K" constant="no"/>
-<attribute name="VALUE" value="56K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0756KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 56K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="56K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-560000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 560K" constant="no"/>
-<attribute name="VALUE" value="560K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07560KL" constant="no"/>
-</technology>
-<technology name="-5600000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 5,6M" constant="no"/>
-<attribute name="VALUE" value="5M6"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-075M6L" constant="no"/>
-</technology>
-<technology name="-6.2">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,2" constant="no"/>
-<attribute name="VALUE" value="6R2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-076R2L" constant="no"/>
-</technology>
-<technology name="-6.8">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,8" constant="no"/>
-<attribute name="VALUE" value="6R8"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-076R8L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 560K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="560K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-62">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 62" constant="no"/>
-<attribute name="VALUE" value="62R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0762RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 62" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="62R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-620">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 620" constant="no"/>
-<attribute name="VALUE" value="620R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07620RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 620" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="620R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-6200">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,2K" constant="no"/>
-<attribute name="VALUE" value="6K2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-076K2L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 6,2K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="6K2" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-62000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 62K" constant="no"/>
-<attribute name="VALUE" value="62K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0762KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 62K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="62K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-620000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 620K" constant="no"/>
-<attribute name="VALUE" value="620K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07620KL" constant="no"/>
-</technology>
-<technology name="-6200000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,2M" constant="no"/>
-<attribute name="VALUE" value="6M2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-076M2L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 620K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="620K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-68">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 68" constant="no"/>
-<attribute name="VALUE" value="68R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0768RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 68" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="68R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-680">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 680" constant="no"/>
-<attribute name="VALUE" value="680R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07680RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 680" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="680R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-6800">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,8K" constant="no"/>
-<attribute name="VALUE" value="6K8"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-076K8L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 6,8K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="6K8" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-68000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 68K" constant="no"/>
-<attribute name="VALUE" value="68K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0768KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 68K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="68K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-680000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 680K" constant="no"/>
-<attribute name="VALUE" value="680K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07680KL" constant="no"/>
-</technology>
-<technology name="-6800000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 6,8M" constant="no"/>
-<attribute name="VALUE" value="6M8"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-076M8L" constant="no"/>
-</technology>
-<technology name="-7.5">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 7,5" constant="no"/>
-<attribute name="VALUE" value="7R5"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-077R5L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 680K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="680K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-75">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 75" constant="no"/>
-<attribute name="VALUE" value="75R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0775RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 75" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="75R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-750">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 750" constant="no"/>
-<attribute name="VALUE" value="750R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07750RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 750" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="750R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-7500">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 7,5K" constant="no"/>
-<attribute name="VALUE" value="7K5"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-077K5L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 7,5K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="7K5" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-75000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 75K" constant="no"/>
-<attribute name="VALUE" value="75K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0775KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 75K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="75K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-750000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 750K" constant="no"/>
-<attribute name="VALUE" value="750K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07750KL" constant="no"/>
-</technology>
-<technology name="-7500000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 7,5M" constant="no"/>
-<attribute name="VALUE" value="7M5"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-077M5L" constant="no"/>
-</technology>
-<technology name="-8.2">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 8,2" constant="no"/>
-<attribute name="VALUE" value="8R2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-078R2L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 750K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="750K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-82">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 82" constant="no"/>
-<attribute name="VALUE" value="82R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0782RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 82" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="82R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-820">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 820" constant="no"/>
-<attribute name="VALUE" value="820R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07820RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 820" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="820R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-8200">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 8,2K" constant="no"/>
-<attribute name="VALUE" value="8K2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-078K2L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 8,2K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="8K2" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-82000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 82K" constant="no"/>
-<attribute name="VALUE" value="82K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0782KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 82K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="82K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-820000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 820K" constant="no"/>
-<attribute name="VALUE" value="820K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07820KL" constant="no"/>
-</technology>
-<technology name="-8200000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 8,2M" constant="no"/>
-<attribute name="VALUE" value="8M2"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-078M2L" constant="no"/>
-</technology>
-<technology name="-9.1">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 9,1" constant="no"/>
-<attribute name="VALUE" value="9R1"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-079R1L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 820K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="820K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-91">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 91" constant="no"/>
-<attribute name="VALUE" value="91R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0791RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 91" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="91R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-910">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 910" constant="no"/>
-<attribute name="VALUE" value="910R"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07910RL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 910" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="910R" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-9100">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 9,1K" constant="no"/>
-<attribute name="VALUE" value="9K1"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-079K1L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 9,1K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="9K1" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-91000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 91K" constant="no"/>
-<attribute name="VALUE" value="91K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-0791KL" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 91K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="91K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 <technology name="-910000">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 910K" constant="no"/>
-<attribute name="VALUE" value="910K"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-07910KL" constant="no"/>
-</technology>
-<technology name="-9100000">
-<attribute name="DIST#CONRAD#" value="" constant="no"/>
-<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
-<attribute name="DIST#REICHELT#" value="SMD 1/4W 9,1M" constant="no"/>
-<attribute name="VALUE" value="9M1"/>
-<attribute name="VENDOR#" value="YAGEO#RC1206FR-079M1L" constant="no"/>
+<attribute name="DIST#REICHELT#" value="RND 1 910K" constant="no"/>
+<attribute name="PMAX" value="125mW"/>
+<attribute name="VALUE" value="910K" constant="no"/>
+<attribute name="VENDOR#" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
