@@ -2171,6 +2171,13 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="VALUE" value="1n5/50V"/>
 <attribute name="VENDOR#" value="YAGEO#1206CG152J9BP" constant="no"/>
 </technology>
+<technology name="-15P">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#DIGIKEY#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="NPO 1206 BK 15P" constant="no"/>
+<attribute name="VALUE" value="15p/630V"/>
+<attribute name="VENDOR#" value="RND,15pF" constant="no"/>
+</technology>
 <technology name="-2200P">
 <attribute name="DIST#CONRAD#" value="" constant="no"/>
 <attribute name="DIST#DIGIKEY#" value="" constant="no"/>
