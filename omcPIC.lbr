@@ -1027,7 +1027,11 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <connect gate="G$1" pin="VSS@VSS1" pad="19"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIST#REICHELT#" value="PIC 18F2420-I/SO" constant="no"/>
+<attribute name="VALUE" value="PIC18F2420" constant="no"/>
+<attribute name="VENDOR#" value="Microchip,PIC18F2420-I/SO" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
