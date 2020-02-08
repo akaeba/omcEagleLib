@@ -345,6 +345,84 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <wire x1="11.43" y1="10.795" x2="-1.27" y2="10.795" width="0.127" layer="39"/>
 <wire x1="-1.27" y1="10.795" x2="-1.27" y2="-0.635" width="0.127" layer="39"/>
 </package>
+<package name="PDIP28">
+<description>&lt;h3&gt;PDIP28&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;THT&lt;/li&gt;
+  &lt;li&gt;35mm×7.5mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/28L_SPDIP_300_SP_C04-070B.pdf"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Dual_in-line_packaget"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<wire x1="6.731" y1="-1.27" x2="6.731" y2="34.29" width="0.1524" layer="51"/>
+<wire x1="0.889" y1="34.29" x2="0.889" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="6.731" y1="-1.27" x2="0.889" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="6.731" y1="34.29" x2="4.826" y2="34.29" width="0.1524" layer="51"/>
+<wire x1="0.889" y1="34.29" x2="2.794" y2="34.29" width="0.1524" layer="51"/>
+<wire x1="4.826" y1="34.29" x2="2.794" y2="34.29" width="0.1524" layer="51" curve="-180"/>
+<pad name="1" x="0" y="33.02" drill="0.8" shape="long"/>
+<pad name="2" x="0" y="30.48" drill="0.8" shape="long"/>
+<pad name="7" x="0" y="17.78" drill="0.8" shape="long"/>
+<pad name="8" x="0" y="15.24" drill="0.8" shape="long"/>
+<pad name="3" x="0" y="27.94" drill="0.8" shape="long"/>
+<pad name="4" x="0" y="25.4" drill="0.8" shape="long"/>
+<pad name="6" x="0" y="20.32" drill="0.8" shape="long"/>
+<pad name="5" x="0" y="22.86" drill="0.8" shape="long"/>
+<pad name="21" x="7.62" y="15.24" drill="0.8" shape="long"/>
+<pad name="22" x="7.62" y="17.78" drill="0.8" shape="long"/>
+<pad name="23" x="7.62" y="20.32" drill="0.8" shape="long"/>
+<pad name="24" x="7.62" y="22.86" drill="0.8" shape="long"/>
+<pad name="25" x="7.62" y="25.4" drill="0.8" shape="long"/>
+<pad name="26" x="7.62" y="27.94" drill="0.8" shape="long"/>
+<pad name="27" x="7.62" y="30.48" drill="0.8" shape="long"/>
+<pad name="28" x="7.62" y="33.02" drill="0.8" shape="long"/>
+<text x="0.635" y="34.925" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0.635" y="-3.175" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="6.731" y1="34.29" x2="4.826" y2="34.29" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="34.29" x2="2.794" y2="34.29" width="0.1524" layer="21" curve="-180"/>
+<wire x1="0.889" y1="34.29" x2="2.794" y2="34.29" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="-1.27" x2="0.889" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="32.22625" x2="0.889" y2="31.27375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-0.79375" x2="0.889" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="29.68625" x2="0.889" y2="28.73375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="27.14625" x2="0.889" y2="26.19375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="24.60625" x2="0.889" y2="23.65375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="22.06625" x2="0.889" y2="21.11375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="19.52625" x2="0.889" y2="18.57375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="16.98625" x2="0.889" y2="16.03375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="34.29" x2="0.889" y2="33.81375" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="31.27375" x2="6.731" y2="32.22625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="-1.27" x2="6.731" y2="-0.79375" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="28.73375" x2="6.731" y2="29.68625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="26.19375" x2="6.731" y2="27.14625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="23.65375" x2="6.731" y2="24.60625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="21.11375" x2="6.731" y2="22.06625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="18.57375" x2="6.731" y2="19.52625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="16.03375" x2="6.731" y2="16.98625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="33.81375" x2="6.731" y2="34.29" width="0.1524" layer="21"/>
+<pad name="9" x="0" y="12.7" drill="0.8" shape="long"/>
+<pad name="10" x="0" y="10.16" drill="0.8" shape="long"/>
+<pad name="11" x="0" y="7.62" drill="0.8" shape="long"/>
+<pad name="12" x="0" y="5.08" drill="0.8" shape="long"/>
+<pad name="13" x="0" y="2.54" drill="0.8" shape="long"/>
+<pad name="14" x="0" y="0" drill="0.8" shape="long"/>
+<pad name="20" x="7.62" y="12.7" drill="0.8" shape="long"/>
+<pad name="19" x="7.62" y="10.16" drill="0.8" shape="long"/>
+<pad name="18" x="7.62" y="7.62" drill="0.8" shape="long"/>
+<pad name="17" x="7.62" y="5.08" drill="0.8" shape="long"/>
+<pad name="16" x="7.62" y="2.54" drill="0.8" shape="long"/>
+<pad name="15" x="7.62" y="0" drill="0.8" shape="long"/>
+<wire x1="0.889" y1="14.44625" x2="0.889" y2="13.49375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="11.90625" x2="0.889" y2="10.95375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="9.36625" x2="0.889" y2="8.41375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="6.82625" x2="0.889" y2="5.87375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="4.28625" x2="0.889" y2="3.33375" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="1.74625" x2="0.889" y2="0.79375" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="13.49375" x2="6.731" y2="14.44625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="10.95375" x2="6.731" y2="11.90625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="8.41375" x2="6.731" y2="9.36625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="5.87375" x2="6.731" y2="6.82625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="3.33375" x2="6.731" y2="4.28625" width="0.1524" layer="21"/>
+<wire x1="6.731" y1="0.79375" x2="6.731" y2="1.74625" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PIC12F675">
@@ -1028,9 +1106,48 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DIST#REICHELT#" value="PIC 18F2420-I/SO" constant="no"/>
+<attribute name="DIST#REICHELT" value="PIC 18F2420-I/SO" constant="no"/>
 <attribute name="VALUE" value="PIC18F2420" constant="no"/>
-<attribute name="VENDOR#" value="Microchip,PIC18F2420-I/SO" constant="no"/>
+<attribute name="VENDOR" value="Microchip,PIC18F2420-I/SO" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="/SP" package="PDIP28">
+<connects>
+<connect gate="G$1" pin="!MCLR" pad="1"/>
+<connect gate="G$1" pin="0@RA" pad="2"/>
+<connect gate="G$1" pin="0@RB" pad="21"/>
+<connect gate="G$1" pin="0@RC" pad="11"/>
+<connect gate="G$1" pin="1@RA" pad="3"/>
+<connect gate="G$1" pin="1@RB" pad="22"/>
+<connect gate="G$1" pin="1@RC" pad="12"/>
+<connect gate="G$1" pin="2@RA" pad="4"/>
+<connect gate="G$1" pin="2@RB" pad="23"/>
+<connect gate="G$1" pin="2@RC" pad="13"/>
+<connect gate="G$1" pin="3@RA" pad="5"/>
+<connect gate="G$1" pin="3@RB" pad="24"/>
+<connect gate="G$1" pin="3@RC" pad="14"/>
+<connect gate="G$1" pin="4@RA" pad="6"/>
+<connect gate="G$1" pin="4@RB" pad="25"/>
+<connect gate="G$1" pin="4@RC" pad="15"/>
+<connect gate="G$1" pin="5@RA" pad="7"/>
+<connect gate="G$1" pin="5@RB" pad="26"/>
+<connect gate="G$1" pin="5@RC" pad="16"/>
+<connect gate="G$1" pin="6@RB" pad="27"/>
+<connect gate="G$1" pin="6@RC" pad="17"/>
+<connect gate="G$1" pin="7@RB" pad="28"/>
+<connect gate="G$1" pin="7@RC" pad="18"/>
+<connect gate="G$1" pin="OSC@1" pad="9"/>
+<connect gate="G$1" pin="OSC@2" pad="10"/>
+<connect gate="G$1" pin="VDD" pad="20"/>
+<connect gate="G$1" pin="VSS@VSS0" pad="8"/>
+<connect gate="G$1" pin="VSS@VSS1" pad="19"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#REICHELT" value="PIC 18F2420-I/SP" constant="no"/>
+<attribute name="VALUE" value="PIC18F2420" constant="no"/>
+<attribute name="VENDOR" value="Microchip,PIC18F2420-I/SO" constant="no"/>
 </technology>
 </technologies>
 </device>
