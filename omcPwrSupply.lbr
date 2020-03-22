@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -643,7 +643,7 @@ TS-003</description>
 &lt;h3&gt;SOT23 6-lead Package&lt;/h3&gt;&lt;ul&gt;
   &lt;li&gt;SOT23-6, SOT-23/6&lt;/li&gt;
   &lt;li&gt;Technology: SMD&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.vishay.com/docs/72821/72821.pdff"&gt;Mechanical reference&lt;/a&gt; (Vishay)&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://www.vishay.com/docs/72821/72821.pdf"&gt;Mechanical reference&lt;/a&gt; (Vishay)&lt;/il&gt;
 &lt;/p&gt;</description>
 <text x="-3.81" y="-2.54" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <text x="-1.905" y="-2.54" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
@@ -815,6 +815,44 @@ TS-003</description>
 <smd name="7" x="5.23875" y="-8.255" dx="1" dy="3.4" layer="1"/>
 <rectangle x1="3.085" y1="-8.5725" x2="3.885" y2="-4.4831" layer="51"/>
 <rectangle x1="4.83125" y1="-8.5725" x2="5.63125" y2="-4.4831" layer="51"/>
+</package>
+<package name="SOT23-5">
+<description>&lt;p&gt;
+&lt;h3&gt;SOT23 5-lead Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SOT23-5, SOT-23/5&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.vishay.com/docs/83315/sot235l.pdf"&gt;Mechanical reference&lt;/a&gt; (Vishay)&lt;/il&gt;
+&lt;/p&gt;</description>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-1.5875" y1="0.9525" x2="-1.5875" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.9525" x2="1.5875" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-0.9525" x2="1.5875" y2="0.9525" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="0.9525" x2="-1.5875" y2="0.9525" width="0.127" layer="51"/>
+<wire x1="-1.349375" y1="0.9525" x2="-1.5875" y2="0.9525" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="0.9525" x2="-1.5875" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="1.42875" y1="0.9525" x2="1.5875" y2="0.9525" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.9525" x2="1.5875" y2="-0.9525" width="0.127" layer="21"/>
+<rectangle x1="-1.2065" y1="-1.5875" x2="-0.7239" y2="-0.9525" layer="51"/>
+<rectangle x1="0.6985" y1="-1.5875" x2="1.1811" y2="-0.9525" layer="51"/>
+<rectangle x1="-0.254" y1="-1.5875" x2="0.2286" y2="-0.9525" layer="51"/>
+<wire x1="-1.5875" y1="-0.9525" x2="-1.42875" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="-0.9525" x2="1.42875" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="-1.74625" y1="2.06375" x2="-1.74625" y2="-2.06375" width="0.127" layer="39"/>
+<wire x1="-1.74625" y1="-2.06375" x2="1.74625" y2="-2.06375" width="0.127" layer="39"/>
+<wire x1="1.74625" y1="-2.06375" x2="1.74625" y2="2.06375" width="0.127" layer="39"/>
+<wire x1="1.74625" y1="2.06375" x2="-1.74625" y2="2.06375" width="0.127" layer="39"/>
+<smd name="2" x="0" y="-1.42875" dx="0.635" dy="1.143" layer="1" rot="R180"/>
+<smd name="1" x="-0.9525" y="-1.42875" dx="0.635" dy="1.143" layer="1" rot="R180"/>
+<smd name="3" x="0.9525" y="-1.42875" dx="0.635" dy="1.143" layer="1" rot="R180"/>
+<smd name="5" x="-0.9525" y="1.42875" dx="0.635" dy="1.143" layer="1" rot="R180"/>
+<smd name="4" x="0.9525" y="1.42875" dx="0.635" dy="1.143" layer="1" rot="R180"/>
+<rectangle x1="-1.2065" y1="0.9525" x2="-0.7239" y2="1.5875" layer="51"/>
+<rectangle x1="0.6985" y1="0.9525" x2="1.1811" y2="1.5875" layer="51"/>
+<wire x1="0.555625" y1="-0.9525" x2="0.396875" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="-0.396875" y1="-0.9525" x2="-0.47625" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="0.555625" y1="0.9525" x2="-0.555625" y2="0.9525" width="0.127" layer="21"/>
+<wire x1="-1.42875" y1="-0.9525" x2="-0.47625" y2="-0.9525" width="0.127" layer="21" curve="-180"/>
 </package>
 </packages>
 <symbols>
