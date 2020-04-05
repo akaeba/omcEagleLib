@@ -5565,6 +5565,39 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <text x="15.24" y="0.635" size="1.27" layer="27" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
 <text x="13.335" y="0.635" size="1.27" layer="27" font="vector" ratio="12" rot="R90">&gt;NAME</text>
 </package>
+<package name="DIN5P">
+<description>&lt;p&gt;
+&lt;h3&gt;DIN Plug 5P 180°&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Tecnology: THT&lt;/li&gt;
+&lt;/p&gt;</description>
+<pad name="1" x="17.78" y="3.81" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="3" x="2.54" y="3.81" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="4" x="15.24" y="1.27" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="5" x="5.08" y="1.27" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="2" x="10.16" y="3.81" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="S1" x="5.08" y="13.97" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="S2" x="15.24" y="13.97" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<wire x1="0" y1="17.78" x2="20.32" y2="17.78" width="0.3048" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="5.715" width="0.3048" layer="21"/>
+<wire x1="0" y1="5.715" x2="0" y2="17.78" width="0.3048" layer="21"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="5.715" width="0.3048" layer="21"/>
+<wire x1="20.32" y1="5.715" x2="20.32" y2="17.78" width="0.3048" layer="21"/>
+<wire x1="0" y1="17.78" x2="0" y2="0" width="0.3048" layer="51"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.3048" layer="51"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="17.78" width="0.3048" layer="51"/>
+<wire x1="20.32" y1="17.78" x2="0" y2="17.78" width="0.3048" layer="51"/>
+<wire x1="0" y1="0" x2="3.175" y2="0" width="0.3048" layer="21"/>
+<wire x1="6.985" y1="0" x2="13.335" y2="0" width="0.3048" layer="21"/>
+<wire x1="17.145" y1="0" x2="20.32" y2="0" width="0.3048" layer="21"/>
+<wire x1="0" y1="5.715" x2="20.32" y2="5.715" width="0.3048" layer="21"/>
+<text x="15.24" y="-1.905" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="15.24" y="-3.81" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="1.905" y1="3.81" x2="3.175" y2="5.715" layer="51"/>
+<rectangle x1="4.445" y1="1.27" x2="5.715" y2="5.715" layer="51"/>
+<rectangle x1="9.525" y1="3.81" x2="10.795" y2="5.715" layer="51"/>
+<rectangle x1="14.605" y1="1.27" x2="15.875" y2="5.715" layer="51"/>
+<rectangle x1="17.145" y1="3.81" x2="18.415" y2="5.715" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SOLDPINVAL">
@@ -7096,6 +7129,49 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="DC-BU 072859" constant="no"/>
 <attribute name="VALUE" value="24V/0A5" constant="no"/>
 <attribute name="VENDOR#" value="BKL,072859" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAB" prefix="X" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;PCB DIN 5 Pin Socket&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Current Rating: 1A&lt;/li&gt;
+  &lt;li&gt;Dielectric Strength: AC 1000V/MIN. R.M.S.&lt;/li&gt;
+  &lt;li&gt;Insulator Resistance: 5000MΩ MIN. AT 500V DC&lt;/li&gt;
+  &lt;li&gt;Contact Resistance: 8mΩ MAX&lt;/li&gt;
+  &lt;li&gt;Operation Temperature: -55°C TO +105°C&lt;/li&gt;
+  &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/C160/DS_MAPBMS5.pdf"&gt;Reichelt&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PHDR" x="-5.08" y="10.16"/>
+<gate name="G$2" symbol="PHDR" x="-5.08" y="7.62"/>
+<gate name="G$3" symbol="PHDR" x="-5.08" y="5.08"/>
+<gate name="G$4" symbol="PHDR" x="-5.08" y="2.54"/>
+<gate name="G$5" symbol="PHDR" x="-5.08" y="0"/>
+<gate name="G$6" symbol="PHDR" x="-5.08" y="-5.08"/>
+<gate name="G$7" symbol="PHDR" x="-5.08" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="DIN5P">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$2" pin="P$1" pad="2"/>
+<connect gate="G$3" pin="P$1" pad="3"/>
+<connect gate="G$4" pin="P$1" pad="4"/>
+<connect gate="G$5" pin="P$1" pad="5"/>
+<connect gate="G$6" pin="P$1" pad="S1"/>
+<connect gate="G$7" pin="P$1" pad="S2"/>
+</connects>
+<technologies>
+<technology name="-5S">
+<attribute name="DIST#REICHELT" value="MABPM 5S" constant="no"/>
+<attribute name="VALUE" value="DIN5" constant="no"/>
 </technology>
 </technologies>
 </device>
