@@ -430,6 +430,57 @@ H: 9mm</description>
 <wire x1="6.19125" y1="-6.19125" x2="6.19125" y2="6.19125" width="0.3048" layer="51"/>
 <wire x1="6.19125" y1="6.19125" x2="-6.19125" y2="6.19125" width="0.3048" layer="51"/>
 </package>
+<package name="DR74">
+<description>&lt;h3&gt;Coiltronics DR Series&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;DR74 Series&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="2.06375" y="4.445" dx="3.25" dy="2.5" layer="1" rot="R90"/>
+<smd name="2" x="8.09625" y="4.445" dx="3.25" dy="2.5" layer="1" rot="R90"/>
+<text x="0" y="10.795" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="9.36625" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="8.255" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="8.255" x2="8.89" y2="8.255" width="0.3048" layer="51"/>
+<wire x1="8.89" y1="8.255" x2="8.89" y2="0.635" width="0.3048" layer="51"/>
+<wire x1="8.89" y1="0.635" x2="1.27" y2="0.635" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="0.635" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="8.89" y2="0.635" width="0.3048" layer="21"/>
+<wire x1="8.89" y1="0.635" x2="8.89" y2="2.54" width="0.3048" layer="21"/>
+<wire x1="8.89" y1="6.35" x2="8.89" y2="8.255" width="0.3048" layer="21"/>
+<wire x1="8.89" y1="8.255" x2="1.27" y2="8.255" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="8.255" x2="1.27" y2="6.35" width="0.3048" layer="21"/>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.3048" layer="39"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="8.89" width="0.3048" layer="39"/>
+<wire x1="10.16" y1="8.89" x2="0" y2="8.89" width="0.3048" layer="39"/>
+<wire x1="0" y1="8.89" x2="0" y2="0" width="0.3048" layer="39"/>
+<circle x="5.08" y="4.445" radius="2.694075" width="0.3048" layer="51"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="1.27" width="0.3048" layer="51"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="1.905" width="0.3048" layer="51"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.3048" layer="51"/>
+<wire x1="6.985" y1="1.27" x2="7.62" y2="1.905" width="0.3048" layer="51"/>
+<wire x1="7.62" y1="1.905" x2="6.985" y2="2.54" width="0.3048" layer="51"/>
+<wire x1="6.985" y1="1.27" x2="6.35" y2="1.905" width="0.3048" layer="51"/>
+<wire x1="2.54" y1="6.985" x2="3.175" y2="7.62" width="0.3048" layer="51"/>
+<wire x1="3.175" y1="7.62" x2="3.81" y2="6.985" width="0.3048" layer="51"/>
+<wire x1="2.54" y1="6.985" x2="3.175" y2="6.35" width="0.3048" layer="51"/>
+<wire x1="6.985" y1="7.62" x2="7.62" y2="6.985" width="0.3048" layer="51"/>
+<wire x1="7.62" y1="6.985" x2="6.985" y2="6.35" width="0.3048" layer="51"/>
+<wire x1="6.985" y1="7.62" x2="6.35" y2="6.985" width="0.3048" layer="51"/>
+<wire x1="2.54" y1="6.985" x2="3.175" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="7.62" x2="3.81" y2="6.985" width="0.3048" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="3.175" y2="6.35" width="0.3048" layer="21"/>
+<wire x1="6.985" y1="7.62" x2="7.62" y2="6.985" width="0.3048" layer="21"/>
+<wire x1="7.62" y1="6.985" x2="6.985" y2="6.35" width="0.3048" layer="21"/>
+<wire x1="6.35" y1="6.985" x2="6.985" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="2.54" y2="1.905" width="0.3048" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="1.905" width="0.3048" layer="21"/>
+<wire x1="6.35" y1="1.905" x2="6.985" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="7.62" y2="1.905" width="0.3048" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="6.985" y2="2.54" width="0.3048" layer="21"/>
+<wire x1="6.985" y1="6.35" x2="3.175" y2="6.35" width="0.3048" layer="21" curve="90"/>
+<wire x1="3.175" y1="2.54" x2="6.985" y2="2.54" width="0.3048" layer="21" curve="90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DRK">
@@ -473,14 +524,6 @@ H: 9mm</description>
   &lt;li&gt; &lt;a href="http://www.fastrongroup.com/image-show/31/MESC.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron Datasheet&lt;/a&gt;
   &lt;li&gt; &lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/DS_MESC.pdf"&gt;Reichelt Datasheet&lt;/a&gt;
   &lt;/il&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
-&lt;ul&gt;
-   &lt;li&gt; Reichelt: MESC XXµ
-   &lt;li&gt; Conrad: avialable
-   &lt;li&gt; Digi-Key: -
-   &lt;/il&gt;
 &lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="DRK" x="0" y="0"/>
@@ -1454,6 +1497,43 @@ H: 9mm</description>
 <attribute name="DIST#REICHELT#" value="L-PIS4720 10µ" constant="no"/>
 <attribute name="VALUE" value="10µ"/>
 <attribute name="VENDOR#" value="Fastron, PIS4720-100M-04" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DR-" prefix="L" uservalue="yes">
+<description>&lt;h2&gt; Eaton Coiltronics DR Series&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Inductance range from 0.33μH to 1000μH&lt;/li&gt;
+  &lt;li&gt;Current range up to 56 amps peak&lt;/li&gt;
+  &lt;li&gt;Magnetic shielding&lt;/li&gt;
+  &lt;li&gt;Ferrite core material&lt;/li&gt;
+&lt;li&gt; Mounting: SMD
+  &lt;li&gt; Material: Ferrite
+  &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf"&gt;Eaton&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/B300/DR-SERIES_ENG_TDS.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+
+   &lt;/ul&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-74" package="DR74">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="10U">
+<attribute name="#VENDOR" value="Coiltronics,DR74-100-R" constant="no"/>
+<attribute name="DCR" value="0.0489R" constant="no"/>
+<attribute name="DIST#REICHELT" value="EATON DR74-100-R" constant="no"/>
+<attribute name="I_SAT" value="3.41A" constant="no"/>
+<attribute name="I_TYP" value="2.41A" constant="no"/>
+<attribute name="VALUE" value="10µ" constant="no"/>
 </technology>
 </technologies>
 </device>
