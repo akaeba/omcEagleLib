@@ -604,10 +604,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;/ul&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="OPV" x="5.08" y="5.08"/>
-<gate name="G$2" symbol="OPV" x="27.94" y="5.08"/>
-<gate name="G$3" symbol="OPV" x="5.08" y="20.32"/>
-<gate name="G$4" symbol="OPV" x="27.94" y="20.32"/>
+<gate name="G$1" symbol="OPV" x="5.08" y="5.08" swaplevel="1"/>
+<gate name="G$2" symbol="OPV" x="27.94" y="5.08" swaplevel="1"/>
+<gate name="G$3" symbol="OPV" x="5.08" y="20.32" swaplevel="1"/>
+<gate name="G$4" symbol="OPV" x="27.94" y="20.32" swaplevel="1"/>
 <gate name="G$5" symbol="PWR" x="5.08" y="5.08" addlevel="must"/>
 </gates>
 <devices>
