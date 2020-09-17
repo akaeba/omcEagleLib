@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2153,6 +2153,87 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="DIST#REICHELT#" value="PMEG 4010BEA NXP" constant="no"/>
 <attribute name="VALUE" value="PMEG4010" constant="no"/>
 <attribute name="VENDOR#" value="NXP,PMEG3010BEA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MBR0520LT" prefix="D" uservalue="yes">
+<description>&lt;h2&gt;MBR0520LT1 - Surface Mount Schottky Power Rectifier&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Very Low Forward Voltage (0.38 V Max @ 0.5 A, 25°C)&lt;/li&gt;
+  &lt;li&gt;125°C Operating Junction Temperature&lt;/li&gt;
+  &lt;li&gt;Device Marking: B2&lt;/li&gt; 
+  &lt;li&gt;Polarity Designator: Cathode Band&lt;/li&gt; 
+  &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF"&gt;On Semiconductor&lt;/a&gt;&lt;/il&gt;
+    &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/A400/SY600925_E.pdf"&gt;Reichelt&lt;/a&gt;&lt;/il&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;b&gt;Absolute Maximum Ratings&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-yj5y{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-zlqz{background-color:#c0c0c0;border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-zlqz" colspan="2"&gt;Rating&lt;/th&gt;
+    &lt;th class="tg-zlqz"&gt;Value&lt;/th&gt;
+    &lt;th class="tg-zlqz"&gt;Unit&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-yj5y" colspan="2"&gt;Peak Repetitive Reverse Voltage&lt;/td&gt;
+    &lt;td class="tg-yj5y"&gt;20&lt;/td&gt;
+    &lt;td class="tg-yj5y"&gt;V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-c3ow" rowspan="2"&gt;Maximum Forward Voltage&lt;/td&gt;
+    &lt;td class="tg-c3ow"&gt;IF=0.1A&lt;/td&gt;
+    &lt;td class="tg-c3ow"&gt;0.300&lt;/td&gt;
+    &lt;td class="tg-c3ow"&gt;V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-c3ow"&gt;IF=0.5A&lt;/td&gt;
+    &lt;td class="tg-c3ow"&gt;0.385&lt;/td&gt;
+    &lt;td class="tg-c3ow"&gt;V&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-yj5y" colspan="2"&gt;Average Rectified Forward Current&lt;/td&gt;
+    &lt;td class="tg-yj5y"&gt;0.5&lt;/td&gt;
+    &lt;td class="tg-yj5y"&gt;A&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-c3ow" colspan="2"&gt;Operating Junction Temperature&lt;/td&gt;
+    &lt;td class="tg-c3ow"&gt;-65 to 125&lt;/td&gt;
+    &lt;td class="tg-c3ow"&gt;°C&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="1">
+<attribute name="DIST#REICHELT#" value="MBR 0520LT1G ONS" constant="no"/>
+<attribute name="VALUE" value="MBR0520LT1" constant="no"/>
 </technology>
 </technologies>
 </device>
