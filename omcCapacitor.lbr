@@ -1124,6 +1124,11 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <attribute name="VALUE" value="4µ7/50V"/>
 <attribute name="VENDOR#" value="MURATA,GCM31CC71H475KA03" constant="no"/>
 </technology>
+<technology name="-470000P">
+<attribute name="DIST#REICHELT#" value="KEM X7R1206 470N" constant="no"/>
+<attribute name="VALUE" value="470n/50V"/>
+<attribute name="VENDOR#" value="KEMET,1206C475K5R" constant="no"/>
+</technology>
 <technology name="-47000P">
 <attribute name="DIST#REICHELT#" value="X7R-G1206 47N" constant="no"/>
 <attribute name="VALUE" value="47n/50V"/>
