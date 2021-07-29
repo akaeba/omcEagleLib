@@ -481,6 +481,27 @@ H: 9mm</description>
 <wire x1="6.985" y1="6.35" x2="3.175" y2="6.35" width="0.3048" layer="21" curve="90"/>
 <wire x1="3.175" y1="2.54" x2="6.985" y2="2.54" width="0.3048" layer="21" curve="90"/>
 </package>
+<package name="SRN5040">
+<description>&lt;h3&gt;Bourns SRN5040 Series&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;SRN5040 Series&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="1.42875" y="2.69875" dx="4" dy="1.5" layer="1" rot="R90"/>
+<smd name="2" x="4.60375" y="2.69875" dx="4" dy="1.5" layer="1" rot="R90"/>
+<text x="0" y="6.985" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="5.55625" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<wire x1="0.3175" y1="1.27" x2="0.3175" y2="0.3175" width="0.3048" layer="21"/>
+<wire x1="0.3175" y1="0.3175" x2="5.715" y2="0.3175" width="0.3048" layer="21"/>
+<wire x1="5.715" y1="0.3175" x2="5.715" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="5.715" y1="4.1275" x2="5.715" y2="5.08" width="0.3048" layer="21"/>
+<wire x1="5.715" y1="5.08" x2="0.3175" y2="5.08" width="0.3048" layer="21"/>
+<wire x1="0.3175" y1="5.08" x2="0.3175" y2="4.1275" width="0.3048" layer="21"/>
+<wire x1="0" y1="0" x2="6.0325" y2="0" width="0.3048" layer="39"/>
+<wire x1="6.0325" y1="0" x2="6.0325" y2="5.3975" width="0.3048" layer="39"/>
+<wire x1="6.0325" y1="5.3975" x2="0" y2="5.3975" width="0.3048" layer="39"/>
+<wire x1="0" y1="5.3975" x2="0" y2="0" width="0.3048" layer="39"/>
+<circle x="3.01625" y="2.69875" radius="1.774878125" width="0.3048" layer="20"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DRK">
@@ -1534,6 +1555,31 @@ H: 9mm</description>
 <attribute name="I_SAT" value="3.41A" constant="no"/>
 <attribute name="I_TYP" value="2.41A" constant="no"/>
 <attribute name="VALUE" value="10µ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRN5040-" prefix="L" uservalue="yes">
+<description>&lt;h2&gt;SRN5040 Series - Semi-shielded Power Inductors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Inductance range: 1.5 to 47 µH&lt;/li&gt;
+  &lt;li&gt;Rated current up to 3.6 A&lt;/li&gt;
+  &lt;li&gt;Magnetic shielding&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRN5040">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="330M">
+<attribute name="DIST#REICHELT#" value="BOU SRN5040-330M" constant="no"/>
+<attribute name="VALUE" value="33u" constant="no"/>
 </technology>
 </technologies>
 </device>
