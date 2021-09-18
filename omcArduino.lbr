@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -236,46 +236,51 @@
 <circle x="66.04" y="35.56" radius="2.71271875" width="1.4224" layer="40"/>
 </package>
 <package name="ARDUINO_NANO">
-<wire x1="-9.144" y1="21.844" x2="9.144" y2="21.844" width="0.127" layer="21"/>
-<wire x1="9.144" y1="21.844" x2="9.144" y2="-21.844" width="0.127" layer="21"/>
-<wire x1="9.144" y1="-21.844" x2="-9.144" y2="-21.844" width="0.127" layer="21"/>
-<wire x1="-9.144" y1="-21.844" x2="-9.144" y2="21.844" width="0.127" layer="21"/>
-<pad name="1" x="-7.62" y="17.78" drill="0.8" diameter="1.4224" shape="square"/>
-<pad name="2" x="-7.62" y="15.24" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="3" x="-7.62" y="12.7" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="4" x="-7.62" y="10.16" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="5" x="-7.62" y="7.62" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="6" x="-7.62" y="5.08" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="7" x="-7.62" y="2.54" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="8" x="-7.62" y="0" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="9" x="-7.62" y="-2.54" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="10" x="-7.62" y="-5.08" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="11" x="-7.62" y="-7.62" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="12" x="-7.62" y="-10.16" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="13" x="-7.62" y="-12.7" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="14" x="-7.62" y="-15.24" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="15" x="-7.62" y="-17.78" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="30" x="7.62" y="17.78" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="29" x="7.62" y="15.24" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="28" x="7.62" y="12.7" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="27" x="7.62" y="10.16" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="26" x="7.62" y="7.62" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="25" x="7.62" y="5.08" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="24" x="7.62" y="2.54" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="23" x="7.62" y="0" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="22" x="7.62" y="-2.54" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="21" x="7.62" y="-5.08" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="20" x="7.62" y="-7.62" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="19" x="7.62" y="-10.16" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="18" x="7.62" y="-12.7" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="17" x="7.62" y="-15.24" drill="0.8" diameter="1.4224" shape="octagon"/>
-<pad name="16" x="7.62" y="-17.78" drill="0.8" diameter="1.4224" shape="octagon"/>
-<text x="3.81" y="-10.16" size="2.1844" layer="27" rot="R90">&gt;Value</text>
-<text x="-1.27" y="-10.16" size="2.1844" layer="25" rot="R90">&gt;Name</text>
+<pad name="1" x="-7.62" y="17.78" drill="1" diameter="1.6764" shape="square"/>
+<pad name="2" x="-7.62" y="15.24" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-7.62" y="12.7" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="4" x="-7.62" y="10.16" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="5" x="-7.62" y="7.62" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="6" x="-7.62" y="5.08" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="7" x="-7.62" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="8" x="-7.62" y="0" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="9" x="-7.62" y="-2.54" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="10" x="-7.62" y="-5.08" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="11" x="-7.62" y="-7.62" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="12" x="-7.62" y="-10.16" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="13" x="-7.62" y="-12.7" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="14" x="-7.62" y="-15.24" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="15" x="-7.62" y="-17.78" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="30" x="7.62" y="17.78" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="29" x="7.62" y="15.24" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="28" x="7.62" y="12.7" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="27" x="7.62" y="10.16" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="26" x="7.62" y="7.62" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="25" x="7.62" y="5.08" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="24" x="7.62" y="2.54" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="23" x="7.62" y="0" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="22" x="7.62" y="-2.54" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="21" x="7.62" y="-5.08" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="20" x="7.62" y="-7.62" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="19" x="7.62" y="-10.16" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="18" x="7.62" y="-12.7" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="17" x="7.62" y="-15.24" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="16" x="7.62" y="-17.78" drill="1" diameter="1.6764" shape="octagon"/>
+<text x="1.905" y="-10.16" size="2.1844" layer="27" font="vector" ratio="12" rot="R90">&gt;Value</text>
+<text x="-1.27" y="-10.16" size="2.1844" layer="25" font="vector" ratio="12" rot="R90">&gt;Name</text>
 <circle x="-7.62" y="20.32" radius="0.9" width="0.127" layer="21"/>
 <circle x="7.62" y="20.32" radius="0.9" width="0.127" layer="21"/>
 <circle x="-7.62" y="-20.32" radius="0.9" width="0.127" layer="21"/>
 <circle x="7.62" y="-20.32" radius="0.9" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-21.9075" x2="-3.81" y2="-24.13" width="0.3048" layer="21"/>
+<wire x1="3.81" y1="-21.9075" x2="3.81" y2="-24.13" width="0.3048" layer="21"/>
+<wire x1="-3.81" y1="-24.13" x2="3.81" y2="-24.13" width="0.3048" layer="21"/>
+<wire x1="3.81" y1="-21.9075" x2="9.2075" y2="-21.9075" width="0.3048" layer="21"/>
+<wire x1="9.2075" y1="-21.9075" x2="9.2075" y2="21.9075" width="0.3048" layer="21"/>
+<wire x1="9.2075" y1="21.9075" x2="-9.2075" y2="21.9075" width="0.3048" layer="21"/>
+<wire x1="-9.2075" y1="21.9075" x2="-9.2075" y2="-21.9075" width="0.3048" layer="21"/>
+<wire x1="-9.2075" y1="-21.9075" x2="-3.81" y2="-21.9075" width="0.3048" layer="21"/>
+<text x="-6.35" y="17.145" size="1.6764" layer="21" font="vector" ratio="12">1</text>
 </package>
 </packages>
 <symbols>
@@ -343,7 +348,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ARDUINO_NANO" uservalue="yes">
+<deviceset name="ARDUINO_NANO" prefix="ARDUINO" uservalue="yes">
 <description>Arduino Nano Footprint</description>
 <gates>
 <gate name="G$1" symbol="ARDUINO_NANO" x="0" y="0"/>
