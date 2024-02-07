@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1047,8 +1047,6 @@ TS-003</description>
 <pin name="VSW" x="12.7" y="0" length="short" direction="out" rot="R180"/>
 <pin name="VFB" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="VDIO">
-</symbol>
 <symbol name="OPACSIO">
 <description>&lt;p&gt;
 &lt;h3&gt;current sense&lt;/h3&gt;&lt;ul&gt;
@@ -1126,6 +1124,20 @@ TS-003</description>
 <pin name="GNDS" x="-5.08" y="-12.7" length="short" direction="pwr" rot="R90"/>
 <pin name="IFB" x="7.62" y="-12.7" length="short" direction="pas" rot="R90"/>
 <pin name="S/S" x="-12.7" y="2.54" length="short" direction="pas"/>
+</symbol>
+<symbol name="LMR50410">
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="VIN" x="-12.7" y="7.62" length="short" direction="pwr"/>
+<pin name="FB" x="12.7" y="-7.62" length="short" direction="pas" rot="R180"/>
+<pin name="EN" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="SW" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="short" direction="pwr" rot="R90"/>
+<text x="-10.16" y="11.43" size="1.9304" layer="95">&gt;NAME</text>
+<text x="2.54" y="-12.7" size="1.9304" layer="96">&gt;VALUE</text>
+<pin name="CB" x="12.7" y="7.62" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2035,6 +2047,38 @@ TS-003</description>
 <technology name="">
 <attribute name="DIST#REICHELT#" value="LT 1512CN8" constant="no"/>
 <attribute name="VALUE" value="LT1512" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMR50410" prefix="IC" uservalue="yes">
+<description>&lt;h2&gt;TI- LMR50410-Q1 SIMPLE SWITCHER 4-V to 36-V, 1-A Buck Converter&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt; Up to 1A output current&lt;/li&gt;
+  &lt;li&gt; Operating input voltage from 4V to 36V&lt;/li&gt;
+  &lt;li&gt; Output voltage adjustable from 1V to 28V&lt;/li&gt;
+  &lt;li&gt; Low dropout operation: 98% duty cycle&lt;/li&gt;
+  &lt;li&gt; 2.1MHz Internally fixed frequency&lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://www.ti.com/lit/ds/symlink/lmr50410-q1.pdf"&gt;TI Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="LMR50410" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="CB" pad="1"/>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="6"/>
+<connect gate="G$1" pin="VIN" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="LMR50410" constant="no"/>
+<attribute name="VENDOR#" value="TI,LMR50410YQDBVRQ1" constant="no"/>
 </technology>
 </technologies>
 </device>
