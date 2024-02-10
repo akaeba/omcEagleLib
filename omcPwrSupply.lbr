@@ -2084,6 +2084,38 @@ TS-003</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="LV3842" prefix="IC" uservalue="yes">
+<description>&lt;h2&gt;TI - LV3842 4-V to 36-V, 600-mA, Synchronous Step-Down Converter&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt; 600-mA continuous output currentt&lt;/li&gt;
+  &lt;li&gt; Operating input voltage from 4V to 36V&lt;/li&gt;
+  &lt;li&gt; Output voltage adjustable from 1V to 34V&lt;/li&gt;
+  &lt;li&gt; 98% maximum duty cycle&lt;/li&gt;
+  &lt;li&gt; 1.1-MHz switching frequency&lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://www.ti.com/lit/ds/symlink/lv3842.pdf"&gt;TI Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="LMR50410" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="CB" pad="1"/>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="6"/>
+<connect gate="G$1" pin="VIN" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="LV3842XF" constant="no"/>
+<attribute name="VENDOR#" value="TI,LV3842XFDBVR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
