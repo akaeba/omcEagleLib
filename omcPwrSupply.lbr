@@ -928,8 +928,8 @@ TS-003</description>
 <pin name="IN" x="-10.16" y="5.08" length="short" direction="pwr"/>
 <pin name="GND@1" x="-5.08" y="-10.16" length="short" direction="pwr" rot="R90"/>
 <pin name="!ON" x="-10.16" y="2.54" length="short" direction="pas"/>
-<pin name="FB" x="10.16" y="5.08" length="short" direction="pas" rot="R180"/>
-<pin name="OUT" x="10.16" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="FB" x="10.16" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="OUT" x="10.16" y="5.08" length="short" direction="out" rot="R180"/>
 <text x="-7.62" y="8.89" size="1.9304" layer="95">&gt;NAME</text>
 <text x="1.524" y="-10.16" size="1.9304" layer="96">&gt;VALUE</text>
 <pin name="GND@2" x="-2.54" y="-10.16" length="short" direction="pwr" rot="R90"/>
