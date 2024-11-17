@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -505,6 +505,37 @@ H: 9mm</description>
 <wire x1="6.0325" y1="5.3975" x2="0" y2="5.3975" width="0.3048" layer="39"/>
 <wire x1="0" y1="5.3975" x2="0" y2="0" width="0.3048" layer="39"/>
 <circle x="3.01625" y="2.69875" radius="1.774878125" width="0.3048" layer="20"/>
+</package>
+<package name="PM2110">
+<description>PM2110; Power Inductor; SMD</description>
+<smd name="1" x="-13.97" y="0" dx="5.1" dy="17.8" layer="1"/>
+<smd name="2" x="13.97" y="0" dx="5.1" dy="17.8" layer="1"/>
+<wire x1="8.255" y1="-3.175" x2="-8.255" y2="3.175" width="0.3048" layer="21" curve="-180"/>
+<wire x1="-8.255" y1="3.175" x2="8.255" y2="-3.175" width="0.3048" layer="21" curve="-180"/>
+<wire x1="-11.43" y1="12.7" x2="11.43" y2="12.7" width="0.3048" layer="21"/>
+<wire x1="11.43" y1="12.7" x2="14.605" y2="9.525" width="0.3048" layer="21"/>
+<wire x1="15.24" y1="8.89" x2="15.24" y2="-8.89" width="0.3048" layer="51"/>
+<wire x1="14.605" y1="-9.525" x2="11.43" y2="-12.7" width="0.3048" layer="21"/>
+<wire x1="11.43" y1="-12.7" x2="-11.43" y2="-12.7" width="0.3048" layer="21"/>
+<wire x1="-11.43" y1="-12.7" x2="-14.605" y2="-9.525" width="0.3048" layer="21"/>
+<wire x1="-15.24" y1="-8.89" x2="-15.24" y2="8.89" width="0.3048" layer="51"/>
+<wire x1="-14.605" y1="9.525" x2="-11.43" y2="12.7" width="0.3048" layer="21"/>
+<text x="-11.43" y="15.875" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-11.43" y="13.97" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-15.875" y1="9.525" x2="-15.875" y2="-9.525" width="0.127" layer="39"/>
+<wire x1="15.875" y1="-9.525" x2="15.875" y2="9.525" width="0.127" layer="39"/>
+<wire x1="-12.065" y1="13.335" x2="12.065" y2="13.335" width="0.127" layer="39"/>
+<wire x1="-12.065" y1="-13.335" x2="12.065" y2="-13.335" width="0.127" layer="39"/>
+<wire x1="-11.43" y1="12.7" x2="11.43" y2="12.7" width="0.3048" layer="51"/>
+<wire x1="11.43" y1="12.7" x2="15.24" y2="8.89" width="0.3048" layer="51"/>
+<wire x1="15.24" y1="-8.89" x2="11.43" y2="-12.7" width="0.3048" layer="51"/>
+<wire x1="11.43" y1="-12.7" x2="-11.43" y2="-12.7" width="0.3048" layer="51"/>
+<wire x1="-11.43" y1="-12.7" x2="-15.24" y2="-8.89" width="0.3048" layer="51"/>
+<wire x1="-15.24" y1="8.89" x2="-11.43" y2="12.7" width="0.3048" layer="51"/>
+<wire x1="-15.875" y1="9.525" x2="-12.065" y2="13.335" width="0.127" layer="39"/>
+<wire x1="15.875" y1="9.525" x2="12.065" y2="13.335" width="0.127" layer="39"/>
+<wire x1="-15.875" y1="-9.525" x2="-12.065" y2="-13.335" width="0.127" layer="39"/>
+<wire x1="12.065" y1="-13.335" x2="15.875" y2="-9.525" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -1584,6 +1615,89 @@ H: 9mm</description>
 <technology name="330M">
 <attribute name="DIST#REICHELT#" value="BOU SRN5040-330M" constant="no"/>
 <attribute name="VALUE" value="33u" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PM2110-" prefix="L" uservalue="yes">
+<description>&lt;p&gt;
+&lt;h2&gt;PM2110 Series - High Current SMD Power Inductors&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Inductance: 1µH - 1000µH&lt;/li&gt;
+  &lt;li&gt;Current: up to 22.7 A&lt;/li&gt;
+  &lt;li&gt;Mounting: SMD&lt;/li&gt;
+  &lt;li&gt;Material: Ferrite&lt;/li&gt;
+  &lt;li&gt;Typ: Toroidal core&lt;/li&gt;
+  &lt;li&gt;Dimension:&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;L: 30.5mm&lt;/li&gt;
+     &lt;li&gt;W: 25.4mm&lt;/li&gt;
+     &lt;li&gt;H: 15.24mm&lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;li&gt;&lt;a href="www.bourns.com/docs/product-datasheets/pm2110_series.pdf"&gt;Bourns Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.mouser.de/datasheet/2/54/PM2110_series-777721.pdf"&gt;Mouser Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-xn4f{font-weight:bold;font-size:10px;background-color:#c0c0c0;text-align:center}
+.tg .tg-nrw1{font-size:10px;text-align:center;vertical-align:top}
+.tg .tg-v4l8{font-size:10px;background-color:#efefef;text-align:center}
+.tg .tg-chud{font-size:10px;background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-gozu{font-size:10px;text-align:center}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-xn4f"&gt;Inductance L [µH]&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;fL [kHz]&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;DCRmax [mΩ]&lt;/th&gt;
+    &lt;th class="tg-xn4f"&gt;Imax [A]&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-v4l8"&gt;1.0&lt;/td&gt;
+    &lt;td class="tg-v4l8"&gt;1&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;2&lt;/td&gt;
+    &lt;td class="tg-chud"&gt;22.7&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-gozu"&gt;150&lt;/td&gt;
+    &lt;td class="tg-gozu"&gt;1&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;49&lt;/td&gt;
+    &lt;td class="tg-nrw1"&gt;4.3&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Distributor&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+   &lt;li&gt; Mouser: available&lt;/li&gt;
+   &lt;li&gt; Digi-Key: -&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PM2110">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="150U">
+<attribute name="DIST#MOUSER#" value="542-PM2110-151K-RC" constant="no"/>
+<attribute name="VALUE" value="150µ" constant="no"/>
+<attribute name="VENDOR#" value="Bourns,PM2110-151K-RC" constant="no"/>
+</technology>
+<technology name="1U">
+<attribute name="DIST#MOUSER#" value="" constant="no"/>
+<attribute name="VALUE" value="1µ" constant="no"/>
+<attribute name="VENDOR#" value="Bourns,PM2110-1R0M-RC" constant="no"/>
 </technology>
 </technologies>
 </device>
