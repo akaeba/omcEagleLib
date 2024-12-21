@@ -1509,6 +1509,66 @@ Ground &amp; Freewheeling Connector</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="TPL7407LA" prefix="U" uservalue="yes">
+<description>&lt;h2&gt;TPL7407LA 30-V 7-Channel Low Side Driver&lt;/h2&gt;&lt;p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;600-mA Rated Drain Current (Per Channel)&lt;/li&gt;
+  &lt;li&gt;CMOS Pin-to-Pin Improvement of 7-channel Darlington Array (For example: ULN2003A)&lt;/li&gt;
+  &lt;li&gt;Power Efficient (Very low VOL): Less Than 4 Times Lower VOL at 100 mA Than Darlington Array&lt;/li&gt;
+  &lt;li&gt;Very Low Output Leakage &lt; 10 nA Per Channel&lt;/li&gt;
+  &lt;li&gt;Extended Ambient Temperature Range: TA = –40°C to +125°C&lt;/li&gt;
+  &lt;li&gt;High-Voltage Outputs 30 V&lt;/li&gt;
+  &lt;li&gt;Compatible with 1.8-V to 5-V Microcontroller and Logic Interface&lt;/li&gt;
+  &lt;li&gt;Internal Free-wheeling Diodes for Inductive Kickback Protection&lt;/li&gt;
+  &lt;li&gt;Input Pull-down Resistors Allows Tri-stating the Input Driver&lt;/li&gt;
+  &lt;li&gt;Input RC-Snubber to Eliminate Spurious Operation in Noisy Environment&lt;/li&gt;
+  &lt;li&gt;Inductive Load Driver Applications&lt;/li&gt;
+  &lt;li&gt;VCM &gt; 6.5V&lt;/li&gt;
+  &lt;li&gt;IGND,max = 2A&lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://www.ti.com/lit/ds/symlink/tpl7407la.pdf"&gt;TI Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="P" symbol="GNDCM" x="48.26" y="2.54" addlevel="request"/>
+<gate name="G$1" symbol="INVOC" x="-5.08" y="7.62" swaplevel="1"/>
+<gate name="G$2" symbol="INVOC" x="12.7" y="7.62" swaplevel="1"/>
+<gate name="G$3" symbol="INVOC" x="30.48" y="7.62" swaplevel="1"/>
+<gate name="G$4" symbol="INVOC" x="-5.08" y="-2.54" swaplevel="1"/>
+<gate name="G$5" symbol="INVOC" x="12.7" y="-2.54" swaplevel="1"/>
+<gate name="G$6" symbol="INVOC" x="30.48" y="-2.54" swaplevel="1"/>
+<gate name="G$7" symbol="INVOC" x="-5.08" y="-12.7" swaplevel="1"/>
+</gates>
+<devices>
+<device name="D" package="SOIC16">
+<connects>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="16"/>
+<connect gate="G$2" pin="IN" pad="2"/>
+<connect gate="G$2" pin="OUT" pad="15"/>
+<connect gate="G$3" pin="IN" pad="4"/>
+<connect gate="G$3" pin="OUT" pad="13"/>
+<connect gate="G$4" pin="IN" pad="3"/>
+<connect gate="G$4" pin="OUT" pad="14"/>
+<connect gate="G$5" pin="IN" pad="5"/>
+<connect gate="G$5" pin="OUT" pad="12"/>
+<connect gate="G$6" pin="IN" pad="6"/>
+<connect gate="G$6" pin="OUT" pad="11"/>
+<connect gate="G$7" pin="IN" pad="7"/>
+<connect gate="G$7" pin="OUT" pad="10"/>
+<connect gate="P" pin="CM+" pad="9"/>
+<connect gate="P" pin="GND" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#MOUSER#" value="595-TPL7407LADR" constant="no"/>
+<attribute name="VALUE" value="TPL7407LA" constant="no"/>
+<attribute name="VENDOR#" value="TI,TPL7407LADR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
