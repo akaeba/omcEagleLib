@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -909,6 +909,32 @@ TS-003</description>
 <wire x1="-0.15875" y1="1.11125" x2="-0.635" y2="1.5875" width="0.127" layer="21"/>
 <wire x1="-0.15875" y1="1.27" x2="-0.47625" y2="1.5875" width="0.127" layer="21"/>
 <wire x1="-0.15875" y1="1.42875" x2="-0.3175" y2="1.5875" width="0.127" layer="21"/>
+</package>
+<package name="TO220L">
+<description>&lt;p&gt;
+&lt;h3&gt;SOT220 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;LME78 Type&lt;/li&gt;
+  &lt;li&gt;Switching Regulator&lt;/li&gt;
+&lt;/p&gt;</description>
+<wire x1="-3.26" y1="5.5875" x2="-3.26" y2="-2.4125" width="0.127" layer="51"/>
+<wire x1="-3.26" y1="-2.4125" x2="8.34" y2="-2.4125" width="0.127" layer="51"/>
+<wire x1="8.34" y1="-2.4125" x2="8.34" y2="5.5875" width="0.127" layer="51"/>
+<wire x1="8.34" y1="5.5875" x2="-3.26" y2="5.5875" width="0.127" layer="51"/>
+<wire x1="-3.26" y1="5.5875" x2="-3.26" y2="-2.4125" width="0.127" layer="21"/>
+<wire x1="-3.26" y1="-2.4125" x2="8.34" y2="-2.4125" width="0.127" layer="21"/>
+<wire x1="8.34" y1="-2.4125" x2="8.34" y2="5.5875" width="0.127" layer="21"/>
+<wire x1="8.34" y1="5.5875" x2="-3.26" y2="5.5875" width="0.127" layer="21"/>
+<wire x1="-3.51" y1="5.8375" x2="-3.51" y2="-2.6625" width="0.05" layer="39"/>
+<wire x1="-3.51" y1="-2.6625" x2="8.59" y2="-2.6625" width="0.05" layer="39"/>
+<wire x1="8.59" y1="-2.6625" x2="8.59" y2="5.8375" width="0.05" layer="39"/>
+<wire x1="8.59" y1="5.8375" x2="-3.51" y2="5.8375" width="0.05" layer="39"/>
+<circle x="0.04" y="-3.2125" radius="0.1" width="0.2" layer="21"/>
+<circle x="0.04" y="-3.2125" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.6764" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="5.08" y="0" drill="1" diameter="1.6764" shape="octagon"/>
+<text x="-3.175" y="7.9375" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-3.175" y="6.35" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1885,7 +1911,7 @@ TS-003</description>
 </devices>
 </deviceset>
 <deviceset name="78L" prefix="IC" uservalue="yes">
-<description>&lt;h2&gt;STMicroelectronics - L78L - Positive voltage regulators&lt;/h2&gt;&lt;p&gt;
+<description>&lt;h2&gt;L78L Positive voltage regulators&lt;/h2&gt;&lt;p&gt;
 &lt;ul&gt;
   &lt;li&gt;Output current up to 100 mA &lt;/li&gt;
   &lt;li&gt;Output voltages of 3.3; 5; 6; 8; 9; 10; 12; 15; 18; 24 V&lt;/li&gt;
@@ -1909,7 +1935,7 @@ TS-003</description>
 <technologies>
 <technology name="05">
 <attribute name="DIST#REICHELT#" value="TS 78L05 ACY" constant="no"/>
-<attribute name="VALUE" value="7805"/>
+<attribute name="VALUE" value="7805" constant="no"/>
 <attribute name="VENDOR#" value="STM,L78L05ABUTR" constant="no"/>
 </technology>
 </technologies>
@@ -2214,6 +2240,36 @@ TS-003</description>
 <technology name="">
 <attribute name="VALUE" value="TPS62933" constant="no"/>
 <attribute name="VENDOR#" value="TI,TPS62933DRLR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LME78" prefix="IC" uservalue="yes">
+<description>&lt;h2&gt;LME78 - Positive voltage regulators&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Output current up to 1A&lt;/li&gt;
+  &lt;li&gt;TO220 Package&lt;/li&gt;
+  &lt;li&gt;Output voltages of 3; 5; 9; 15 V&lt;/li&gt;
+  &lt;li&gt;-40C - 85C&lt;/li&gt;
+  &lt;li&gt;Short-circuit protection &lt;/li&gt;
+  &lt;li&gt; &lt;a href="https://gaptec-electronic.com/datenblaetter/LME78_1.0.pdf"&gt;Gaptec Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="78-3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO220L">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="VI" pad="1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIST#REICHELT#" value="LME78_05-1.0" constant="no"/>
+<attribute name="VALUE" value="7805" constant="no"/>
+<attribute name="VENDOR#" value="GAPTEC,LME78_05-1.0" constant="no"/>
 </technology>
 </technologies>
 </device>
